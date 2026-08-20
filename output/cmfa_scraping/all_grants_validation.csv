@@ -1,0 +1,163 @@
+property_name,field,extracted_value,csv_value,status
+Alvarado Streets Apartments,entity,"Alvarado Affordable Associates, L.P.","Alvarado Affordable Associates, LP",MISMATCH
+Alvarado Streets Apartments,nonprofit_partner,Kingdom Development,"Kingdom Development, Inc.",MISMATCH
+Bernardine Apartments,investor_1,,Quest Capital Partners,MISMATCH
+Bernardine Apartments,nonprofit_partner,,Affordable Rent Project,MISMATCH
+Bernardine Apartments,total_units,,71,MISMATCH
+2025 New Jersey Apartments,investor_1,Oak Road,"Eleos Ventures, LLC",MISMATCH
+City View aka Outlook at Mission Valley Apartments,investor_1,,Securities Properties,MISMATCH
+City View aka Outlook at Mission Valley Apartments,nonprofit_partner,,Las Palmas Housing & Development,MISMATCH
+City View aka Outlook at Mission Valley Apartments,total_units,,56,MISMATCH
+381 Turk Street Apartments,city,,San Francisco,MISMATCH
+381 Turk Street Apartments,investor_1,Mosser Capital,"Mosser Capital, LLC",MISMATCH
+7518 Hoover St. Apartments,investor_1,,"SoLa Impact, LLC",MISMATCH
+7518 Hoover St. Apartments,nonprofit_partner,,Housing on Merit,MISMATCH
+7518 Hoover St. Apartments,total_units,,79,MISMATCH
+820 MacArthur Apartments,entity,"2019 Ozone Affordable Housing – 820 MacArthur, LP",2019 Ozone Affordable Housing,MISMATCH
+275 Turk Street Apartments,entity,"RHI-Mosser 275 Turk, LP",RHI-Mosser 275 Turk LP,MISMATCH
+Montessa Apartments,entity,"Affordable Housing Alliance II, Inc., d/b/a Integrity Housing, a Colorado nonprofit corporation","Affordable Housing Alliance II, Inc. dba Integrity Housing",MISMATCH
+Fallbrook Trail Apartments,city,,San Diego,MISMATCH
+Fallbrook Trail Apartments,investor_1,AOF / Pacific Affordable Housing Corp.,AOF,MISMATCH
+Fallbrook Trail Apartments,nonprofit_partner,AOF / Pacific Affordable Housing Corp.,Pacific Affordable Housing Corp,MISMATCH
+The Arbors Apartments,entity,"Post Arbors Santa Ana, LP",Post Arbors Santa Ana LP,MISMATCH
+Harbour Residences Apartments,investor_1,RMG Housing LLC,RMG Housing,MISMATCH
+4209 Western Avenue Apartments,resolution,,24-253,MISMATCH
+Appian Terrace Apartments,city,Los Angeles,El Sobrante,MISMATCH
+Appian Terrace Apartments,county,Los Angeles,Contra Costa,MISMATCH
+Sierra Park Apartments,city,,Unincorporated,MISMATCH
+Sierra Park Apartments,resolution,,24-278,MISMATCH
+Santa Monica Portfolio A Apartments,total_units,24,52,MISMATCH
+Santa Monica Portfolio B Apartments,total_units,22,72,MISMATCH
+Santa Monica Portfolio C Apartments,total_units,24,48,MISMATCH
+Santa Monica Portfolio F Apartments,total_units,65,165,MISMATCH
+2330 3rd Street Apartments,resolution,,24-363,MISMATCH
+2330 3rd Street Apartments,nonprofit_partner,"Pacific Housing, Inc.",Pacific Housing,MISMATCH
+Stadium Village Apartments,resolution,,24-361,MISMATCH
+6200 S. Broadway Apartments,resolution,,24-379,MISMATCH
+4327 S. Vermont Apartments,entity,IF OZ 4300 S VERMONT AVE BLK LP a Delaware limited partnership,"IF OZ 4300 S VERMONT AVE BLK LP, a Delaware limited partnership",MISMATCH
+Hillsdale Gardens Apartments,investor_1,Ethos Real Estate,Vistria Group,MISMATCH
+Horizon Apartments,nonprofit_partner,"Affordable Housing Access, Inc.",Affordable Housing Access Inc,MISMATCH
+Soto Apartments,nonprofit_partner,Step Forward Communities,Step Forward Comminities,MISMATCH
+Main Street Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+8th Street Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Ardmore Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Avalon Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Harvard Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Hollywood Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Lexington Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Manhattan I & II Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+The Carla Apartments,city,,Unincorporated,MISMATCH
+Creekside Villas Apartments,total_units,144,145,MISMATCH
+Skylark Place by Trion Living Apartments,city,,Unincorporated,MISMATCH
+Seaport Village Apartments,resolution,,24-442,MISMATCH
+Seaport Village Apartments,total_units,42,356,MISMATCH
+Viewpoint Apartments,investor_1,BRIDGE Housing Corporation,Bridge Housing,MISMATCH
+Viewpoint Apartments,nonprofit_partner,BRIDGE Housing Corporation,Bridge Housing,MISMATCH
+Ventana Residences Apartments,city,,San Francisco,MISMATCH
+Ventana Residences Apartments,resolution,,24-471,MISMATCH
+Ventana Residences Apartments,nonprofit_partner,"Pacific Housing, Inc.","Pacific Housing, Inc",MISMATCH
+Summerwood Apartment Homes,resolution,,Proposed,MISMATCH
+Summerwood Apartment Homes,entity,Standard Summerwood LP,Standard Properties,MISMATCH
+Summerwood Apartment Homes,investor_1,"Standard Property Company, Inc.",Standard Properties,MISMATCH
+Elevate Long Beach Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+2245 Amherst Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Electric Lofts Apartments,resolution,25-066,24-074,MISMATCH
+Harken Apartments,entity,"PREG 5150 ECR Los Altos, LP, a California limited partnership",Prometheus Real Estate Group,MISMATCH
+Harken Apartments,investor_1,Prometheus Real Estate Group,"Prometheus Real Estate Group, Inc.",MISMATCH
+Harken Apartments,total_units,29,196,MISMATCH
+Cherokee Avenue Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Oak Park Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+333 Douglas Apartments,resolution,,25-080,MISMATCH
+333 Douglas Apartments,investor_1,,Visionary Development Enterprises LLC,MISMATCH
+333 Douglas Apartments,nonprofit_partner,,Housing on Merit,MISMATCH
+333 Douglas Apartments,total_units,,33,MISMATCH
+Mansfield Micro Apartments,entity,"2533 Mansfield Owner, L.P., a California limited partnership.","2533 Mansfield Owner, L.P., a California limited partnership",MISMATCH
+The Enclave Apartments,resolution,,25-082,MISMATCH
+501 S. Burlington Avenue Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Brookhollow Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+625 S. Burlington Avenue Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+The Groves at East Tabor Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Shadowbrook Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+River Court Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Emerald Pointe Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+3901 Normandie Avenue Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+11422 Broadway Apartments,resolution,,25-081,MISMATCH
+11422 Broadway Apartments,investor_1,,"SoLa Impact, LLC",MISMATCH
+11422 Broadway Apartments,nonprofit_partner,,Housing on Merit,MISMATCH
+11422 Broadway Apartments,total_units,,166,MISMATCH
+AVID South & Lime Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+569th W. 6th Street Apartments,resolution,,25-288,MISMATCH
+569th W. 6th Street Apartments,entity,"SIOF 5 Properties, LP","SIOF 5 Properties, LP, California limited partnership",MISMATCH
+Aspire Arden Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Summer House Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Baird Affordable Housing Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Waterbend Apartments,city,,San Francisco,MISMATCH
+9750 Airport Blvd. Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+1451 W. MLK Blvd. Apartments,resolution,,Proposed,MISMATCH
+1451 W. MLK Blvd. Apartments,entity,"3 SIOF 1451 W MLK BLVD, LP",1451 W. MLK Boulevard Apartments,MISMATCH
+17188 Chatsworth St. Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Bella Vista at Hilltop Apartments,investor_1,"Vintage Housing Holdings, LLC / Kennedy Wilson",Kennedy Wilson,MISMATCH
+Bella Vista at Hilltop Apartments,nonprofit_partner,"Pacific Housing, Inc.",Hearthstone Housing Foundation,MISMATCH
+Bella Vista at Hilltop Apartments,total_units,8,1008,MISMATCH
+685 W. 4th St Apartments,entity,"2 SIOF 685 W Fourth St, LP, a Delaware limited partnership","2 SIOF 685 W Fourth St, LP, Delaware limited partnership",MISMATCH
+569 W. 6th Street. Apartments,entity,"SIOF 5 Properties, LP, a California limited partnership","SIOF 5 Properties, LP, California limited partnership",MISMATCH
+Chadwick Apartments,investor_1,"Vintage Housing Holdings, LLC / Kennedy Wilson",Vintage Housing Holdings,MISMATCH
+Chadwick Apartments,nonprofit_partner,"Pacific Housing, Inc.","Pacific Housing, Inc",MISMATCH
+321 E. Florence Apartments,total_units,32,31,MISMATCH
+10811 S. Compton Ave Apartments,entity,"2 SIOF 10811 S Compton Ave, LP",10811 S. Compton Ave Apartments,MISMATCH
+Violet on Virgil Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Kalmia Apartments,entity,"Kalmia Supportive Housing, L.P., a California limited partnership","Kalmia Supportive Housing, LP",MISMATCH
+Kalmia Apartments,total_units,30,29,MISMATCH
+LINQ Apartments,nonprofit_partner,"Pacific Housing, Inc.","Pacific Housing, Inc",MISMATCH
+Mosaic Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Ventana Rental Homes Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+236 Berendo Street Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Meridian Apartments,resolution,25-346,24-384,MISMATCH
+Meridian Apartments,entity,400 MERIDIAN LP,"400 Meridian, LP, a California limited partnership",MISMATCH
+Fountain Park Apartments,resolution,,25-349,MISMATCH
+Fountain Park Apartments,investor_1,Belveron Partners,Sack Capital Partners,MISMATCH
+Fountain Park Apartments,nonprofit_partner,Las Palmas Housing & Development Corporation,Las Palmas Housing & Development Corp.,MISMATCH
+Canyon Ridge at Napa Junction Apartments,resolution,,25-351,MISMATCH
+Canyon Ridge at Napa Junction Apartments,investor_1,BRIDGE Housing Corporation,BRIDGE Housing Corp.,MISMATCH
+Canyon Ridge at Napa Junction Apartments,nonprofit_partner,,BRIDGE Housing Corp.,MISMATCH
+4256 Whittier Blvd. Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+11001 S. Vermont Ave. Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Kenmore I Apartments,total_units,24,42,MISMATCH
+Manhattan III Apartments,investor_1,,K3 Holdings,MISMATCH
+Manhattan III Apartments,nonprofit_partner,,"Kingdom Development, Inc.",MISMATCH
+Manhattan III Apartments,total_units,,40,MISMATCH
+Sandpiper Cove Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+1723 Corinth Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+3751 Delmas Terrace Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+St. Andrews II Apartments,investor_1,,K3 Holdings,MISMATCH
+St. Andrews II Apartments,nonprofit_partner,,"Kingdom Development, Inc.",MISMATCH
+St. Andrews II Apartments,total_units,,59,MISMATCH
+Alexandria II Apartments,investor_1,,K3 Holdings,MISMATCH
+Alexandria II Apartments,nonprofit_partner,,"Kingdom Development, Inc.",MISMATCH
+Alexandria II Apartments,total_units,,30,MISMATCH
+1141 N. Vermont Avenue Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+10705 Avalon Blvd Apartments,total_units,69,68,MISMATCH
+1408 Jefferson Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+4228 Western Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+4228 Western Ave Apartments,resolution,25-531,24-380,MISMATCH
+4228 Western Ave Apartments,entity,"PS 4228 Western Ave, LP","BIF NON OZ 4228 WESTERN AVE, LP",MISMATCH
+4228 Western Ave Apartments,investor_1,California State Teachers’ Retirement System,"SoLa Impact, LLC",MISMATCH
+Hazelhurst Affordable Housing Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Kittridge Affordable Housing Apartments,total_units,42,41,MISMATCH
+Montecito Apartments,city,Santa Clara,San Jose,MISMATCH
+Thornbridge Apartments,nonprofit_partner,,Community HousingWorks,MISMATCH
+Villa Del Sol Senior Apartments,ENTIRE_RECORD,EXISTS,,NOT_IN_CSV
+Hawaiian Gardens Senior Apartments,resolution,,25-569,MISMATCH
+Hawaiian Gardens Senior Apartments,entity,"MKCR Capital, LLC","RK Equity Group Limited Partnership, 12142 Oxnard Limited Partnership, HG Napa Equity Limited
+Partnership, HG FSA Capital Limited Partnership",MISMATCH
+Hawaiian Gardens Senior Apartments,investor_1,"MKCR Capital, LLC",MKCR Capital LLC,MISMATCH
+The Hive at Ackerfield Apartments,total_units,52,152,MISMATCH
+Casa Serena Apartments,entity,A limited partnership to be formed by Kairos Investment Management and Pacific Housing,TBD LP,MISMATCH
+Trailview Apartments,entity,A limited partnership to be formed by Kairos Investment Management and Pacific Housing,TBD LP,MISMATCH
+La Vista Apartments,resolution,,Proposed,MISMATCH
+La Vista Apartments,entity,Las Palmas,TBD LP,MISMATCH
+Golden Gardens Apartments,resolution,,Proposed,MISMATCH
+Golden Gardens Apartments,entity,"Golden Gardens Housing Partners, L.P.",Golden Gardens Housing Partners LP,MISMATCH
+Hawaiian Terrace Senior Apartments,entity,"RK Equity Group Limited Partnership, 12142 Oxnard Limited Partnership, HG Napa Equity Limited Partnership, HG FSA Capital Limited Partnership","RK Equity Group Limited Partnership, 12142 Oxnard Limited Partnership, HG Napa Equity Limited
+Partnership, HG FSA Capital Limited Partnership",MISMATCH
+Hawaiian Terrace Senior Apartments,investor_1,"MKCR Capital, LLC",MKCR Capital LLC,MISMATCH

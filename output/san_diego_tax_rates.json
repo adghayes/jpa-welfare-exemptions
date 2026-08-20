@@ -1,0 +1,2633 @@
+[
+  {
+    "city": "Carlsbad",
+    "tra": "009000",
+    "total": 1.0783,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "481255",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, SER 2011C",
+        "rate": 0.0031
+      },
+      {
+        "fund": "481256",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, SER 2011D",
+        "rate": 0.0048
+      },
+      {
+        "fund": "481257",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, 2014 REF",
+        "rate": 0.0042
+      },
+      {
+        "fund": "481258",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, 2016 REF",
+        "rate": 0.01171
+      },
+      {
+        "fund": "481259",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, 2017A REF",
+        "rate": 0.00592
+      },
+      {
+        "fund": "481260",
+        "desc": "UNIF BOND CARLSBAD-PROP P 11/07/2006, 2017B REF",
+        "rate": 0.00854
+      },
+      {
+        "fund": "481261",
+        "desc": "UNIF BOND CARLSBAD-MEAS HH 11/06/2018, 2019A",
+        "rate": 0.00725
+      },
+      {
+        "fund": "481262",
+        "desc": "UNIF BOND CARLSBAD-MEAS HH 11/06/2018, 2021B",
+        "rate": 0.00581
+      },
+      {
+        "fund": "481263",
+        "desc": "UNIF BOND CARLSBAD-MEAS HH 11/06/2018, 2025C",
+        "rate": 0.00857
+      },
+      {
+        "fund": "495050",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016A",
+        "rate": 0.00188
+      },
+      {
+        "fund": "495051",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016B",
+        "rate": 0.0053
+      },
+      {
+        "fund": "495052",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016C",
+        "rate": 0.00422
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Chula Vista",
+    "tra": "001000",
+    "total": 1.18748,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "461770",
+        "desc": "GEN BOND CHULA VISTA-PROP JJ 11/03/98, 2012 REF",
+        "rate": 0.0025
+      },
+      {
+        "fund": "461772",
+        "desc": "GEN BOND CHULA VISTA-PROP JJ 11/03/1998, 2013A REF",
+        "rate": 0.00138
+      },
+      {
+        "fund": "461773",
+        "desc": "GEN BOND CHULA VISTA-SFID 1 2012B,PROP E 11/06/12",
+        "rate": 0.00253
+      },
+      {
+        "fund": "461774",
+        "desc": "GEN BOND CHULA VISTA-SFID 1 2012C,PROP E 11/06/12",
+        "rate": 0.00846
+      },
+      {
+        "fund": "461776",
+        "desc": "GEN BOND CHULA VISTA-MEAS M 3/03/2020, 2020A",
+        "rate": 0.01064
+      },
+      {
+        "fund": "461777",
+        "desc": "GEN BOND CHULA VISTA-PROP JJ 11/03/98, 2021 REF",
+        "rate": 0.00098
+      },
+      {
+        "fund": "461778",
+        "desc": "GEN BOND CHULA VISTA-MEAS VV 11/06/18, SER 2018A",
+        "rate": 0.01138
+      },
+      {
+        "fund": "461779",
+        "desc": "GEN BOND CHULA VISTA-MEAS M 3/03/2020, SER 2020B",
+        "rate": 0.0139
+      },
+      {
+        "fund": "461780",
+        "desc": "GEN BOND CHULA VISTA-SFID 1 11/06/12, SER 2023 REF",
+        "rate": 0.00537
+      },
+      {
+        "fund": "475950",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2011 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475952",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, SER 2000C",
+        "rate": 0
+      },
+      {
+        "fund": "475954",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475955",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, 2016 REF",
+        "rate": 0.00804
+      },
+      {
+        "fund": "475956",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2016B",
+        "rate": 0.00813
+      },
+      {
+        "fund": "475957",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2018C",
+        "rate": 0.00135
+      },
+      {
+        "fund": "475958",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SERIES 2022D",
+        "rate": 0.00271
+      },
+      {
+        "fund": "475959",
+        "desc": "HI BOND SWEETWATER-MEAS DD 11/06/2018, SER 2022A",
+        "rate": 0.00984
+      },
+      {
+        "fund": "475960",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2024 REF",
+        "rate": 0.01882
+      },
+      {
+        "fund": "475961",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-1",
+        "rate": 0
+      },
+      {
+        "fund": "475962",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-2",
+        "rate": 0.0272
+      },
+      {
+        "fund": "475963",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-3",
+        "rate": 0.00189
+      },
+      {
+        "fund": "496051",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2004",
+        "rate": 0.01038
+      },
+      {
+        "fund": "496055",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2010C",
+        "rate": 0
+      },
+      {
+        "fund": "496057",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "496060",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2016B REF",
+        "rate": 0.00561
+      },
+      {
+        "fund": "496061",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2017A",
+        "rate": 0.005
+      },
+      {
+        "fund": "496062",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2020 REF",
+        "rate": 0.00291
+      },
+      {
+        "fund": "496063",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2020E",
+        "rate": 0.00191
+      },
+      {
+        "fund": "496064",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2020B",
+        "rate": 0.00139
+      },
+      {
+        "fund": "496065",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08, 2021 REF",
+        "rate": 0.00526
+      },
+      {
+        "fund": "496066",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021C",
+        "rate": 0.0019
+      },
+      {
+        "fund": "496067",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021D",
+        "rate": 0.00804
+      },
+      {
+        "fund": "496068",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2021F",
+        "rate": 0.00296
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Coronado",
+    "tra": "002000",
+    "total": 1.05331,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "481154",
+        "desc": "UNIF BOND CORONADO-PROP KK 11/03/1998, 2022 REF",
+        "rate": 0.00795
+      },
+      {
+        "fund": "496051",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2004",
+        "rate": 0.01038
+      },
+      {
+        "fund": "496055",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2010C",
+        "rate": 0
+      },
+      {
+        "fund": "496057",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "496060",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2016B REF",
+        "rate": 0.00561
+      },
+      {
+        "fund": "496061",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2017A",
+        "rate": 0.005
+      },
+      {
+        "fund": "496062",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2020 REF",
+        "rate": 0.00291
+      },
+      {
+        "fund": "496063",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2020E",
+        "rate": 0.00191
+      },
+      {
+        "fund": "496064",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2020B",
+        "rate": 0.00139
+      },
+      {
+        "fund": "496065",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08, 2021 REF",
+        "rate": 0.00526
+      },
+      {
+        "fund": "496066",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021C",
+        "rate": 0.0019
+      },
+      {
+        "fund": "496067",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021D",
+        "rate": 0.00804
+      },
+      {
+        "fund": "496068",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2021F",
+        "rate": 0.00296
+      }
+    ]
+  },
+  {
+    "city": "Del Mar",
+    "tra": "011001",
+    "total": 1.06384,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "462154",
+        "desc": "GEN ELEM DEL MAR UNION-MEAS MM 11/06/2018,2019A",
+        "rate": 0.00751
+      },
+      {
+        "fund": "462155",
+        "desc": "GEN ELEM DEL MAR UNION-MEAS MM 11/06/2018,2022B",
+        "rate": 0.00921
+      },
+      {
+        "fund": "462156",
+        "desc": "GEN ELEM DEL MAR UNION-MEAS MM 11/06/2018,2024C",
+        "rate": 0.00869
+      },
+      {
+        "fund": "475554",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2013 A-2",
+        "rate": 0
+      },
+      {
+        "fund": "475556",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2015B-2",
+        "rate": 0
+      },
+      {
+        "fund": "475558",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2016C-2",
+        "rate": 0.00392
+      },
+      {
+        "fund": "475560",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2018D-2",
+        "rate": 0.0007
+      },
+      {
+        "fund": "475561",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2020 REF",
+        "rate": 0.00874
+      },
+      {
+        "fund": "475562",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 REF",
+        "rate": 0.00103
+      },
+      {
+        "fund": "475564",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 E-2",
+        "rate": 0.00199
+      },
+      {
+        "fund": "475565",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2025 REF",
+        "rate": 0.00365
+      },
+      {
+        "fund": "495050",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016A",
+        "rate": 0.00188
+      },
+      {
+        "fund": "495051",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016B",
+        "rate": 0.0053
+      },
+      {
+        "fund": "495052",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016C",
+        "rate": 0.00422
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "El Cajon",
+    "tra": "003001",
+    "total": 1.17108,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307253",
+        "desc": "GROSSMONT HEALTHCARE DISTRICT BOND PROP G 6-06-06",
+        "rate": 0.01989
+      },
+      {
+        "fund": "461357",
+        "desc": "GEN BOND CAJON VALLEY-PROP D 2/05/08, 2008B QSCB",
+        "rate": 0
+      },
+      {
+        "fund": "461358",
+        "desc": "GEN BOND CAJON VALLEY-PROP X 11/07/2000, 2012 REF",
+        "rate": 0
+      },
+      {
+        "fund": "461362",
+        "desc": "GEN BOND CAJON VALLEY-PROP X 11/07/2000, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "461363",
+        "desc": "GEN BOND CAJON VALLEY-PROP C 11/06/2012, SER 2012C",
+        "rate": 0.00373
+      },
+      {
+        "fund": "461364",
+        "desc": "GEN BOND CAJON VALLEY-PROP C 11/06/2012, SER 2012D",
+        "rate": 0.0036
+      },
+      {
+        "fund": "461365",
+        "desc": "GEN BOND CAJON VALLEY-PROP D 2/05/2008, 2016 REF",
+        "rate": 0.00792
+      },
+      {
+        "fund": "461367",
+        "desc": "GEN BOND CAJON VALLEY-PROP C 11/06/2012, SER 2012E",
+        "rate": 0.00355
+      },
+      {
+        "fund": "461369",
+        "desc": "GEN BOND CAJON VALLEY-PROP X 11/07/2000, 2020 REF",
+        "rate": 0.00486
+      },
+      {
+        "fund": "461370",
+        "desc": "GEN BOND CAJON VALLEY-ELECTIONS 2000&2008, 2022 RF",
+        "rate": 0.01357
+      },
+      {
+        "fund": "461371",
+        "desc": "GEN BOND CAJON VALLEY-PROP C 11/06/2012, 2023 REF",
+        "rate": 0
+      },
+      {
+        "fund": "461372",
+        "desc": "GEN BOND CAJON VALLEY-PROP X 11/07/2000, 2024 REF",
+        "rate": 0.00651
+      },
+      {
+        "fund": "473150",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2004",
+        "rate": 0.00702
+      },
+      {
+        "fund": "473151",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2006",
+        "rate": 0.01506
+      },
+      {
+        "fund": "473152",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2008",
+        "rate": 0.00722
+      },
+      {
+        "fund": "473156",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2011D",
+        "rate": 0
+      },
+      {
+        "fund": "473161",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2015F",
+        "rate": 0
+      },
+      {
+        "fund": "473162",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, 2015 REF",
+        "rate": 0.00154
+      },
+      {
+        "fund": "473163",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016 REF",
+        "rate": 0.00572
+      },
+      {
+        "fund": "473164",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016B REF",
+        "rate": 0.00339
+      },
+      {
+        "fund": "473165",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 G-2",
+        "rate": 0.00178
+      },
+      {
+        "fund": "473166",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, 2017 A-2",
+        "rate": 0.00265
+      },
+      {
+        "fund": "473168",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 H-2",
+        "rate": 0.00074
+      },
+      {
+        "fund": "473169",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 REF",
+        "rate": 0.00204
+      },
+      {
+        "fund": "473170",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2018B",
+        "rate": 0.00259
+      },
+      {
+        "fund": "473171",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2019C",
+        "rate": 0.00216
+      },
+      {
+        "fund": "473172",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2019I",
+        "rate": 0.00065
+      },
+      {
+        "fund": "473173",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2020 REF",
+        "rate": 0.00153
+      },
+      {
+        "fund": "473175",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2020J",
+        "rate": 0.00073
+      },
+      {
+        "fund": "473176",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2021K",
+        "rate": 0
+      },
+      {
+        "fund": "473177",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2022L",
+        "rate": 0.00144
+      },
+      {
+        "fund": "473178",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024A REF",
+        "rate": 0.00619
+      },
+      {
+        "fund": "473179",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024B REF",
+        "rate": 0.00048
+      },
+      {
+        "fund": "493053",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, SER 2008C",
+        "rate": 0.02421
+      },
+      {
+        "fund": "493056",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, 2013 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493057",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2018B",
+        "rate": 0.00617
+      },
+      {
+        "fund": "493058",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL 11/05/02, 2018 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493059",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2021C",
+        "rate": 0.00339
+      },
+      {
+        "fund": "493060",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, 2021 REF",
+        "rate": 0.00375
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Encinitas",
+    "tra": "019000",
+    "total": 1.05702,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "461550",
+        "desc": "GEN BOND CARDIFF-PROP E 3/07/2000, SERIES 2000A",
+        "rate": 0
+      },
+      {
+        "fund": "461552",
+        "desc": "GEN BOND CARDIFF-MEAS GG 11/8/2016 SERIES 2016A",
+        "rate": 0.0107
+      },
+      {
+        "fund": "461553",
+        "desc": "GEN BOND CARDIFF-MEAS GG 11/8/2016 SERIES 2016B",
+        "rate": 0.00789
+      },
+      {
+        "fund": "475554",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2013 A-2",
+        "rate": 0
+      },
+      {
+        "fund": "475556",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2015B-2",
+        "rate": 0
+      },
+      {
+        "fund": "475558",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2016C-2",
+        "rate": 0.00392
+      },
+      {
+        "fund": "475560",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2018D-2",
+        "rate": 0.0007
+      },
+      {
+        "fund": "475561",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2020 REF",
+        "rate": 0.00874
+      },
+      {
+        "fund": "475562",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 REF",
+        "rate": 0.00103
+      },
+      {
+        "fund": "475564",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 E-2",
+        "rate": 0.00199
+      },
+      {
+        "fund": "475565",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2025 REF",
+        "rate": 0.00365
+      },
+      {
+        "fund": "495050",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016A",
+        "rate": 0.00188
+      },
+      {
+        "fund": "495051",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016B",
+        "rate": 0.0053
+      },
+      {
+        "fund": "495052",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016C",
+        "rate": 0.00422
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Escondido",
+    "tra": "004000",
+    "total": 1.14011,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307251",
+        "desc": "PALOMAR HEALTH 2005A - DEBT SERVICE",
+        "rate": 0.031
+      },
+      {
+        "fund": "462759",
+        "desc": "GEN BOND ESCONDIDO-PROP K 3/05/2002, 2002A",
+        "rate": 0
+      },
+      {
+        "fund": "462761",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, SER 2014A",
+        "rate": 0.00361
+      },
+      {
+        "fund": "462762",
+        "desc": "GEN BOND ESCONDIDO-PROP K 3/5/2002, 2017 REF",
+        "rate": 0.01222
+      },
+      {
+        "fund": "462763",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, SER 2014B",
+        "rate": 0.00719
+      },
+      {
+        "fund": "462764",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, SER 2014C",
+        "rate": 0.00319
+      },
+      {
+        "fund": "462765",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, 2021 REF",
+        "rate": 0.00499
+      },
+      {
+        "fund": "462766",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, SER 2014D",
+        "rate": 0.00449
+      },
+      {
+        "fund": "462767",
+        "desc": "GEN BOND ESCONDIDO-PROP E 11/04/2014, SER 2014E",
+        "rate": 0.00255
+      },
+      {
+        "fund": "472757",
+        "desc": "HI BOND ESCONDIDO-PROP T 11/04/2008, SERIES 2009A",
+        "rate": 0.02712
+      },
+      {
+        "fund": "472758",
+        "desc": "HI BOND ESCONDIDO-PROP T 11/04/2008, SERIES 2009B",
+        "rate": 0
+      },
+      {
+        "fund": "472759",
+        "desc": "HI BOND ESCONDIDO-PROP T 11/04/2008, SER 2011C",
+        "rate": 0.00156
+      },
+      {
+        "fund": "494051",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006B",
+        "rate": 0.00345
+      },
+      {
+        "fund": "494052",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "494053",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006C",
+        "rate": 0
+      },
+      {
+        "fund": "494054",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2017D",
+        "rate": 0.00331
+      },
+      {
+        "fund": "494055",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2017 REF",
+        "rate": 0.00189
+      },
+      {
+        "fund": "494056",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2020 REF",
+        "rate": 0.0032
+      },
+      {
+        "fund": "494057",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2021 REF",
+        "rate": 0.00718
+      },
+      {
+        "fund": "603860",
+        "desc": "ESCONDIDO CITY PUBLIC SAFETY FAC IMP REFUNDING BND",
+        "rate": 0.01616
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Imperial Beach",
+    "tra": "014009",
+    "total": 1.20381,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "469055",
+        "desc": "GEN BOND SOUTH BAY-PROP X 11/04/08, 2016 REF",
+        "rate": 0.01438
+      },
+      {
+        "fund": "469056",
+        "desc": "GEN BOND SOUTH BAY-PROP X 11/04/08, SER 2008B",
+        "rate": 0.00466
+      },
+      {
+        "fund": "469057",
+        "desc": "GEN BOND SOUTH BAY-PROP Y 11/06/12, SER 2012B",
+        "rate": 0.00673
+      },
+      {
+        "fund": "469059",
+        "desc": "GEN BOND SOUTH BAY-MEAS NN 11/06/18 SER 2018A",
+        "rate": 0.01019
+      },
+      {
+        "fund": "469060",
+        "desc": "GEN BOND SOUTH BAY-PROP X 11/04/08, SER 2008C",
+        "rate": 0.00456
+      },
+      {
+        "fund": "469061",
+        "desc": "GEN BOND SOUTH BAY-PROP Y 11/06/12, SER 2023 REF",
+        "rate": 0.01012
+      },
+      {
+        "fund": "469062",
+        "desc": "GEN BOND SOUTH BAY-MEAS PP 11/05/2024, SER 2024A",
+        "rate": 0.02983
+      },
+      {
+        "fund": "475950",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2011 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475952",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, SER 2000C",
+        "rate": 0
+      },
+      {
+        "fund": "475954",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475955",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, 2016 REF",
+        "rate": 0.00804
+      },
+      {
+        "fund": "475956",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2016B",
+        "rate": 0.00813
+      },
+      {
+        "fund": "475957",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2018C",
+        "rate": 0.00135
+      },
+      {
+        "fund": "475958",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SERIES 2022D",
+        "rate": 0.00271
+      },
+      {
+        "fund": "475959",
+        "desc": "HI BOND SWEETWATER-MEAS DD 11/06/2018, SER 2022A",
+        "rate": 0.00984
+      },
+      {
+        "fund": "475960",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2024 REF",
+        "rate": 0.01882
+      },
+      {
+        "fund": "475961",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-1",
+        "rate": 0
+      },
+      {
+        "fund": "475962",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-2",
+        "rate": 0.0272
+      },
+      {
+        "fund": "475963",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-3",
+        "rate": 0.00189
+      },
+      {
+        "fund": "496051",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2004",
+        "rate": 0.01038
+      },
+      {
+        "fund": "496055",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2010C",
+        "rate": 0
+      },
+      {
+        "fund": "496057",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "496060",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2016B REF",
+        "rate": 0.00561
+      },
+      {
+        "fund": "496061",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2017A",
+        "rate": 0.005
+      },
+      {
+        "fund": "496062",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2020 REF",
+        "rate": 0.00291
+      },
+      {
+        "fund": "496063",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2020E",
+        "rate": 0.00191
+      },
+      {
+        "fund": "496064",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2020B",
+        "rate": 0.00139
+      },
+      {
+        "fund": "496065",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08, 2021 REF",
+        "rate": 0.00526
+      },
+      {
+        "fund": "496066",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021C",
+        "rate": 0.0019
+      },
+      {
+        "fund": "496067",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021D",
+        "rate": 0.00804
+      },
+      {
+        "fund": "496068",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2021F",
+        "rate": 0.00296
+      }
+    ]
+  },
+  {
+    "city": "La Mesa",
+    "tra": "005002",
+    "total": 1.19599,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307253",
+        "desc": "GROSSMONT HEALTHCARE DISTRICT BOND PROP G 6-06-06",
+        "rate": 0.01989
+      },
+      {
+        "fund": "464950",
+        "desc": "GEN BOND LA MESA-SPRING VLY,PROP M 3/05/02,2005REF",
+        "rate": 0.00972
+      },
+      {
+        "fund": "464951",
+        "desc": "GEN BOND LA MESA-SPRING VLY, PROP M 3/05/02, 2002B",
+        "rate": 0.02164
+      },
+      {
+        "fund": "464954",
+        "desc": "GEN BOND LA MESA-SPRING VLY, 11/03/2020, 2020A",
+        "rate": 0.0072
+      },
+      {
+        "fund": "464955",
+        "desc": "GEN BOND LA MESA-SPRING VLY MEAS V 11/03/20 2020B",
+        "rate": 0.00815
+      },
+      {
+        "fund": "464956",
+        "desc": "GEN BOND LA MESA-SPRING VLY MEAS V 11/03/20 2020C",
+        "rate": 0.00694
+      },
+      {
+        "fund": "473150",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2004",
+        "rate": 0.00702
+      },
+      {
+        "fund": "473151",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2006",
+        "rate": 0.01506
+      },
+      {
+        "fund": "473152",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2008",
+        "rate": 0.00722
+      },
+      {
+        "fund": "473156",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2011D",
+        "rate": 0
+      },
+      {
+        "fund": "473161",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2015F",
+        "rate": 0
+      },
+      {
+        "fund": "473162",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, 2015 REF",
+        "rate": 0.00154
+      },
+      {
+        "fund": "473163",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016 REF",
+        "rate": 0.00572
+      },
+      {
+        "fund": "473164",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016B REF",
+        "rate": 0.00339
+      },
+      {
+        "fund": "473165",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 G-2",
+        "rate": 0.00178
+      },
+      {
+        "fund": "473166",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, 2017 A-2",
+        "rate": 0.00265
+      },
+      {
+        "fund": "473168",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 H-2",
+        "rate": 0.00074
+      },
+      {
+        "fund": "473169",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 REF",
+        "rate": 0.00204
+      },
+      {
+        "fund": "473170",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2018B",
+        "rate": 0.00259
+      },
+      {
+        "fund": "473171",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2019C",
+        "rate": 0.00216
+      },
+      {
+        "fund": "473172",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2019I",
+        "rate": 0.00065
+      },
+      {
+        "fund": "473173",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2020 REF",
+        "rate": 0.00153
+      },
+      {
+        "fund": "473175",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2020J",
+        "rate": 0.00073
+      },
+      {
+        "fund": "473176",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2021K",
+        "rate": 0
+      },
+      {
+        "fund": "473177",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2022L",
+        "rate": 0.00144
+      },
+      {
+        "fund": "473178",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024A REF",
+        "rate": 0.00619
+      },
+      {
+        "fund": "473179",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024B REF",
+        "rate": 0.00048
+      },
+      {
+        "fund": "493053",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, SER 2008C",
+        "rate": 0.02421
+      },
+      {
+        "fund": "493056",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, 2013 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493057",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2018B",
+        "rate": 0.00617
+      },
+      {
+        "fund": "493058",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL 11/05/02, 2018 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493059",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2021C",
+        "rate": 0.00339
+      },
+      {
+        "fund": "493060",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, 2021 REF",
+        "rate": 0.00375
+      },
+      {
+        "fund": "605050",
+        "desc": "LA MESA CITY-GENERAL OBLIGATION BOND, 3/02/2004",
+        "rate": 0.015
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Lemon Grove",
+    "tra": "015001",
+    "total": 1.27164,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307253",
+        "desc": "GROSSMONT HEALTHCARE DISTRICT BOND PROP G 6-06-06",
+        "rate": 0.01989
+      },
+      {
+        "fund": "465150",
+        "desc": "GEN BOND LEMON GROVE-PROP LL 11/03/1998, SER 1999A",
+        "rate": 0
+      },
+      {
+        "fund": "465151",
+        "desc": "GEN BOND LEMON GROVE-PROP LL 11/03/1998, SER 1998B",
+        "rate": 0
+      },
+      {
+        "fund": "465152",
+        "desc": "GEN BOND LEMON GROVE-PROP LL 11/03/1998, SER 1998C",
+        "rate": 0.04117
+      },
+      {
+        "fund": "465154",
+        "desc": "GEN BOND LEMON GROVE-PROP W 11/04/2008, SER 2008B",
+        "rate": 0
+      },
+      {
+        "fund": "465156",
+        "desc": "GEN BOND LEMON GROVE-PROP R 11/04/2014, SER 2014A",
+        "rate": 0.006
+      },
+      {
+        "fund": "465159",
+        "desc": "GEN BOND LEMON GROVE-PROP R 11/04/2014 SER 2014C",
+        "rate": 0.0027
+      },
+      {
+        "fund": "465161",
+        "desc": "GEN BOND LEMON GROVE-PROP W 11/04/2008, 2019 REF",
+        "rate": 0.00618
+      },
+      {
+        "fund": "465162",
+        "desc": "GEN BOND LEMON GROVE-PROP W 11/04/2008, 2022 REF",
+        "rate": 0.00795
+      },
+      {
+        "fund": "465163",
+        "desc": "GEN BOND LEMON GROVE-MEAS Q 11/08/2022, SER 2022A",
+        "rate": 0.01488
+      },
+      {
+        "fund": "465164",
+        "desc": "GEN BOND LEMON GROVE-MEAS CC 11/05/2024, SER 2024A",
+        "rate": 0.02706
+      },
+      {
+        "fund": "465165",
+        "desc": "GEN BOND LEMON GROVE-MEAS EE 11/05/2024, SER 2024A",
+        "rate": 0.02706
+      },
+      {
+        "fund": "465166",
+        "desc": "GEN BOND LEMON GROVE-MEAS Q 11/08/2022, SER 2022B",
+        "rate": 0.0113
+      },
+      {
+        "fund": "473150",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2004",
+        "rate": 0.00702
+      },
+      {
+        "fund": "473151",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2006",
+        "rate": 0.01506
+      },
+      {
+        "fund": "473152",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2008",
+        "rate": 0.00722
+      },
+      {
+        "fund": "473156",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2011D",
+        "rate": 0
+      },
+      {
+        "fund": "473161",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2015F",
+        "rate": 0
+      },
+      {
+        "fund": "473162",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, 2015 REF",
+        "rate": 0.00154
+      },
+      {
+        "fund": "473163",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016 REF",
+        "rate": 0.00572
+      },
+      {
+        "fund": "473164",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016B REF",
+        "rate": 0.00339
+      },
+      {
+        "fund": "473165",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 G-2",
+        "rate": 0.00178
+      },
+      {
+        "fund": "473166",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, 2017 A-2",
+        "rate": 0.00265
+      },
+      {
+        "fund": "473168",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 H-2",
+        "rate": 0.00074
+      },
+      {
+        "fund": "473169",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 REF",
+        "rate": 0.00204
+      },
+      {
+        "fund": "473170",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2018B",
+        "rate": 0.00259
+      },
+      {
+        "fund": "473171",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2019C",
+        "rate": 0.00216
+      },
+      {
+        "fund": "473172",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2019I",
+        "rate": 0.00065
+      },
+      {
+        "fund": "473173",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2020 REF",
+        "rate": 0.00153
+      },
+      {
+        "fund": "473175",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2020J",
+        "rate": 0.00073
+      },
+      {
+        "fund": "473176",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2021K",
+        "rate": 0
+      },
+      {
+        "fund": "473177",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2022L",
+        "rate": 0.00144
+      },
+      {
+        "fund": "473178",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024A REF",
+        "rate": 0.00619
+      },
+      {
+        "fund": "473179",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024B REF",
+        "rate": 0.00048
+      },
+      {
+        "fund": "493053",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, SER 2008C",
+        "rate": 0.02421
+      },
+      {
+        "fund": "493056",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, 2013 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493057",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2018B",
+        "rate": 0.00617
+      },
+      {
+        "fund": "493058",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL 11/05/02, 2018 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493059",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2021C",
+        "rate": 0.00339
+      },
+      {
+        "fund": "493060",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, 2021 REF",
+        "rate": 0.00375
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "National City",
+    "tra": "006000",
+    "total": 1.17402,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "466050",
+        "desc": "GEN BOND NATIONAL-PROP N 11/04/14 SERIES 2014A",
+        "rate": 0.01397
+      },
+      {
+        "fund": "466051",
+        "desc": "GEN BOND NATIONAL-PROP N 11/04/14 SERIES 2014B",
+        "rate": 0.00546
+      },
+      {
+        "fund": "466052",
+        "desc": "GEN BOND NATIONAL-MEAS HH 11/08/16, SERIES 2016A",
+        "rate": 0.00513
+      },
+      {
+        "fund": "466053",
+        "desc": "GEN BOND NATIONAL-MEAS HH 11/08/16, SERIES 2016B",
+        "rate": 0.00662
+      },
+      {
+        "fund": "466054",
+        "desc": "GEN BOND NATIONAL-MEAS HH 11/08/16, SERIES 2016C",
+        "rate": 0.00984
+      },
+      {
+        "fund": "475950",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2011 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475952",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, SER 2000C",
+        "rate": 0
+      },
+      {
+        "fund": "475954",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "475955",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, 2016 REF",
+        "rate": 0.00804
+      },
+      {
+        "fund": "475956",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2016B",
+        "rate": 0.00813
+      },
+      {
+        "fund": "475957",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SER 2018C",
+        "rate": 0.00135
+      },
+      {
+        "fund": "475958",
+        "desc": "HI BOND SWEETWATER-PROP O 11/07/2006, SERIES 2022D",
+        "rate": 0.00271
+      },
+      {
+        "fund": "475959",
+        "desc": "HI BOND SWEETWATER-MEAS DD 11/06/2018, SER 2022A",
+        "rate": 0.00984
+      },
+      {
+        "fund": "475960",
+        "desc": "HI BOND SWEETWATER-PROP BB 11/07/2000, 2024 REF",
+        "rate": 0.01882
+      },
+      {
+        "fund": "475961",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-1",
+        "rate": 0
+      },
+      {
+        "fund": "475962",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-2",
+        "rate": 0.0272
+      },
+      {
+        "fund": "475963",
+        "desc": "HI BOND SWEETWATER-MEAS RR 11/05/2024, SER 2025A-3",
+        "rate": 0.00189
+      },
+      {
+        "fund": "496051",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2004",
+        "rate": 0.01038
+      },
+      {
+        "fund": "496055",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2010C",
+        "rate": 0
+      },
+      {
+        "fund": "496057",
+        "desc": "SOUTHWESTERN COMM COLL-PROP AA 11/07/00, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "496060",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2016B REF",
+        "rate": 0.00561
+      },
+      {
+        "fund": "496061",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2017A",
+        "rate": 0.005
+      },
+      {
+        "fund": "496062",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 2020 REF",
+        "rate": 0.00291
+      },
+      {
+        "fund": "496063",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2020E",
+        "rate": 0.00191
+      },
+      {
+        "fund": "496064",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2020B",
+        "rate": 0.00139
+      },
+      {
+        "fund": "496065",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08, 2021 REF",
+        "rate": 0.00526
+      },
+      {
+        "fund": "496066",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021C",
+        "rate": 0.0019
+      },
+      {
+        "fund": "496067",
+        "desc": "SOUTHWESTERN COMM COLL-MEAS Z 11/08/16 SER 2021D",
+        "rate": 0.00804
+      },
+      {
+        "fund": "496068",
+        "desc": "SOUTHWESTERN COMM COLL-PROP R 11/04/08 SER 2021F",
+        "rate": 0.00296
+      },
+      {
+        "fund": "606550",
+        "desc": "NATIONAL CITY-GEN OBLIGATION BONDS, 3/05/02 SER A",
+        "rate": 0.00266
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Oceanside",
+    "tra": "007000",
+    "total": 1.11741,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "481856",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SER 2008A",
+        "rate": 0.01638
+      },
+      {
+        "fund": "481859",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SER 2008B",
+        "rate": 0
+      },
+      {
+        "fund": "481860",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SER 2008C",
+        "rate": 0
+      },
+      {
+        "fund": "481862",
+        "desc": "UNIF BOND OCEANSIDE-PROP G 3/07/2000, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "481863",
+        "desc": "UNIF BOND OCEANSIDE-ELECTIONS 2000&2008 2015 REF",
+        "rate": 7e-05
+      },
+      {
+        "fund": "481864",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SER 2008D",
+        "rate": 0.00163
+      },
+      {
+        "fund": "481865",
+        "desc": "UNIF BOND OCEANSIDE-PROP G 3/07/2000, RESERVE",
+        "rate": 0
+      },
+      {
+        "fund": "481866",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, RESERVE",
+        "rate": 0
+      },
+      {
+        "fund": "481868",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2018 REF",
+        "rate": 0
+      },
+      {
+        "fund": "481869",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SER 2008E",
+        "rate": 0.00293
+      },
+      {
+        "fund": "481870",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2008F",
+        "rate": 0.00756
+      },
+      {
+        "fund": "481871",
+        "desc": "UNIF BOND OCEANSIDE-PROP G 3/07/2000, 2020 REF",
+        "rate": 0.0042
+      },
+      {
+        "fund": "481872",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2020 REF",
+        "rate": 0
+      },
+      {
+        "fund": "481873",
+        "desc": "UNIF BOND OCEANSIDE-MEAS W 11/03/2020, 2020A",
+        "rate": 0.00578
+      },
+      {
+        "fund": "481874",
+        "desc": "UNIF BOND OCEANSIDE-PROP G 3/07/2000, 2021 REF",
+        "rate": 0.00453
+      },
+      {
+        "fund": "481875",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2022 REF",
+        "rate": 0.00104
+      },
+      {
+        "fund": "481876",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, SERIES 2008G",
+        "rate": 0.00269
+      },
+      {
+        "fund": "481877",
+        "desc": "UNIF BOND OCEANSIDE-MEAS W 11/03/2020, 2020B",
+        "rate": 0.01968
+      },
+      {
+        "fund": "481878",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2023 REF",
+        "rate": 0.00204
+      },
+      {
+        "fund": "481879",
+        "desc": "UNIF BOND OCEANSIDE-PROP G 3/07/2000, 2024A REF",
+        "rate": 0.01461
+      },
+      {
+        "fund": "481880",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2024B REF",
+        "rate": 0.00492
+      },
+      {
+        "fund": "481881",
+        "desc": "UNIF BOND OCEANSIDE-ELECTIONS 2000&2008 2025A REF",
+        "rate": 0.00503
+      },
+      {
+        "fund": "481882",
+        "desc": "UNIF BOND OCEANSIDE-PROP H 6/03/2008, 2025B REF",
+        "rate": 0.00507
+      },
+      {
+        "fund": "481883",
+        "desc": "UNIF BOND OCEANSIDE-MEAS W 11/03/2020, 2020C",
+        "rate": 0.00085
+      },
+      {
+        "fund": "495050",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016A",
+        "rate": 0.00188
+      },
+      {
+        "fund": "495051",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016B",
+        "rate": 0.0053
+      },
+      {
+        "fund": "495052",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016C",
+        "rate": 0.00422
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Poway",
+    "tra": "017000",
+    "total": 1.12109,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307251",
+        "desc": "PALOMAR HEALTH 2005A - DEBT SERVICE",
+        "rate": 0.031
+      },
+      {
+        "fund": "482053",
+        "desc": "UNIF BOND POWAY-SFID 2007-1,PROP C 2/05/08, SER B",
+        "rate": 0
+      },
+      {
+        "fund": "482056",
+        "desc": "UNIF BOND POWAY-SFID 2002-1, PROP U 11/5/02, 2002B",
+        "rate": 0
+      },
+      {
+        "fund": "482058",
+        "desc": "UNIF BOND POWAY-SFID 2007-1,PROP C 2/05/08, SER A",
+        "rate": 0.03594
+      },
+      {
+        "fund": "482060",
+        "desc": "UNIF BOND POWAY-SFID 2002-1,PROP U, 2014 REF",
+        "rate": 0
+      },
+      {
+        "fund": "482062",
+        "desc": "UNIF BOND POWAY-SFID 2002-1,PROP U 11/5/02,2019REF",
+        "rate": 0.01112
+      },
+      {
+        "fund": "482063",
+        "desc": "UNIF BOND POWAY-SFID 2002-1,PROP U 11/5/02,2025REF",
+        "rate": 0.024
+      },
+      {
+        "fund": "494051",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006B",
+        "rate": 0.00345
+      },
+      {
+        "fund": "494052",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "494053",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006C",
+        "rate": 0
+      },
+      {
+        "fund": "494054",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2017D",
+        "rate": 0.00331
+      },
+      {
+        "fund": "494055",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2017 REF",
+        "rate": 0.00189
+      },
+      {
+        "fund": "494056",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2020 REF",
+        "rate": 0.0032
+      },
+      {
+        "fund": "494057",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2021 REF",
+        "rate": 0.00718
+      }
+    ]
+  },
+  {
+    "city": "San Diego",
+    "tra": "008001",
+    "total": 1.25114,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "482801",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2019C",
+        "rate": 0.0013
+      },
+      {
+        "fund": "482802",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08,2020 REF R-2",
+        "rate": 0.00052
+      },
+      {
+        "fund": "482804",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2020D",
+        "rate": 0.00468
+      },
+      {
+        "fund": "482805",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2021L",
+        "rate": 0.00108
+      },
+      {
+        "fund": "482806",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2020M",
+        "rate": 0.00268
+      },
+      {
+        "fund": "482807",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2021N",
+        "rate": 0.00175
+      },
+      {
+        "fund": "482808",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2021E",
+        "rate": 0.00317
+      },
+      {
+        "fund": "482809",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2021 REF ZR-1",
+        "rate": 0.00344
+      },
+      {
+        "fund": "482810",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2022F",
+        "rate": 0.00219
+      },
+      {
+        "fund": "482811",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2022M",
+        "rate": 0.00095
+      },
+      {
+        "fund": "482812",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SERIES 2022O",
+        "rate": 0
+      },
+      {
+        "fund": "482813",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2023 REF ZR-2",
+        "rate": 0.00193
+      },
+      {
+        "fund": "482814",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2023 REF ZR-3",
+        "rate": 0.00035
+      },
+      {
+        "fund": "482815",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2023 REF ZR4A",
+        "rate": 0.00029
+      },
+      {
+        "fund": "482816",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2023 REF ZR4B",
+        "rate": 0.00163
+      },
+      {
+        "fund": "482817",
+        "desc": "UNIF BOND SAN DIEGO-MEAS U 11/08/22, SERIES 2023A",
+        "rate": 0.00904
+      },
+      {
+        "fund": "482818",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2023G",
+        "rate": 0.00903
+      },
+      {
+        "fund": "482819",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2023N",
+        "rate": 0.00127
+      },
+      {
+        "fund": "482820",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2023 REF R-3A",
+        "rate": 0.00055
+      },
+      {
+        "fund": "482821",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2023REF R-6",
+        "rate": 0
+      },
+      {
+        "fund": "482822",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2024 REF R-4A",
+        "rate": 0.00085
+      },
+      {
+        "fund": "482823",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2024 REF ZR5A",
+        "rate": 0.00215
+      },
+      {
+        "fund": "482824",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2024REF R7A",
+        "rate": 0.00018
+      },
+      {
+        "fund": "482825",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2025 REF R-4C",
+        "rate": 0.00019
+      },
+      {
+        "fund": "482826",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2025 REF ZR5C",
+        "rate": 0.00073
+      },
+      {
+        "fund": "482828",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2024O",
+        "rate": 0
+      },
+      {
+        "fund": "482829",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2024H",
+        "rate": 0.00237
+      },
+      {
+        "fund": "482830",
+        "desc": "UNIF BOND SAN DIEGO-MEAS U 11/08/22, SERIES 2024B",
+        "rate": 0.00542
+      },
+      {
+        "fund": "482831",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2025REF R8A",
+        "rate": 0.01352
+      },
+      {
+        "fund": "482832",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2025REF R8B",
+        "rate": 0.00036
+      },
+      {
+        "fund": "482833",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2025 REF R-5A",
+        "rate": 0.00059
+      },
+      {
+        "fund": "482834",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2025 REF R-5B",
+        "rate": 0.00111
+      },
+      {
+        "fund": "482835",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2025 REF ZR6A",
+        "rate": 0.00135
+      },
+      {
+        "fund": "482836",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2025 REF ZR6B",
+        "rate": 0.00015
+      },
+      {
+        "fund": "482837",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2025P",
+        "rate": 0.01321
+      },
+      {
+        "fund": "482838",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2025I",
+        "rate": 0.03592
+      },
+      {
+        "fund": "482839",
+        "desc": "UNIF BOND SAN DIEGO-MEAS U 11/08/22, SERIES 2025C",
+        "rate": 0.01872
+      },
+      {
+        "fund": "482853",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2005 C2 REF",
+        "rate": 0.00738
+      },
+      {
+        "fund": "482854",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2004 D1 REF",
+        "rate": 0
+      },
+      {
+        "fund": "482855",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2005 E2 REF",
+        "rate": 0.01108
+      },
+      {
+        "fund": "482862",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/98, 2006F-1 REF",
+        "rate": 0.00062
+      },
+      {
+        "fund": "482863",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/98, 2006G-1 REF",
+        "rate": 0.0008
+      },
+      {
+        "fund": "482864",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2009A",
+        "rate": 0
+      },
+      {
+        "fund": "482866",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SERIES 2010C",
+        "rate": 0
+      },
+      {
+        "fund": "482867",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2010D QSCB",
+        "rate": 0.00372
+      },
+      {
+        "fund": "482868",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SER 2012E",
+        "rate": 0
+      },
+      {
+        "fund": "482869",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2012REF R-1",
+        "rate": 0
+      },
+      {
+        "fund": "482870",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2012 REF R-2",
+        "rate": 0
+      },
+      {
+        "fund": "482879",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2014REF R-3",
+        "rate": 0
+      },
+      {
+        "fund": "482880",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2015REF R-4",
+        "rate": 0
+      },
+      {
+        "fund": "482884",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2016F",
+        "rate": 0.00095
+      },
+      {
+        "fund": "482885",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2016G",
+        "rate": 0.00071
+      },
+      {
+        "fund": "482886",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SER 2016I",
+        "rate": 0
+      },
+      {
+        "fund": "482887",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08,2016 REF SR-1",
+        "rate": 0.0008
+      },
+      {
+        "fund": "482888",
+        "desc": "UNIF BOND SAN DIEGO-PROP MM 11/03/1998,2016REF R-5",
+        "rate": 0.00786
+      },
+      {
+        "fund": "482890",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, SER 2016J-2",
+        "rate": 6e-05
+      },
+      {
+        "fund": "482892",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2017I",
+        "rate": 0.00456
+      },
+      {
+        "fund": "482893",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, 2017J",
+        "rate": 0.00192
+      },
+      {
+        "fund": "482895",
+        "desc": "UNIF BOND SAN DIEGO-PROP S 11/04/08, 2017K-2",
+        "rate": 0
+      },
+      {
+        "fund": "482897",
+        "desc": "UNIF BOND SAN DIEGO-MEAS YY 11/06/2018,2019B",
+        "rate": 0.00052
+      },
+      {
+        "fund": "482899",
+        "desc": "UNIF BOND SAN DIEGO-PROP Z 11/06/12, SER 2019L",
+        "rate": 0.00167
+      },
+      {
+        "fund": "495556",
+        "desc": "SAN DIEGO COMM COLL-PROP S 11/05/2002, SER 2011",
+        "rate": 0
+      },
+      {
+        "fund": "495560",
+        "desc": "SAN DIEGO COMM COLL-PROP N 11/07/2006 SERIES 2016",
+        "rate": 0.00278
+      },
+      {
+        "fund": "495561",
+        "desc": "SAN DIEGO COMM COLL-ELECTIONS 2002&2006 2016 REF",
+        "rate": 0.00788
+      },
+      {
+        "fund": "495562",
+        "desc": "SAN DIEGO COMM COLL-ELECTIONS 2002&2006 2019A REF",
+        "rate": 0.00868
+      },
+      {
+        "fund": "495563",
+        "desc": "SAN DIEGO COMM COLL-ELECTIONS 2002&2006 2019B REF",
+        "rate": 0.00182
+      },
+      {
+        "fund": "495564",
+        "desc": "SAN DIEGO COMM COLL-ELECTIONS 2002&2006 2021 REF",
+        "rate": 0.00569
+      },
+      {
+        "fund": "495565",
+        "desc": "SAN DIEGO COMM COLL-ELECTIONS 2002&2006 2024 REF",
+        "rate": 0.00284
+      },
+      {
+        "fund": "495566",
+        "desc": "SAN DIEGO COMM COLL-MEAS HH 11/05/2024 SER 2025A-1",
+        "rate": 0.00088
+      },
+      {
+        "fund": "495567",
+        "desc": "SAN DIEGO COMM COLL-MEAS HH 11/05/2024 SER 2025A-2",
+        "rate": 0.02325
+      },
+      {
+        "fund": "608551",
+        "desc": "SAN DIEGO CITY ZOOLOGICAL EXHIBITS - MAINTENANCE",
+        "rate": 0.005
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "San Marcos",
+    "tra": "013001",
+    "total": 1.14247,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307251",
+        "desc": "PALOMAR HEALTH 2005A - DEBT SERVICE",
+        "rate": 0.031
+      },
+      {
+        "fund": "482960",
+        "desc": "UNIF BOND SAN MARCOS-PROP K 11/02/2010, SER 2010A",
+        "rate": 0.01556
+      },
+      {
+        "fund": "482961",
+        "desc": "UNIF BOND SAN MARCOS-PROP K 11/02/2010, SER 2010B",
+        "rate": 0.0042
+      },
+      {
+        "fund": "482964",
+        "desc": "UNIF BOND SAN MARCOS-PROP K 11/02/2010, 2017 REF",
+        "rate": 0.00369
+      },
+      {
+        "fund": "482966",
+        "desc": "UNIF BOND SAN MARCOS-PROP K 11/02/2010, 2020 REF",
+        "rate": 0.0097
+      },
+      {
+        "fund": "482967",
+        "desc": "UNIF BOND SAN MARCOS-PROP K 11/02/2010, 2025 REF",
+        "rate": 0.01634
+      },
+      {
+        "fund": "482968",
+        "desc": "UNIF BOND SAN MARCOS-MEAS JJ 11/05/2024, SER 2024A",
+        "rate": 0.03595
+      },
+      {
+        "fund": "494051",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006B",
+        "rate": 0.00345
+      },
+      {
+        "fund": "494052",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "494053",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006C",
+        "rate": 0
+      },
+      {
+        "fund": "494054",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2017D",
+        "rate": 0.00331
+      },
+      {
+        "fund": "494055",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2017 REF",
+        "rate": 0.00189
+      },
+      {
+        "fund": "494056",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2020 REF",
+        "rate": 0.0032
+      },
+      {
+        "fund": "494057",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2021 REF",
+        "rate": 0.00718
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Santee",
+    "tra": "016000",
+    "total": 1.17129,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "307253",
+        "desc": "GROSSMONT HEALTHCARE DISTRICT BOND PROP G 6-06-06",
+        "rate": 0.01989
+      },
+      {
+        "fund": "468753",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, SERIES 2006D",
+        "rate": 0
+      },
+      {
+        "fund": "468754",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, SERIES 2006C",
+        "rate": 0.00217
+      },
+      {
+        "fund": "468755",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, SERIES 2011E",
+        "rate": 0.00034
+      },
+      {
+        "fund": "468756",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "468757",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, 2016A REF",
+        "rate": 0.00262
+      },
+      {
+        "fund": "468758",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, 2017 REF",
+        "rate": 0.00551
+      },
+      {
+        "fund": "468759",
+        "desc": "GEN BOND SANTEE-MEAS S 11/06/2018, SERIES 2019",
+        "rate": 0.00734
+      },
+      {
+        "fund": "468760",
+        "desc": "GEN BOND SANTEE-PROP R 11/07/2006, 2025A REF",
+        "rate": 0.02597
+      },
+      {
+        "fund": "473150",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2004",
+        "rate": 0.00702
+      },
+      {
+        "fund": "473151",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2006",
+        "rate": 0.01506
+      },
+      {
+        "fund": "473152",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, SERIES 2008",
+        "rate": 0.00722
+      },
+      {
+        "fund": "473156",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2011D",
+        "rate": 0
+      },
+      {
+        "fund": "473161",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2015F",
+        "rate": 0
+      },
+      {
+        "fund": "473162",
+        "desc": "HI BOND GROSSMONT-PROP H 3/02/2004, 2015 REF",
+        "rate": 0.00154
+      },
+      {
+        "fund": "473163",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016 REF",
+        "rate": 0.00572
+      },
+      {
+        "fund": "473164",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2016B REF",
+        "rate": 0.00339
+      },
+      {
+        "fund": "473165",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 G-2",
+        "rate": 0.00178
+      },
+      {
+        "fund": "473166",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, 2017 A-2",
+        "rate": 0.00265
+      },
+      {
+        "fund": "473168",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 H-2",
+        "rate": 0.00074
+      },
+      {
+        "fund": "473169",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2017 REF",
+        "rate": 0.00204
+      },
+      {
+        "fund": "473170",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2018B",
+        "rate": 0.00259
+      },
+      {
+        "fund": "473171",
+        "desc": "HI BOND GROSSMONT-MEAS BB 11/08/2016, SER 2019C",
+        "rate": 0.00216
+      },
+      {
+        "fund": "473172",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2019I",
+        "rate": 0.00065
+      },
+      {
+        "fund": "473173",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2020 REF",
+        "rate": 0.00153
+      },
+      {
+        "fund": "473175",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2020J",
+        "rate": 0.00073
+      },
+      {
+        "fund": "473176",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2021K",
+        "rate": 0
+      },
+      {
+        "fund": "473177",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, SERIES 2022L",
+        "rate": 0.00144
+      },
+      {
+        "fund": "473178",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024A REF",
+        "rate": 0.00619
+      },
+      {
+        "fund": "473179",
+        "desc": "HI BOND GROSSMONT-PROP U 11/04/2008, 2024B REF",
+        "rate": 0.00048
+      },
+      {
+        "fund": "493053",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, SER 2008C",
+        "rate": 0.02421
+      },
+      {
+        "fund": "493056",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/05/02, 2013 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493057",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2018B",
+        "rate": 0.00617
+      },
+      {
+        "fund": "493058",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL 11/05/02, 2018 REF",
+        "rate": 0
+      },
+      {
+        "fund": "493059",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, SER 2021C",
+        "rate": 0.00339
+      },
+      {
+        "fund": "493060",
+        "desc": "GROSSMONT-CUYAMACA COMM COLL, 11/06/12, 2021 REF",
+        "rate": 0.00375
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Solana Beach",
+    "tra": "018000",
+    "total": 1.06109,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "468152",
+        "desc": "GEN BOND SOLANA BEACH-SFID2016-1A MEAS JJ 11/08/16",
+        "rate": 0.01041
+      },
+      {
+        "fund": "468153",
+        "desc": "GEN BOND SOLANA BEACH-SFID2016-1B MEAS JJ 11/08/16",
+        "rate": 0.01225
+      },
+      {
+        "fund": "475554",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2013 A-2",
+        "rate": 0
+      },
+      {
+        "fund": "475556",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2015B-2",
+        "rate": 0
+      },
+      {
+        "fund": "475558",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2016C-2",
+        "rate": 0.00392
+      },
+      {
+        "fund": "475560",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2018D-2",
+        "rate": 0.0007
+      },
+      {
+        "fund": "475561",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2020 REF",
+        "rate": 0.00874
+      },
+      {
+        "fund": "475562",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 REF",
+        "rate": 0.00103
+      },
+      {
+        "fund": "475564",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2021 E-2",
+        "rate": 0.00199
+      },
+      {
+        "fund": "475565",
+        "desc": "HI BOND SAN DIEGUITO-PROP AA 11/06/2012, 2025 REF",
+        "rate": 0.00365
+      },
+      {
+        "fund": "495050",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016A",
+        "rate": 0.00188
+      },
+      {
+        "fund": "495051",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016B",
+        "rate": 0.0053
+      },
+      {
+        "fund": "495052",
+        "desc": "MIRA COSTA COMM COLL-MEAS MM 11/08/2016 SER 2016C",
+        "rate": 0.00422
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  },
+  {
+    "city": "Vista",
+    "tra": "012004",
+    "total": 1.12952,
+    "funds": [
+      {
+        "fund": "501800",
+        "desc": "COUNTY-PROPOSITION 13",
+        "rate": 1
+      },
+      {
+        "fund": "483856",
+        "desc": "UNIF BOND VISTA-PROP O 3/05/2002, 2002A",
+        "rate": 0.06602
+      },
+      {
+        "fund": "483857",
+        "desc": "UNIF BOND VISTA-PROP O 3/05/2002, SERIES 2003B",
+        "rate": 0
+      },
+      {
+        "fund": "483861",
+        "desc": "UNIF BOND VISTA-PROP O 3/05/2002, 2015 REF",
+        "rate": 0.00814
+      },
+      {
+        "fund": "483862",
+        "desc": "UNIF BOND VISTA-MEAS LL 11/06/2018, SER 2019A",
+        "rate": 0.00539
+      },
+      {
+        "fund": "483863",
+        "desc": "UNIF BOND VISTA-PROP O 3/05/2002, 2021 REF",
+        "rate": 0
+      },
+      {
+        "fund": "483866",
+        "desc": "UNIF BOND VISTA-MEAS LL 11/06/2018, SER 2022B",
+        "rate": 0.02394
+      },
+      {
+        "fund": "494051",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006B",
+        "rate": 0.00345
+      },
+      {
+        "fund": "494052",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2015 REF",
+        "rate": 0
+      },
+      {
+        "fund": "494053",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2006C",
+        "rate": 0
+      },
+      {
+        "fund": "494054",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, SER 2017D",
+        "rate": 0.00331
+      },
+      {
+        "fund": "494055",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2017 REF",
+        "rate": 0.00189
+      },
+      {
+        "fund": "494056",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2020 REF",
+        "rate": 0.0032
+      },
+      {
+        "fund": "494057",
+        "desc": "PALOMAR COMMUNITY COLL PROP M 11/07/06, 2021 REF",
+        "rate": 0.00718
+      },
+      {
+        "fund": "672506",
+        "desc": "MWD D/S REMAINDER OF SDCWA                15019999",
+        "rate": 0.007
+      }
+    ]
+  }
+]
