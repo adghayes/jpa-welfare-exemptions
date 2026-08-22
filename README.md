@@ -97,12 +97,15 @@ by document links, of which two matter — the **agenda** and a combined
 staff report for each agenda item plus the adopted minutes of the *previous*
 meeting). These land in
 `data/cscda_scraping/meetings/YYYY-MM-DD/{agenda,packet}.pdf`, covering 2025
-on (when CSCDA's grant program began). Separately,
-`scripts/build_doc_manifest.py` fetches only the two index pages and records
-every document's URL per meeting, which become the `agenda_url`,
-`staff_report_url`, and `minutes_url` review links on every grant row (for
-CSCDA the packet fills `staff_report_url`, and `minutes_url` points at the
-NEXT meeting's packet, where that meeting's adopted minutes are published). All scraped material (~250MB) is gitignored and regenerable.
+on (when CSCDA's grant program began). All scraped material (~250MB) is
+gitignored and regenerable.
+
+For both agencies, `scripts/build_doc_manifest.py` fetches only the two
+index pages and records every document's URL per meeting; these become the
+`agenda_url`, `staff_report_url`, and `minutes_url` review links on every
+grant row. For CSCDA the packet fills `staff_report_url`, and `minutes_url`
+points at the NEXT meeting's packet, where that meeting's adopted minutes
+are published.
 
 ### Grant Parsing
 
