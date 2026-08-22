@@ -65,18 +65,36 @@ def emit(check: str, pid: str, detail: str) -> None:
     findings.append({"check": check, "project_id": pid, "detail": detail})
 
 
-def street_tokens(addr: str) -> set[str]:
-    """Meaningful street-name tokens: no house number, directionals, or suffixes."""
-    s = str(addr).lower().replace(".", "").replace(",", " ")
-    toks = [ABBREV.get(w, w) for w in s.split()]
-    out = set()
-    for i, t in enumerate(toks):
-        if i == 0 and re.fullmatch(r"[\d-]+", t):
-            continue  # house number
-        if t in DIRECTIONALS or t in NOISE or re.fullmatch(r"\d{5}(-\d+)?", t):
-            continue
-        out.add(t)
-    return out
+def street_name_tokens(segment: str) -> set[str]:
+    """Street-NAME tokens from a street segment: drop the leading house
+    number, directionals, and a trailing suffix — keep everything else,
+    so streets named after cities (San Pedro St) survive."""
+    toks = [ABBREV.get(w, w) for w in
+            str(segment).lower().replace(".", "").replace(",", " ").split()]
+    if toks and re.fullmatch(r"[\d-]+", toks[0]):
+        toks = toks[1:]
+    while toks and toks[0] in DIRECTIONALS:
+        toks = toks[1:]
+    if len(toks) > 1 and toks[-1] in NOISE:
+        toks = toks[:-1]
+    return {t for t in toks if not re.fullmatch(r"\d{5}(-\d+)?", t)}
+
+
+def address_street_tokens(address: str) -> set[str]:
+    """The address's street segment is everything before the first comma."""
+    return street_name_tokens(str(address).split(",")[0])
+
+
+def situs_street_tokens(v: dict) -> set[str]:
+    """Prefer the county's own street field; fall back to parsing the full
+    situs (street = tokens after house number, before trailing city/state)."""
+    street = str(v.get("situs_street", "")).strip()
+    if street:
+        return street_name_tokens(street)
+    toks = str(v.get("situs_address", "")).split()
+    if toks and "CA" in toks:
+        toks = toks[:toks.index("CA")]
+    return street_name_tokens(" ".join(toks[:4]))
 
 
 def get_json(url: str) -> dict:
@@ -113,7 +131,7 @@ def main() -> None:
         address = str(g["address"]).strip()
         if not address:
             continue
-        st_addr = street_tokens(address)
+        st_addr = address_street_tokens(address)
         any_situs, any_street_match, samples = False, False, []
         for _, a in grp.iterrows():
             v = values.get(a["ain"])
@@ -123,7 +141,7 @@ def main() -> None:
             if not situs:
                 continue
             any_situs = True
-            if street_tokens(situs) & st_addr:
+            if situs_street_tokens(v) & st_addr:
                 any_street_match = True
                 break
             samples.append(f"{a['ain']}: {situs}")
@@ -147,7 +165,9 @@ def main() -> None:
             situs = str(v.get("situs_address", "")).lower()
             juris = SD_JURIS.get(situs.split()[-1].upper() if situs else "", "")
             if (g_city in situs or juris == g_city
-                    or any(w in situs for w in g_city.split() if len(w) > 3)):
+                    or any(w in situs for w in g_city.split() if len(w) > 3)
+                    or (g_city == "los angeles"
+                        and any(n in situs for n in LA_NEIGHBORHOODS))):
                 city_ok = True
                 break
         if any_situs and not city_ok and g["county"] != "San Diego":
@@ -168,7 +188,7 @@ def main() -> None:
             address = str(g.get("address", "")).strip() or a["situs_address"]
             if not str(address).strip():
                 verdict = "no-address"
-            elif street_tokens(str(v["situs_address"])) & street_tokens(str(address)):
+            elif situs_street_tokens(v) & address_street_tokens(str(address)):
                 verdict = "situs-match"
             else:
                 verdict = "mismatch"
@@ -203,7 +223,14 @@ def main() -> None:
                 v_street = str(v.get("situs_street", "")).strip().replace("'", "''")
                 if not v_house or not v_street:
                     continue
-                q = {"where": f"SitusHouseNo = '{v_house}' AND SitusStreet = '{v_street}'",
+                own_dir = ""
+                m_dir = re.match(r"^\S+\s+([NSEW])\s+\S", situs)
+                if m_dir:
+                    own_dir = m_dir.group(1)
+                where = f"SitusHouseNo = '{v_house}' AND SitusStreet = '{v_street}'"
+                where += (f" AND SitusDirection = '{own_dir}'" if own_dir
+                          else " AND (SitusDirection IS NULL OR SitusDirection = '')")
+                q = {"where": where,
                      "outFields": "AIN,SitusFullAddress,SitusZIP,UseDescription,Roll_LandValue,Roll_ImpValue",
                      "returnGeometry": "false", "f": "json"}
                 data = get_json(f"{LA_URL}?{urllib.parse.urlencode(q)}")

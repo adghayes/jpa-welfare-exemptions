@@ -146,7 +146,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 74,San Diego,Sol Haus Apartments,5484004400,,5040.0 LOGAN AVE SAN DIEGO CA 92113-3014,False,collaborator-sheet,,,2026,4462500,0,4462500,,  ,20,sandag-parcels,2026-08-22,74,situs-match
 75,San Diego,Palmilla Apartments,4635902700,,5474.0 RESERVOIR DR 1-36 SAN DIEGO CA 92120-5145,False,collaborator-sheet,,,2026,23383000,10021000,33404000,,69,16,sandag-parcels,2026-08-22,75,situs-match
 76,Los Angeles,1451 W. MLK Boulevard Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,"AIN in transition at county (renumbered); duplicate sheet row 182 merged into 76, 2026-08-22",2025,,,1569525,0,,,collaborator-sheet,,76,documented
-77,Los Angeles,11630 S. Main Street Apartments,6083010040,6083-010-040,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6083010038 consolidated to 6083010040,2026,1010668,7479660,8490328,0,2023,Five or more apartments,la-county-api,2026-08-22,77,situs-match
+77,Los Angeles,11630 S. Main Street Apartments,6083010040,6083-010-040,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6083010038 consolidated to 6083010040,2026,1010668,7479660,8490328,0,2023,Five or more apartments,la-county-api,2026-08-22,77,mismatch
 78,Contra Costa,Bella Vista at Hilltop Apartments,4054900073,,3400.0 RICHMOND PKWY RICHMOND CA 94806-5207,False,collaborator-sheet,,,,,,222047798,,,,collaborator-sheet,,78,no-situs
 79,Los Angeles,10811 S. Compton Ave Apartments,6070003041,6070-003-041,10811 COMPTON AVE,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6070003038 consolidated to 6070003041,2026,486984,2195000,2681984,0,1950,Two Units,la-county-api,2026-08-22,79,situs-match
 80,Los Angeles,4101 Somerset Dr. Apartments,5032015003,5032-015-003,4101 SOMERSET DR LOS ANGELES CA 90008,False,collaborator-sheet,manual_verified,,2026,1584354,8415000,9999354,0,2023,Five or more apartments,la-county-api,2026-08-22,80,situs-match
@@ -295,11 +295,11 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 231,Los Angeles,Violet on Virgil,5501017044,,160 S VIRGIL AVE LOS ANGELES CA 90004,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search,2026,18210958,30209370,48420328,0,1971,Five or more apartments,la-county-api,2026-08-22,231,situs-match
 232,Orange,Crystal View Apartments,23115127,,12021 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,,2026,,,90133662,62106599,,,collaborator-sheet,,232,no-situs
 232,Orange,Crystal View Apartments,23115128,,12156 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,,2026,,,30044551,20702197,,,collaborator-sheet,,232,no-situs
-233,Los Angeles,926 S. Kingsley Apartments,5093023058,,926 S HARVARD BLVD LOS ANGELES CA 90006,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search,2026,1396325,587224,1983549,0,1914,Five or more apartments,la-county-api,2026-08-22,233,situs-match
+233,Los Angeles,926 S. Kingsley Apartments,5093023058,,926 S HARVARD BLVD LOS ANGELES CA 90006,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search,2026,1396325,587224,1983549,0,1914,Five or more apartments,la-county-api,2026-08-22,233,mismatch
 234,Los Angeles,939 S. Kingsley Apartments,5093023059,,939 S KINGSLEY DR LOS ANGELES CA 90006,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Single"" — verify (value $6.2M suggests recent build)",2026,4800320,1382526,6182846,0,1913,Single,la-county-api,2026-08-22,234,situs-match
 235,Los Angeles,3950 Ingraham Apartments,5092029007,5092-029-007,3950 INGRAHAM ST LOS ANGELES CA 90005,False,manual-repo-edit,,"Drew confirmed 2026-08-22: staff report ""3950 W. Ingraham"" has spurious W; single Ingraham St in LA. Pre-development ""Four Units"" lot.",2026,1237872,0,1237872,0,,Four Units (Any Combination),la-county-api,2026-08-22,235,situs-match
 236,Los Angeles,Park Playa Apartments,4211011047,4211-011-047,6985 S CENTINELA AVE (no county situs; AIN from assessor portal map),False,manual-repo-edit,,"Drew 2026-08-22 via assessor portal map view; odd lot shape, best-fit parcel.",2026,5234013,28443,5262456,0,,Parking Lots (Commercial Use Properties),la-county-api,2026-08-22,236,documented
-237,Los Angeles,Edgemont by Angeleno,5540023002,,1178 N HELIOTROPE DR LOS ANGELES CA 90029,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search,2026,271221,331491,602712,0,1962,Five or more apartments,la-county-api,2026-08-22,237,situs-match
+237,Los Angeles,Edgemont by Angeleno,5540023002,,1178 N HELIOTROPE DR LOS ANGELES CA 90029,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search,2026,271221,331491,602712,0,1962,Five or more apartments,la-county-api,2026-08-22,237,mismatch
 57,Santa Clara,SoFi Los Gatos Creek Apartments,28424015,,"2070 Southwest Ex, San Jose, CA 95128",False,collaborator-sheet,,,,,,36559633,18850147,,,collaborator-sheet,,57,no-situs
 60,Santa Clara,HARKEN APARTMENTS,17004068,,5150 EL CAMINO REAL LOS ALTOS CA,False,collaborator-sheet,,,,,,32171358,,,,collaborator-sheet,,60,no-situs
 60,Santa Clara,HARKEN APARTMENTS,17004069,,5150 EL CAMINO REAL LOS ALTOS CA,False,collaborator-sheet,,,,,,18766626,,,,collaborator-sheet,,60,no-situs
@@ -321,50 +321,50 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 198,Santa Clara,220 Humboldt Ct. Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,198,
 202,Santa Cruz,La Posada Apartments,01125105,011-251-05,,False,manual-repo-edit,,"Drew 2026-08-22 via Santa Cruz assessor lookup, 609 Frederick St",2026,,,9776112,0,,,manual-repo-edit,,202,no-situs
 16,Solano,Montessa Apartments,128101150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,"Government-owned common-area parcel (use code 9800, $0 values) — Drew via Solano GIS 2026-08-22",2026,,,0,0,,,manual-repo-edit,,16,documented
-16,Solano,Montessa Apartments,128101140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8875.0,0,8875.0,1569.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8888.0,0,8888.0,1535.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8903.0,0,8903.0,1514.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8918.0,0,8918.0,1541.0,,,solano-county-portal,2026-08-22,16,situs-match
+16,Solano,Montessa Apartments,128101140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8875.0,0,8875.0,1569.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8888.0,0,8888.0,1535.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8903.0,0,8903.0,1514.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8918.0,0,8918.0,1541.0,,,solano-county-portal,2026-08-22,16,mismatch
 16,Solano,Montessa Apartments,128101100,,343 MOON RIVER PL VACAVILLE CA 95687,True,collaborator-sheet,,,2026,30867.0,0,30867.0,5457.0,,,solano-county-portal,2026-08-22,16,
-16,Solano,Montessa Apartments,128101090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,31033.0,0,31033.0,5362.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,32605.0,0,32605.0,5546.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,36427.0,0,36427.0,6294.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,40997.0,0,40997.0,7248.0,,,solano-county-portal,2026-08-22,16,situs-match
+16,Solano,Montessa Apartments,128101090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,31033.0,0,31033.0,5362.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,32605.0,0,32605.0,5546.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,36427.0,0,36427.0,6294.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,40997.0,0,40997.0,7248.0,,,solano-county-portal,2026-08-22,16,mismatch
 16,Solano,Montessa Apartments,128101050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,"Government-owned common-area parcel (use code 9800, Government Owned=YS, no site address, $0 values) — Drew via Solano GIS 2026-08-22",2026,,,0,0,,,manual-repo-edit,,16,documented
-16,Solano,Montessa Apartments,128101040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,67916.0,0,67916.0,11735.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,63157.0,0,63157.0,10743.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50192.0,0,50192.0,8873.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128101010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,101032.0,0,101032.0,17458.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,51705.0,561000.0,612705.0,108006.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102100,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,571000.0,621439.0,115237.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,561000.0,611439.0,107787.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,605000.0,655439.0,118205.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,9639.0,0,9639.0,1665.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,9639.0,0,9639.0,1704.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33305.0,0,33305.0,5755.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33305.0,0,33305.0,5888.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33350.0,0,33350.0,5762.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33263.0,0,33263.0,5658.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,41238.0,0,41238.0,7125.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102210,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,88958.0,561000.0,649958.0,114443.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102200,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70451.0,605000.0,675451.0,448773.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102190,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,561000.0,631404.0,111237.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102180,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,605000.0,675404.0,121601.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102170,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,561000.0,631404.0,111237.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102160,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49366.0,571000.0,620366.0,113937.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49366.0,561000.0,610366.0,107602.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48965.0,605000.0,653965.0,117954.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48965.0,561000.0,609965.0,107533.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128102120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50603.0,571000.0,621603.0,115266.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,52887.0,561000.0,613887.0,390827.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,571000.0,620635.0,115095.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,561000.0,610635.0,107648.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,605000.0,654635.0,434959.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,561000.0,610635.0,107648.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,71329.0,571000.0,642329.0,118930.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,30529.0,0,30529.0,5275.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,30529.0,0,30529.0,5397.0,,,solano-county-portal,2026-08-22,16,situs-match
-16,Solano,Montessa Apartments,128103010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,97840.0,561000.0,658840.0,419134.0,,,solano-county-portal,2026-08-22,16,situs-match
+16,Solano,Montessa Apartments,128101040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,67916.0,0,67916.0,11735.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,63157.0,0,63157.0,10743.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50192.0,0,50192.0,8873.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128101010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,101032.0,0,101032.0,17458.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,51705.0,561000.0,612705.0,108006.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102100,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,571000.0,621439.0,115237.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,561000.0,611439.0,107787.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50439.0,605000.0,655439.0,118205.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,9639.0,0,9639.0,1665.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,9639.0,0,9639.0,1704.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33305.0,0,33305.0,5755.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33305.0,0,33305.0,5888.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33350.0,0,33350.0,5762.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,33263.0,0,33263.0,5658.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,41238.0,0,41238.0,7125.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102210,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,88958.0,561000.0,649958.0,114443.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102200,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70451.0,605000.0,675451.0,448773.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102190,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,561000.0,631404.0,111237.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102180,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,605000.0,675404.0,121601.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102170,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,70404.0,561000.0,631404.0,111237.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102160,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49366.0,571000.0,620366.0,113937.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49366.0,561000.0,610366.0,107602.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48965.0,605000.0,653965.0,117954.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48965.0,561000.0,609965.0,107533.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128102120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50603.0,571000.0,621603.0,115266.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,52887.0,561000.0,613887.0,390827.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,571000.0,620635.0,115095.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,561000.0,610635.0,107648.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,605000.0,654635.0,434959.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,49635.0,561000.0,610635.0,107648.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,71329.0,571000.0,642329.0,118930.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,30529.0,0,30529.0,5275.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,30529.0,0,30529.0,5397.0,,,solano-county-portal,2026-08-22,16,mismatch
+16,Solano,Montessa Apartments,128103010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,97840.0,561000.0,658840.0,419134.0,,,solano-county-portal,2026-08-22,16,mismatch
 16,Solano,Montessa Apartments,128103180,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,89491.0,572220.0,661711.0,116518.0,,,solano-county-portal,2026-08-22,16,situs-match
 16,Solano,Montessa Apartments,128103170,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,68555.0,582420.0,650975.0,351865.0,,,solano-county-portal,2026-08-22,16,situs-match
 16,Solano,Montessa Apartments,128103160,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,68555.0,617100.0,685655.0,123479.0,,,solano-county-portal,2026-08-22,16,situs-match
