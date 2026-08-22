@@ -1,15 +1,33 @@
 # CLAUDE.md
 
-Read `README.md` first — it has the data model, pipeline, and update runbook.
+Read `README.md` first — pipeline, outputs, and source quirks. `manual/README.md`
+documents the manual-data contract.
 
 ## Conventions
 
-- **`input/grants.csv` is the single source of truth** for the grants tracker. Never point scripts at the frozen `input/CMFA-grants-<date>*.csv` snapshots; they exist for provenance only.
-- Use `./venv/bin/python` (Python 3.14 venv at repo root). No test suite exists; smoke-test by running `./venv/bin/python scripts/extract_all_meetings.py --quiet` and checking the grant count is stable (196 as of Jan 2026 data).
-- `data/` is gitignored but required: `data/cmfa_scraping/meetings/` holds the scraped PDFs the extractors read. If missing, regenerate with `download_all_meetings()` from `src/cmfa_scraping/scraper.py`.
-- Before editing `output/find_parcels/cmfa_parcels_final.csv`, copy it to `cmfa_parcels_final_backup_<YYYYMMDD_HHMMSS>.csv` in the same directory. It is hand-curated; no script regenerates it.
-- `refetch_pers_prop.py` rewrites `cmfa_parcels_final.csv` **in place**.
-- The `tra` column in `output/find_parcels/tra_summary.csv` is overloaded: 5-digit zero-padded LA TRA codes and city names for other counties.
-- Money/percent columns in `input/grants.csv` are pre-formatted strings (`"$4,447,710.00"`, `1.1874%`); `Date` mixes 2- and 4-digit years — parse with `pd.to_datetime(..., format='mixed')`.
-- External APIs (LA GIS geocoder/parcel server, LA Auditor TRA search) are public and unauthenticated; keep rate limits ≥ 0.3s. County tax portals are bot-protected — do not attempt to scrape tax bills.
-- The Google Sheet copy of the tracker (work Drive) is a read-only publish target, updated from `input/grants.csv` — never treat the sheet as authoritative.
+- **Generated vs manual is the core invariant.** Scripts may only write
+  generated/derived files (`output/`). Human-collected facts go in `manual/`
+  CSVs with `source: manual-repo-edit` and a note — never hardcoded into
+  scripts (exception: parser typo aliases, which are extraction corrections).
+- **No derived analytics in code.** Revenue loss, estimates, and roll-value
+  sums are computed by formulas in the review spreadsheet, not the pipeline.
+- **Grain**: one grants row per authorization event. Project IDs from the
+  collaborator's tracker are preserved verbatim and are append-only
+  (they have been reshuffled once historically — never reuse an ID);
+  pipeline-assigned IDs start at 301.
+- Use `./venv/bin/python` (Python 3.14 venv at repo root). No test suite;
+  smoke-test with the full chain:
+  `extract_all_meetings.py --quiet && build_basic_list.py && build_dataset.py
+  && publish_review_sheet.py`, then check row counts against README figures.
+- `data/` is gitignored but required (scraped PDFs). Regenerate via
+  `src/cmfa_scraping/scraper.py` / `python -m src.cscda_scraping.scraper`.
+  Downloads are incremental; parsing is the slow part (CSCDA parses are
+  mtime-cached in `output/pipeline/cscda_parse_cache.json`).
+- External APIs (LA GIS parcel server, geocoder) are public and
+  unauthenticated; keep rate limits ≥ 0.3s. County tax portals are
+  bot-protected — do not attempt to scrape tax bills.
+- `output/dataset/review.xlsx` is uploaded to Google Drive **manually** by
+  the user; do not build Drive-upload automation.
+- The one-time sheet-import tooling (`bootstrap_manual_from_sheet.py`,
+  `import_sheet_export.py`) lives in git history only; `manual/` is now
+  first-class source data.

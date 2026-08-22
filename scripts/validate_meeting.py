@@ -13,7 +13,7 @@ Outputs:
 
 Usage:
     python scripts/validate_meeting.py 2025-11-21
-    python scripts/validate_meeting.py 2025-11-21 --csv input/grants.csv
+    python scripts/validate_meeting.py 2025-11-21 [--csv some_grants.csv]
 """
 
 import argparse
@@ -36,7 +36,6 @@ from src.cmfa_scraping.staff_report_parser import parse_staff_report_pdf, StaffR
 
 
 MEETINGS_DIR = Path("data/cmfa_scraping/meetings")
-DEFAULT_CSV = Path("input/grants.csv")
 
 
 @dataclass
@@ -455,8 +454,8 @@ def main():
     parser.add_argument(
         '--csv',
         type=Path,
-        default=DEFAULT_CSV,
-        help=f"Path to grants CSV (default: {DEFAULT_CSV})"
+        default=None,
+        help="Optional grants CSV to validate against (skipped if omitted)"
     )
     parser.add_argument(
         '--no-validation',
@@ -494,7 +493,7 @@ def main():
 
     # Load CSV entries for validation
     df_csv = pd.DataFrame()
-    if args.csv.exists() and not args.no_validation:
+    if args.csv is not None and args.csv.exists() and not args.no_validation:
         df_csv = load_csv_entries(args.csv, args.meeting_date)
 
     # Output directory (meeting folder)

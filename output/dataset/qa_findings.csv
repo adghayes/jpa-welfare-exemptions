@@ -127,12 +127,12 @@ override-conflict,236,"address: generated '6985 S. Centinela Avenue, Los Angeles
 override-conflict,237,"address: generated '1178 N. Edgemont Street, Los Angeles, CA' -> manual '1178 N Edgemont St, Los Angeles, CA 90029'"
 override-conflict,225,"entity: generated 'CG Bennington, LP and JSP Bennington, LP' -> manual 'CG Bennington, LP / JSP Bennington, LP'"
 override-conflict,225,term_years: generated '30' -> manual '55'
-la-fetch-fallback,10,AIN 6020022027 has no current roll data; using collaborator value
+la-fetch-fallback,10,AIN 6020022027 has no current roll data; using manual value
 parcel-no-values,33,AIN 6020022027 (Los Angeles): no roll values from any source
-la-fetch-fallback,76,AIN 5036031006 has no current roll data; using collaborator value
-la-fetch-fallback,99,AIN 4262018026 has no current roll data; using collaborator value
-la-fetch-fallback,132,AIN 6020022027 has no current roll data; using collaborator value
-la-fetch-fallback,137,AIN 2125017014 has no current roll data; using collaborator value
+la-fetch-fallback,76,AIN 5036031006 has no current roll data; using manual value
+la-fetch-fallback,99,AIN 4262018026 has no current roll data; using manual value
+la-fetch-fallback,132,AIN 6020022027 has no current roll data; using manual value
+la-fetch-fallback,137,AIN 2125017014 has no current roll data; using manual value
 parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,147,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source

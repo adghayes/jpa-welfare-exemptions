@@ -1,13 +1,13 @@
 """Build the combined CMFA + CSCDA "basic list" of grant items from agency
-meeting documents, with per-field coverage stats and a comparison against
-the collaborator sheet.
+meeting documents, with per-field coverage stats.
 
 Sources:
   CMFA:  output/cmfa_scraping/all_grants_extracted.csv
          (produced by scripts/extract_all_meetings.py from agendas, staff
          reports, and minutes)
-  CSCDA: data/cscda_scraping/meetings/*/agenda.pdf, parsed directly
-         (agendas only — resolutions/units live in the packets, not yet parsed)
+  CSCDA: data/cscda_scraping/meetings/*/{agenda,packet}.pdf, parsed directly
+         (with an mtime-keyed parse cache; CSCDA assigns no per-grant
+         resolution numbers in its public documents)
 
 Output:
   output/pipeline/basic_list.csv
@@ -34,7 +34,6 @@ logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 CMFA_EXTRACTED = Path("output/cmfa_scraping/all_grants_extracted.csv")
 CSCDA_MEETINGS = Path("data/cscda_scraping/meetings")
-SHEET = Path("input/grants.csv")
 OUT = Path("output/pipeline/basic_list.csv")
 
 COLUMNS = [
@@ -204,25 +203,6 @@ def main() -> None:
 
     coverage(cmfa, "CMFA (agendas + staff reports + minutes)")
     coverage(cscda, "CSCDA (agendas only)")
-
-    # comparison vs collaborator sheet
-    sheet = pd.read_csv(SHEET, dtype=str).fillna("")
-    sheet["_key"] = sheet["Property Name"].map(norm_name)
-    combined["_key"] = combined["property_name"].map(norm_name)
-    sheet_keys = set(sheet["_key"])
-    gen_keys = set(combined["_key"])
-    print(f"\nSheet rows matched by generated list (exact name): "
-          f"{len(sheet_keys & gen_keys)}/{len(sheet_keys)}")
-    missing = sheet[~sheet["_key"].isin(gen_keys)]
-    print(f"Sheet rows NOT generated ({len(missing)}):")
-    for _, r in missing.iterrows():
-        print(f"  [{r['Project ID']}] {r['Property Name']} ({r['Agency']}, {r['Date']})")
-    extra = combined[~combined["_key"].isin(sheet_keys)]
-    print(f"\nGenerated but not in sheet ({len(extra)}):")
-    for _, r in extra[extra["item_type"] != "preliminary_only"].iterrows():
-        print(f"  {r['property_name']} ({r['agency']}, {r['meeting_date']}, {r['item_type']})")
-    n_prelim = (extra["item_type"] == "preliminary_only").sum()
-    print(f"  (+ {n_prelim} preliminary_only items, expected absent from sheet)")
 
 
 if __name__ == "__main__":

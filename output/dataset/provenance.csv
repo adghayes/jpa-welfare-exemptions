@@ -1444,35 +1444,35 @@ grants,193,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,223,*,,collaborator-sheet,entire row manual (predates meeting archives)
 parcels,1,assignment:5136019013,5136019013,collaborator-sheet,manual_verified
 parcels,2,assignment:5183001017,5183001017,collaborator-sheet,manual_verified
-parcels,3,values:15434025,17059601,collaborator-sheet,non-LA county
+parcels,3,values:15434025,17059601,collaborator-sheet,no automated source for county
 parcels,3,assignment:15434025,15434025,collaborator-sheet,
-parcels,4,values:147091180000,4156500,collaborator-sheet,non-LA county
+parcels,4,values:147091180000,4156500,collaborator-sheet,no automated source for county
 parcels,4,assignment:147091180000,147091180000,collaborator-sheet,
-parcels,5,values:5343602100,9316117,collaborator-sheet,non-LA county
+parcels,5,values:5343602100,9316117,collaborator-sheet,no automated source for county
 parcels,5,assignment:5343602100,5343602100,collaborator-sheet,
-parcels,6,values:0345012C,7398189,collaborator-sheet,non-LA county
+parcels,6,values:0345012C,7398189,collaborator-sheet,no automated source for county
 parcels,6,assignment:0345012C,0345012C,collaborator-sheet,
-parcels,7,values:454251243,17313480,collaborator-sheet,non-LA county
+parcels,7,values:454251243,17313480,collaborator-sheet,no automated source for county
 parcels,7,assignment:454251243,454251243,collaborator-sheet,
 parcels,8,assignment:5134017037,5134017037,collaborator-sheet,parcel_in_transition
 parcels,9,assignment:5134009025,5134009025,collaborator-sheet,parcel_in_transition
 parcels,9,assignment:5134009024,5134009024,collaborator-sheet,parcel_in_transition
 parcels,10,values:6020022027,2856000,collaborator-sheet,AIN renumbered/in transition at county
 parcels,10,assignment:6020022027,6020022027,collaborator-sheet,parcel_in_transition
-parcels,11,values:1295996,2013882,collaborator-sheet,non-LA county
+parcels,11,values:1295996,2013882,collaborator-sheet,no automated source for county
 parcels,11,assignment:1295996,1295996,collaborator-sheet,
 parcels,12,assignment:5402028023,5402028023,collaborator-sheet,manual_verified
-parcels,13,values:344007,17116303,collaborator-sheet,non-LA county
+parcels,13,values:344007,17116303,collaborator-sheet,no automated source for county
 parcels,13,assignment:344007,344007,collaborator-sheet,
-parcels,14,values:867281,24257157,collaborator-sheet,non-LA county
+parcels,14,values:867281,24257157,collaborator-sheet,no automated source for county
 parcels,14,assignment:867281,867281,collaborator-sheet,
 parcels,15,assignment:5547013021,5547013021,collaborator-sheet,manual_verified
 parcels,17,assignment:5024017036,5024017036,collaborator-sheet,manual_verified
-parcels,18,values:1043514700,32460480,collaborator-sheet,non-LA county
+parcels,18,values:1043514700,32460480,collaborator-sheet,no automated source for county
 parcels,18,assignment:1043514700,1043514700,collaborator-sheet,
-parcels,19,values:39612209,18340000,collaborator-sheet,non-LA county
+parcels,19,values:39612209,18340000,collaborator-sheet,no automated source for county
 parcels,19,assignment:39612209,39612209,collaborator-sheet,
-parcels,19,values:39612130,22410000,collaborator-sheet,non-LA county
+parcels,19,values:39612130,22410000,collaborator-sheet,no automated source for county
 parcels,19,assignment:39612130,39612130,collaborator-sheet,
 parcels,20,assignment:2102015045,2102015045,collaborator-sheet,manual_verified
 parcels,21,assignment:2119001222,2119001222,collaborator-sheet,manual_verified
@@ -1493,9 +1493,9 @@ parcels,31,assignment:4291022015,4291022015,collaborator-sheet,manual_verified
 parcels,32,assignment:4275024005,4275024005,collaborator-sheet,manual_verified_multi
 parcels,32,assignment:4275024015,4275024015,collaborator-sheet,manual_verified_multi
 parcels,33,assignment:6020022027,6020022027,collaborator-sheet,parcel_in_transition
-parcels,34,values:4251100188,9977564,collaborator-sheet,non-LA county
+parcels,34,values:4251100188,9977564,collaborator-sheet,no automated source for county
 parcels,34,assignment:4251100188,4251100188,collaborator-sheet,
-parcels,35,values:22802520400000,25646900,collaborator-sheet,non-LA county
+parcels,35,values:22802520400000,25646900,collaborator-sheet,no automated source for county
 parcels,35,assignment:22802520400000,22802520400000,collaborator-sheet,
 parcels,36,assignment:4025014001,4025014001,collaborator-sheet,manual_verified_multi
 parcels,36,assignment:4025014002,4025014002,collaborator-sheet,manual_verified_multi
@@ -1523,38 +1523,38 @@ parcels,39,assignment:6005021032,6005021032,collaborator-sheet,manual_verified
 parcels,40,assignment:5021009036,5021009036,collaborator-sheet,manual_verified
 parcels,41,assignment:5020025039,5020025039,collaborator-sheet,manual_verified
 parcels,42,assignment:6083001009,6083001009,collaborator-sheet,manual_verified
-parcels,43,values:01419405,33879341,collaborator-sheet,non-LA county
+parcels,43,values:01419405,33879341,collaborator-sheet,no automated source for county
 parcels,43,assignment:01419405,01419405,collaborator-sheet,
 parcels,44,assignment:5180001024,5180001024,collaborator-sheet,parcel_in_transition
-parcels,45,values:39626156,25500000,collaborator-sheet,non-LA county
+parcels,45,values:39626156,25500000,collaborator-sheet,no automated source for county
 parcels,45,assignment:39626156,39626156,collaborator-sheet,
-parcels,45,values:39626155,103700000,collaborator-sheet,non-LA county
+parcels,45,values:39626155,103700000,collaborator-sheet,no automated source for county
 parcels,45,assignment:39626155,39626155,collaborator-sheet,
 parcels,46,assignment:5109003014,5109003014,collaborator-sheet,manual_verified_multi
 parcels,46,assignment:5109003001,5109003001,collaborator-sheet,manual_verified_multi
-parcels,47,values:4610304300,13362000,collaborator-sheet,non-LA county
+parcels,47,values:4610304300,13362000,collaborator-sheet,no automated source for county
 parcels,47,assignment:4610304300,4610304300,collaborator-sheet,
-parcels,48,values:039481250,31083000,collaborator-sheet,non-LA county
+parcels,48,values:039481250,31083000,collaborator-sheet,no automated source for county
 parcels,48,assignment:039481250,039481250,collaborator-sheet,
-parcels,48,values:039482130,62932900,collaborator-sheet,non-LA county
+parcels,48,values:039482130,62932900,collaborator-sheet,no automated source for county
 parcels,48,assignment:039482130,039482130,collaborator-sheet,
-parcels,48,values:042112240,44821400,collaborator-sheet,non-LA county
+parcels,48,values:042112240,44821400,collaborator-sheet,no automated source for county
 parcels,48,assignment:042112240,042112240,collaborator-sheet,
-parcels,48,values:042113250,31161700,collaborator-sheet,non-LA county
+parcels,48,values:042113250,31161700,collaborator-sheet,no automated source for county
 parcels,48,assignment:042113250,042113250,collaborator-sheet,
-parcels,48,values:042121090,41355000,collaborator-sheet,non-LA county
+parcels,48,values:042121090,41355000,collaborator-sheet,no automated source for county
 parcels,48,assignment:042121090,042121090,collaborator-sheet,
-parcels,48,values:042122050,41008500,collaborator-sheet,non-LA county
+parcels,48,values:042122050,41008500,collaborator-sheet,no automated source for county
 parcels,48,assignment:042122050,042122050,collaborator-sheet,
-parcels,49,values:4281649,38656726,collaborator-sheet,non-LA county
+parcels,49,values:4281649,38656726,collaborator-sheet,no automated source for county
 parcels,49,assignment:4281649,4281649,collaborator-sheet,
-parcels,50,values:5351441500,53339453,collaborator-sheet,non-LA county
+parcels,50,values:5351441500,53339453,collaborator-sheet,no automated source for county
 parcels,50,assignment:5351441500,5351441500,collaborator-sheet,
-parcels,51,values:5473131800,5832864,collaborator-sheet,non-LA county
+parcels,51,values:5473131800,5832864,collaborator-sheet,no automated source for county
 parcels,51,assignment:5473131800,5473131800,collaborator-sheet,
-parcels,52,values:28501900330000,15111810,collaborator-sheet,non-LA county
+parcels,52,values:28501900330000,15111810,collaborator-sheet,no automated source for county
 parcels,52,assignment:28501900330000,28501900330000,collaborator-sheet,
-parcels,53,values:26003700120000,12145525,collaborator-sheet,non-LA county
+parcels,53,values:26003700120000,12145525,collaborator-sheet,no automated source for county
 parcels,53,assignment:26003700120000,26003700120000,collaborator-sheet,
 parcels,54,assignment:7157031001,7157031001,collaborator-sheet,manual_verified_multi
 parcels,54,assignment:7157031002,7157031002,collaborator-sheet,manual_verified_multi
@@ -1590,54 +1590,54 @@ parcels,54,assignment:7157031031,7157031031,collaborator-sheet,manual_verified_m
 parcels,54,assignment:7157031032,7157031032,collaborator-sheet,manual_verified_multi
 parcels,54,assignment:7157031033,7157031033,collaborator-sheet,manual_verified_multi
 parcels,55,assignment:5409005030,5409005030,collaborator-sheet,manual_verified
-parcels,56,values:5619549,31838150,collaborator-sheet,non-LA county
+parcels,56,values:5619549,31838150,collaborator-sheet,no automated source for county
 parcels,56,assignment:5619549,5619549,collaborator-sheet,
 parcels,58,assignment:3004004033,3004004033,collaborator-sheet,manual_verified
-parcels,59,values:6954018,82453101,collaborator-sheet,non-LA county
+parcels,59,values:6954018,82453101,collaborator-sheet,no automated source for county
 parcels,59,assignment:6954018,6954018,collaborator-sheet,
 parcels,61,assignment:6087002036,6087002036,collaborator-sheet,manual_verified
 parcels,62,assignment:5049009082,5049009082,collaborator-sheet,manual_verified
-parcels,63,values:1701000273,10616112,collaborator-sheet,non-LA county
+parcels,63,values:1701000273,10616112,collaborator-sheet,no automated source for county
 parcels,63,assignment:1701000273,1701000273,collaborator-sheet,
 parcels,64,assignment:5160009020,5160009020,collaborator-sheet,manual_verified
-parcels,65,values:26324146,53482929,collaborator-sheet,non-LA county
+parcels,65,values:26324146,53482929,collaborator-sheet,no automated source for county
 parcels,65,assignment:26324146,26324146,collaborator-sheet,
 parcels,66,assignment:5092023021,5092023021,collaborator-sheet,manual_verified
-parcels,67,values:12918108,60690000,collaborator-sheet,non-LA county
+parcels,67,values:12918108,60690000,collaborator-sheet,no automated source for county
 parcels,67,assignment:12918108,12918108,collaborator-sheet,
 parcels,68,assignment:2764001013,2764001013,collaborator-sheet,manual_verified
 parcels,69,assignment:2731008014,2731008014,collaborator-sheet,manual_verified
-parcels,70,values:006312850,3870288,collaborator-sheet,non-LA county
+parcels,70,values:006312850,3870288,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312850,006312850,collaborator-sheet,
-parcels,70,values:006312860,4765032,collaborator-sheet,non-LA county
+parcels,70,values:006312860,4765032,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312860,006312860,collaborator-sheet,
-parcels,70,values:006312870,4452912,collaborator-sheet,non-LA county
+parcels,70,values:006312870,4452912,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312870,006312870,collaborator-sheet,
-parcels,70,values:006312880,4317660,collaborator-sheet,non-LA county
+parcels,70,values:006312880,4317660,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312880,006312880,collaborator-sheet,
-parcels,70,values:006312890,4317660,collaborator-sheet,non-LA county
+parcels,70,values:006312890,4317660,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312890,006312890,collaborator-sheet,
-parcels,70,values:006312900,4713012,collaborator-sheet,non-LA county
+parcels,70,values:006312900,4713012,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312900,006312900,collaborator-sheet,
-parcels,70,values:006312910,5784624,collaborator-sheet,non-LA county
+parcels,70,values:006312910,5784624,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312910,006312910,collaborator-sheet,
-parcels,70,values:006312920,2590596,collaborator-sheet,non-LA county
+parcels,70,values:006312920,2590596,collaborator-sheet,no automated source for county
 parcels,70,assignment:006312920,006312920,collaborator-sheet,
-parcels,71,values:52082450,25240000,collaborator-sheet,non-LA county
+parcels,71,values:52082450,25240000,collaborator-sheet,no automated source for county
 parcels,71,assignment:52082450,52082450,collaborator-sheet,
-parcels,72,values:5431A041,73513835,collaborator-sheet,non-LA county
+parcels,72,values:5431A041,73513835,collaborator-sheet,no automated source for county
 parcels,72,assignment:5431A041,5431A041,collaborator-sheet,
 parcels,73,assignment:5159020026,5159020026,collaborator-sheet,parcel_in_transition
 parcels,73,assignment:5159020010,5159020010,collaborator-sheet,manual_verified_multi
 parcels,73,assignment:5159020009,5159020009,collaborator-sheet,manual_verified_multi
-parcels,74,values:5484004400,2804259,collaborator-sheet,non-LA county
+parcels,74,values:5484004400,2804259,collaborator-sheet,no automated source for county
 parcels,74,assignment:5484004400,5484004400,collaborator-sheet,
-parcels,75,values:4635902700,30350548,collaborator-sheet,non-LA county
+parcels,75,values:4635902700,30350548,collaborator-sheet,no automated source for county
 parcels,75,assignment:4635902700,4635902700,collaborator-sheet,
 parcels,76,values:5036031006,1569525,collaborator-sheet,AIN renumbered/in transition at county
 parcels,76,assignment:5036031006,5036031006,collaborator-sheet,manual_verified
 parcels,77,assignment:6083010040,6083010040,collaborator-sheet,parcel_in_transition
-parcels,78,values:4054900073,222047798,collaborator-sheet,non-LA county
+parcels,78,values:4054900073,222047798,collaborator-sheet,no automated source for county
 parcels,78,assignment:4054900073,4054900073,collaborator-sheet,
 parcels,79,assignment:6070003041,6070003041,collaborator-sheet,parcel_in_transition
 parcels,80,assignment:5032015003,5032015003,collaborator-sheet,manual_verified
@@ -1652,12 +1652,12 @@ parcels,88,assignment:2695003030,2695003030,collaborator-sheet,parcel_in_transit
 parcels,90,assignment:8630009026,8630009026,collaborator-sheet,manual_verified
 parcels,91,assignment:2421011010,2421011010,collaborator-sheet,manual_verified
 parcels,92,assignment:8576001024,8576001024,collaborator-sheet,manual_verified
-parcels,93,values:59020050000,46693244,collaborator-sheet,non-LA county
+parcels,93,values:59020050000,46693244,collaborator-sheet,no automated source for county
 parcels,93,assignment:59020050000,59020050000,collaborator-sheet,
-parcels,94,values:6390806100,51548563,collaborator-sheet,non-LA county
+parcels,94,values:6390806100,51548563,collaborator-sheet,no automated source for county
 parcels,94,assignment:6390806100,6390806100,collaborator-sheet,
 parcels,97,assignment:8608030071,8608030071,collaborator-sheet,manual_verified
-parcels,98,values:50115064010,73418537,collaborator-sheet,non-LA county
+parcels,98,values:50115064010,73418537,collaborator-sheet,no automated source for county
 parcels,98,assignment:50115064010,50115064010,collaborator-sheet,
 parcels,99,values:4262018026,2225000,collaborator-sheet,AIN renumbered/in transition at county
 parcels,99,assignment:4262018026,4262018026,collaborator-sheet,manual_verified
@@ -1683,7 +1683,7 @@ parcels,116,assignment:5080015003,5080015003,collaborator-sheet,manual_verified
 parcels,117,assignment:5518027010,5518027010,collaborator-sheet,manual_verified
 parcels,118,assignment:5504029006,5504029006,collaborator-sheet,manual_verified
 parcels,119,assignment:5503017013,5503017013,collaborator-sheet,manual_verified
-parcels,120,values:28502100410000,51313873,collaborator-sheet,non-LA county
+parcels,120,values:28502100410000,51313873,collaborator-sheet,no automated source for county
 parcels,120,assignment:28502100410000,28502100410000,collaborator-sheet,
 parcels,121,assignment:5518013024,5518013024,collaborator-sheet,manual_verified
 parcels,122,assignment:5094017020,5094017020,collaborator-sheet,manual_verified
@@ -1701,19 +1701,19 @@ parcels,134,assignment:6063029029,6063029029,collaborator-sheet,manual_verified
 parcels,135,assignment:5518026004,5518026004,collaborator-sheet,manual_verified
 parcels,137,values:2125017014,943500,collaborator-sheet,AIN renumbered/in transition at county
 parcels,137,assignment:2125017014,2125017014,collaborator-sheet,manual_verified
-parcels,141,values:41805060,30330305,collaborator-sheet,non-LA county
+parcels,141,values:41805060,30330305,collaborator-sheet,no automated source for county
 parcels,141,assignment:41805060,41805060,collaborator-sheet,
 parcels,142,assignment:4125011053,4125011053,collaborator-sheet,parcel_in_transition
 parcels,143,assignment:41416654,41416654,collaborator-sheet,
-parcels,144,values:123140018,6695000,collaborator-sheet,non-LA county
+parcels,144,values:123140018,6695000,collaborator-sheet,no automated source for county
 parcels,144,assignment:123140018,123140018,collaborator-sheet,
-parcels,144,values:123140019,4460000,collaborator-sheet,non-LA county
+parcels,144,values:123140019,4460000,collaborator-sheet,no automated source for county
 parcels,144,assignment:123140019,123140019,collaborator-sheet,
-parcels,144,values:123140020,4460000,collaborator-sheet,non-LA county
+parcels,144,values:123140020,4460000,collaborator-sheet,no automated source for county
 parcels,144,assignment:123140020,123140020,collaborator-sheet,
-parcels,144,values:123140021,7113000,collaborator-sheet,non-LA county
+parcels,144,values:123140021,7113000,collaborator-sheet,no automated source for county
 parcels,144,assignment:123140021,123140021,collaborator-sheet,
-parcels,145,values:,10673404,collaborator-sheet,non-LA county
+parcels,145,values:,10673404,collaborator-sheet,no automated source for county
 parcels,145,assignment:,,collaborator-sheet,
 parcels,146,assignment:6022014002,6022014002,collaborator-sheet,manual_verified
 parcels,147,assignment:41416654,41416654,collaborator-sheet,
@@ -1725,19 +1725,19 @@ parcels,152,assignment:7157012023,7157012023,collaborator-sheet,manual_verified_
 parcels,152,assignment:7157012017,7157012017,collaborator-sheet,manual_verified_multi
 parcels,153,assignment:7075020011,7075020011,collaborator-sheet,manual_verified_multi
 parcels,153,assignment:7075020012,7075020012,collaborator-sheet,manual_verified_multi
-parcels,154,values:019170270,180060039,collaborator-sheet,non-LA county
+parcels,154,values:019170270,180060039,collaborator-sheet,no automated source for county
 parcels,154,assignment:019170270,019170270,collaborator-sheet,
-parcels,155,values:1303200180,34848175,collaborator-sheet,non-LA county
+parcels,155,values:1303200180,34848175,collaborator-sheet,no automated source for county
 parcels,155,assignment:1303200180,1303200180,collaborator-sheet,
-parcels,156,values:5011800142,65613972,collaborator-sheet,non-LA county
+parcels,156,values:5011800142,65613972,collaborator-sheet,no automated source for county
 parcels,156,assignment:5011800142,5011800142,collaborator-sheet,
-parcels,157,values:2262031000,12540125,collaborator-sheet,non-LA county
+parcels,157,values:2262031000,12540125,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262031000,2262031000,collaborator-sheet,
-parcels,157,values:2280732000,41107952,collaborator-sheet,non-LA county
+parcels,157,values:2280732000,41107952,collaborator-sheet,no automated source for county
 parcels,157,assignment:2280732000,2280732000,collaborator-sheet,
-parcels,157,values:2262030200,18982539,collaborator-sheet,non-LA county
+parcels,157,values:2262030200,18982539,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262030200,2262030200,collaborator-sheet,
-parcels,157,values:2262110300,12540125,collaborator-sheet,non-LA county
+parcels,157,values:2262110300,12540125,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262110300,2262110300,collaborator-sheet,
 parcels,158,assignment:,,collaborator-sheet,
 parcels,159,assignment:5540019012,5540019012,collaborator-sheet,
@@ -1769,15 +1769,15 @@ parcels,183,assignment:5236016054,5236016054,collaborator-sheet,
 parcels,184,assignment:5126020009,5126020009,collaborator-sheet,
 parcels,185,assignment:6048004047,6048004047,collaborator-sheet,
 parcels,186,assignment:5032007019,5032007019,collaborator-sheet,
-parcels,187,values:19826132,26605309,collaborator-sheet,non-LA county
+parcels,187,values:19826132,26605309,collaborator-sheet,no automated source for county
 parcels,187,assignment:19826132,19826132,collaborator-sheet,
-parcels,188,values:501261015,42750000,collaborator-sheet,non-LA county
+parcels,188,values:501261015,42750000,collaborator-sheet,no automated source for county
 parcels,188,assignment:501261015,501261015,collaborator-sheet,
-parcels,190,values:223010017,69647731,collaborator-sheet,non-LA county
+parcels,190,values:223010017,69647731,collaborator-sheet,no automated source for county
 parcels,190,assignment:223010017,223010017,collaborator-sheet,
-parcels,192,values:03615006,67860998,collaborator-sheet,non-LA county
+parcels,192,values:03615006,67860998,collaborator-sheet,no automated source for county
 parcels,192,assignment:03615006,03615006,collaborator-sheet,
-parcels,193,values:2311104600,49668778,collaborator-sheet,non-LA county
+parcels,193,values:2311104600,49668778,collaborator-sheet,no automated source for county
 parcels,193,assignment:2311104600,2311104600,collaborator-sheet,
 parcels,194,assignment:,,collaborator-sheet,
 parcels,195,assignment:,,collaborator-sheet,
@@ -1793,7 +1793,7 @@ parcels,206,assignment:,,collaborator-sheet,
 parcels,207,assignment:,,collaborator-sheet,
 parcels,208,assignment:,,collaborator-sheet,
 parcels,209,assignment:,,collaborator-sheet,
-parcels,210,values:11700120210000,11438021,collaborator-sheet,non-LA county
+parcels,210,values:11700120210000,11438021,collaborator-sheet,no automated source for county
 parcels,210,assignment:11700120210000,11700120210000,collaborator-sheet,
 parcels,211,assignment:,,collaborator-sheet,
 parcels,212,assignment:,,collaborator-sheet,
@@ -1810,177 +1810,177 @@ parcels,222,assignment:,,collaborator-sheet,
 parcels,223,assignment:,,collaborator-sheet,
 parcels,224,assignment:,,collaborator-sheet,
 parcels,226,assignment:,,collaborator-sheet,
-parcels,227,values:3003300180000,41186542,collaborator-sheet,non-LA county
+parcels,227,values:3003300180000,41186542,collaborator-sheet,no automated source for county
 parcels,227,assignment:3003300180000,3003300180000,collaborator-sheet,
 parcels,228,assignment:,,collaborator-sheet,
 parcels,229,assignment:,,collaborator-sheet,
 parcels,230,assignment:,,collaborator-sheet,
 parcels,231,assignment:,,collaborator-sheet,
-parcels,232,values:23115127,90133662,collaborator-sheet,non-LA county
+parcels,232,values:23115127,90133662,collaborator-sheet,no automated source for county
 parcels,232,assignment:23115127,23115127,collaborator-sheet,
-parcels,232,values:23115128,30044551,collaborator-sheet,non-LA county
+parcels,232,values:23115128,30044551,collaborator-sheet,no automated source for county
 parcels,232,assignment:23115128,23115128,collaborator-sheet,
 parcels,233,assignment:,,collaborator-sheet,
 parcels,234,assignment:,,collaborator-sheet,
 parcels,235,assignment:,,collaborator-sheet,
 parcels,236,assignment:,,collaborator-sheet,
 parcels,237,assignment:,,collaborator-sheet,
-parcels,57,values:28424015,36559633,collaborator-sheet,non-LA county
+parcels,57,values:28424015,36559633,collaborator-sheet,no automated source for county
 parcels,57,assignment:28424015,28424015,collaborator-sheet,
-parcels,60,values:17004068,32171358,collaborator-sheet,non-LA county
+parcels,60,values:17004068,32171358,collaborator-sheet,no automated source for county
 parcels,60,assignment:17004068,17004068,collaborator-sheet,
-parcels,60,values:17004069,18766626,collaborator-sheet,non-LA county
+parcels,60,values:17004069,18766626,collaborator-sheet,no automated source for county
 parcels,60,assignment:17004069,17004069,collaborator-sheet,
-parcels,89,values:25404108,113197044,collaborator-sheet,non-LA county
+parcels,89,values:25404108,113197044,collaborator-sheet,no automated source for county
 parcels,89,assignment:25404108,25404108,collaborator-sheet,
-parcels,95,values:37226016,4853048,collaborator-sheet,non-LA county
+parcels,95,values:37226016,4853048,collaborator-sheet,no automated source for county
 parcels,95,assignment:37226016,37226016,collaborator-sheet,
-parcels,96,values:29640005,129482004,collaborator-sheet,non-LA county
+parcels,96,values:29640005,129482004,collaborator-sheet,no automated source for county
 parcels,96,assignment:29640005,29640005,collaborator-sheet,
-parcels,96,values:29640004,95469825,collaborator-sheet,non-LA county
+parcels,96,values:29640004,95469825,collaborator-sheet,no automated source for county
 parcels,96,assignment:29640004,29640004,collaborator-sheet,
-parcels,96,values:29640003,72364911,collaborator-sheet,non-LA county
+parcels,96,values:29640003,72364911,collaborator-sheet,no automated source for county
 parcels,96,assignment:29640003,29640003,collaborator-sheet,
-parcels,136,values:70607013,269608107,collaborator-sheet,non-LA county
+parcels,136,values:70607013,269608107,collaborator-sheet,no automated source for county
 parcels,136,assignment:70607013,70607013,collaborator-sheet,
-parcels,138,values:21332022,27979060,collaborator-sheet,non-LA county
+parcels,138,values:21332022,27979060,collaborator-sheet,no automated source for county
 parcels,138,assignment:21332022,21332022,collaborator-sheet,
-parcels,139,values:68429011,51700304,collaborator-sheet,non-LA county
+parcels,139,values:68429011,51700304,collaborator-sheet,no automated source for county
 parcels,139,assignment:68429011,68429011,collaborator-sheet,
-parcels,139,values:68428078,8396294,collaborator-sheet,non-LA county
+parcels,139,values:68428078,8396294,collaborator-sheet,no automated source for county
 parcels,139,assignment:68428078,68428078,collaborator-sheet,
-parcels,140,values:31342061,70919811,collaborator-sheet,non-LA county
+parcels,140,values:31342061,70919811,collaborator-sheet,no automated source for county
 parcels,140,assignment:31342061,31342061,collaborator-sheet,
-parcels,189,values:46745084,31718046,collaborator-sheet,non-LA county
+parcels,189,values:46745084,31718046,collaborator-sheet,no automated source for county
 parcels,189,assignment:46745084,46745084,collaborator-sheet,
 parcels,189,assignment:46745075,46745075,collaborator-sheet,
 parcels,189,assignment:46745074,46745074,collaborator-sheet,
 parcels,189,assignment:46745073,46745073,collaborator-sheet,
-parcels,191,values:15401034,104843965,collaborator-sheet,non-LA county
+parcels,191,values:15401034,104843965,collaborator-sheet,no automated source for county
 parcels,191,assignment:15401034,15401034,collaborator-sheet,
 parcels,198,assignment:,,collaborator-sheet,
 parcels,202,assignment:,,collaborator-sheet,
 parcels,16,assignment:128101150,128101150,collaborator-sheet,
-parcels,16,values:128101140,7595,collaborator-sheet,non-LA county
+parcels,16,values:128101140,7595,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101140,128101140,collaborator-sheet,
-parcels,16,values:128101130,7606,collaborator-sheet,non-LA county
+parcels,16,values:128101130,7606,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101130,128101130,collaborator-sheet,
-parcels,16,values:128101120,7619,collaborator-sheet,non-LA county
+parcels,16,values:128101120,7619,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101120,128101120,collaborator-sheet,
-parcels,16,values:128101110,7631,collaborator-sheet,non-LA county
+parcels,16,values:128101110,7631,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101110,128101110,collaborator-sheet,
-parcels,16,values:128101100,30262,collaborator-sheet,non-LA county
+parcels,16,values:128101100,30262,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101100,128101100,collaborator-sheet,
-parcels,16,values:128101090,30426,collaborator-sheet,non-LA county
+parcels,16,values:128101090,30426,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101090,128101090,collaborator-sheet,
-parcels,16,values:128101080,31967,collaborator-sheet,non-LA county
+parcels,16,values:128101080,31967,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101080,128101080,collaborator-sheet,
-parcels,16,values:128101070,35714,collaborator-sheet,non-LA county
+parcels,16,values:128101070,35714,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101070,128101070,collaborator-sheet,
-parcels,16,values:128101060,40196,collaborator-sheet,non-LA county
+parcels,16,values:128101060,40196,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101060,128101060,collaborator-sheet,
 parcels,16,assignment:128101050,128101050,collaborator-sheet,
-parcels,16,values:128101040,66586,collaborator-sheet,non-LA county
+parcels,16,values:128101040,66586,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101040,128101040,collaborator-sheet,
-parcels,16,values:128101030,61921,collaborator-sheet,non-LA county
+parcels,16,values:128101030,61921,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101030,128101030,collaborator-sheet,
-parcels,16,values:128101020,49211,collaborator-sheet,non-LA county
+parcels,16,values:128101020,49211,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101020,128101020,collaborator-sheet,
-parcels,16,values:128101010,99051,collaborator-sheet,non-LA county
+parcels,16,values:128101010,99051,collaborator-sheet,no automated source for county
 parcels,16,assignment:128101010,128101010,collaborator-sheet,
-parcels,16,values:128102110,1360,collaborator-sheet,non-LA county
+parcels,16,values:128102110,1360,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102110,128102110,collaborator-sheet,
-parcels,16,values:128102100,1201,collaborator-sheet,non-LA county
+parcels,16,values:128102100,1201,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102100,128102100,collaborator-sheet,
-parcels,16,values:128102090,1201,collaborator-sheet,non-LA county
+parcels,16,values:128102090,1201,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102090,128102090,collaborator-sheet,
-parcels,16,values:128102080,1202,collaborator-sheet,non-LA county
+parcels,16,values:128102080,1202,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102080,128102080,collaborator-sheet,
-parcels,16,values:128102070,1202,collaborator-sheet,non-LA county
+parcels,16,values:128102070,1202,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102070,128102070,collaborator-sheet,
-parcels,16,values:128102060,1202,collaborator-sheet,non-LA county
+parcels,16,values:128102060,1202,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102060,128102060,collaborator-sheet,
-parcels,16,values:128102050,32653,collaborator-sheet,non-LA county
+parcels,16,values:128102050,32653,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102050,128102050,collaborator-sheet,
-parcels,16,values:128102040,32653,collaborator-sheet,non-LA county
+parcels,16,values:128102040,32653,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102040,128102040,collaborator-sheet,
-parcels,16,values:128102030,32697,collaborator-sheet,non-LA county
+parcels,16,values:128102030,32697,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102030,128102030,collaborator-sheet,
-parcels,16,values:128102020,32612,collaborator-sheet,non-LA county
+parcels,16,values:128102020,32612,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102020,128102020,collaborator-sheet,
-parcels,16,values:128102010,40431,collaborator-sheet,non-LA county
+parcels,16,values:128102010,40431,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102010,128102010,collaborator-sheet,
-parcels,16,values:128102210,47216,collaborator-sheet,non-LA county
+parcels,16,values:128102210,47216,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102210,128102210,collaborator-sheet,
-parcels,16,values:128102200,29071,collaborator-sheet,non-LA county
+parcels,16,values:128102200,29071,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102200,128102200,collaborator-sheet,
-parcels,16,values:128102190,29025,collaborator-sheet,non-LA county
+parcels,16,values:128102190,29025,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102190,128102190,collaborator-sheet,
-parcels,16,values:128102180,29025,collaborator-sheet,non-LA county
+parcels,16,values:128102180,29025,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102180,128102180,collaborator-sheet,
-parcels,16,values:128102170,29025,collaborator-sheet,non-LA county
+parcels,16,values:128102170,29025,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102170,128102170,collaborator-sheet,
-parcels,16,values:128102160,7331,collaborator-sheet,non-LA county
+parcels,16,values:128102160,7331,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102160,128102160,collaborator-sheet,
-parcels,16,values:128102150,7331,collaborator-sheet,non-LA county
+parcels,16,values:128102150,7331,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102150,128102150,collaborator-sheet,
-parcels,16,values:128102140,6988,collaborator-sheet,non-LA county
+parcels,16,values:128102140,6988,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102140,128102140,collaborator-sheet,
-parcels,16,values:128102130,1018,collaborator-sheet,non-LA county
+parcels,16,values:128102130,1018,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102130,128102130,collaborator-sheet,
-parcels,16,values:128102120,1223,collaborator-sheet,non-LA county
+parcels,16,values:128102120,1223,collaborator-sheet,no automated source for county
 parcels,16,assignment:128102120,128102120,collaborator-sheet,
-parcels,16,values:128103090,1507,collaborator-sheet,non-LA county
+parcels,16,values:128103090,1507,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103090,128103090,collaborator-sheet,
-parcels,16,values:128103080,1101,collaborator-sheet,non-LA county
+parcels,16,values:128103080,1101,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103080,128103080,collaborator-sheet,
-parcels,16,values:128103070,1101,collaborator-sheet,non-LA county
+parcels,16,values:128103070,1101,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103070,128103070,collaborator-sheet,
-parcels,16,values:128103060,1101,collaborator-sheet,non-LA county
+parcels,16,values:128103060,1101,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103060,128103060,collaborator-sheet,
-parcels,16,values:128103050,1101,collaborator-sheet,non-LA county
+parcels,16,values:128103050,1101,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103050,128103050,collaborator-sheet,
-parcels,16,values:128103040,29932,collaborator-sheet,non-LA county
+parcels,16,values:128103040,29932,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103040,128103040,collaborator-sheet,
-parcels,16,values:128103030,29932,collaborator-sheet,non-LA county
+parcels,16,values:128103030,29932,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103030,128103030,collaborator-sheet,
-parcels,16,values:128103020,29932,collaborator-sheet,non-LA county
+parcels,16,values:128103020,29932,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103020,128103020,collaborator-sheet,
-parcels,16,values:128103010,55923,collaborator-sheet,non-LA county
+parcels,16,values:128103010,55923,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103010,128103010,collaborator-sheet,
-parcels,16,values:128103180,47738,collaborator-sheet,non-LA county
+parcels,16,values:128103180,47738,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103180,128103180,collaborator-sheet,
-parcels,16,values:128103170,27211,collaborator-sheet,non-LA county
+parcels,16,values:128103170,27211,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103170,128103170,collaborator-sheet,
-parcels,16,values:128103160,27211,collaborator-sheet,non-LA county
+parcels,16,values:128103160,27211,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103160,128103160,collaborator-sheet,
-parcels,16,values:128103150,27211,collaborator-sheet,non-LA county
+parcels,16,values:128103150,27211,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103150,128103150,collaborator-sheet,
-parcels,16,values:128103140,6874,collaborator-sheet,non-LA county
+parcels,16,values:128103140,6874,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103140,128103140,collaborator-sheet,
-parcels,16,values:128103130,6874,collaborator-sheet,non-LA county
+parcels,16,values:128103130,6874,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103130,128103130,collaborator-sheet,
-parcels,16,values:128103120,6874,collaborator-sheet,non-LA county
+parcels,16,values:128103120,6874,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103120,128103120,collaborator-sheet,
-parcels,16,values:128103110,6874,collaborator-sheet,non-LA county
+parcels,16,values:128103110,6874,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103110,128103110,collaborator-sheet,
-parcels,16,values:128103100,8329,collaborator-sheet,non-LA county
+parcels,16,values:128103100,8329,collaborator-sheet,no automated source for county
 parcels,16,assignment:128103100,128103100,collaborator-sheet,
 parcels,16,assignment:128105060,128105060,collaborator-sheet,
-parcels,16,values:128105050,11538,collaborator-sheet,non-LA county
+parcels,16,values:128105050,11538,collaborator-sheet,no automated source for county
 parcels,16,assignment:128105050,128105050,collaborator-sheet,
-parcels,16,values:128105040,11625,collaborator-sheet,non-LA county
+parcels,16,values:128105040,11625,collaborator-sheet,no automated source for county
 parcels,16,assignment:128105040,128105040,collaborator-sheet,
-parcels,16,values:128105030,11618,collaborator-sheet,non-LA county
+parcels,16,values:128105030,11618,collaborator-sheet,no automated source for county
 parcels,16,assignment:128105030,128105030,collaborator-sheet,
-parcels,16,values:128105020,11609,collaborator-sheet,non-LA county
+parcels,16,values:128105020,11609,collaborator-sheet,no automated source for county
 parcels,16,assignment:128105020,128105020,collaborator-sheet,
-parcels,16,values:128105010,11771,collaborator-sheet,non-LA county
+parcels,16,values:128105010,11771,collaborator-sheet,no automated source for county
 parcels,16,assignment:128105010,128105010,collaborator-sheet,
-parcels,16,values:128104020,56604,collaborator-sheet,non-LA county
+parcels,16,values:128104020,56604,collaborator-sheet,no automated source for county
 parcels,16,assignment:128104020,128104020,collaborator-sheet,
-parcels,16,values:128104010,60404,collaborator-sheet,non-LA county
+parcels,16,values:128104010,60404,collaborator-sheet,no automated source for county
 parcels,16,assignment:128104010,128104010,collaborator-sheet,
 parcels,225,assignment:,,collaborator-sheet,
-parcels,131,values:89082034000,10140095,collaborator-sheet,non-LA county
+parcels,131,values:89082034000,10140095,collaborator-sheet,no automated source for county
 parcels,131,assignment:89082034000,89082034000,collaborator-sheet,

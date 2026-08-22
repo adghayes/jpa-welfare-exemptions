@@ -163,12 +163,9 @@ def main() -> None:
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")
     la_values = pd.read_csv("output/pipeline/la_roll_values.csv", dtype=str).fillna("")
     manual_values = pd.read_csv("manual/parcel_values_manual.csv", dtype=str).fillna("")
-    sheet_parcels = pd.read_csv("input/sheet_parcels.csv", dtype=str).fillna("")
-    sheet_parcels["ain"] = sheet_parcels["ain"].str.replace("-", "").str.strip()
 
     la_by_ain = la_values.set_index("ain").to_dict("index")
     manual_by_key = {(r["project_id"], r["ain"]): r for _, r in manual_values.iterrows()}
-    sheet_by_key = {(r["project_id"], r["ain"]): r for _, r in sheet_parcels.iterrows()}
 
     VALUE_COLS = ["roll_year", "roll_land_value", "roll_imp_value",
                   "roll_total_value", "real_estate_exemp", "year_built",
@@ -186,21 +183,14 @@ def main() -> None:
             v = manual_by_key[key]
             for c in ["roll_year", "roll_total_value", "real_estate_exemp", "value_source"]:
                 vals[c] = v.get(c, "")
+            note = ("AIN renumbered/in transition at county"
+                    if a["county"] == "Los Angeles" else "no automated source for county")
+            if a["county"] == "Los Angeles":
+                qa("la-fetch-fallback", a["project_id"],
+                   f"AIN {a['ain']} has no current roll data; using manual value")
             provenance.append({"table": "parcels", "project_id": a["project_id"],
                                "field": f"values:{a['ain']}", "value": v.get("roll_total_value", ""),
-                               "source": v.get("value_source", ""), "note": "non-LA county"})
-        elif key in sheet_by_key and str(sheet_by_key[key].get("roll_total_value", "")).strip() not in ("", "0", "-"):
-            v = sheet_by_key[key]
-            vals["roll_year"] = v.get("roll_year", "")
-            vals["roll_total_value"] = v.get("roll_total_value", "")
-            vals["real_estate_exemp"] = v.get("real_estate_exemp", "")
-            vals["value_source"] = "collaborator-sheet"
-            qa("la-fetch-fallback", a["project_id"],
-               f"AIN {a['ain']} has no current roll data; using collaborator value")
-            provenance.append({"table": "parcels", "project_id": a["project_id"],
-                               "field": f"values:{a['ain']}", "value": vals["roll_total_value"],
-                               "source": "collaborator-sheet",
-                               "note": "AIN renumbered/in transition at county"})
+                               "source": v.get("value_source", ""), "note": note})
         else:
             qa("parcel-no-values", a["project_id"],
                f"AIN {a['ain'] or '(none)'} ({a['county']}): no roll values from any source")

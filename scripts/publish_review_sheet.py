@@ -136,8 +136,14 @@ def main() -> None:
             else:
                 parcel_sources[(idx, col)] = "la-county-api"
 
+    # QA findings: merge-time discrepancies for collaborator review
+    # (document-vs-manual conflicts, grants missing from either side,
+    # shared AINs, parcels without values). Meta table — no fills.
+    qa = pd.read_csv("output/dataset/qa_findings.csv", dtype=str).fillna("")
+
     render_workbook({"Grants": (grants, grant_sources),
-                     "Parcels": (parcels, parcel_sources)}, args.output)
+                     "Parcels": (parcels, parcel_sources),
+                     "QA findings": (qa, {})}, args.output)
 
 
 if __name__ == "__main__":
