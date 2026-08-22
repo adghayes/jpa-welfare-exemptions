@@ -139,13 +139,11 @@ parcel-no-values,182,AIN 5036031006 (Los Angeles): no roll values from any sourc
 parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
-parcel-no-values,205,AIN (none) (Contra Costa): no roll values from any source
 parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,215,AIN 5539028040 (Los Angeles): no roll values from any source
 parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
-parcel-no-values,229,AIN (none) (San Diego): no roll values from any source
 parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
@@ -153,7 +151,6 @@ parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
 parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
-shared-ain,143/147,AIN 41416654 assigned to multiple projects
 shared-ain,182/76,AIN 5036031006 assigned to multiple projects
 shared-ain,200/218,AIN 5040021006 assigned to multiple projects
 shared-ain,130/179,AIN 5080006008 assigned to multiple projects

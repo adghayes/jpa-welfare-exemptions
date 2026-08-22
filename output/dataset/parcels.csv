@@ -206,7 +206,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 137,Los Angeles,Kittridge Affordable Housing Apartments,2125017014,2125-017-014,18337 KITTRIDGE ST LOS ANGELES CA 91335,False,collaborator-sheet,manual_verified,,2025,,,943500,0,,,collaborator-sheet,,137
 141,Fresno,Renaissance Apartment Homes,41805060,,5669 N FRESNO ST FRESNO CA 93710,False,collaborator-sheet,,,,,,30330305,,,,collaborator-sheet,,141
 142,Los Angeles,9033 Ramsgate Apartments,4125011053,4125-011-053,9033 RAMSGATE AVE,False,collaborator-sheet,parcel_in_transition,Legacy AIN 4125011010 consolidated to 4125011053,2026,3693417,0,3693417,0,1950,Four Units (Any Combination),la-county-api,2026-08-22,142
-143,Alameda,Coliseum Transit Village,41416654,,805 71ST AVE OAKLAND CA 94621-3386,False,collaborator-sheet,,,,,,,,,,,,147
+143,Alameda,Coliseum Transit Village,41416654,,805 71ST AVE OAKLAND CA 94621-3386,True,collaborator-sheet,,"Duplicate of project 147 row (same AIN, same property, re-authorized deal); marked redundant 2026-08-22",,,,,,,,,,147
 144,Santa Barbara,La Vista Apartment Homes,123140018,,"740 S WESTERN AVE, SANTA MARIA, CA 93458",False,collaborator-sheet,,,,,,6695000,,,,collaborator-sheet,,144
 144,Santa Barbara,La Vista Apartment Homes,123140019,,-,False,collaborator-sheet,,,,,,4460000,,,,collaborator-sheet,,144
 144,Santa Barbara,La Vista Apartment Homes,123140020,,-,False,collaborator-sheet,,,,,,4460000,,,,collaborator-sheet,,144
@@ -273,7 +273,6 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 201,Santa Barbara,Villa Del Sol Senior Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,201
 203,Sacramento,Bent Tree Apartments,21900420330000,219-0042-033-0000,4350 GALBRATH DR SACRAMENTO CA 95842,False,manual-repo-edit,,Drew 2026-08-22 via Sacramento assessor lookup,2026,,,15693765,0,,,manual-repo-edit,,203
 204,Los Angeles,Hazelhurst Affordable Housing Apartments,2338006014,2338-006-014,6142 HAZELHURST PL LOS ANGELES CA 91606,False,manual-repo-edit,,Drew 2026-08-22: development parcel is 6142 (no 6144 situs exists). Assessor unit counts not usable to disambiguate — proposed project may differ.,2026,688500,1224000,1912500,0,1952,Two Units,la-county-api,2026-08-22,204
-205,Contra Costa,Del Norte Place Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,205
 206,Los Angeles,Elan River Village Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,206
 207,Los Angeles,Cullen Living Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,207
 208,Los Angeles,Sawtelle 2481 Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,208
@@ -296,7 +295,6 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 226,Contra Costa,Maris at Martinez Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,226
 227,Sacramento,Westlake Apartments,3003300180000,,1 SHOAL CT SACRAMENTO 95831,False,collaborator-sheet,,,2026,,,41186542,,,,collaborator-sheet,,227
 228,Los Angeles,Colden Oaks Apartments,6053006052,,225 W COLDEN AVE LOS ANGELES CA 90003,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search,2026,2000000,4000000,6000000,0,1994,Five or more apartments,la-county-api,2026-08-22,228
-229,San Diego,Creekside Villas Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,229
 230,Los Angeles,Hansen illage Apartments,2530007014,,11821 FOOTHILL BLVD LOS ANGELES CA 91342,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search; two parcels share situs 11821 Foothill — multi-parcel,2026,1768372,4763318,6531690,0,1986,Five or more apartments,la-county-api,2026-08-22,230
 231,Los Angeles,Violet on Virgil,5501017044,,160 S VIRGIL AVE LOS ANGELES CA 90004,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search,2026,18210958,30209370,48420328,0,1971,Five or more apartments,la-county-api,2026-08-22,231
 232,Orange,Crystal View Apartments,23115127,,12021 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,,2026,,,90133662,62106599,,,collaborator-sheet,,232
