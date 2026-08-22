@@ -1,0 +1,4 @@
+check,project_id,property,detail
+B1-missing-parcels,238,Heritage Park Apartments Livermore,No parcel rows (and not marked DEAD)
+B3-unit-mismatch,160,12th Street Apartments,Parcels 'CMFA Total Units' [29.0] != grants Total Unit Count 16
+D1-shared-ain,10/132,,AIN 6020022027 appears under multiple projects

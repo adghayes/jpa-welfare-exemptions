@@ -13,7 +13,7 @@ Outputs:
 
 Usage:
     python scripts/validate_meeting.py 2025-11-21
-    python scripts/validate_meeting.py 2025-11-21 --csv input/CMFA-grants-01-01-2026-noon.csv
+    python scripts/validate_meeting.py 2025-11-21 --csv input/grants.csv
 """
 
 import argparse
@@ -36,7 +36,7 @@ from src.cmfa_scraping.staff_report_parser import parse_staff_report_pdf, StaffR
 
 
 MEETINGS_DIR = Path("data/cmfa_scraping/meetings")
-DEFAULT_CSV = Path("input/CMFA-grants-01-01-2026-noon.csv")
+DEFAULT_CSV = Path("input/grants.csv")
 
 
 @dataclass
@@ -176,7 +176,8 @@ def load_meeting_documents(meeting_date: str) -> dict:
 def load_csv_entries(csv_path: Path, meeting_date: str) -> pd.DataFrame:
     """Load CSV entries for a specific meeting date (CMFA only)."""
     df = pd.read_csv(csv_path)
-    df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y', errors='coerce')
+    # Sheet dates mix 2- and 4-digit years (07/14/23 vs 9/19/2025)
+    df['Date'] = pd.to_datetime(df['Date'], format='mixed', errors='coerce')
     target_date = datetime.strptime(meeting_date, "%Y-%m-%d")
     df_meeting = df[df['Date'].dt.date == target_date.date()]
     df_cmfa = df_meeting[df_meeting['Agency'] == 'CMFA']

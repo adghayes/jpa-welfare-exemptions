@@ -15,7 +15,7 @@ Output:
 
 Usage:
     python scripts/extract_all_meetings.py
-    python scripts/extract_all_meetings.py --csv input/CMFA-grants-01-01-2026-onepm.csv
+    python scripts/extract_all_meetings.py --csv input/grants.csv
 """
 
 import argparse
@@ -43,7 +43,7 @@ from scripts.validate_meeting import (
 
 
 OUTPUT_DIR = Path("output/cmfa_scraping")
-DEFAULT_CSV = Path("input/CMFA-grants-01-07-2026.csv")
+DEFAULT_CSV = Path("input/grants.csv")
 
 
 def get_all_meeting_dates(start_date: str = "2023-07-01") -> list[str]:

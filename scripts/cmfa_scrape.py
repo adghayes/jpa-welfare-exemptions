@@ -131,8 +131,8 @@ def main():
     )
     parser.add_argument(
         '--csv-path',
-        default='input/cmfa-welfare-tax-exemptions.csv',
-        help="Path to the CSV file (default: input/cmfa-welfare-tax-exemptions.csv)"
+        default='input/grants.csv',
+        help="Path to the CSV file (default: input/grants.csv)"
     )
     parser.add_argument(
         '--output-dir',

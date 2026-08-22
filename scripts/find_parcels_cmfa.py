@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.find_parcels import find_parcels
 
 # Paths
-INPUT_FILE = Path(__file__).parent.parent / "input" / "CMFA-grants-01-01-2026-midnight.csv"
+INPUT_FILE = Path(__file__).parent.parent / "input" / "grants.csv"
 OUTPUT_DIR = Path(__file__).parent.parent / "output" / "find_parcels"
 PROGRESS_FILE = OUTPUT_DIR / "progress.json"
 
