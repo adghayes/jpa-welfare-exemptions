@@ -32,6 +32,7 @@ SOURCE_FILLS = {
     "cscda-agenda": GENERATED_FILL,
     "cscda-agenda+packet": GENERATED_FILL,
     "la-county-api": GENERATED_FILL,
+    "solano-county-portal": GENERATED_FILL,
     "collaborator-sheet": None,       # manual: no fill
     "manual-repo-edit": None,         # manual: no fill
 }
@@ -131,8 +132,9 @@ def main() -> None:
     # parcels: identity columns are manual assignments (unfilled); value
     # columns are filled only when they came from the county API
     parcel_sources = {}
+    MANUAL_SOURCES = {"", "collaborator-sheet", "manual-repo-edit"}
     for idx, row in parcels.iterrows():
-        api = row["value_source"] == "la-county-api"
+        api = row["value_source"] not in MANUAL_SOURCES
         for col in parcels.columns:
             if row[col] == "":
                 continue

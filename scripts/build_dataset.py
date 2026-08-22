@@ -168,10 +168,20 @@ def main() -> None:
 
     # --- parcels --------------------------------------------------------------
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")
-    la_values = pd.read_csv("output/pipeline/la_roll_values.csv", dtype=str).fillna("")
     manual_values = pd.read_csv("manual/parcel_values_manual.csv", dtype=str).fillna("")
 
-    la_by_ain = la_values.set_index("ain").to_dict("index")
+    # every county with an automated fetcher writes output/pipeline/<x>_roll_values.csv
+    api_by_ain: dict[str, dict] = {}
+    automated_counties = set()
+    for path in sorted(Path("output/pipeline").glob("*_roll_values.csv")):
+        vals = pd.read_csv(path, dtype=str).fillna("")
+        for _, r in vals.iterrows():
+            api_by_ain[r["ain"]] = r.to_dict()
+    county_of_source = {"la-county-api": "Los Angeles",
+                        "solano-county-portal": "Solano"}
+    automated_counties = {county_of_source.get(v.get("value_source", ""), "")
+                          for v in api_by_ain.values()} - {""}
+
     manual_by_key = {(r["project_id"], r["ain"]): r for _, r in manual_values.iterrows()}
 
     VALUE_COLS = ["roll_year", "roll_land_value", "roll_imp_value",
@@ -182,19 +192,20 @@ def main() -> None:
         row = a.to_dict()
         key = (a["project_id"], a["ain"])
         vals = {c: "" for c in VALUE_COLS}
-        if a["county"] == "Los Angeles" and a["ain"] in la_by_ain:
-            v = la_by_ain[a["ain"]]
+        if a["ain"] in api_by_ain:
+            v = api_by_ain[a["ain"]]
             for c in VALUE_COLS:
                 vals[c] = v.get(c, "")
         elif key in manual_by_key:
             v = manual_by_key[key]
             for c in ["roll_year", "roll_total_value", "real_estate_exemp", "value_source"]:
                 vals[c] = v.get(c, "")
-            note = ("AIN renumbered/in transition at county"
-                    if a["county"] == "Los Angeles" else "no automated source for county")
-            if a["county"] == "Los Angeles":
-                qa("la-fetch-fallback", a["project_id"],
-                   f"AIN {a['ain']} has no current roll data; using manual value")
+            automated = a["county"] in automated_counties
+            note = ("AIN returned no data from county source"
+                    if automated else "no automated source for county")
+            if automated:
+                qa("fetch-fallback", a["project_id"],
+                   f"AIN {a['ain']} ({a['county']}) has no current roll data; using manual value")
             provenance.append({"table": "parcels", "project_id": a["project_id"],
                                "field": f"values:{a['ain']}", "value": v.get("roll_total_value", ""),
                                "source": v.get("value_source", ""), "note": note})
