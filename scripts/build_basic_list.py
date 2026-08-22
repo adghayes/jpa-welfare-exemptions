@@ -61,6 +61,9 @@ PROP_ALIASES = {
     "coliseum transit village": "coliseum connections transit village",
     "coliseum connections": "coliseum connections transit village",
     "hansen illage": "hansen village",
+    "1408 jefferson blvd": "1408 jefferson",
+    "7518 hoover st": "7524 s hoover st",
+    "the hive at ackerfield": "the hive",
 }
 
 

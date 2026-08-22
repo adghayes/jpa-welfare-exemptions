@@ -93,40 +93,18 @@ scc-possible-match,33,"entity 'BIF NON OZ 7524 S HOOVER ST, LP' ~ SCC LP 'BIF NO
 scc-possible-match,40,"entity 'BIF NON OZ 4228 WESTERN AVE, LP' ~ SCC LP 'BIF NON OZ 4209 Western Ave, LP' (#14952, Los Angeles, score 93)"
 scc-possible-match,122,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
 scc-possible-match,165,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
-fetch-fallback,10,AIN 6020022027 (Los Angeles) has no current roll data; using manual value
-parcel-no-values,33,AIN 6020022027 (Los Angeles): no roll values from any source
 fetch-fallback,76,AIN 5036031006 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,99,AIN 4262018026 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,132,AIN 6020022027 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,137,AIN 2125017014 (Los Angeles) has no current roll data; using manual value
-parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
 parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,215,AIN 5539028040 (Los Angeles): no roll values from any source
 parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
-parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
-parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
-parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
-parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
 fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
-shared-ain,200/218,AIN 5040021006 assigned to multiple projects
-shared-ain,130/179,AIN 5080006008 assigned to multiple projects
-shared-ain,126/173,AIN 5094005005 assigned to multiple projects
-shared-ain,127/174,AIN 5094006003 assigned to multiple projects
-shared-ain,122/165,AIN 5094017020 assigned to multiple projects
-shared-ain,124/169,AIN 5094023025 assigned to multiple projects
-shared-ain,128/175,AIN 5502019004 assigned to multiple projects
-shared-ain,125/170,AIN 5503024012 assigned to multiple projects
-shared-ain,129/177,AIN 5517005016 assigned to multiple projects
-shared-ain,121/162,AIN 5518013024 assigned to multiple projects
-shared-ain,123/168,AIN 5518020021 assigned to multiple projects
-shared-ain,135/220,AIN 5518026004 assigned to multiple projects
-shared-ain,10/132,AIN 6020022027 assigned to multiple projects
-shared-ain,152/181,AIN 7157012017 assigned to multiple projects

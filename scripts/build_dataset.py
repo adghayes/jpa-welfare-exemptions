@@ -325,8 +325,14 @@ def main() -> None:
                                "field": f"values:{a['ain']}", "value": v.get("roll_total_value", ""),
                                "source": v.get("value_source", ""), "note": note})
         else:
-            qa("parcel-no-values", a["project_id"],
-               f"AIN {a['ain'] or '(none)'} ({a['county']}): no roll values from any source")
+            # preliminary-only properties have no grant yet, so missing
+            # values are expected; dead rows STAY flagged — the dead flag is
+            # manual data we don't want to trust silently
+            auth = grants.loc[grants["project_id"] == a["project_id"], "authorization_status"]
+            if (a["legacy_redundant"].strip().lower() != "true"
+                    and not (len(auth) and auth.iloc[0] == "preliminary")):
+                qa("parcel-no-values", a["project_id"],
+                   f"AIN {a['ain'] or '(none)'} ({a['county']}): no roll values from any source")
         # parcel identity is always manual (collaborator assignment)
         provenance.append({"table": "parcels", "project_id": a["project_id"],
                            "field": f"assignment:{a['ain']}", "value": a["ain"],
@@ -350,11 +356,15 @@ def main() -> None:
                f"{g['property_name']} ({g['county']}): operative authorization, "
                "not dead, no parcels anywhere in its property group")
 
+    # an AIN shared within one property group is supersession working as
+    # intended (re-authorizations inherit the property's parcels); only an
+    # AIN spanning DIFFERENT operative properties is an error
     live_p = parcels[(parcels["legacy_redundant"].str.lower() != "true")
                      & (parcels["ain"].str.strip() != "")]
-    for ain, pids in live_p.groupby("ain")["project_id"].agg(set).items():
-        if len(pids) > 1:
-            qa("shared-ain", "/".join(sorted(pids)), f"AIN {ain} assigned to multiple projects")
+    for ain, ops in live_p.groupby("ain")["operative_project_id"].agg(set).items():
+        if len(ops) > 1:
+            qa("shared-ain", "/".join(sorted(ops)),
+               f"AIN {ain} assigned to multiple distinct properties")
 
     # --- write ---------------------------------------------------------------
     OUT_DIR.mkdir(parents=True, exist_ok=True)
