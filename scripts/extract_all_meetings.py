@@ -167,7 +167,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
     columns = [
         'property_name', 'entity', 'city', 'county', 'resolution', 'meeting_date',
         'item_type', 'minutes_confirmed', 'minutes_outcome', 'investor_1', 'nonprofit_partner',
-        'total_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description',
+        'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description',
     ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)

@@ -39,7 +39,7 @@ OUT = Path("output/pipeline/basic_list.csv")
 COLUMNS = [
     "agency", "property_name", "entity", "city", "county", "resolution",
     "meeting_date", "item_type", "minutes_status", "investor_1",
-    "nonprofit_partner", "total_units", "rent_restricted_pct", "term_years",
+    "nonprofit_partner", "total_units", "restricted_units", "rent_restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing", "source",
 ]
 

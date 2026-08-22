@@ -56,6 +56,7 @@ class ExtractedGrant:
     investor_1: str = ""  # Staff report "Applicant:" field
     nonprofit_partner: str = ""
     total_units: Optional[int] = None
+    restricted_units: Optional[int] = None
     rent_restricted_pct: str = ""
     term_years: Optional[int] = None
     city_cut: Optional[float] = None
@@ -338,6 +339,7 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             investor_1=staff.applicant if staff else "",
             nonprofit_partner=staff.nonprofit_partner if staff else "",
             total_units=staff.total_units if staff else None,
+            restricted_units=staff.restricted_units if staff else None,
             rent_restricted_pct=staff.rent_restricted_pct if staff else "",
             term_years=staff.term_years if staff else None,
             city_cut=staff.city_share if staff else None,
@@ -363,7 +365,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
     columns = [
         'property_name', 'entity', 'city', 'county', 'resolution', 'meeting_date',
         'item_type', 'minutes_confirmed', 'investor_1', 'nonprofit_partner',
-        'total_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description'
+        'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description'
     ]
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
