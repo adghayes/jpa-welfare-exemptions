@@ -1389,6 +1389,7 @@ parcels,191,assignment:15401034,15401034,collaborator-sheet,
 parcels,198,assignment:,,collaborator-sheet,
 parcels,202,values:01125105,9776112,manual-repo-edit,no automated source for county
 parcels,202,assignment:01125105,01125105,manual-repo-edit,
+parcels,16,values:128101150,0,manual-repo-edit,AIN returned no data from county source
 parcels,16,assignment:128101150,128101150,collaborator-sheet,
 parcels,16,assignment:128101140,128101140,collaborator-sheet,
 parcels,16,assignment:128101130,128101130,collaborator-sheet,
@@ -1399,6 +1400,7 @@ parcels,16,assignment:128101090,128101090,collaborator-sheet,
 parcels,16,assignment:128101080,128101080,collaborator-sheet,
 parcels,16,assignment:128101070,128101070,collaborator-sheet,
 parcels,16,assignment:128101060,128101060,collaborator-sheet,
+parcels,16,values:128101050,0,manual-repo-edit,AIN returned no data from county source
 parcels,16,assignment:128101050,128101050,collaborator-sheet,
 parcels,16,assignment:128101040,128101040,collaborator-sheet,
 parcels,16,assignment:128101030,128101030,collaborator-sheet,
@@ -1443,6 +1445,7 @@ parcels,16,assignment:128103130,128103130,collaborator-sheet,
 parcels,16,assignment:128103120,128103120,collaborator-sheet,
 parcels,16,assignment:128103110,128103110,collaborator-sheet,
 parcels,16,assignment:128103100,128103100,collaborator-sheet,
+parcels,16,values:128105060,0,manual-repo-edit,AIN returned no data from county source
 parcels,16,assignment:128105060,128105060,collaborator-sheet,
 parcels,16,assignment:128105050,128105050,collaborator-sheet,
 parcels,16,assignment:128105040,128105040,collaborator-sheet,

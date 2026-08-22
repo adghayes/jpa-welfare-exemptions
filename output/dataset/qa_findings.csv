@@ -148,9 +148,9 @@ parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
 parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
-parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
-parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
-parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
+fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
+fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
+fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
 shared-ain,182/76,AIN 5036031006 assigned to multiple projects
 shared-ain,200/218,AIN 5040021006 assigned to multiple projects
 shared-ain,130/179,AIN 5080006008 assigned to multiple projects

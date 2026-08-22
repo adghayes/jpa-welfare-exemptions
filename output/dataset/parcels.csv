@@ -324,7 +324,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 191,Santa Clara,Highland Gardens Apartments,15401034,154-01-034,234 Escuela Av,False,collaborator-sheet,,,,,,104843965,,,,collaborator-sheet,,191
 198,Santa Clara,220 Humboldt Ct. Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,198
 202,Santa Cruz,La Posada Apartments,01125105,011-251-05,,False,manual-repo-edit,,"Drew 2026-08-22 via Santa Cruz assessor lookup, 609 Frederick St",2026,,,9776112,0,,,manual-repo-edit,,202
-16,Solano,Montessa Apartments,128101150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,,,,,,,,,,16
+16,Solano,Montessa Apartments,128101150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,"Government-owned common-area parcel (use code 9800, $0 values) — Drew via Solano GIS 2026-08-22",2026,,,0,0,,,manual-repo-edit,,16
 16,Solano,Montessa Apartments,128101140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8875.0,0,8875.0,1569.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8888.0,0,8888.0,1535.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8903.0,0,8903.0,1514.0,,,solano-county-portal,2026-08-22,16
@@ -334,7 +334,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 16,Solano,Montessa Apartments,128101080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,32605.0,0,32605.0,5546.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,36427.0,0,36427.0,6294.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,40997.0,0,40997.0,7248.0,,,solano-county-portal,2026-08-22,16
-16,Solano,Montessa Apartments,128101050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,,,,,,,,,,16
+16,Solano,Montessa Apartments,128101050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,"Government-owned common-area parcel (use code 9800, Government Owned=YS, no site address, $0 values) — Drew via Solano GIS 2026-08-22",2026,,,0,0,,,manual-repo-edit,,16
 16,Solano,Montessa Apartments,128101040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,67916.0,0,67916.0,11735.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,63157.0,0,63157.0,10743.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50192.0,0,50192.0,8873.0,,,solano-county-portal,2026-08-22,16
@@ -378,7 +378,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 16,Solano,Montessa Apartments,128103120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48832.0,572220.0,621052.0,109492.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128103110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,48832.0,582420.0,631252.0,341301.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128103100,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,50532.0,572220.0,622752.0,622752.0,,,solano-county-portal,2026-08-22,16
-16,Solano,Montessa Apartments,128105060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,,,,,,,,,,16
+16,Solano,Montessa Apartments,128105060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,"Government-owned common-area parcel (use code 9800, $0 values) — Drew via Solano GIS 2026-08-22",2026,,,0,0,,,manual-repo-edit,,16
 16,Solano,Montessa Apartments,128105050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,54282.0,408000.0,462282.0,132718.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128105040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,54384.0,397800.0,452184.0,452184.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128105030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,13574.0,0,13574.0,3743.0,,,solano-county-portal,2026-08-22,16
