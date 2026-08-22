@@ -147,11 +147,8 @@ parcel-no-values,205,AIN (none) (Contra Costa): no roll values from any source
 parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,209,AIN (none) (San Diego): no roll values from any source
 parcel-no-values,213,AIN (none) (Sacramento): no roll values from any source
 parcel-no-values,215,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,216,AIN (none) (San Diego): no roll values from any source
-parcel-no-values,217,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,221,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,222,AIN (none) (Alameda): no roll values from any source
 parcel-no-values,223,AIN (none) (Alameda): no roll values from any source
@@ -168,7 +165,6 @@ parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
 missing-parcels,238,"Heritage Park Apartments Livermore (Alameda): operative authorization, not dead, no parcels anywhere in its property group"
-missing-parcels,369,"Verdana Apartments (San Diego): operative authorization, not dead, no parcels anywhere in its property group"
 shared-ain,143/147,AIN 41416654 assigned to multiple projects
 shared-ain,182/76,AIN 5036031006 assigned to multiple projects
 shared-ain,200/218,AIN 5040021006 assigned to multiple projects

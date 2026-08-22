@@ -277,15 +277,15 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 206,Los Angeles,Elan River Village Apartments,,,,False,collaborator-sheet,,
 207,Los Angeles,Cullen Living Apartments,,,,False,collaborator-sheet,,
 208,Los Angeles,Sawtelle 2481 Apartments,,,,False,collaborator-sheet,,
-209,San Diego,Bluwater Crossing Apartments,,,,False,collaborator-sheet,,
+209,San Diego,Bluwater Crossing Apartments,2146500200,214-650-02-00,6790 EMBARCADERO LN CARLSBAD CA 92011,False,script-situs-match (2026-08-22),,"Exact situs match, SANDAG; 66-unit apartment parcel"
 210,Sacramento,California Place Apartments,11700120210000,,6633 VALLEY HI DR SACRAMENTO 95823,False,collaborator-sheet,,
 211,Los Angeles,Haven Warner Center,2148026046,,6530 INDEPENDENCE AVE LOS ANGELES CA 91303,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search
 212,Los Angeles,The Arlo,5052023039,,2075 W JEFFERSON BLVD LOS ANGELES CA 90018,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll"
 213,Sacramento,Sierra Village,,,,False,collaborator-sheet,,
 214,Los Angeles,Trails at San Dimas,8386006015,,444 N AMELIA AVE SAN DIMAS CA 91773,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search
 215,Los Angeles,511 Hoover Street Apartments,,,,False,collaborator-sheet,,
-216,San Diego,Guava Gardens Apartments,,,,False,collaborator-sheet,,
-217,Los Angeles,Park View by Angeleno Apartments,,,,False,collaborator-sheet,,
+216,San Diego,Guava Gardens Apartments,4701122500,470-112-25-00,5035 GUAVA AVE LA MESA CA 91942,False,script-situs-match (2026-08-22),,"Exact situs match, SANDAG; 81-unit apartment parcel"
+217,Los Angeles,Park View by Angeleno Apartments,5157007028,5157-007-028,217 N PARK VIEW ST LOS ANGELES CA 90026,False,script-situs-match (2026-08-22),,"Exact situs match, LA parcel API; use still ""Single"" (pre-development)"
 218,Los Angeles,1408 Jefferson Blvd Apartments,5040021006,,1408 W JEFFERSON BLVD LOS ANGELES CA 90007,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search; DUPLICATE of project 200 (same AIN)
 219,Los Angeles,603 Mariposa Apartments,5502031012,,603 S MARIPOSA AVE LOS ANGELES CA 90005,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll"
 220,Los Angeles,236 Berendo Apartments,5518026004,,236 N BERENDO ST LOS ANGELES CA 90004,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Single"" — pre-development roll"
@@ -391,3 +391,5 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 225,Solano,Bennington Apartments,168150010,0168-150-010,2780 NORTH TEXAS STREET FAIRFIELD,False,manual-repo-edit,,Single Real Property parcel at the project situs per Solano assessor portal search 2026-08-22 (other hits are business accounts)
 131,Sonoma,Citrine Apartments,89082034000,089-082-034-000,1260 GROVE ST HEALDSBURG CA 95448-4784,False,collaborator-sheet,,
 230,Los Angeles,Hansen illage Apartments,2530007015,,11821 FOOTHILL BLVD LOS ANGELES CA 91342,False,script-situs-match (2026-08-21),situs-match,Resolved by LA county situs/geocode search; two parcels share situs 11821 Foothill — multi-parcel
+369,San Diego,Verdana Apartments,4441201300,444-120-13-00,438 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address"
+369,San Diego,Verdana Apartments,4441201800,444-120-18-00,480 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address"
