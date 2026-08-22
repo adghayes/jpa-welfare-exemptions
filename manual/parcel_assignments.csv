@@ -283,13 +283,13 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 212,Los Angeles,The Arlo,5052023039,,2075 W JEFFERSON BLVD LOS ANGELES CA 90018,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll"
 213,Sacramento,Sierra Village,,,,False,collaborator-sheet,,
 214,Los Angeles,Trails at San Dimas,8386006015,,444 N AMELIA AVE SAN DIMAS CA 91773,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search
-215,Los Angeles,511 Hoover Street Apartments,,,,False,collaborator-sheet,,
+215,Los Angeles,511 Hoover Street Apartments,5539028040,5539-028-040,511 N HOOVER ST (no county situs; AIN from assessor portal map),False,manual-repo-edit,,"Drew 2026-08-22 via assessor portal map view; new construction, situs not yet keyed."
 216,San Diego,Guava Gardens Apartments,4701122500,470-112-25-00,5035 GUAVA AVE LA MESA CA 91942,False,script-situs-match (2026-08-22),,"Exact situs match, SANDAG; 81-unit apartment parcel"
 217,Los Angeles,Park View by Angeleno Apartments,5157007028,5157-007-028,217 N PARK VIEW ST LOS ANGELES CA 90026,False,script-situs-match (2026-08-22),,"Exact situs match, LA parcel API; use still ""Single"" (pre-development)"
 218,Los Angeles,1408 Jefferson Blvd Apartments,5040021006,,1408 W JEFFERSON BLVD LOS ANGELES CA 90007,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search; DUPLICATE of project 200 (same AIN)
 219,Los Angeles,603 Mariposa Apartments,5502031012,,603 S MARIPOSA AVE LOS ANGELES CA 90005,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll"
 220,Los Angeles,236 Berendo Apartments,5518026004,,236 N BERENDO ST LOS ANGELES CA 90004,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Single"" — pre-development roll"
-221,Los Angeles,Banner Avenue Apartments,,,,False,collaborator-sheet,,
+221,Los Angeles,Banner Avenue Apartments,5534006026,5534-006-026,6219 BANNER AVE (no county situs; AIN from assessor portal map),False,manual-repo-edit,,Drew 2026-08-22 via assessor portal map view; Banner Ave parcels not situs-keyed.
 222,Alameda,Bayfair Apartments,,,,False,collaborator-sheet,,
 223,Alameda,2121 Wood St,,,,False,collaborator-sheet,,
 224,Los Angeles,1454 Florence Apartments,6018007001,,1454 W FLORENCE AVE LOS ANGELES CA 90047,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search; matched W Florence per address; use code pre-development
@@ -303,8 +303,8 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 232,Orange,Crystal View Apartments,23115128,,12156 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,
 233,Los Angeles,926 S. Kingsley Apartments,5093023058,,926 S HARVARD BLVD LOS ANGELES CA 90006,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search
 234,Los Angeles,939 S. Kingsley Apartments,5093023059,,939 S KINGSLEY DR LOS ANGELES CA 90006,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Single"" — verify (value $6.2M suggests recent build)"
-235,Los Angeles,3950 Ingraham Apartments,,,,False,collaborator-sheet,,
-236,Los Angeles,Park Playa Apartments,,,,False,collaborator-sheet,,
+235,Los Angeles,3950 Ingraham Apartments,5092029007,5092-029-007,3950 INGRAHAM ST LOS ANGELES CA 90005,False,manual-repo-edit,,"Drew confirmed 2026-08-22: staff report ""3950 W. Ingraham"" has spurious W; single Ingraham St in LA. Pre-development ""Four Units"" lot."
+236,Los Angeles,Park Playa Apartments,4211011047,4211-011-047,6985 S CENTINELA AVE (no county situs; AIN from assessor portal map),False,manual-repo-edit,,"Drew 2026-08-22 via assessor portal map view; odd lot shape, best-fit parcel."
 237,Los Angeles,Edgemont by Angeleno,5540023002,,1178 N HELIOTROPE DR LOS ANGELES CA 90029,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search
 57,Santa Clara,SoFi Los Gatos Creek Apartments,28424015,,"2070 Southwest Ex, San Jose, CA 95128",False,collaborator-sheet,,
 60,Santa Clara,HARKEN APARTMENTS,17004068,,5150 EL CAMINO REAL LOS ALTOS CA,False,collaborator-sheet,,
