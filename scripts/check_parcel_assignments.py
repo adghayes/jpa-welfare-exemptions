@@ -198,6 +198,12 @@ def main() -> None:
 
     # ---- 2. same-situs sweep (LA + SD) --------------------------------------
     assigned_ains = set(assignments["ain"])
+    # AINs mentioned in a project's assignment notes (e.g. "siblings excluded:
+    # ...") are reviewed decisions — never re-proposed
+    noted_ains: dict[str, set] = {}
+    for _, a in assignments.iterrows():
+        for tok in re.findall(r"\b\d{7,14}\b", a["notes"]):
+            noted_ains.setdefault(a["project_id"], set()).add(tok)
     seen_situs = set()
     for _, a in assignments.iterrows():
         v = values.get(a["ain"])
@@ -267,7 +273,8 @@ def main() -> None:
         time.sleep(RATE_LIMIT)
 
         missing = [(ain, s, use, tot) for ain, s, use, tot in sibs
-                   if ain not in assigned_ains]
+                   if ain not in assigned_ains
+                   and ain not in noted_ains.get(a["project_id"], set())]
         for ain, s, use, tot in missing[:5]:
             emit("possible-missing-parcel", a["project_id"],
                  f"{g.get('property_name','')[:30]}: parcel {ain} shares situs "

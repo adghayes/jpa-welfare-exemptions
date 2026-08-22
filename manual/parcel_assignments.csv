@@ -80,7 +80,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 48,San Mateo,Hillsdale Gardens Apartments,042121090,,186 36TH AVE SAN MATEO,False,collaborator-sheet,,
 48,San Mateo,Hillsdale Gardens Apartments,042122050,,3675 EDISON ST SAN MATEO,False,collaborator-sheet,,
 49,Alameda,Summerwood Apartments Homes Apartments,4281649,,"21701 FOOTHILL BLVD, HAYWARD, CA 94541",False,collaborator-sheet,,
-50,San Diego,Market Street Village Apartments,5351441500,,699.0 14TH ST SAN DIEGO CA 92101-7586,False,collaborator-sheet,,
+50,San Diego,Market Street Village Apartments,5351441500,,699.0 14TH ST SAN DIEGO CA 92101-7586,False,collaborator-sheet,,"Reviewed 2026-08-22: grant covers PAR 2 only (229 units, per staff report and entity name). Same-situs siblings excluded: 5351441600 (PAR 3, commercial), 5351441400 (PAR 1), 5351441700 (PAR 4, 1450 Market — separate 242-unit phase)."
 51,San Diego,Creekside Villas Apartments,5473131800,,220 47TH ST SAN DIEGO CA 92102-5037,False,collaborator-sheet,,
 52,Sacramento,The Carla Apartments,28501900330000,,1201.0 FULTON AVE SACRAMENTO CA 95825-7386,False,collaborator-sheet,,
 53,Sacramento,Skylark Place by Trion Living Apartments,26003700120000,,6930.0 FAIR OAKS BLVD CARMICHAEL CA 95608-3369,False,collaborator-sheet,,
@@ -388,3 +388,4 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 369,San Diego,Verdana Apartments,4441201300,444-120-13-00,438 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address"
 369,San Diego,Verdana Apartments,4441201800,444-120-18-00,480 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address"
 238,Alameda,Heritage Park Apartments Livermore,9917523,99-175-23,900 E STANLEY BLVD LIVERMORE CA 94550,False,manual-repo-edit,,Drew 2026-08-22 via Alameda assessor lookup
+1,Los Angeles,Alvarado Streets Apartments,5136019023,5136-019-023,1136 S ALVARADO ST LOS ANGELES CA 90006,False,manual-repo-edit,,"Added 2026-08-22 (Drew): same-situs Auto/Recreation parcel, likely complex parking; ownership not independently verified — assumed part of property"

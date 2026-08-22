@@ -1,6 +1,4 @@
 check,project_id,detail
-possible-missing-parcel,1,"Alvarado Streets Apartments: parcel 5136019023 shares situs '1136 S ALVARADO ST LOS ANGELES CA 90006' (Auto, Recreation EQPT, C, $1,039,983) but is not assigned to any project"
-possible-missing-parcel,50,"Market Street Village Apartmen: parcel 5351441600 shares situs '699 14TH SD' (31, $15,300,000) but is not assigned to any project"
 units-undercount,12,The Waterloo Apartments: county records 5 units on assigned parcels vs 154 in the grant — parcels may be missing
 units-undercount,68,Candlewood North Apartments: county records 68 units on assigned parcels vs 189 in the grant — parcels may be missing
 units-undercount,110,Kenmore I Apartments: county records 24 units on assigned parcels vs 42 in the grant — parcels may be missing
