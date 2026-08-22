@@ -1,11 +1,13 @@
 """Build a manifest of source-document URLs per meeting, for review links.
 
-For each meeting, records the most descriptive public document available:
-CMFA -> staff report (fallback: agenda, minutes), CSCDA -> the combined
-staff-reports-and-minutes packet (fallback: agenda).
+Records every public document per meeting: CMFA's agenda, staff report, and
+minutes; CSCDA's agenda and combined staff-reports-and-minutes packet (the
+packet fills the staff_report_url column; CSCDA minutes_url points at the
+NEXT meeting's packet, because that is where each meeting's adopted minutes
+are published).
 
 Output: output/pipeline/doc_urls.csv
-    agency, meeting_date, doc_type, url
+    agency, meeting_date, agenda_url, staff_report_url, minutes_url
 
 Fetches only the two index pages (no document downloads).
 
@@ -22,7 +24,6 @@ from src.cmfa_scraping.scraper import get_meetings  # noqa: E402
 from src.cscda_scraping.scraper import list_meetings  # noqa: E402
 
 OUT = Path("output/pipeline/doc_urls.csv")
-CMFA_PREFERENCE = ["staff_report", "agenda", "minutes"]
 
 
 def main() -> None:
@@ -32,23 +33,27 @@ def main() -> None:
         by_type = {}
         for doc in meeting.documents:
             by_type.setdefault(doc.doc_type, doc.url)
-        for doc_type in CMFA_PREFERENCE:
-            if doc_type in by_type:
-                rows.append({"agency": "CMFA", "meeting_date": meeting.date_str,
-                             "doc_type": doc_type, "url": by_type[doc_type]})
-                break
+        rows.append({
+            "agency": "CMFA", "meeting_date": meeting.date_str,
+            "agenda_url": by_type.get("agenda", ""),
+            "staff_report_url": by_type.get("staff_report", ""),
+            "minutes_url": by_type.get("minutes", ""),
+        })
 
-    for meeting in list_meetings(min_year=2025):
-        if meeting.packet_url:
-            rows.append({"agency": "CSCDA", "meeting_date": meeting.date,
-                         "doc_type": "packet", "url": meeting.packet_url})
-        elif meeting.agenda_url:
-            rows.append({"agency": "CSCDA", "meeting_date": meeting.date,
-                         "doc_type": "agenda", "url": meeting.agenda_url})
+    cscda = sorted(list_meetings(min_year=2025), key=lambda m: m.date)
+    for i, meeting in enumerate(cscda):
+        next_packet = cscda[i + 1].packet_url if i + 1 < len(cscda) else ""
+        rows.append({
+            "agency": "CSCDA", "meeting_date": meeting.date,
+            "agenda_url": meeting.agenda_url,
+            "staff_report_url": meeting.packet_url,
+            "minutes_url": next_packet,
+        })
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["agency", "meeting_date", "doc_type", "url"])
+        w = csv.DictWriter(f, fieldnames=["agency", "meeting_date", "agenda_url",
+                                          "staff_report_url", "minutes_url"])
         w.writeheader()
         w.writerows(rows)
     counts = {}

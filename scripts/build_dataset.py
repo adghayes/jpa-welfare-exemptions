@@ -44,12 +44,15 @@ GRANT_COLUMNS = [
     # the property-level rollup, and the collaborator's judgment call
     "item_type", "minutes_status", "authorization_status", "superseded_by",
     "manual_status",
+    # review links: the meeting's documents (CSCDA: packet fills
+    # staff_report_url; its minutes live in the NEXT meeting's packet)
+    "agenda_url", "staff_report_url", "minutes_url",
     "investor_1", "investor_2", "nonprofit_partner",
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link", "scc_filed",
-    "source_document_url", "row_source", "field_overrides",
+    "row_source", "field_overrides",
 ]
 
 # collaborator-sheet column -> dataset field, for fully-manual rows
@@ -197,13 +200,14 @@ def main() -> None:
     n_status = grants["authorization_status"].value_counts().to_dict()
     grants = grants.drop(columns="_prop")
 
-    # link each grant to its most descriptive source document (review aid)
+    # link each grant to its meeting's documents (review aid)
     doc_urls = pd.read_csv("output/pipeline/doc_urls.csv", dtype=str).fillna("")
-    url_by_key = {(r["agency"], r["meeting_date"]): r["url"] for _, r in doc_urls.iterrows()}
-    grants["source_document_url"] = [
-        url_by_key.get((r["agency"], r["meeting_date"]), "")
-        for _, r in grants.iterrows()
-    ]
+    url_by_key = {(r["agency"], r["meeting_date"]): r for _, r in doc_urls.iterrows()}
+    for col in ("agenda_url", "staff_report_url", "minutes_url"):
+        grants[col] = [
+            url_by_key.get((r["agency"], r["meeting_date"]), {}).get(col, "")
+            for _, r in grants.iterrows()
+        ]
 
     # --- parcels --------------------------------------------------------------
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")

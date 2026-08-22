@@ -73,7 +73,7 @@ def render_workbook(tables: dict, out_path: Path) -> None:
                 cell = ws.cell(row=r, column=c, value=row[col] if row[col] != "" else None)
                 if row[col] == "":
                     continue
-                if col == "source_document_url":
+                if col.endswith("_url"):
                     # render as a click-through link named by the filename
                     cell.value = row[col].rstrip("/").split("/")[-1]
                     cell.hyperlink = row[col]
