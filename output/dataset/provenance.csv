@@ -24,7 +24,7 @@ grants,5,total_units,56,collaborator-sheet,fills blank
 grants,5,restricted_units,23,collaborator-sheet,fills blank
 grants,5,address,"840 17th St, San Diego, CA 92101",collaborator-sheet,fills blank
 grants,5,city_cut,8400,collaborator-sheet,fills blank
-grants,6,status,dead,collaborator-sheet,
+grants,6,manual_status,dead,collaborator-sheet,
 grants,6,city,San Francisco,collaborator-sheet,fills blank
 grants,6,restricted_units,13,collaborator-sheet,fills blank
 grants,6,address,"381 Turk St., San Francisco, CA",collaborator-sheet,fills blank
@@ -59,11 +59,11 @@ grants,14,scc_filed,True,collaborator-sheet,
 grants,14,restricted_units,40,collaborator-sheet,fills blank
 grants,14,address,"2415 Valdez St, Oakland, CA 94612",collaborator-sheet,fills blank
 grants,13,investor_2,Stars Real Estate Investment,collaborator-sheet,
-grants,13,status,dead,collaborator-sheet,
+grants,13,manual_status,dead,collaborator-sheet,
 grants,13,restricted_units,27,collaborator-sheet,fills blank
 grants,13,address,"275 Turk St, San Francisco, CA",collaborator-sheet,fills blank
 grants,15,built,2023,collaborator-sheet,
-grants,15,status,dead,collaborator-sheet,
+grants,15,manual_status,dead,collaborator-sheet,
 grants,15,entity,"OODB2, LP",collaborator-sheet,"differs from generated: 'OODB2, LP, a Washington Limited Partnership'"
 grants,15,restricted_units,69,collaborator-sheet,fills blank
 grants,15,address,"6762 Hawthorn Ave, Los Angeles, CA 90028",collaborator-sheet,fills blank
@@ -106,7 +106,7 @@ grants,22,scc_filed,True,collaborator-sheet,
 grants,22,restricted_units,225,collaborator-sheet,fills blank
 grants,22,address,"2701 Randolph St., Huntington Park, CA",collaborator-sheet,fills blank
 grants,23,new_build,YES,collaborator-sheet,
-grants,23,status,dead,collaborator-sheet,
+grants,23,manual_status,dead,collaborator-sheet,
 grants,23,restricted_units,74,collaborator-sheet,fills blank
 grants,23,address,"445 N. Avalon Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 grants,24,scc_filed,True,collaborator-sheet,
@@ -129,7 +129,7 @@ grants,35,restricted_units,104,collaborator-sheet,fills blank
 grants,35,address,"4930 Polk St, North Highlands, CA 95660",collaborator-sheet,fills blank
 grants,35,city_cut,15600,collaborator-sheet,fills blank
 grants,33,new_build,YES,collaborator-sheet,
-grants,33,status,stale,collaborator-sheet,
+grants,33,manual_status,stale,collaborator-sheet,
 grants,33,restricted_units,48,collaborator-sheet,fills blank
 grants,33,address,"7518 S. Hoover, Los Angeles, CA",collaborator-sheet,fills blank
 grants,27,new_build,NO,collaborator-sheet,
@@ -184,7 +184,7 @@ grants,39,resolution,24-379,collaborator-sheet,fills blank
 grants,39,restricted_units,51,collaborator-sheet,fills blank
 grants,39,address,"6200 S Broadway, Los Angeles, CA",collaborator-sheet,fills blank
 grants,40,new_build,YES,collaborator-sheet,
-grants,40,status,dead,collaborator-sheet,
+grants,40,manual_status,dead,collaborator-sheet,
 grants,40,resolution,24-380,collaborator-sheet,fills blank
 grants,40,restricted_units,14,collaborator-sheet,fills blank
 grants,40,address,"4228 Western Avenue, Los Angeles, CA",collaborator-sheet,fills blank
@@ -192,7 +192,7 @@ grants,41,new_build,YES,collaborator-sheet,
 grants,41,restricted_units,111,collaborator-sheet,fills blank
 grants,41,address,"4327 S Vermont, Los Angeles, CA",collaborator-sheet,fills blank
 grants,42,new_build,YES,collaborator-sheet,
-grants,42,status,dead,collaborator-sheet,
+grants,42,manual_status,dead,collaborator-sheet,
 grants,42,restricted_units,71,collaborator-sheet,fills blank
 grants,42,address,"110 Imperial Highway, Los Angeles, CA",collaborator-sheet,fills blank
 grants,38,new_build,NO,collaborator-sheet,
@@ -201,12 +201,12 @@ grants,38,scc_filed,True,collaborator-sheet,
 grants,38,restricted_units,236,collaborator-sheet,fills blank
 grants,38,address,"12300 Sherman Way, North Hollywood, CA 91605",collaborator-sheet,fills blank
 grants,43,new_build,NO,collaborator-sheet,
-grants,43,status,dead,collaborator-sheet,
+grants,43,manual_status,dead,collaborator-sheet,
 grants,43,restricted_units,99,collaborator-sheet,fills blank
 grants,43,address,"400 Canal St, San Rafael, CA 94901",collaborator-sheet,fills blank
 grants,43,city_cut,14850,collaborator-sheet,fills blank
 grants,46,new_build,YES,collaborator-sheet,
-grants,46,status,dead,collaborator-sheet,
+grants,46,manual_status,dead,collaborator-sheet,
 grants,46,restricted_units,53,collaborator-sheet,fills blank
 grants,46,address,"4752 Main St, Los Angeles, CA 90037",collaborator-sheet,fills blank
 grants,45,investor_2,Bridge Investment Group,collaborator-sheet,
@@ -235,20 +235,20 @@ grants,50,restricted_units,229,collaborator-sheet,fills blank
 grants,50,address,"699 14th Street, San Diego, CA",collaborator-sheet,fills blank
 grants,50,city_cut,34350,collaborator-sheet,fills blank
 grants,52,new_build,NO,collaborator-sheet,
-grants,52,status,dead,collaborator-sheet,
+grants,52,manual_status,dead,collaborator-sheet,
 grants,52,city,Unincorporated,collaborator-sheet,fills blank
 grants,52,restricted_units,62,collaborator-sheet,fills blank
 grants,52,address,"1201 Fulton Ave, Sacramento, CA 95825",collaborator-sheet,fills blank
 grants,52,city_cut,9300,collaborator-sheet,fills blank
 grants,51,new_build,NO,collaborator-sheet,
 grants,51,built,1984,collaborator-sheet,
-grants,51,status,dead,collaborator-sheet,
+grants,51,manual_status,dead,collaborator-sheet,
 grants,51,total_units,145,collaborator-sheet,differs from generated: '144'
 grants,51,restricted_units,144,collaborator-sheet,fills blank
 grants,51,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,fills blank
 grants,53,new_build,NO,collaborator-sheet,
 grants,53,built,1973/1991,collaborator-sheet,
-grants,53,status,dead,collaborator-sheet,
+grants,53,manual_status,dead,collaborator-sheet,
 grants,53,city,Unincorporated,collaborator-sheet,fills blank
 grants,53,restricted_units,198,collaborator-sheet,fills blank
 grants,53,address,"6930 Fair Oaks Blvd, Carmichael, CA 95608",collaborator-sheet,fills blank
@@ -296,7 +296,7 @@ grants,60,total_units,196,collaborator-sheet,differs from generated: '29'
 grants,60,restricted_units,29,collaborator-sheet,fills blank
 grants,60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 grants,60,city_cut,4350,collaborator-sheet,fills blank
-grants,64,status,dead,collaborator-sheet,
+grants,64,manual_status,dead,collaborator-sheet,
 grants,64,resolution,25-080,collaborator-sheet,fills blank
 grants,64,investor_1,Visionary Development Enterprises LLC,collaborator-sheet,fills blank
 grants,64,nonprofit_partner,Housing on Merit,collaborator-sheet,fills blank
@@ -305,7 +305,7 @@ grants,64,restricted_units,32,collaborator-sheet,fills blank
 grants,64,address,"333 Douglas St, Los Angeles, CA",collaborator-sheet,fills blank
 grants,64,city_cut,4800,collaborator-sheet,fills blank
 grants,61,new_build,YES,collaborator-sheet,
-grants,61,status,dead,collaborator-sheet,
+grants,61,manual_status,dead,collaborator-sheet,
 grants,61,resolution,25-081,collaborator-sheet,fills blank
 grants,61,investor_1,"SoLa Impact, LLC",collaborator-sheet,fills blank
 grants,61,nonprofit_partner,Housing on Merit,collaborator-sheet,fills blank
@@ -330,10 +330,10 @@ grants,65,built,1978,collaborator-sheet,
 grants,65,scc_filed,True,collaborator-sheet,
 grants,65,restricted_units,270,collaborator-sheet,fills blank
 grants,65,address,"7777 Valley View Street, La Palma, CA",collaborator-sheet,fills blank
-grants,66,status,dead,collaborator-sheet,
+grants,66,manual_status,dead,collaborator-sheet,
 grants,66,restricted_units,13,collaborator-sheet,fills blank
 grants,66,address,"920 S. Gramercy Place, Los Angeles, CA",collaborator-sheet,fills blank
-grants,69,status,dead,collaborator-sheet,
+grants,69,manual_status,dead,collaborator-sheet,
 grants,69,restricted_units,50,collaborator-sheet,fills blank
 grants,69,address,"10535 Lindley Ave, Granada Hills, CA 91326",collaborator-sheet,fills blank
 grants,68,new_build,NO,collaborator-sheet,
@@ -425,7 +425,7 @@ grants,89,acquisition_date,2025-09-03,collaborator-sheet,
 grants,89,restricted_units,230,collaborator-sheet,fills blank
 grants,89,address,"1700 Newbury Park Dr, San Jose, CA 95133",collaborator-sheet,fills blank
 grants,158,new_build,YES,collaborator-sheet,
-grants,158,status,dead,collaborator-sheet,
+grants,158,manual_status,dead,collaborator-sheet,
 grants,158,total_units,29,collaborator-sheet,differs from generated: '30'
 grants,158,restricted_units,29,collaborator-sheet,fills blank
 grants,88,new_build,YES,collaborator-sheet,
@@ -470,7 +470,7 @@ grants,91,restricted_units,37,collaborator-sheet,fills blank
 grants,91,address,"10910 Huston St, North Hollywood, CA 91601",collaborator-sheet,fills blank
 grants,98,new_build,NO,collaborator-sheet,
 grants,98,leasing_link,https://www.camdenvillageapts.com/,collaborator-sheet,
-grants,98,status,dead,collaborator-sheet,
+grants,98,manual_status,dead,collaborator-sheet,
 grants,98,restricted_units,192,collaborator-sheet,fills blank
 grants,98,address,"38000 Camden St, Fremont, CA 94536",collaborator-sheet,fills blank
 grants,99,new_build,YES,collaborator-sheet,
@@ -624,11 +624,11 @@ grants,143,property_name,Coliseum Transit Village,collaborator-sheet,differs fro
 grants,143,restricted_units,55,collaborator-sheet,fills blank
 grants,143,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,140,new_build,NO,collaborator-sheet,
-grants,140,status,stale,collaborator-sheet,
+grants,140,manual_status,stale,collaborator-sheet,
 grants,140,restricted_units,148,collaborator-sheet,fills blank
 grants,140,address,"1180 Lochinvar Ave, Sunnyvale, CA 94087",collaborator-sheet,fills blank
 grants,139,new_build,NO,collaborator-sheet,
-grants,139,status,dead,collaborator-sheet,
+grants,139,manual_status,dead,collaborator-sheet,
 grants,139,nonprofit_partner,Community HousingWorks,collaborator-sheet,fills blank
 grants,139,restricted_units,286,collaborator-sheet,fills blank
 grants,139,address,"5210 Monterey Rd, San Jose, CA 95111",collaborator-sheet,fills blank
@@ -642,26 +642,26 @@ grants,146,restricted_units,40,collaborator-sheet,fills blank
 grants,146,address,"7655 S San Pedro St, Los Angeles, CA 90003",collaborator-sheet,fills blank
 grants,147,new_build,NO,collaborator-sheet,
 grants,147,scc_filed,True,collaborator-sheet,
-grants,147,status,stale,collaborator-sheet,
+grants,147,manual_status,stale,collaborator-sheet,
 grants,147,property_name,Coliseum Connections,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
 grants,147,restricted_units,55,collaborator-sheet,fills blank
 grants,147,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,148,new_build,NO,collaborator-sheet,
 grants,148,built,1929,collaborator-sheet,
-grants,148,status,dead,collaborator-sheet,
+grants,148,manual_status,dead,collaborator-sheet,
 grants,148,restricted_units,170,collaborator-sheet,fills blank
 grants,148,address,"2424 Wilshire Blvd, Los Angeles, CA 90057",collaborator-sheet,fills blank
 grants,149,new_build,NO,collaborator-sheet,
-grants,149,status,dead,collaborator-sheet,
+grants,149,manual_status,dead,collaborator-sheet,
 grants,149,restricted_units,61,collaborator-sheet,fills blank
 grants,149,address,"841 S Serrano Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,150,new_build,NO,collaborator-sheet,
-grants,150,status,dead,collaborator-sheet,
+grants,150,manual_status,dead,collaborator-sheet,
 grants,150,property_name,Langham Apartments,collaborator-sheet,differs from generated: 'The Langham Apartments'
 grants,150,restricted_units,181,collaborator-sheet,fills blank
 grants,150,address,"715 Normandie Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,151,new_build,NO,collaborator-sheet,
-grants,151,status,dead,collaborator-sheet,
+grants,151,manual_status,dead,collaborator-sheet,
 grants,151,property_name,Piccadilly Apartments,collaborator-sheet,differs from generated: 'The Piccadilly Apartments'
 grants,151,restricted_units,74,collaborator-sheet,fills blank
 grants,151,address,"682 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
@@ -687,7 +687,7 @@ grants,156,entity,TBD LP,collaborator-sheet,differs from generated: 'A limited p
 grants,156,restricted_units,170,collaborator-sheet,fills blank
 grants,156,address,"36000 Fremont Boulevard, Fremont, CA",collaborator-sheet,fills blank
 grants,145,new_build,NO,collaborator-sheet,
-grants,145,status,dead,collaborator-sheet,
+grants,145,manual_status,dead,collaborator-sheet,
 grants,145,restricted_units,110,collaborator-sheet,fills blank
 grants,145,address,"2130 N Marks Ave, Fresno, CA 93722",collaborator-sheet,fills blank
 grants,157,investor_1,Eagle Partners,collaborator-sheet,fills blank
@@ -753,19 +753,19 @@ grants,191,investor_1,Ethos Real Estate,collaborator-sheet,fills blank
 grants,191,restricted_units,79,collaborator-sheet,fills blank
 grants,189,new_build,NO,collaborator-sheet,
 grants,189,built,1987,collaborator-sheet,
-grants,189,status,dead,collaborator-sheet,
+grants,189,manual_status,dead,collaborator-sheet,
 grants,189,restricted_units,221,collaborator-sheet,fills blank
 grants,189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
-grants,181,status,stale,collaborator-sheet,
+grants,181,manual_status,stale,collaborator-sheet,
 grants,181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 grants,181,total_units,152,collaborator-sheet,differs from generated: '52'
 grants,181,restricted_units,152,collaborator-sheet,fills blank
 grants,181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,182,new_build,YES,collaborator-sheet,
-grants,182,status,stale,collaborator-sheet,
+grants,182,manual_status,stale,collaborator-sheet,
 grants,182,restricted_units,50,collaborator-sheet,fills blank
 grants,182,address,"1451 W. Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-grants,183,status,dead,collaborator-sheet,
+grants,183,manual_status,dead,collaborator-sheet,
 grants,183,restricted_units,13,collaborator-sheet,fills blank
 grants,183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
 grants,184,new_build,YES,collaborator-sheet,
@@ -795,7 +795,7 @@ grants,194,address,"3751 Delmas Terrace, Los Angeles, CA 90034",collaborator-she
 grants,187,built,1987,collaborator-sheet,
 grants,187,restricted_units,232,collaborator-sheet,fills blank
 grants,187,address,"3200 W 5th St, Santa Ana, CA 92703",collaborator-sheet,fills blank
-grants,196,status,dead,collaborator-sheet,
+grants,196,manual_status,dead,collaborator-sheet,
 grants,196,investor_1,Capital Insight Holdings,collaborator-sheet,fills blank
 grants,196,restricted_units,514,collaborator-sheet,fills blank
 grants,196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"differs from generated: '9750 Airport Blvd, Los Angeles, CA'"
@@ -803,7 +803,7 @@ grants,200,resolution,Application,collaborator-sheet,fills blank
 grants,200,restricted_units,70,collaborator-sheet,fills blank
 grants,200,address,"1408 W Jefferson Blvd, Los Angeles, CA 90007",collaborator-sheet,fills blank
 grants,197,new_build,YES,collaborator-sheet,
-grants,197,status,dead,collaborator-sheet,
+grants,197,manual_status,dead,collaborator-sheet,
 grants,197,restricted_units,100,collaborator-sheet,fills blank
 grants,197,address,"12342 Osborne Pl, Pacoima, CA 91331",collaborator-sheet,fills blank
 grants,198,new_build,YES,collaborator-sheet,
@@ -811,14 +811,14 @@ grants,198,restricted_units,264,collaborator-sheet,fills blank
 grants,198,address,"220 Humboldt Ct. Sunnyvale, CA",collaborator-sheet,fills blank
 grants,199,restricted_units,37,collaborator-sheet,fills blank
 grants,199,city_cut,5500,collaborator-sheet,differs from generated: '5550.0'
-grants,201,status,dead,collaborator-sheet,
+grants,201,manual_status,dead,collaborator-sheet,
 grants,201,restricted_units,80,collaborator-sheet,fills blank
 grants,201,address,"1311 W Battles Rd, Santa Maria, CA 93458",collaborator-sheet,fills blank
-grants,207,status,dead,collaborator-sheet,
+grants,207,manual_status,dead,collaborator-sheet,
 grants,207,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,207,restricted_units,56,collaborator-sheet,fills blank
 grants,207,address,"2625 Cullen St, Los Angeles, CA 90034",collaborator-sheet,"differs from generated: '2625 Cullen Street, Los Angeles, CA'"
-grants,208,status,dead,collaborator-sheet,
+grants,208,manual_status,dead,collaborator-sheet,
 grants,208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,208,restricted_units,34,collaborator-sheet,fills blank
 grants,208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
@@ -829,14 +829,14 @@ grants,49,investor_1,Standard Properties,collaborator-sheet,"differs from genera
 grants,49,restricted_units,162,collaborator-sheet,fills blank
 grants,49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
 grants,49,city_cut,18450,collaborator-sheet,fills blank
-grants,188,status,dead,collaborator-sheet,
+grants,188,manual_status,dead,collaborator-sheet,
 grants,188,restricted_units,27,collaborator-sheet,fills blank
 grants,188,address,"11720 San Pablo Ave, El Cerrito, CA 94530",collaborator-sheet,fills blank
 grants,202,new_build,NO,collaborator-sheet,
 grants,202,built,1980,collaborator-sheet,
 grants,202,restricted_units,150,collaborator-sheet,fills blank
 grants,202,address,"609 Frederick St, Santa Cruz, CA 95062",collaborator-sheet,fills blank
-grants,205,status,stale,collaborator-sheet,
+grants,205,manual_status,stale,collaborator-sheet,
 grants,205,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,205,nonprofit_partner,Pacific Housing Inc,collaborator-sheet,fills blank
 grants,205,restricted_units,54,collaborator-sheet,fills blank
@@ -847,7 +847,7 @@ grants,203,city_cut,31200,collaborator-sheet,fills blank
 grants,204,new_build,YES,collaborator-sheet,
 grants,204,total_units,49,collaborator-sheet,differs from generated: '50'
 grants,204,restricted_units,49,collaborator-sheet,fills blank
-grants,206,status,dead,collaborator-sheet,
+grants,206,manual_status,dead,collaborator-sheet,
 grants,206,county,Los Angeles,collaborator-sheet,differs from generated: 'San Diego'
 grants,206,restricted_units,123,collaborator-sheet,fills blank
 grants,206,address,"1845 N Broadway, Escondido, CA 92026",collaborator-sheet,fills blank
@@ -862,7 +862,7 @@ grants,209,term_years,15,collaborator-sheet,differs from generated: '35'
 grants,210,restricted_units,211,collaborator-sheet,fills blank
 grants,210,address,"6633 Valley Hi Drive, Sacramento, CA",collaborator-sheet,fills blank
 grants,210,term_years,10,collaborator-sheet,differs from generated: '55'
-grants,226,status,dead,collaborator-sheet,
+grants,226,manual_status,dead,collaborator-sheet,
 grants,226,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,226,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 grants,226,restricted_units,134,collaborator-sheet,fills blank

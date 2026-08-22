@@ -24,7 +24,7 @@ project_id,field,value,source,note
 5,restricted_units,23,collaborator-sheet,fills blank
 5,address,"840 17th St, San Diego, CA 92101",collaborator-sheet,fills blank
 5,city_cut,8400,collaborator-sheet,fills blank
-6,status,dead,collaborator-sheet,
+6,manual_status,dead,collaborator-sheet,
 6,city,San Francisco,collaborator-sheet,fills blank
 6,restricted_units,13,collaborator-sheet,fills blank
 6,address,"381 Turk St., San Francisco, CA",collaborator-sheet,fills blank
@@ -59,11 +59,11 @@ project_id,field,value,source,note
 14,restricted_units,40,collaborator-sheet,fills blank
 14,address,"2415 Valdez St, Oakland, CA 94612",collaborator-sheet,fills blank
 13,investor_2,Stars Real Estate Investment,collaborator-sheet,
-13,status,dead,collaborator-sheet,
+13,manual_status,dead,collaborator-sheet,
 13,restricted_units,27,collaborator-sheet,fills blank
 13,address,"275 Turk St, San Francisco, CA",collaborator-sheet,fills blank
 15,built,2023,collaborator-sheet,
-15,status,dead,collaborator-sheet,
+15,manual_status,dead,collaborator-sheet,
 15,entity,"OODB2, LP",collaborator-sheet,"differs from generated: 'OODB2, LP, a Washington Limited Partnership'"
 15,restricted_units,69,collaborator-sheet,fills blank
 15,address,"6762 Hawthorn Ave, Los Angeles, CA 90028",collaborator-sheet,fills blank
@@ -106,7 +106,7 @@ project_id,field,value,source,note
 22,restricted_units,225,collaborator-sheet,fills blank
 22,address,"2701 Randolph St., Huntington Park, CA",collaborator-sheet,fills blank
 23,new_build,YES,collaborator-sheet,
-23,status,dead,collaborator-sheet,
+23,manual_status,dead,collaborator-sheet,
 23,restricted_units,74,collaborator-sheet,fills blank
 23,address,"445 N. Avalon Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 24,scc_filed,True,collaborator-sheet,
@@ -129,7 +129,7 @@ project_id,field,value,source,note
 35,address,"4930 Polk St, North Highlands, CA 95660",collaborator-sheet,fills blank
 35,city_cut,15600,collaborator-sheet,fills blank
 33,new_build,YES,collaborator-sheet,
-33,status,stale,collaborator-sheet,
+33,manual_status,stale,collaborator-sheet,
 33,restricted_units,48,collaborator-sheet,fills blank
 33,address,"7518 S. Hoover, Los Angeles, CA",collaborator-sheet,fills blank
 27,new_build,NO,collaborator-sheet,
@@ -184,7 +184,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 39,restricted_units,51,collaborator-sheet,fills blank
 39,address,"6200 S Broadway, Los Angeles, CA",collaborator-sheet,fills blank
 40,new_build,YES,collaborator-sheet,
-40,status,dead,collaborator-sheet,
+40,manual_status,dead,collaborator-sheet,
 40,resolution,24-380,collaborator-sheet,fills blank
 40,restricted_units,14,collaborator-sheet,fills blank
 40,address,"4228 Western Avenue, Los Angeles, CA",collaborator-sheet,fills blank
@@ -192,7 +192,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 41,restricted_units,111,collaborator-sheet,fills blank
 41,address,"4327 S Vermont, Los Angeles, CA",collaborator-sheet,fills blank
 42,new_build,YES,collaborator-sheet,
-42,status,dead,collaborator-sheet,
+42,manual_status,dead,collaborator-sheet,
 42,restricted_units,71,collaborator-sheet,fills blank
 42,address,"110 Imperial Highway, Los Angeles, CA",collaborator-sheet,fills blank
 38,new_build,NO,collaborator-sheet,
@@ -201,12 +201,12 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 38,restricted_units,236,collaborator-sheet,fills blank
 38,address,"12300 Sherman Way, North Hollywood, CA 91605",collaborator-sheet,fills blank
 43,new_build,NO,collaborator-sheet,
-43,status,dead,collaborator-sheet,
+43,manual_status,dead,collaborator-sheet,
 43,restricted_units,99,collaborator-sheet,fills blank
 43,address,"400 Canal St, San Rafael, CA 94901",collaborator-sheet,fills blank
 43,city_cut,14850,collaborator-sheet,fills blank
 46,new_build,YES,collaborator-sheet,
-46,status,dead,collaborator-sheet,
+46,manual_status,dead,collaborator-sheet,
 46,restricted_units,53,collaborator-sheet,fills blank
 46,address,"4752 Main St, Los Angeles, CA 90037",collaborator-sheet,fills blank
 45,investor_2,Bridge Investment Group,collaborator-sheet,
@@ -235,20 +235,20 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 50,address,"699 14th Street, San Diego, CA",collaborator-sheet,fills blank
 50,city_cut,34350,collaborator-sheet,fills blank
 52,new_build,NO,collaborator-sheet,
-52,status,dead,collaborator-sheet,
+52,manual_status,dead,collaborator-sheet,
 52,city,Unincorporated,collaborator-sheet,fills blank
 52,restricted_units,62,collaborator-sheet,fills blank
 52,address,"1201 Fulton Ave, Sacramento, CA 95825",collaborator-sheet,fills blank
 52,city_cut,9300,collaborator-sheet,fills blank
 51,new_build,NO,collaborator-sheet,
 51,built,1984,collaborator-sheet,
-51,status,dead,collaborator-sheet,
+51,manual_status,dead,collaborator-sheet,
 51,total_units,145,collaborator-sheet,differs from generated: '144'
 51,restricted_units,144,collaborator-sheet,fills blank
 51,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,fills blank
 53,new_build,NO,collaborator-sheet,
 53,built,1973/1991,collaborator-sheet,
-53,status,dead,collaborator-sheet,
+53,manual_status,dead,collaborator-sheet,
 53,city,Unincorporated,collaborator-sheet,fills blank
 53,restricted_units,198,collaborator-sheet,fills blank
 53,address,"6930 Fair Oaks Blvd, Carmichael, CA 95608",collaborator-sheet,fills blank
@@ -296,7 +296,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 60,restricted_units,29,collaborator-sheet,fills blank
 60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 60,city_cut,4350,collaborator-sheet,fills blank
-64,status,dead,collaborator-sheet,
+64,manual_status,dead,collaborator-sheet,
 64,resolution,25-080,collaborator-sheet,fills blank
 64,investor_1,Visionary Development Enterprises LLC,collaborator-sheet,fills blank
 64,nonprofit_partner,Housing on Merit,collaborator-sheet,fills blank
@@ -305,7 +305,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 64,address,"333 Douglas St, Los Angeles, CA",collaborator-sheet,fills blank
 64,city_cut,4800,collaborator-sheet,fills blank
 61,new_build,YES,collaborator-sheet,
-61,status,dead,collaborator-sheet,
+61,manual_status,dead,collaborator-sheet,
 61,resolution,25-081,collaborator-sheet,fills blank
 61,investor_1,"SoLa Impact, LLC",collaborator-sheet,fills blank
 61,nonprofit_partner,Housing on Merit,collaborator-sheet,fills blank
@@ -330,10 +330,10 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 65,scc_filed,True,collaborator-sheet,
 65,restricted_units,270,collaborator-sheet,fills blank
 65,address,"7777 Valley View Street, La Palma, CA",collaborator-sheet,fills blank
-66,status,dead,collaborator-sheet,
+66,manual_status,dead,collaborator-sheet,
 66,restricted_units,13,collaborator-sheet,fills blank
 66,address,"920 S. Gramercy Place, Los Angeles, CA",collaborator-sheet,fills blank
-69,status,dead,collaborator-sheet,
+69,manual_status,dead,collaborator-sheet,
 69,restricted_units,50,collaborator-sheet,fills blank
 69,address,"10535 Lindley Ave, Granada Hills, CA 91326",collaborator-sheet,fills blank
 68,new_build,NO,collaborator-sheet,
@@ -425,7 +425,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 89,restricted_units,230,collaborator-sheet,fills blank
 89,address,"1700 Newbury Park Dr, San Jose, CA 95133",collaborator-sheet,fills blank
 158,new_build,YES,collaborator-sheet,
-158,status,dead,collaborator-sheet,
+158,manual_status,dead,collaborator-sheet,
 158,total_units,29,collaborator-sheet,differs from generated: '30'
 158,restricted_units,29,collaborator-sheet,fills blank
 88,new_build,YES,collaborator-sheet,
@@ -470,7 +470,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 91,address,"10910 Huston St, North Hollywood, CA 91601",collaborator-sheet,fills blank
 98,new_build,NO,collaborator-sheet,
 98,leasing_link,https://www.camdenvillageapts.com/,collaborator-sheet,
-98,status,dead,collaborator-sheet,
+98,manual_status,dead,collaborator-sheet,
 98,restricted_units,192,collaborator-sheet,fills blank
 98,address,"38000 Camden St, Fremont, CA 94536",collaborator-sheet,fills blank
 99,new_build,YES,collaborator-sheet,
@@ -624,11 +624,11 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 143,restricted_units,55,collaborator-sheet,fills blank
 143,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 140,new_build,NO,collaborator-sheet,
-140,status,stale,collaborator-sheet,
+140,manual_status,stale,collaborator-sheet,
 140,restricted_units,148,collaborator-sheet,fills blank
 140,address,"1180 Lochinvar Ave, Sunnyvale, CA 94087",collaborator-sheet,fills blank
 139,new_build,NO,collaborator-sheet,
-139,status,dead,collaborator-sheet,
+139,manual_status,dead,collaborator-sheet,
 139,nonprofit_partner,Community HousingWorks,collaborator-sheet,fills blank
 139,restricted_units,286,collaborator-sheet,fills blank
 139,address,"5210 Monterey Rd, San Jose, CA 95111",collaborator-sheet,fills blank
@@ -642,26 +642,26 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 146,address,"7655 S San Pedro St, Los Angeles, CA 90003",collaborator-sheet,fills blank
 147,new_build,NO,collaborator-sheet,
 147,scc_filed,True,collaborator-sheet,
-147,status,stale,collaborator-sheet,
+147,manual_status,stale,collaborator-sheet,
 147,property_name,Coliseum Connections,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
 147,restricted_units,55,collaborator-sheet,fills blank
 147,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 148,new_build,NO,collaborator-sheet,
 148,built,1929,collaborator-sheet,
-148,status,dead,collaborator-sheet,
+148,manual_status,dead,collaborator-sheet,
 148,restricted_units,170,collaborator-sheet,fills blank
 148,address,"2424 Wilshire Blvd, Los Angeles, CA 90057",collaborator-sheet,fills blank
 149,new_build,NO,collaborator-sheet,
-149,status,dead,collaborator-sheet,
+149,manual_status,dead,collaborator-sheet,
 149,restricted_units,61,collaborator-sheet,fills blank
 149,address,"841 S Serrano Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 150,new_build,NO,collaborator-sheet,
-150,status,dead,collaborator-sheet,
+150,manual_status,dead,collaborator-sheet,
 150,property_name,Langham Apartments,collaborator-sheet,differs from generated: 'The Langham Apartments'
 150,restricted_units,181,collaborator-sheet,fills blank
 150,address,"715 Normandie Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 151,new_build,NO,collaborator-sheet,
-151,status,dead,collaborator-sheet,
+151,manual_status,dead,collaborator-sheet,
 151,property_name,Piccadilly Apartments,collaborator-sheet,differs from generated: 'The Piccadilly Apartments'
 151,restricted_units,74,collaborator-sheet,fills blank
 151,address,"682 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
@@ -687,7 +687,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 156,restricted_units,170,collaborator-sheet,fills blank
 156,address,"36000 Fremont Boulevard, Fremont, CA",collaborator-sheet,fills blank
 145,new_build,NO,collaborator-sheet,
-145,status,dead,collaborator-sheet,
+145,manual_status,dead,collaborator-sheet,
 145,restricted_units,110,collaborator-sheet,fills blank
 145,address,"2130 N Marks Ave, Fresno, CA 93722",collaborator-sheet,fills blank
 157,investor_1,Eagle Partners,collaborator-sheet,fills blank
@@ -753,19 +753,19 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 191,restricted_units,79,collaborator-sheet,fills blank
 189,new_build,NO,collaborator-sheet,
 189,built,1987,collaborator-sheet,
-189,status,dead,collaborator-sheet,
+189,manual_status,dead,collaborator-sheet,
 189,restricted_units,221,collaborator-sheet,fills blank
 189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
-181,status,stale,collaborator-sheet,
+181,manual_status,stale,collaborator-sheet,
 181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 181,total_units,152,collaborator-sheet,differs from generated: '52'
 181,restricted_units,152,collaborator-sheet,fills blank
 181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 182,new_build,YES,collaborator-sheet,
-182,status,stale,collaborator-sheet,
+182,manual_status,stale,collaborator-sheet,
 182,restricted_units,50,collaborator-sheet,fills blank
 182,address,"1451 W. Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-183,status,dead,collaborator-sheet,
+183,manual_status,dead,collaborator-sheet,
 183,restricted_units,13,collaborator-sheet,fills blank
 183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
 184,new_build,YES,collaborator-sheet,
@@ -795,7 +795,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 187,built,1987,collaborator-sheet,
 187,restricted_units,232,collaborator-sheet,fills blank
 187,address,"3200 W 5th St, Santa Ana, CA 92703",collaborator-sheet,fills blank
-196,status,dead,collaborator-sheet,
+196,manual_status,dead,collaborator-sheet,
 196,investor_1,Capital Insight Holdings,collaborator-sheet,fills blank
 196,restricted_units,514,collaborator-sheet,fills blank
 196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"differs from generated: '9750 Airport Blvd, Los Angeles, CA'"
@@ -803,7 +803,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 200,restricted_units,70,collaborator-sheet,fills blank
 200,address,"1408 W Jefferson Blvd, Los Angeles, CA 90007",collaborator-sheet,fills blank
 197,new_build,YES,collaborator-sheet,
-197,status,dead,collaborator-sheet,
+197,manual_status,dead,collaborator-sheet,
 197,restricted_units,100,collaborator-sheet,fills blank
 197,address,"12342 Osborne Pl, Pacoima, CA 91331",collaborator-sheet,fills blank
 198,new_build,YES,collaborator-sheet,
@@ -811,14 +811,14 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 198,address,"220 Humboldt Ct. Sunnyvale, CA",collaborator-sheet,fills blank
 199,restricted_units,37,collaborator-sheet,fills blank
 199,city_cut,5500,collaborator-sheet,differs from generated: '5550.0'
-201,status,dead,collaborator-sheet,
+201,manual_status,dead,collaborator-sheet,
 201,restricted_units,80,collaborator-sheet,fills blank
 201,address,"1311 W Battles Rd, Santa Maria, CA 93458",collaborator-sheet,fills blank
-207,status,dead,collaborator-sheet,
+207,manual_status,dead,collaborator-sheet,
 207,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 207,restricted_units,56,collaborator-sheet,fills blank
 207,address,"2625 Cullen St, Los Angeles, CA 90034",collaborator-sheet,"differs from generated: '2625 Cullen Street, Los Angeles, CA'"
-208,status,dead,collaborator-sheet,
+208,manual_status,dead,collaborator-sheet,
 208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 208,restricted_units,34,collaborator-sheet,fills blank
 208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
@@ -829,14 +829,14 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 49,restricted_units,162,collaborator-sheet,fills blank
 49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
 49,city_cut,18450,collaborator-sheet,fills blank
-188,status,dead,collaborator-sheet,
+188,manual_status,dead,collaborator-sheet,
 188,restricted_units,27,collaborator-sheet,fills blank
 188,address,"11720 San Pablo Ave, El Cerrito, CA 94530",collaborator-sheet,fills blank
 202,new_build,NO,collaborator-sheet,
 202,built,1980,collaborator-sheet,
 202,restricted_units,150,collaborator-sheet,fills blank
 202,address,"609 Frederick St, Santa Cruz, CA 95062",collaborator-sheet,fills blank
-205,status,stale,collaborator-sheet,
+205,manual_status,stale,collaborator-sheet,
 205,investor_1,MG Properties,collaborator-sheet,fills blank
 205,nonprofit_partner,Pacific Housing Inc,collaborator-sheet,fills blank
 205,restricted_units,54,collaborator-sheet,fills blank
@@ -847,7 +847,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 204,new_build,YES,collaborator-sheet,
 204,total_units,49,collaborator-sheet,differs from generated: '50'
 204,restricted_units,49,collaborator-sheet,fills blank
-206,status,dead,collaborator-sheet,
+206,manual_status,dead,collaborator-sheet,
 206,county,Los Angeles,collaborator-sheet,differs from generated: 'San Diego'
 206,restricted_units,123,collaborator-sheet,fills blank
 206,address,"1845 N Broadway, Escondido, CA 92026",collaborator-sheet,fills blank
@@ -862,7 +862,7 @@ Blvd, Inglewood, CA",collaborator-sheet,fills blank
 210,restricted_units,211,collaborator-sheet,fills blank
 210,address,"6633 Valley Hi Drive, Sacramento, CA",collaborator-sheet,fills blank
 210,term_years,10,collaborator-sheet,differs from generated: '55'
-226,status,dead,collaborator-sheet,
+226,manual_status,dead,collaborator-sheet,
 226,investor_1,MG Properties,collaborator-sheet,fills blank
 226,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 226,restricted_units,134,collaborator-sheet,fills blank

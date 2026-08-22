@@ -39,13 +39,16 @@ NEW_ID_START = 301
 
 GRANT_COLUMNS = [
     "project_id", "agency", "property_name", "entity", "city", "county",
-    "resolution", "meeting_date", "item_type", "minutes_status",
+    "resolution", "meeting_date",
+    # status block: how far the item got (documents), what the minutes say,
+    # the property-level rollup, and the collaborator's judgment call
+    "item_type", "minutes_status", "authorization_status", "superseded_by",
+    "manual_status",
     "investor_1", "investor_2", "nonprofit_partner",
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing",
-    "status", "new_build", "built", "acquisition_price_m", "acquisition_date",
+    "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link", "scc_filed",
-    "authorization_status", "superseded_by",
     "source_document_url", "row_source", "field_overrides",
 ]
 
@@ -275,7 +278,7 @@ def main() -> None:
     # --- QA ---------------------------------------------------------------
     # parcels are property-level: an operative grant is covered if ANY row
     # of its property group has parcels
-    live = grants[(grants["status"] != "dead")
+    live = grants[(grants["manual_status"] != "dead")
                   & (grants["authorization_status"] == "operative")]
     covered = set(parcels["project_id"]) | set(parcels["operative_project_id"])
     for _, g in live.iterrows():

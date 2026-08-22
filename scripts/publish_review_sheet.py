@@ -102,8 +102,8 @@ def render_workbook(tables: dict, out_path: Path) -> None:
 # ---------------------------------------------------------- dataset feed
 
 # columns that are identity/metadata, never colored as "automated"
-GRANT_META = {"project_id", "row_source", "field_overrides", "status",
-              "authorization_status", "superseded_by"}
+GRANT_META = {"project_id", "row_source", "field_overrides", "manual_status",
+              "superseded_by"}
 PARCEL_IDENTITY = {"project_id", "operative_project_id", "county",
                    "property_name", "ain", "apn", "situs_address",
                    "legacy_redundant", "assignment_source", "method", "notes"}
@@ -126,7 +126,11 @@ def main() -> None:
         for col in grants.columns:
             if row[col] == "":
                 continue
-            if fully_manual or col in GRANT_META or col in overridden:
+            if col == "authorization_status":
+                # fully calculated (from parsed minutes outcomes) even on
+                # otherwise-manual rows — always tinted as automated
+                grant_sources[(idx, col)] = "cmfa-meeting-docs"
+            elif fully_manual or col in GRANT_META or col in overridden:
                 grant_sources[(idx, col)] = "collaborator-sheet"   # unfilled
             else:
                 grant_sources[(idx, col)] = row.get("source", "") or "cmfa-meeting-docs"
