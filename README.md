@@ -74,7 +74,7 @@ in the pipeline.
 7. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
 ```
 
-### Scraping
+### Grant Scraping
 
 Both agencies publish their board documents on plain, unauthenticated web
 pages, and both scrapers are incremental — a file already on disk is never
@@ -102,7 +102,7 @@ every document's URL per meeting, which become the `agenda_url`,
 CSCDA the packet fills `staff_report_url`, and `minutes_url` points at the
 NEXT meeting's packet, where that meeting's adopted minutes are published). All scraped material (~250MB) is gitignored and regenerable.
 
-### Parsing
+### Grant Parsing
 
 Three document types feed the dataset, with a clear division of authority:
 the **agenda** is the listing of record (which grants were considered, for
