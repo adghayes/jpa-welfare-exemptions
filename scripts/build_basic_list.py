@@ -47,25 +47,41 @@ COLUMNS = [
 ABBREV = {"boulevard": "blvd", "street": "st", "avenue": "ave", "drive": "dr",
           "road": "rd", "place": "pl", "and": "&"}
 
+# Known name variants of the same property across documents/sheet
+# (agenda typos, renames, long/short forms). Applied after normalization.
+PROP_ALIASES = {
+    "2330 3rd": "2330 e 3rd",
+    "bella vista": "bella vista at hilltop",
+    "569 w 6th st": "569 w 6th",
+    "569th w 6th": "569 w 6th",
+    "685 w 4th st": "685 w 4th",
+    "del norte": "del norte pl",
+    "the heltsley apartments fka sofi redwood park": "sofi redwood park",
+    "the heltsley": "sofi redwood park",
+    "coliseum transit village": "coliseum connections transit village",
+    "coliseum connections": "coliseum connections transit village",
+    "hansen illage": "hansen village",
+}
+
 
 def norm_name(name: str) -> str:
     words = str(name).lower().replace(".", "").replace(",", "").split()
     s = " ".join(ABBREV.get(w, w) for w in words)
+    s = s.replace("kinglsey", "kingsley")
     for suffix in (" apartments", " apartment"):
         if s.endswith(suffix):
             s = s[: -len(suffix)]
-    return s
+    return PROP_ALIASES.get(s, s)
 
 
 def load_cmfa() -> pd.DataFrame:
     df = pd.read_csv(CMFA_EXTRACTED, dtype=str).fillna("")
     df["agency"] = "CMFA"
     df["source"] = "cmfa-meeting-docs"
-    # unify with CSCDA's minutes_status: CMFA extraction confirms grants
-    # against minutes by resolution number ("approved"); blank means the
-    # minutes weren't posted yet or the resolution wasn't found in them
-    df["minutes_status"] = df["minutes_confirmed"].map(
-        lambda v: "approved" if str(v).lower() == "true" else "")
+    # unify with CSCDA's minutes_status: per-item outcome parsed from the
+    # meeting minutes (approved / pulled / continued); blank means the
+    # minutes weren't posted yet or the item's outcome wasn't found
+    df["minutes_status"] = df.get("minutes_outcome", "")
     return df
 
 

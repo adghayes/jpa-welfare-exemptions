@@ -137,12 +137,9 @@ parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,147,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,182,AIN 5036031006 (Los Angeles): no roll values from any source
-parcel-no-values,194,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,195,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,199,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,200,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
 parcel-no-values,203,AIN (none) (Sacramento): no roll values from any source
 parcel-no-values,204,AIN (none) (Los Angeles): no roll values from any source
@@ -151,30 +148,17 @@ parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,209,AIN (none) (San Diego): no roll values from any source
-parcel-no-values,211,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,212,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,213,AIN (none) (Sacramento): no roll values from any source
-parcel-no-values,214,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,215,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,216,AIN (none) (San Diego): no roll values from any source
 parcel-no-values,217,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,218,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,219,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,220,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,221,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,222,AIN (none) (Alameda): no roll values from any source
 parcel-no-values,223,AIN (none) (Alameda): no roll values from any source
-parcel-no-values,224,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
-parcel-no-values,228,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,229,AIN (none) (San Diego): no roll values from any source
-parcel-no-values,230,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,231,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,233,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,234,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,235,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,236,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,237,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
@@ -183,9 +167,11 @@ parcel-no-values,202,AIN (none) (Santa Cruz): no roll values from any source
 parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
-missing-parcels,238,"Heritage Park Apartments Livermore: authorized, not dead, no parcel rows"
+missing-parcels,238,"Heritage Park Apartments Livermore (Alameda): operative authorization, not dead, no parcels anywhere in its property group"
+missing-parcels,369,"Verdana Apartments (San Diego): operative authorization, not dead, no parcels anywhere in its property group"
 shared-ain,143/147,AIN 41416654 assigned to multiple projects
 shared-ain,182/76,AIN 5036031006 assigned to multiple projects
+shared-ain,200/218,AIN 5040021006 assigned to multiple projects
 shared-ain,130/179,AIN 5080006008 assigned to multiple projects
 shared-ain,126/173,AIN 5094005005 assigned to multiple projects
 shared-ain,127/174,AIN 5094006003 assigned to multiple projects
@@ -196,5 +182,6 @@ shared-ain,125/170,AIN 5503024012 assigned to multiple projects
 shared-ain,129/177,AIN 5517005016 assigned to multiple projects
 shared-ain,121/162,AIN 5518013024 assigned to multiple projects
 shared-ain,123/168,AIN 5518020021 assigned to multiple projects
+shared-ain,135/220,AIN 5518026004 assigned to multiple projects
 shared-ain,10/132,AIN 6020022027 assigned to multiple projects
 shared-ain,152/181,AIN 7157012017 assigned to multiple projects

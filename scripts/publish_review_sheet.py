@@ -102,10 +102,11 @@ def render_workbook(tables: dict, out_path: Path) -> None:
 # ---------------------------------------------------------- dataset feed
 
 # columns that are identity/metadata, never colored as "automated"
-GRANT_META = {"project_id", "row_source", "field_overrides", "status"}
-PARCEL_IDENTITY = {"project_id", "county", "property_name", "ain", "apn",
-                   "situs_address", "legacy_redundant", "assignment_source",
-                   "method", "notes"}
+GRANT_META = {"project_id", "row_source", "field_overrides", "status",
+              "authorization_status", "superseded_by"}
+PARCEL_IDENTITY = {"project_id", "operative_project_id", "county",
+                   "property_name", "ain", "apn", "situs_address",
+                   "legacy_redundant", "assignment_source", "method", "notes"}
 
 
 def main() -> None:

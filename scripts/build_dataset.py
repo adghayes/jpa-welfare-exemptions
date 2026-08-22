@@ -45,6 +45,7 @@ GRANT_COLUMNS = [
     "city_cut", "grant_description", "address", "estimated_closing",
     "status", "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link", "scc_filed",
+    "authorization_status", "superseded_by",
     "source_document_url", "row_source", "field_overrides",
 ]
 
@@ -158,6 +159,41 @@ def main() -> None:
     grants["_pid_num"] = pd.to_numeric(grants["project_id"], errors="coerce")
     grants = grants.sort_values(["_pid_num"]).drop(columns="_pid_num")
 
+    # --- property grouping: operative vs superseded authorizations ---------
+    # CMFA/CSCDA re-run the full approval when a deal slips or is pulled and
+    # re-agendized, and a property that changes sponsors gets a fresh grant.
+    # For counting, ONE authorization per property is operative: the latest
+    # one the minutes actually approved. Earlier ones are 'superseded';
+    # items the minutes record as pulled are 'pulled' and never operative.
+    grants["_prop"] = grants["property_name"].map(norm_name) + "|" + grants["county"]
+    grants["authorization_status"] = ""
+    grants["superseded_by"] = ""
+    operative_of_prop: dict[str, str] = {}
+    for prop, grp in grants.groupby("_prop"):
+        prelim = grp[grp["item_type"] == "preliminary_only"]
+        grants.loc[prelim.index, "authorization_status"] = "preliminary"
+        auth = grp[grp["item_type"] == "authorize"]
+        if auth.empty:
+            continue
+        pulled = auth[auth["minutes_status"] == "pulled"]
+        live_auth = auth[auth["minutes_status"] != "pulled"]
+        grants.loc[pulled.index, "authorization_status"] = "pulled"
+        if live_auth.empty:
+            continue  # only pulled attempts: never authorized
+        approved = live_auth[live_auth["minutes_status"] == "approved"]
+        pool = approved if not approved.empty else live_auth
+        operative_idx = pool["meeting_date"].idxmax()
+        operative_pid = grants.at[operative_idx, "project_id"]
+        operative_of_prop[prop] = operative_pid
+        grants.at[operative_idx, "authorization_status"] = "operative"
+        others = live_auth.index.difference([operative_idx])
+        grants.loc[others, "authorization_status"] = "superseded"
+        grants.loc[others, "superseded_by"] = operative_pid
+    pid_to_operative = {r["project_id"]: operative_of_prop.get(r["_prop"], "")
+                        for _, r in grants.iterrows()}
+    n_status = grants["authorization_status"].value_counts().to_dict()
+    grants = grants.drop(columns="_prop")
+
     # link each grant to its most descriptive source document (review aid)
     doc_urls = pd.read_csv("output/pipeline/doc_urls.csv", dtype=str).fillna("")
     url_by_key = {(r["agency"], r["meeting_date"]): r["url"] for _, r in doc_urls.iterrows()}
@@ -231,20 +267,22 @@ def main() -> None:
                            "source": a["assignment_source"], "note": a["method"]})
         parcel_rows.append({**row, **vals})
     parcels = pd.DataFrame(parcel_rows)
+    # parcels belong to the property: expose the operative project id so
+    # sheet formulas sum each property exactly once
+    parcels["operative_project_id"] = parcels["project_id"].map(
+        lambda p: pid_to_operative.get(p) or p)
 
     # --- QA ---------------------------------------------------------------
-    live = grants[(grants["status"] != "dead") & (grants["item_type"] == "authorize")]
-    has_parcels = set(parcels["project_id"])
+    # parcels are property-level: an operative grant is covered if ANY row
+    # of its property group has parcels
+    live = grants[(grants["status"] != "dead")
+                  & (grants["authorization_status"] == "operative")]
+    covered = set(parcels["project_id"]) | set(parcels["operative_project_id"])
     for _, g in live.iterrows():
-        if g["project_id"] in has_parcels:
-            continue
-        try:
-            is_sheet_project = int(g["project_id"]) < NEW_ID_START
-        except ValueError:
-            is_sheet_project = True
-        if is_sheet_project:
+        if g["project_id"] not in covered:
             qa("missing-parcels", g["project_id"],
-               f"{g['property_name']}: authorized, not dead, no parcel rows")
+               f"{g['property_name']} ({g['county']}): operative authorization, "
+               "not dead, no parcels anywhere in its property group")
 
     live_p = parcels[(parcels["legacy_redundant"].str.lower() != "true")
                      & (parcels["ain"].str.strip() != "")]
@@ -263,6 +301,7 @@ def main() -> None:
     print(f"grants:  {len(grants)} rows "
           f"({(grants['row_source'] == 'generated').sum()} generated, "
           f"{(grants['row_source'] != 'generated').sum()} manual)")
+    print(f"authorization_status: {n_status}")
     print(f"parcels: {len(parcels)} rows; value sources: "
           f"{parcels['value_source'].value_counts(dropna=False).to_dict()}")
     print(f"provenance: {len(provenance)} entries")

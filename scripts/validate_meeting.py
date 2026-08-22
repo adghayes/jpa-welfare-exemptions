@@ -50,6 +50,7 @@ class ExtractedGrant:
     meeting_date: str
     item_type: str  # "authorize" or "preliminary"
     minutes_confirmed: bool = False
+    minutes_outcome: str = ""  # "approved" | "pulled" | "continued" | "" (minutes unavailable)
 
     # From staff report (enrichment)
     investor_1: str = ""  # Staff report "Applicant:" field
@@ -183,6 +184,57 @@ def load_csv_entries(csv_path: Path, meeting_date: str) -> pd.DataFrame:
     return df_cmfa
 
 
+def parse_minutes_outcomes(minutes_path: Path) -> dict[str, str]:
+    """Map each resolution number in the minutes to its stated outcome.
+
+    Minutes list items as "... (Resolution 25-346) <disposition text> ..."
+    where the disposition, up to the next item, reads e.g. "Motion by X.
+    Seconded by Y. Motion carries unanimously" or "This item was pulled
+    from the Agenda."
+    """
+    from src.cmfa_scraping.agenda_parser import extract_text_from_pdf
+
+    text = extract_text_from_pdf(minutes_path)
+    outcomes: dict[str, str] = {}
+    # Minutes dialects: 2023-2025 record a motion after EACH item; some
+    # sections use ONE motion per numbered section (block vote); 2026 adopts
+    # whole sections on a consent calendar with a single motion naming them:
+    # "Consent Items 4, 5, 6, 7, and 8 were approved together. Motion ...
+    # carries". Per-item text always wins over section-level approval.
+    consent_sections: set[str] = set()
+    cm = re.search(r"Consent Items?\s+([0-9,\s&and]+?)\s+were approved together(.{0,250})",
+                   text, re.DOTALL | re.IGNORECASE)
+    if cm and "carries" in cm.group(2).lower():
+        consent_sections = set(re.findall(r"\d+", cm.group(1)))
+
+    sections = re.split(r"\n\s*(?=\d+\.\s)", text)
+    for section in sections:
+        matches = list(re.finditer(r"\(Resolution\s*(\d+-\d+)\)", section))
+        if not matches:
+            continue
+        section_low = section.lower()
+        section_no_m = re.match(r"\s*(\d+)\.", section)
+        section_no = section_no_m.group(1) if section_no_m else ""
+        section_approved = "carries" in section_low or section_no in consent_sections
+        for i, m in enumerate(matches):
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(section)
+            seg = section[m.end():end].lower()
+            if "pulled" in seg:
+                outcome = "pulled"
+            elif "continued" in seg:
+                outcome = "continued"
+            elif "carries" in seg:
+                outcome = "approved"
+            elif section_approved:
+                outcome = "approved"   # block vote covering the section
+            else:
+                outcome = ""
+            res = m.group(1)
+            if res not in outcomes or outcomes[res] == "":
+                outcomes[res] = outcome
+    return outcomes
+
+
 def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
     """
     Parse all document sources and merge into ExtractedGrant objects.
@@ -209,14 +261,20 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
     else:
         print("  Agenda not available")
 
-    # Step 2: Check minutes
+    # Step 2: Check minutes for per-item outcomes. The minutes state each
+    # item's disposition after its "(Resolution NN-NNN)" marker:
+    #   "Motion by X. Seconded by Y. Motion carries..."  -> approved
+    #   "This item was pulled from the agenda."          -> pulled
+    #   "...continued..."                                -> continued
+    # A resolution number merely APPEARING in the minutes is NOT approval.
     print(f"\n--- Step 2: Checking Minutes ---")
-    minutes_resolutions = set()
+    minutes_outcomes: dict[str, str] = {}
     if docs.get('minutes'):
         try:
-            minutes_grants = parse_agenda_pdf(docs['minutes'])
-            minutes_resolutions = {g.resolution for g in minutes_grants if g.resolution}
-            print(f"  Found {len(minutes_resolutions)} resolutions in minutes")
+            minutes_outcomes = parse_minutes_outcomes(docs['minutes'])
+            from collections import Counter
+            print(f"  Found {len(minutes_outcomes)} resolution outcomes in minutes "
+                  f"{dict(Counter(minutes_outcomes.values()))}")
         except Exception as e:
             print(f"  Error parsing minutes: {e}")
     else:
@@ -243,8 +301,9 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
     # Step 4: Merge sources
     print(f"\n--- Step 4: Merging Sources ---")
     for ag in agenda_grants:
-        # Check minutes confirmation
-        confirmed = ag.resolution in minutes_resolutions if ag.resolution else False
+        # Check minutes outcome
+        outcome = minutes_outcomes.get(ag.resolution, "") if ag.resolution else ""
+        confirmed = outcome == "approved"
 
         # Find matching staff report
         norm_name = normalize_property_name(ag.property_name)
@@ -275,6 +334,7 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             meeting_date=meeting_date,
             item_type=ag.item_type,
             minutes_confirmed=confirmed,
+            minutes_outcome=outcome,
             investor_1=staff.applicant if staff else "",
             nonprofit_partner=staff.nonprofit_partner if staff else "",
             total_units=staff.total_units if staff else None,
