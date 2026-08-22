@@ -12,12 +12,37 @@ Because the welfare exemption offsets only the 1% statewide base levy,
 revenue loss is simply `exempted value × 1%` — computed downstream in the
 review spreadsheet, not here.
 
-## Design
+## Data Sources
 
-**Generated data** comes from primary sources and is reproducible by
-re-running scripts. **Manual data** lives in `manual/` (see
-`manual/README.md`), each row credited to its source. The merge stamps every
-manual value into a provenance record, so a reviewer can verify the split.
+The dataset mixes two kinds of data, kept strictly separate: **automated
+data** is fetched or parsed from public sources by scripts and is
+reproducible by re-running them; **manual data** is human-collected, lives
+in `manual/`, and every row carries its source. The merge stamps each manual
+value into a provenance record — in the review workbook, automated cells are
+tinted and manual cells are not, so a reviewer always knows which is which.
+
+### Automated sources
+
+| source | provides |
+|---|---|
+| `cmfa-ca.com/resources/meetings/` | CMFA board agendas, staff reports, and minutes (2023–) — the grant listing of record |
+| `cscda.org/agendas/` | CSCDA agendas and combined staff-report/minutes packets (2025–) |
+| LA County parcel GIS (`cache.gis.lacounty.gov`) | assessed values, welfare exemptions, situs, year built, by AIN |
+| Solano County assessor portal (`ca-solano.publicaccessnow.com`) | per-year assessed values and net taxable (exemption derived) |
+| SANDAG parcels layer (`geo.sandag.org`) | San Diego County assessed values by APN (no exemption field) |
+| BOE open data portal (`boe.ca.gov/dataportal/`) | the statewide Supplemental Clearance Certificate list (welfare-exemption eligibility filings) |
+
+### Manual data (`manual/`, see `manual/README.md`)
+
+| file | contents |
+|---|---|
+| `grant_id_map.csv` | crosswalk from the collaborator's project IDs to generated grants (and duplicate-row rulings) |
+| `manual_grants.csv` | the four grants that predate the meeting archives — entire rows are manual |
+| `grant_overrides.csv` | per-field values that supplement or correct generated grants, each with a source and note |
+| `parcel_assignments.csv` | which parcels (AIN/APN) belong to which project — parcel identity is always a human judgment |
+| `parcel_values_manual.csv` | assessed values for parcels with no automated source (most non-LA counties, in-transition AINs) |
+
+### Outputs
 
 | output | contents |
 |---|---|
@@ -28,7 +53,9 @@ manual value into a provenance record, so a reviewer can verify the split.
 | `output/dataset/review.xlsx` | Grants + Parcels + QA findings + Legend tabs; **filled cells = automated, unfilled = manual**. Upload to Google Drive by hand (Open with Sheets → Save as Google Sheet). |
 
 Grants matched to the collaborator's tracker keep its project IDs; newly
-generated grants get IDs from 301 up.
+generated grants get IDs from 301 up. Derived analytics (revenue loss,
+roll-value sums) are computed by formulas in the review spreadsheet, never
+in the pipeline.
 
 ## Pipeline
 
@@ -117,15 +144,25 @@ Three output fields encode what the documents establish:
   the preliminary-only rows. Parcels carry `operative_project_id` so
   downstream sums count each property exactly once.
 
-### Welfare-exemption certificates
+### BOE welfare-exemption filings
 
-A limited partnership must hold a BOE **Supplemental Clearance Certificate**
-before a county assessor can grant the welfare exemption. The BOE publishes
-the full certificate list in its open data portal (OData); the merge matches
-each grant's entity against it (exact after stripping legal suffixes, county
-agreement preferred) and sets `scc_filed`, `scc_number`, and
-`scc_issue_date`. Near-miss names become `scc-possible-match` QA findings
-for human review rather than automatic matches.
+A limited partnership must hold a **Supplemental Clearance Certificate**
+(SCC) from the State Board of Equalization before a county assessor can
+grant the welfare exemption on its low-income housing property — so the SCC
+list is the paper trail connecting a grant to an exemption actually being
+sought. The BOE publishes the full statewide list (~6,500 certificates:
+limited partnership, managing general partner, SCC number, county, issue
+date, first fiscal year qualified) in its open data portal as an OData
+endpoint, refreshed by the BOE roughly annually;
+`scripts/fetch_scc_certificates.py` downloads it in full.
+
+The merge matches each grant's entity against the certificate list — exact
+match after stripping legal suffixes, preferring a certificate filed in the
+grant's county when a name matches several — and sets `scc_filed`,
+`scc_number`, and `scc_issue_date`, placed beside the status fields since
+they're evaluated together. Near-miss names (e.g. a sister LP of the same
+sponsor at a neighboring address) are never matched automatically; they
+become `scc-possible-match` QA findings for human review.
 
 ### Parcels and values
 
