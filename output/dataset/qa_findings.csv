@@ -86,4 +86,3 @@ parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
 fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
-units-undercount,110,Kenmore I Apartments: county records 24 units on assigned parcels vs 42 in the grant — parcels may be missing
