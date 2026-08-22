@@ -268,11 +268,11 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 195,Los Angeles,1723 Corinth Apartments,4261017008,,1723 CORINTH AVE LOS ANGELES CA 90025,False,script-finder-auto (2026-08-21),,Resolved by LA county situs/geocode search
 196,Los Angeles,The Dream Apartments,,,,False,collaborator-sheet,,
 197,Los Angeles,12342 Osborne Place Apartments,,,,False,collaborator-sheet,,
-199,Los Angeles,Baird Affordable Housing Apartments,,,,False,collaborator-sheet,,
+199,Los Angeles,Baird Affordable Housing Apartments,2126022021,2126-022-021,6838 BAIRD AVE LOS ANGELES CA 91335,False,manual-repo-edit,,Drew 2026-08-22: project aligns to 6838 Baird Ave (no 6840 situs exists). Assessor unit counts not usable to disambiguate — proposed project may differ.
 200,Los Angeles,1408 Jefferson Apartments,5040021006,,1408 W JEFFERSON BLVD LOS ANGELES CA 90007,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; DUPLICATE of project 218 (same AIN); use code ""Store Combination"" — pre-development roll"
 201,Santa Barbara,Villa Del Sol Senior Apartments,,,,False,collaborator-sheet,,
 203,Sacramento,Bent Tree Apartments,,,,False,collaborator-sheet,,
-204,Los Angeles,Hazelhurst Affordable Housing Apartments,,,,False,collaborator-sheet,,
+204,Los Angeles,Hazelhurst Affordable Housing Apartments,2338006014,2338-006-014,6142 HAZELHURST PL LOS ANGELES CA 91606,False,manual-repo-edit,,Drew 2026-08-22: development parcel is 6142 (no 6144 situs exists). Assessor unit counts not usable to disambiguate — proposed project may differ.
 205,Contra Costa,Del Norte Place Apartments,,,,False,collaborator-sheet,,
 206,Los Angeles,Elan River Village Apartments,,,,False,collaborator-sheet,,
 207,Los Angeles,Cullen Living Apartments,,,,False,collaborator-sheet,,
