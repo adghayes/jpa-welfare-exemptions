@@ -11,7 +11,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 9,Los Angeles,1411 S. Flower Apartments,5134009025,5134-009-025,1411 S FLOWER ST,False,collaborator-sheet,parcel_in_transition,Multi-parcel (2). AIN not in DB.
 9,Los Angeles,1411 S. Flower Apartments,5134009024,5134-009-024,,True,collaborator-sheet,parcel_in_transition,Multi-parcel (2). AIN not in DB.
 11,Alameda,820 MacArthur Apartments,1295996,12-959-9-6,820 W MACARTHUR BLVD OAKLAND CA 94608,False,collaborator-sheet,,
-12,Los Angeles,The Waterloo Apartments,5402028023,5402-028-023,801 WATERLOO ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified,
+12,Los Angeles,The Waterloo Apartments,5402028023,5402-028-023,801 WATERLOO ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified,"Pre-construction site (demolition not started): project will occupy 5402-028-023 and 5402-028-022; county values/units reflect existing buildings (units reviewed 2026-08-22, Drew)"
 13,San Francisco,275 Turk Street Apartments,344007,,275 TURK ST SAN FRANCISCO CA 94102-3831,False,collaborator-sheet,,
 14,Alameda,Electric Lofts Apartments,867281,8-672-8-1,2415 VALDEZ ST OAKLAND CA 94612-3600,False,collaborator-sheet,,
 15,Los Angeles,Premiere Hollywood Apartments,5547013021,5547-013-021,6762 HAWTHORN AVE LOS ANGELES CA 90028,False,collaborator-sheet,manual_verified,
@@ -389,3 +389,4 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 369,San Diego,Verdana Apartments,4441201800,444-120-18-00,480 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address"
 238,Alameda,Heritage Park Apartments Livermore,9917523,99-175-23,900 E STANLEY BLVD LIVERMORE CA 94550,False,manual-repo-edit,,Drew 2026-08-22 via Alameda assessor lookup
 1,Los Angeles,Alvarado Streets Apartments,5136019023,5136-019-023,1136 S ALVARADO ST LOS ANGELES CA 90006,False,manual-repo-edit,,"Added 2026-08-22 (Drew): same-situs Auto/Recreation parcel, likely complex parking; ownership not independently verified — assumed part of property"
+12,Los Angeles,The Waterloo Apartments,5402028022,5402-028-022,,False,manual-repo-edit,,"Pre-construction site (demolition not started): project will occupy 5402-028-023 and 5402-028-022; county values/units reflect existing buildings (units reviewed 2026-08-22, Drew)"

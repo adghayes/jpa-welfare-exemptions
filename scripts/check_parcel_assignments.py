@@ -282,11 +282,16 @@ def main() -> None:
 
     # ---- 3. units reconciliation --------------------------------------------
     by_prop: dict[str, list] = {}
+    units_reviewed: set = set()
     for _, a in assignments.iterrows():
         by_prop.setdefault(a["project_id"], []).append(a["ain"])
+        if "units reviewed" in a["notes"].lower():
+            units_reviewed.add(a["project_id"])
     for pid, ains in by_prop.items():
         g = ginfo.get(pid)
-        if not g or g["manual_status"] == "dead" or g["authorization_status"] != "operative":
+        if (not g or g["manual_status"] == "dead"
+                or g["authorization_status"] != "operative"
+                or pid in units_reviewed):
             continue
         try:
             grant_units = float(str(g["total_units"]).replace(",", ""))
