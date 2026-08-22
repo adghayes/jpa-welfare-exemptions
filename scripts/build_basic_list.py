@@ -24,6 +24,13 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.cscda_scraping.agenda_parser import parse_agenda_pdf  # noqa: E402
+from src.cscda_scraping.packet_parser import (  # noqa: E402
+    parse_packet_grants,
+    parse_packet_minutes,
+)
+
+import logging
+logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 CMFA_EXTRACTED = Path("output/cmfa_scraping/all_grants_extracted.csv")
 CSCDA_MEETINGS = Path("data/cscda_scraping/meetings")
@@ -32,14 +39,18 @@ OUT = Path("output/pipeline/basic_list.csv")
 
 COLUMNS = [
     "agency", "property_name", "entity", "city", "county", "resolution",
-    "meeting_date", "item_type", "investor_1", "nonprofit_partner",
-    "total_units", "rent_restricted_pct", "term_years", "city_cut",
-    "grant_description", "source",
+    "meeting_date", "item_type", "minutes_status", "investor_1",
+    "nonprofit_partner", "total_units", "rent_restricted_pct", "term_years",
+    "city_cut", "grant_description", "address", "estimated_closing", "source",
 ]
 
 
 def norm_name(name: str) -> str:
-    return " ".join(str(name).lower().replace(".", "").split())
+    s = " ".join(str(name).lower().replace(".", "").split())
+    for suffix in (" apartments", " apartment"):
+        if s.endswith(suffix):
+            s = s[: -len(suffix)]
+    return s
 
 
 def load_cmfa() -> pd.DataFrame:
@@ -51,27 +62,80 @@ def load_cmfa() -> pd.DataFrame:
 
 def load_cscda() -> pd.DataFrame:
     rows = []
+    details: dict[str, dict] = {}   # norm name -> staff-report fields
+    outcomes: dict[str, dict] = {}  # norm name -> minutes outcome
+
     for d in sorted(CSCDA_MEETINGS.iterdir()):
         agenda = d / "agenda.pdf"
-        if not agenda.exists():
-            continue
-        for g in parse_agenda_pdf(agenda):
-            rows.append({
-                "agency": "CSCDA",
-                "property_name": g.property_name,
-                "entity": g.entity,
-                "city": g.city,
-                "county": g.county,
-                "resolution": g.resolution,
-                "meeting_date": d.name,
-                "item_type": g.item_type,
-                "source": "cscda-agenda",
-            })
+        packet = d / "packet.pdf"
+        if agenda.exists():
+            for g in parse_agenda_pdf(agenda):
+                rows.append({
+                    "agency": "CSCDA",
+                    "property_name": g.property_name,
+                    "entity": g.entity,
+                    "city": g.city,
+                    "county": g.county,
+                    "resolution": g.resolution,
+                    "meeting_date": d.name,
+                    "item_type": g.item_type,
+                    "source": "cscda-agenda",
+                })
+        if packet.exists():
+            for pg in parse_packet_grants(packet, d.name):
+                details[norm_name(pg.property_name)] = {
+                    "total_units": pg.total_units or "",
+                    "rent_restricted_pct": pg.rent_restricted_pct,
+                    "term_years": pg.term_years or "",
+                    "nonprofit_partner": pg.nonprofit_partner,
+                    "address": pg.address,
+                    "estimated_closing": pg.estimated_closing,
+                    "grant_description": (
+                        f"Grant of ${pg.grant_amount:,}" if pg.grant_amount else ""),
+                    "source": "cscda-agenda+packet",
+                }
+            for o in parse_packet_minutes(packet):
+                outcomes[norm_name(o.property_name)] = {
+                    "minutes_status": o.status,
+                    # the adopted minutes are the corrected record when the
+                    # agenda misstates a location (e.g. Trails at San Dimas)
+                    "city": o.city,
+                    "county": o.county,
+                }
+
     df = pd.DataFrame(rows)
     # Same property re-considered at a later meeting: keep the latest occurrence
     # (mirrors the CMFA dedup rule).
     df["_key"] = df["property_name"].map(norm_name)
     df = df.sort_values("meeting_date").drop_duplicates("_key", keep="last")
+
+    for col in ["minutes_status", "total_units", "rent_restricted_pct",
+                "term_years", "nonprofit_partner", "address",
+                "estimated_closing", "grant_description"]:
+        df[col] = ""
+    from fuzzywuzzy import fuzz
+
+    def lookup(table: dict, key: str) -> dict:
+        if key in table:
+            return table[key]
+        best, score = None, 0
+        for k in table:
+            s = max(fuzz.ratio(key, k), fuzz.token_sort_ratio(key, k))
+            if s > score:
+                best, score = k, s
+        return table[best] if score >= 85 else {}
+
+    for idx, row in df.iterrows():
+        key = row["_key"]
+        for col, val in lookup(details, key).items():
+            if val != "":
+                df.at[idx, col] = str(val)
+        out = lookup(outcomes, key)
+        if out:
+            df.at[idx, "minutes_status"] = out["minutes_status"]
+            for col in ("city", "county"):
+                if out[col] and out[col] != row[col]:
+                    df.at[idx, col] = out[col]
     return df.drop(columns="_key")
 
 
