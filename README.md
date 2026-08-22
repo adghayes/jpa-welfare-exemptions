@@ -183,32 +183,59 @@ New grants trend automated (CSCDA-era addresses arrive from packets), and
 the address→parcel step that follows is audited regardless of where the
 address came from.
 
-### Parcels and values
+### Parcel Determination & Validation
 
-Parcel **identity** (which AIN belongs to which project) is always a human
-judgment, recorded in `manual/parcel_assignments.csv`. Parcel **values** are
-fetched automatically where a county exposes them: Los Angeles (public
-parcel GIS API, explicit welfare-exemption field), Solano (assessor's
-PublicAccessNow portal; exemption derived as assessed − net taxable), and
-San Diego (SANDAG parcel layer; no exemption field, so manual exemptions
-carry over per-field). Santa Clara's portals are bot-walled and the
-remaining counties expose no public value service — their values are
-hand-entered in `manual/parcel_values_manual.csv`. AINs that return nothing
-from a county source are usually renumbered or newly created parcels; their
-values fall back to manual data and self-heal on later runs.
+Determining which parcels (AIN/APN) belong to a property is the pipeline's
+one human-owned step: it involves exactly the judgments machines get wrong —
+multi-parcel assemblages, odd lots, parcels renumbered mid-transaction,
+marketing addresses that differ from registered situs. Every assignment
+lives in `manual/parcel_assignments.csv` as the decision record, whether it
+originated with the collaborator's research, a scripted situs/geocode match
+that a human accepted, or an assessor-portal map lookup (each
+`assignment_source` says which).
 
-Because the address→AIN link is asserted by a human rather than generated,
-`scripts/check_parcel_assignments.py` audits it (it reads the last-built
-grants.csv, so run it after a build and rebuild to fold findings in). Three
-noise-gated checks: **assignment-mismatch** flags street- or city-level
-disagreement between a parcel's county situs and the grant's address
-(house-number near-misses pass — new construction routinely carries a situs
-adjacent to its marketing address, and documented portal-map picks are
-skipped); **possible-missing-parcel** finds unassigned parcels sharing an
-assigned parcel's exact situs and ZIP (how multi-parcel properties get
-missed); **units-undercount** compares county unit records (LA `Units1–5`,
-SANDAG `unitqty`) against the grant's documented unit count, gated to
-apartment-use parcels where those fields are trustworthy.
+Because assignments are asserted rather than generated, every one is audited
+on every run by `scripts/check_parcel_assignments.py` (it reads the
+last-built grants.csv, so run it after a build and rebuild to fold findings
+in). Three noise-gated checks:
+
+- **assignment-mismatch** — no assigned parcel's county situs matches the
+  grant's address at the street level, or the grant's city appears in no
+  situs. House-number near-misses pass (new construction routinely carries a
+  situs adjacent to its marketing address), documented portal-map picks are
+  skipped, and complexes are judged per property, not per parcel.
+- **possible-missing-parcel** — an unassigned parcel shares an assigned
+  parcel's exact situs and ZIP: the signature of a multi-parcel property
+  that was only partially captured.
+- **units-undercount** — county unit records (LA `Units1–5`, SANDAG
+  `unitqty`) sum to well under the grant's documented unit count, checked
+  only on apartment-use parcels where those fields are trustworthy.
+
+Each parcel also carries a per-AIN verdict in `assignment_check`
+(`situs-match` / `mismatch` / `no-situs` / `documented`); in the review
+workbook, AIN/APN cells are tinted only when machine-verified
+(`situs-match`) — the rest stay unfilled as unverified human assertions.
+
+### Parcel Tax Value Lookup
+
+Once a parcel is assigned, its assessed values are fetched automatically
+wherever a county exposes them, always onto the current roll:
+
+- **Los Angeles** — public parcel GIS API; land/improvement values, an
+  explicit welfare-exemption field, situs, year built, and unit counts.
+- **Solano** — the assessor's PublicAccessNow portal (two JSON endpoints:
+  a search resolving parcel→record key, then per-year value history);
+  exemption derived as assessed − net taxable.
+- **San Diego** — SANDAG's parcels layer (maintained from county assessor
+  data); no exemption field, so a manually-known exemption carries over
+  field-level with its own provenance.
+
+Santa Clara's portals are bot-walled and the remaining counties expose no
+public value service — their values are hand-entered in
+`manual/parcel_values_manual.csv`. AINs that return nothing from a county
+source are usually renumbered or newly created parcels; their values fall
+back to manual data, are flagged as `fetch-fallback` in QA, and self-heal on
+later runs once the county publishes the parcel.
 
 ### Source quirks worth knowing
 
