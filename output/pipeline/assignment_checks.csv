@@ -1,0 +1,16 @@
+check,project_id,detail
+assignment-mismatch,148,Park Wilshire Apartments: grant city 'Los Angeles' appears in no assigned parcel's situs
+assignment-mismatch,54,Seaport Village Apartments: no assigned parcel's situs matches address '5601 North Paramount Boulevard' (e.g. 7157031001: 2697 E 56TH WAY LONG BEACH CA 90805; 7157031002: 2687 E 56TH WAY LONG BEACH CA 90805)
+assignment-mismatch,85,569 W. 6th Street. Apartments: grant city 'Los Angeles' appears in no assigned parcel's situs
+possible-missing-parcel,1,"Alvarado Streets Apartments: parcel 5136019023 shares situs '1136 S ALVARADO ST LOS ANGELES CA 90006' (Auto, Recreation EQPT, C, $1,039,983) but is not assigned to any project"
+possible-missing-parcel,50,"Market Street Village Apartmen: parcel 5351441600 shares situs '699 14TH SD' (31, $15,300,000) but is not assigned to any project"
+possible-missing-parcel,121,"Alexandria II Apartments: parcel 5518012036 shares situs '130 N ALEXANDRIA AVE APT 0104 LOS ANGELES CA 90004' (Five or more apartments, $7,015,185) but is not assigned to any project"
+possible-missing-parcel,123,"Kenmore II Apartments: parcel 5518018011 shares situs '200 N KENMORE AVE LOS ANGELES CA 90004' (Five or more apartments, $452,268) but is not assigned to any project"
+units-undercount,12,The Waterloo Apartments: county records 5 units on assigned parcels vs 154 in the grant — parcels may be missing
+units-undercount,68,Candlewood North Apartments: county records 68 units on assigned parcels vs 189 in the grant — parcels may be missing
+units-undercount,110,Kenmore I Apartments: county records 24 units on assigned parcels vs 42 in the grant — parcels may be missing
+units-undercount,181,The Hive Apartments: county records 50 units on assigned parcels vs 152 in the grant — parcels may be missing
+units-undercount,195,1723 Corinth Apartments: county records 10 units on assigned parcels vs 41 in the grant — parcels may be missing
+units-undercount,231,Violet on Virgil: county records 159 units on assigned parcels vs 302 in the grant — parcels may be missing
+units-undercount,233,926 S. Kingsley Apartments: county records 1 units on assigned parcels vs 136 in the grant — parcels may be missing
+units-undercount,237,Edgemont by Angeleno: county records 8 units on assigned parcels vs 34 in the grant — parcels may be missing

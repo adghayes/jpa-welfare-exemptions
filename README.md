@@ -70,8 +70,10 @@ in the pipeline.
    scripts/fetch_san_diego_roll_values.py      portal, SANDAG parcel layer
    scripts/fetch_scc_certificates.py         BOE Supplemental Clearance
                                              Certificate list (OData)
-6. scripts/build_dataset.py                  merge generated + manual/ -> output/dataset/
-7. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
+6. scripts/check_parcel_assignments.py       validate assignments, probe for
+                                             missing sibling parcels
+7. scripts/build_dataset.py                  merge generated + manual/ -> output/dataset/
+8. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
 ```
 
 ### Grant Scraping
@@ -177,6 +179,19 @@ remaining counties expose no public value service — their values are
 hand-entered in `manual/parcel_values_manual.csv`. AINs that return nothing
 from a county source are usually renumbered or newly created parcels; their
 values fall back to manual data and self-heal on later runs.
+
+Because the address→AIN link is asserted by a human rather than generated,
+`scripts/check_parcel_assignments.py` audits it (it reads the last-built
+grants.csv, so run it after a build and rebuild to fold findings in). Three
+noise-gated checks: **assignment-mismatch** flags street- or city-level
+disagreement between a parcel's county situs and the grant's address
+(house-number near-misses pass — new construction routinely carries a situs
+adjacent to its marketing address, and documented portal-map picks are
+skipped); **possible-missing-parcel** finds unassigned parcels sharing an
+assigned parcel's exact situs and ZIP (how multi-parcel properties get
+missed); **units-undercount** compares county unit records (LA `Units1–5`,
+SANDAG `unitqty`) against the grant's documented unit count, gated to
+apartment-use parcels where those fields are trustworthy.
 
 ### Source quirks worth knowing
 

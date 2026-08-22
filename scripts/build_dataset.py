@@ -366,6 +366,12 @@ def main() -> None:
             qa("shared-ain", "/".join(sorted(ops)),
                f"AIN {ain} assigned to multiple distinct properties")
 
+    # --- assignment checks (situs validation, missing siblings, unit counts) --
+    checks_path = Path("output/pipeline/assignment_checks.csv")
+    if checks_path.exists():
+        for _, c in pd.read_csv(checks_path, dtype=str).fillna("").iterrows():
+            qa(c["check"], c["project_id"], c["detail"])
+
     # --- write ---------------------------------------------------------------
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     grants.to_csv(OUT_DIR / "grants.csv", index=False)

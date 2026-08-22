@@ -23,9 +23,10 @@ import pandas as pd
 
 API_URL = "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0/query"
 FIELDS = [
-    "AIN", "APN", "SitusFullAddress", "SitusCity", "SitusZIP", "UseDescription",
+    "AIN", "APN", "SitusFullAddress", "SitusHouseNo", "SitusStreet", "SitusCity", "SitusZIP", "UseDescription",
     "YearBuilt1", "Roll_Year", "Roll_LandValue", "Roll_ImpValue",
     "Roll_RealEstateExemp", "Roll_HomeOwnersExemp", "TaxRateArea",
+    "Units1", "Units2", "Units3", "Units4", "Units5",
 ]
 ASSIGNMENTS = Path("manual/parcel_assignments.csv")
 OUT = Path("output/pipeline/la_roll_values.csv")
@@ -76,6 +77,8 @@ def main() -> None:
             "ain": ain,
             "apn": attrs.get("APN", ""),
             "situs_address": attrs.get("SitusFullAddress", "") or "",
+            "situs_house_no": attrs.get("SitusHouseNo", "") or "",
+            "situs_street": attrs.get("SitusStreet", "") or "",
             "use_description": attrs.get("UseDescription", "") or "",
             "year_built": attrs.get("YearBuilt1", "") or "",
             "roll_year": attrs.get("Roll_Year", ""),
@@ -84,6 +87,7 @@ def main() -> None:
             "roll_total_value": land + imp,
             "real_estate_exemp": attrs.get("Roll_RealEstateExemp", 0) or 0,
             "homeowners_exemp": attrs.get("Roll_HomeOwnersExemp", 0) or 0,
+            "units": sum(attrs.get(f"Units{i}") or 0 for i in range(1, 6)),
             "value_source": "la-county-api",
             "fetch_date": today,
         })

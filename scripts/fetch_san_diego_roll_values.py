@@ -60,6 +60,8 @@ def main() -> None:
             "ain": apn,
             "parcel_id": apn,
             "situs_address": situs,
+            "situs_street": str(at.get("situs_street") or ""),
+            "situs_juris": str(at.get("situs_juris") or ""),
             "use_description": str(at.get("asr_landuse") or ""),
             "year_built": str(at.get("year_effective") or ""),
             "roll_year": "2026",
@@ -67,6 +69,7 @@ def main() -> None:
             "roll_imp_value": at.get("asr_impr") or 0,
             "roll_total_value": at.get("asr_total") or 0,
             "real_estate_exemp": "",  # not published by this source
+            "units": at.get("unitqty") or 0,
             "value_source": "sandag-parcels",
             "fetch_date": today,
         })
