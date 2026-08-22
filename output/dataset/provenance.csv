@@ -1,11 +1,7 @@
 table,project_id,field,value,source,note
-grants,1,closing_fee,14400,collaborator-sheet,
-grants,1,cmfa_annual_fee,4000,collaborator-sheet,
 grants,1,scc_filed,True,collaborator-sheet,
 grants,1,restricted_units,24,collaborator-sheet,fills blank
 grants,1,address,"1136 S. Alvarado Street, Los Angeles, CA",collaborator-sheet,fills blank
-grants,4,closing_fee,42600,collaborator-sheet,
-grants,4,cmfa_annual_fee,10650,collaborator-sheet,
 grants,4,scc_filed,True,collaborator-sheet,
 grants,4,investor_1,Quest Capital Partners,collaborator-sheet,fills blank
 grants,4,nonprofit_partner,Affordable Rent Project,collaborator-sheet,fills blank
@@ -14,19 +10,13 @@ grants,4,restricted_units,70,collaborator-sheet,fills blank
 grants,4,address,"363 E. Gilbert St., San Bernardino, CA",collaborator-sheet,fills blank
 grants,4,city_cut,10650,collaborator-sheet,fills blank
 grants,2,built,2023,collaborator-sheet,
-grants,2,closing_fee,10000,collaborator-sheet,
-grants,2,cmfa_annual_fee,4000,collaborator-sheet,
 grants,2,scc_filed,True,collaborator-sheet,
 grants,2,investor_1,"Eleos Ventures, LLC",collaborator-sheet,differs from generated: 'Oak Road'
 grants,2,restricted_units,14,collaborator-sheet,fills blank
 grants,2,address,"2025 New Jersey St, Los Angeles, CA",collaborator-sheet,fills blank
-grants,3,closing_fee,28800,collaborator-sheet,
-grants,3,cmfa_annual_fee,7200,collaborator-sheet,
 grants,3,scc_filed,True,collaborator-sheet,
 grants,3,restricted_units,48,collaborator-sheet,fills blank
 grants,3,address,"660 Mariposa Ave., Mountain View, CA",collaborator-sheet,fills blank
-grants,5,closing_fee,33600,collaborator-sheet,
-grants,5,cmfa_annual_fee,8400,collaborator-sheet,
 grants,5,scc_filed,True,collaborator-sheet,
 grants,5,investor_1,Securities Properties,collaborator-sheet,fills blank
 grants,5,nonprofit_partner,Las Palmas Housing & Development,collaborator-sheet,fills blank
@@ -34,31 +24,21 @@ grants,5,total_units,56,collaborator-sheet,fills blank
 grants,5,restricted_units,23,collaborator-sheet,fills blank
 grants,5,address,"840 17th St, San Diego, CA 92101",collaborator-sheet,fills blank
 grants,5,city_cut,8400,collaborator-sheet,fills blank
-grants,6,closing_fee,19200,collaborator-sheet,
-grants,6,cmfa_annual_fee,4800,collaborator-sheet,
 grants,6,status,dead,collaborator-sheet,
 grants,6,city,San Francisco,collaborator-sheet,fills blank
 grants,6,restricted_units,13,collaborator-sheet,fills blank
 grants,6,address,"381 Turk St., San Francisco, CA",collaborator-sheet,fills blank
 grants,6,city_cut,4800,collaborator-sheet,fills blank
 grants,7,leasing_link,https://www.townhomesongadingapts.com/,collaborator-sheet,
-grants,7,closing_fee,36600,collaborator-sheet,
-grants,7,cmfa_annual_fee,9150,collaborator-sheet,
 grants,7,restricted_units,61,collaborator-sheet,fills blank
 grants,7,address,"26409 Gading Rd, Hayward, CA 94544",collaborator-sheet,fills blank
-grants,8,closing_fee,88200,collaborator-sheet,
-grants,8,cmfa_annual_fee,22050,collaborator-sheet,
 grants,8,scc_filed,True,collaborator-sheet,
 grants,8,restricted_units,147,collaborator-sheet,fills blank
 grants,8,address,"1317 S. Grand St, Los Angeles, CA 90015",collaborator-sheet,fills blank
 grants,9,investor_2,Arctaris Impact Investors,collaborator-sheet,
-grants,9,closing_fee,136200,collaborator-sheet,
-grants,9,cmfa_annual_fee,34050,collaborator-sheet,
 grants,9,restricted_units,227,collaborator-sheet,fills blank
 grants,9,address,"1411 Flower St, Los Angeles, CA 90015",collaborator-sheet,fills blank
 grants,10,investor_2,Black Impact Group,collaborator-sheet,
-grants,10,closing_fee,47400,collaborator-sheet,
-grants,10,cmfa_annual_fee,11850,collaborator-sheet,
 grants,10,scc_filed,True,collaborator-sheet,
 grants,10,investor_1,"SoLa Impact, LLC",collaborator-sheet,fills blank
 grants,10,nonprofit_partner,Housing on Merit,collaborator-sheet,fills blank
@@ -67,32 +47,22 @@ grants,10,restricted_units,48,collaborator-sheet,fills blank
 grants,10,address,"7518 S. Hoover, Los Angeles, CA 90044",collaborator-sheet,fills blank
 grants,10,city_cut,11850,collaborator-sheet,fills blank
 grants,11,new_build,YES,collaborator-sheet,
-grants,11,closing_fee,99600,collaborator-sheet,
-grants,11,cmfa_annual_fee,24900,collaborator-sheet,
 grants,11,scc_filed,True,collaborator-sheet,
 grants,11,entity,2019 Ozone Affordable Housing,collaborator-sheet,"differs from generated: '2019 Ozone Affordable Housing – 820 MacArthur, LP'"
 grants,11,restricted_units,166,collaborator-sheet,fills blank
 grants,11,address,"820 W MacArthur Blvd, Oakland, CA 94608",collaborator-sheet,fills blank
-grants,12,closing_fee,92400,collaborator-sheet,
-grants,12,cmfa_annual_fee,23100,collaborator-sheet,
 grants,12,scc_filed,True,collaborator-sheet,
 grants,12,restricted_units,154,collaborator-sheet,fills blank
 grants,12,address,"801-809 Waterloo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,14,leasing_link,https://www.electriclofts.com/,collaborator-sheet,
-grants,14,closing_fee,53400,collaborator-sheet,
-grants,14,cmfa_annual_fee,13350,collaborator-sheet,
 grants,14,scc_filed,True,collaborator-sheet,
 grants,14,restricted_units,40,collaborator-sheet,fills blank
 grants,14,address,"2415 Valdez St, Oakland, CA 94612",collaborator-sheet,fills blank
 grants,13,investor_2,Stars Real Estate Investment,collaborator-sheet,
-grants,13,closing_fee,39600,collaborator-sheet,
-grants,13,cmfa_annual_fee,9900,collaborator-sheet,
 grants,13,status,dead,collaborator-sheet,
 grants,13,restricted_units,27,collaborator-sheet,fills blank
 grants,13,address,"275 Turk St, San Francisco, CA",collaborator-sheet,fills blank
 grants,15,built,2023,collaborator-sheet,
-grants,15,closing_fee,41400,collaborator-sheet,
-grants,15,cmfa_annual_fee,10350,collaborator-sheet,
 grants,15,status,dead,collaborator-sheet,
 grants,15,entity,"OODB2, LP",collaborator-sheet,"differs from generated: 'OODB2, LP, a Washington Limited Partnership'"
 grants,15,restricted_units,69,collaborator-sheet,fills blank
@@ -100,21 +70,15 @@ grants,15,address,"6762 Hawthorn Ave, Los Angeles, CA 90028",collaborator-sheet,
 grants,17,investor_2,Magnum Real Estate Group,collaborator-sheet,
 grants,17,new_build,NO,collaborator-sheet,
 grants,17,built,2020,collaborator-sheet,
-grants,17,closing_fee,66600,collaborator-sheet,
-grants,17,cmfa_annual_fee,16650,collaborator-sheet,
 grants,17,scc_filed,True,collaborator-sheet,
 grants,17,restricted_units,111,collaborator-sheet,fills blank
 grants,17,address,4252 S CRENSHAW BLVD LOS ANGELES CA 90008,collaborator-sheet,fills blank
 grants,16,new_build,YES,collaborator-sheet,
-grants,16,closing_fee,101400,collaborator-sheet,
-grants,16,cmfa_annual_fee,25350,collaborator-sheet,
 grants,16,entity,"Affordable Housing Alliance II, Inc. dba Integrity Housing",collaborator-sheet,"differs from generated: 'Affordable Housing Alliance II, Inc., d/b/a Integrity Housin'"
 grants,16,restricted_units,58,collaborator-sheet,fills blank
 grants,16,address,"343 Moon River Pl, Vacaville, CA 95687",collaborator-sheet,fills blank
 grants,18,investor_2,Pacific Affordable Housing Corp,collaborator-sheet,
 grants,18,built,2021,collaborator-sheet,
-grants,18,closing_fee,61800,collaborator-sheet,
-grants,18,cmfa_annual_fee,15450,collaborator-sheet,
 grants,18,scc_filed,True,collaborator-sheet,
 grants,18,city,San Diego,collaborator-sheet,fills blank
 grants,18,investor_1,AOF,collaborator-sheet,differs from generated: 'AOF / Pacific Affordable Housing Corp.'
@@ -124,58 +88,40 @@ grants,18,address,"1735 S Mission Rd, Fallbrook, CA 92028",collaborator-sheet,fi
 grants,18,city_cut,15300,collaborator-sheet,fills blank
 grants,20,acquisition_price_m,17600000,collaborator-sheet,
 grants,20,acquisition_date,2024-06-28,collaborator-sheet,
-grants,20,closing_fee,34800,collaborator-sheet,
-grants,20,cmfa_annual_fee,8700,collaborator-sheet,
 grants,20,scc_filed,True,collaborator-sheet,
 grants,20,restricted_units,58,collaborator-sheet,fills blank
 grants,20,address,"7940 Reseda Boulevard, Reseda, CA",collaborator-sheet,fills blank
 grants,21,acquisition_price_m,16300000,collaborator-sheet,
 grants,21,acquisition_date,2024-06-13,collaborator-sheet,
-grants,21,closing_fee,31200,collaborator-sheet,
-grants,21,cmfa_annual_fee,7800,collaborator-sheet,
 grants,21,scc_filed,True,collaborator-sheet,
 grants,21,restricted_units,52,collaborator-sheet,fills blank
 grants,21,address,"18325 Saticoy St, Reseda, CA 91335",collaborator-sheet,fills blank
 grants,19,investor_2,Post Investment Group,collaborator-sheet,
 grants,19,built,1969,collaborator-sheet,
-grants,19,closing_fee,96000,collaborator-sheet,
-grants,19,cmfa_annual_fee,24000,collaborator-sheet,
 grants,19,scc_filed,True,collaborator-sheet,
 grants,19,restricted_units,160,collaborator-sheet,fills blank
 grants,19,address,"1100-1200 E. Fairhaven Avenue, Santa Ana, CA",collaborator-sheet,fills blank
 grants,22,built,1989,collaborator-sheet,
-grants,22,closing_fee,135000,collaborator-sheet,
-grants,22,cmfa_annual_fee,33750,collaborator-sheet,
 grants,22,scc_filed,True,collaborator-sheet,
 grants,22,restricted_units,225,collaborator-sheet,fills blank
 grants,22,address,"2701 Randolph St., Huntington Park, CA",collaborator-sheet,fills blank
 grants,23,new_build,YES,collaborator-sheet,
-grants,23,closing_fee,44400,collaborator-sheet,
-grants,23,cmfa_annual_fee,11100,collaborator-sheet,
 grants,23,status,dead,collaborator-sheet,
 grants,23,restricted_units,74,collaborator-sheet,fills blank
 grants,23,address,"445 N. Avalon Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-grants,24,closing_fee,15000,collaborator-sheet,
-grants,24,cmfa_annual_fee,4000,collaborator-sheet,
 grants,24,scc_filed,True,collaborator-sheet,
 grants,24,resolution,24-253,collaborator-sheet,fills blank
 grants,24,restricted_units,24,collaborator-sheet,fills blank
 grants,24,address,"4209 S Western Ave, Los Angeles, CA 90062",collaborator-sheet,fills blank
-grants,25,closing_fee,17400,collaborator-sheet,
-grants,25,cmfa_annual_fee,4350,collaborator-sheet,
 grants,25,scc_filed,True,collaborator-sheet,
 grants,25,restricted_units,28,collaborator-sheet,fills blank
 grants,25,address,"1130 W Martin Luther King Jr Blvd, Los Angeles, CA 90037",collaborator-sheet,fills blank
-grants,34,closing_fee,24600,collaborator-sheet,
-grants,34,cmfa_annual_fee,6150,collaborator-sheet,
 grants,34,scc_filed,True,collaborator-sheet,
 grants,34,city,El Sobrante,collaborator-sheet,differs from generated: 'Los Angeles'
 grants,34,county,Contra Costa,collaborator-sheet,differs from generated: 'Los Angeles'
 grants,34,restricted_units,41,collaborator-sheet,fills blank
 grants,34,address,"4481 Appian Way, El Sobrante, CA 94803",collaborator-sheet,fills blank
 grants,34,city_cut,6150,collaborator-sheet,fills blank
-grants,35,closing_fee,62400,collaborator-sheet,
-grants,35,cmfa_annual_fee,15600,collaborator-sheet,
 grants,35,scc_filed,True,collaborator-sheet,
 grants,35,city,Unincorporated,collaborator-sheet,fills blank
 grants,35,resolution,24-278,collaborator-sheet,fills blank
@@ -183,8 +129,6 @@ grants,35,restricted_units,104,collaborator-sheet,fills blank
 grants,35,address,"4930 Polk St, North Highlands, CA 95660",collaborator-sheet,fills blank
 grants,35,city_cut,15600,collaborator-sheet,fills blank
 grants,33,new_build,YES,collaborator-sheet,
-grants,33,closing_fee,47400,collaborator-sheet,
-grants,33,cmfa_annual_fee,11850,collaborator-sheet,
 grants,33,status,stale,collaborator-sheet,
 grants,33,restricted_units,48,collaborator-sheet,fills blank
 grants,33,address,"7518 S. Hoover, Los Angeles, CA",collaborator-sheet,fills blank
@@ -193,148 +137,104 @@ grants,27,built,1997,collaborator-sheet,
 grants,27,acquisition_price_m,17170000,collaborator-sheet,
 grants,27,acquisition_date,2024-09-12,collaborator-sheet,
 grants,27,link,https://www.1422on6th.com/,collaborator-sheet,
-grants,27,closing_fee,31200,collaborator-sheet,
-grants,27,cmfa_annual_fee,7800,collaborator-sheet,
 grants,27,scc_filed,True,collaborator-sheet,
 grants,27,total_units,52,collaborator-sheet,differs from generated: '24'
 grants,27,restricted_units,32,collaborator-sheet,fills blank
 grants,27,address,"1422-1428 6th St., Santa Monica, CA",collaborator-sheet,fills blank
-grants,28,closing_fee,43200,collaborator-sheet,
-grants,28,cmfa_annual_fee,10800,collaborator-sheet,
 grants,28,scc_filed,True,collaborator-sheet,
 grants,28,total_units,72,collaborator-sheet,differs from generated: '22'
 grants,28,restricted_units,49,collaborator-sheet,fills blank
 grants,28,address,"1422-1432 7th, Santa Monica, CA",collaborator-sheet,fills blank
-grants,29,closing_fee,28800,collaborator-sheet,
-grants,29,cmfa_annual_fee,7200,collaborator-sheet,
 grants,29,scc_filed,True,collaborator-sheet,
 grants,29,total_units,48,collaborator-sheet,differs from generated: '24'
 grants,29,restricted_units,29,collaborator-sheet,fills blank
 grants,29,address,"1423-1425 6th, Santa Monica, CA",collaborator-sheet,fills blank
 grants,30,built,2004,collaborator-sheet,
-grants,30,closing_fee,15600,collaborator-sheet,
-grants,30,cmfa_annual_fee,3900,collaborator-sheet,
 grants,30,scc_filed,True,collaborator-sheet,
 grants,30,restricted_units,25,collaborator-sheet,fills blank
 grants,30,address,"1522 6th St, Santa Monica, CA",collaborator-sheet,fills blank
 grants,31,acquisition_price_m,5390000,collaborator-sheet,
 grants,31,acquisition_date,2024-09-12,collaborator-sheet,
-grants,31,closing_fee,15600,collaborator-sheet,
-grants,31,cmfa_annual_fee,3900,collaborator-sheet,
 grants,31,scc_filed,True,collaborator-sheet,
 grants,31,restricted_units,25,collaborator-sheet,fills blank
 grants,31,address,"1537 7th, Santa Monica, CA",collaborator-sheet,fills blank
 grants,32,built,2008,collaborator-sheet,
-grants,32,closing_fee,99000,collaborator-sheet,
-grants,32,cmfa_annual_fee,24750,collaborator-sheet,
 grants,32,scc_filed,True,collaborator-sheet,
 grants,32,total_units,165,collaborator-sheet,differs from generated: '65'
 grants,32,restricted_units,98,collaborator-sheet,fills blank
 grants,32,address,"2001-2029 Olympic Blvd, Santa Monica",collaborator-sheet,fills blank
 grants,26,built,1987,collaborator-sheet,
-grants,26,closing_fee,55800,collaborator-sheet,
-grants,26,cmfa_annual_fee,13950,collaborator-sheet,
 grants,26,scc_filed,True,collaborator-sheet,
 grants,26,restricted_units,93,collaborator-sheet,fills blank
 grants,26,address,"441 W 3rd St, San Pedro, CA 90731",collaborator-sheet,fills blank
-grants,36,closing_fee,48000,collaborator-sheet,
-grants,36,cmfa_annual_fee,12000,collaborator-sheet,
 grants,36,scc_filed,True,collaborator-sheet,
 grants,36,resolution,24-361,collaborator-sheet,fills blank
 grants,36,restricted_units,80,collaborator-sheet,fills blank
 grants,36,address,"9301 – 9609 Crenshaw
 Blvd, Inglewood, CA",collaborator-sheet,fills blank
 grants,37,new_build,YES,collaborator-sheet,
-grants,37,closing_fee,31800,collaborator-sheet,
-grants,37,cmfa_annual_fee,7950,collaborator-sheet,
 grants,37,scc_filed,True,collaborator-sheet,
 grants,37,property_name,2330 E. 3rd Street Apartments,collaborator-sheet,differs from generated: '2330 3rd Street Apartments'
 grants,37,resolution,24-363,collaborator-sheet,fills blank
 grants,37,restricted_units,53,collaborator-sheet,fills blank
 grants,37,address,"2330 E. 3rd Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,39,new_build,YES,collaborator-sheet,
-grants,39,closing_fee,39600,collaborator-sheet,
-grants,39,cmfa_annual_fee,9900,collaborator-sheet,
 grants,39,scc_filed,True,collaborator-sheet,
 grants,39,resolution,24-379,collaborator-sheet,fills blank
 grants,39,restricted_units,51,collaborator-sheet,fills blank
 grants,39,address,"6200 S Broadway, Los Angeles, CA",collaborator-sheet,fills blank
 grants,40,new_build,YES,collaborator-sheet,
-grants,40,closing_fee,40800,collaborator-sheet,
-grants,40,cmfa_annual_fee,10200,collaborator-sheet,
 grants,40,status,dead,collaborator-sheet,
 grants,40,resolution,24-380,collaborator-sheet,fills blank
 grants,40,restricted_units,14,collaborator-sheet,fills blank
 grants,40,address,"4228 Western Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,41,new_build,YES,collaborator-sheet,
-grants,41,closing_fee,112800,collaborator-sheet,
-grants,41,cmfa_annual_fee,28200,collaborator-sheet,
 grants,41,restricted_units,111,collaborator-sheet,fills blank
 grants,41,address,"4327 S Vermont, Los Angeles, CA",collaborator-sheet,fills blank
 grants,42,new_build,YES,collaborator-sheet,
-grants,42,closing_fee,54000,collaborator-sheet,
-grants,42,cmfa_annual_fee,13500,collaborator-sheet,
 grants,42,status,dead,collaborator-sheet,
 grants,42,restricted_units,71,collaborator-sheet,fills blank
 grants,42,address,"110 Imperial Highway, Los Angeles, CA",collaborator-sheet,fills blank
 grants,38,new_build,NO,collaborator-sheet,
 grants,38,built,1965,collaborator-sheet,
-grants,38,closing_fee,141600,collaborator-sheet,
-grants,38,cmfa_annual_fee,35400,collaborator-sheet,
 grants,38,scc_filed,True,collaborator-sheet,
 grants,38,restricted_units,236,collaborator-sheet,fills blank
 grants,38,address,"12300 Sherman Way, North Hollywood, CA 91605",collaborator-sheet,fills blank
 grants,43,new_build,NO,collaborator-sheet,
-grants,43,closing_fee,59400,collaborator-sheet,
-grants,43,cmfa_annual_fee,14850,collaborator-sheet,
 grants,43,status,dead,collaborator-sheet,
 grants,43,restricted_units,99,collaborator-sheet,fills blank
 grants,43,address,"400 Canal St, San Rafael, CA 94901",collaborator-sheet,fills blank
 grants,43,city_cut,14850,collaborator-sheet,fills blank
 grants,46,new_build,YES,collaborator-sheet,
-grants,46,closing_fee,31800,collaborator-sheet,
-grants,46,cmfa_annual_fee,7950,collaborator-sheet,
 grants,46,status,dead,collaborator-sheet,
 grants,46,restricted_units,53,collaborator-sheet,fills blank
 grants,46,address,"4752 Main St, Los Angeles, CA 90037",collaborator-sheet,fills blank
 grants,45,investor_2,Bridge Investment Group,collaborator-sheet,
 grants,45,new_build,NO,collaborator-sheet,
-grants,45,closing_fee,243600,collaborator-sheet,
-grants,45,cmfa_annual_fee,60900,collaborator-sheet,
 grants,45,scc_filed,True,collaborator-sheet,
 grants,45,restricted_units,406,collaborator-sheet,fills blank
 grants,45,address,"2414 N Tustin Ave, Santa Ana, CA 92705",collaborator-sheet,fills blank
 grants,48,investor_2,Ethos Real Estate,collaborator-sheet,
 grants,48,new_build,NO,collaborator-sheet,
-grants,48,closing_fee,418200,collaborator-sheet,
-grants,48,cmfa_annual_fee,104550,collaborator-sheet,
 grants,48,scc_filed,True,collaborator-sheet,
 grants,48,investor_1,Vistria Group,collaborator-sheet,differs from generated: 'Ethos Real Estate'
 grants,48,restricted_units,697,collaborator-sheet,fills blank
 grants,48,address,"3500 Edison St, San Mateo, CA 94403",collaborator-sheet,fills blank
 grants,47,new_build,YES,collaborator-sheet,
-grants,47,closing_fee,292800,collaborator-sheet,
-grants,47,cmfa_annual_fee,73200,collaborator-sheet,
 grants,47,scc_filed,True,collaborator-sheet,
 grants,47,restricted_units,483,collaborator-sheet,fills blank
 grants,47,address,"6171 Mission Gorge Rd, San Diego, CA 92120",collaborator-sheet,fills blank
 grants,44,new_build,YES,collaborator-sheet,
-grants,44,closing_fee,24600,collaborator-sheet,
-grants,44,cmfa_annual_fee,6150,collaborator-sheet,
 grants,44,scc_filed,True,collaborator-sheet,
 grants,44,nonprofit_partner,Step Forward Comminities,collaborator-sheet,differs from generated: 'Step Forward Communities'
 grants,44,restricted_units,40,collaborator-sheet,fills blank
 grants,44,address,"228 N Soto Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,50,new_build,NO,collaborator-sheet,
-grants,50,closing_fee,137400,collaborator-sheet,
-grants,50,cmfa_annual_fee,34350,collaborator-sheet,
 grants,50,scc_filed,True,collaborator-sheet,
 grants,50,restricted_units,229,collaborator-sheet,fills blank
 grants,50,address,"699 14th Street, San Diego, CA",collaborator-sheet,fills blank
 grants,50,city_cut,34350,collaborator-sheet,fills blank
 grants,52,new_build,NO,collaborator-sheet,
-grants,52,closing_fee,37800,collaborator-sheet,
-grants,52,cmfa_annual_fee,9450,collaborator-sheet,
 grants,52,status,dead,collaborator-sheet,
 grants,52,city,Unincorporated,collaborator-sheet,fills blank
 grants,52,restricted_units,62,collaborator-sheet,fills blank
@@ -342,24 +242,18 @@ grants,52,address,"1201 Fulton Ave, Sacramento, CA 95825",collaborator-sheet,fil
 grants,52,city_cut,9300,collaborator-sheet,fills blank
 grants,51,new_build,NO,collaborator-sheet,
 grants,51,built,1984,collaborator-sheet,
-grants,51,closing_fee,87000,collaborator-sheet,
-grants,51,cmfa_annual_fee,21750,collaborator-sheet,
 grants,51,status,dead,collaborator-sheet,
 grants,51,total_units,145,collaborator-sheet,differs from generated: '144'
 grants,51,restricted_units,144,collaborator-sheet,fills blank
 grants,51,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,fills blank
 grants,53,new_build,NO,collaborator-sheet,
 grants,53,built,1973/1991,collaborator-sheet,
-grants,53,closing_fee,118800,collaborator-sheet,
-grants,53,cmfa_annual_fee,29700,collaborator-sheet,
 grants,53,status,dead,collaborator-sheet,
 grants,53,city,Unincorporated,collaborator-sheet,fills blank
 grants,53,restricted_units,198,collaborator-sheet,fills blank
 grants,53,address,"6930 Fair Oaks Blvd, Carmichael, CA 95608",collaborator-sheet,fills blank
 grants,53,city_cut,29700,collaborator-sheet,fills blank
 grants,54,new_build,NO,collaborator-sheet,
-grants,54,closing_fee,213600,collaborator-sheet,
-grants,54,cmfa_annual_fee,53400,collaborator-sheet,
 grants,54,scc_filed,True,collaborator-sheet,
 grants,54,resolution,24-442,collaborator-sheet,fills blank
 grants,54,total_units,356,collaborator-sheet,differs from generated: '42'
@@ -367,22 +261,16 @@ grants,54,restricted_units,144,collaborator-sheet,fills blank
 grants,54,address,"5601 North Paramount Boulevard, Long Beach, Los Angeles",collaborator-sheet,fills blank
 grants,55,investor_2,"Open House Group Co., Ltd",collaborator-sheet,
 grants,55,new_build,YES,collaborator-sheet,
-grants,55,closing_fee,226200,collaborator-sheet,
-grants,55,cmfa_annual_fee,56550,collaborator-sheet,
 grants,55,scc_filed,True,collaborator-sheet,
 grants,55,restricted_units,151,collaborator-sheet,fills blank
 grants,55,address,"1457 N Main St, Los Angeles, CA 90012",collaborator-sheet,fills blank
 grants,56,leasing_link,https://bridgehousing.com/properties/viewpoint/,collaborator-sheet,
-grants,56,closing_fee,56400,collaborator-sheet,
-grants,56,cmfa_annual_fee,14100,collaborator-sheet,
 grants,56,investor_1,Bridge Housing,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
 grants,56,nonprofit_partner,Bridge Housing,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
 grants,56,restricted_units,71,collaborator-sheet,fills blank
 grants,56,address,"651 Addison St, Berkeley, CA 94710",collaborator-sheet,fills blank
 grants,59,new_build,YES,collaborator-sheet,
 grants,59,built,2023,collaborator-sheet,
-grants,59,closing_fee,115800,collaborator-sheet,
-grants,59,cmfa_annual_fee,28950,collaborator-sheet,
 grants,59,scc_filed,True,collaborator-sheet,
 grants,59,city,San Francisco,collaborator-sheet,fills blank
 grants,59,resolution,24-471,collaborator-sheet,fills blank
@@ -395,27 +283,19 @@ grants,57,acquisition_price_m,61.1,collaborator-sheet,
 grants,57,acquisition_date,2024-12-31,collaborator-sheet,
 grants,57,link,https://www.ethos-re.com/news/sofi-at-los-gatos-creek-adam-siegman-comments-on-affordable-housing,collaborator-sheet,
 grants,57,leasing_link,https://www.losgatoslandingapts.com/,collaborator-sheet,
-grants,57,closing_fee,115800,collaborator-sheet,
-grants,57,cmfa_annual_fee,28950,collaborator-sheet,
 grants,57,scc_filed,True,collaborator-sheet,
 grants,57,restricted_units,193,collaborator-sheet,fills blank
 grants,57,address,"2130 Southwest Expy, San Jose, CA 95126",collaborator-sheet,fills blank
 grants,58,new_build,NO,collaborator-sheet,
-grants,58,closing_fee,177600,collaborator-sheet,
-grants,58,cmfa_annual_fee,44400,collaborator-sheet,
 grants,58,scc_filed,True,collaborator-sheet,
 grants,58,restricted_units,296,collaborator-sheet,fills blank
 grants,58,address,"38441 5th St W, Palmdale, CA 93551",collaborator-sheet,fills blank
 grants,60,new_build,YES,collaborator-sheet,
-grants,60,closing_fee,117600,collaborator-sheet,
-grants,60,cmfa_annual_fee,29400,collaborator-sheet,
 grants,60,entity,Prometheus Real Estate Group,collaborator-sheet,"differs from generated: 'PREG 5150 ECR Los Altos, LP, a California limited partnershi'"
 grants,60,total_units,196,collaborator-sheet,differs from generated: '29'
 grants,60,restricted_units,29,collaborator-sheet,fills blank
 grants,60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 grants,60,city_cut,4350,collaborator-sheet,fills blank
-grants,64,closing_fee,19800,collaborator-sheet,
-grants,64,cmfa_annual_fee,4950,collaborator-sheet,
 grants,64,status,dead,collaborator-sheet,
 grants,64,resolution,25-080,collaborator-sheet,fills blank
 grants,64,investor_1,Visionary Development Enterprises LLC,collaborator-sheet,fills blank
@@ -425,8 +305,6 @@ grants,64,restricted_units,32,collaborator-sheet,fills blank
 grants,64,address,"333 Douglas St, Los Angeles, CA",collaborator-sheet,fills blank
 grants,64,city_cut,4800,collaborator-sheet,fills blank
 grants,61,new_build,YES,collaborator-sheet,
-grants,61,closing_fee,99600,collaborator-sheet,
-grants,61,cmfa_annual_fee,24900,collaborator-sheet,
 grants,61,status,dead,collaborator-sheet,
 grants,61,resolution,25-081,collaborator-sheet,fills blank
 grants,61,investor_1,"SoLa Impact, LLC",collaborator-sheet,fills blank
@@ -435,97 +313,67 @@ grants,61,total_units,166,collaborator-sheet,fills blank
 grants,61,restricted_units,165,collaborator-sheet,fills blank
 grants,61,address,"11422 S Broadway, Los Angeles, CA 90061",collaborator-sheet,fills blank
 grants,61,city_cut,24750,collaborator-sheet,fills blank
-grants,63,closing_fee,19200,collaborator-sheet,
-grants,63,cmfa_annual_fee,4800,collaborator-sheet,
 grants,63,scc_filed,True,collaborator-sheet,
 grants,63,resolution,25-082,collaborator-sheet,fills blank
 grants,63,restricted_units,32,collaborator-sheet,fills blank
 grants,63,address,"3081 N Main St, Walnut Creek, CA 94597",collaborator-sheet,fills blank
 grants,63,city_cut,4800,collaborator-sheet,fills blank
 grants,62,new_build,YES,collaborator-sheet,
-grants,62,closing_fee,69600,collaborator-sheet,
-grants,62,cmfa_annual_fee,17400,collaborator-sheet,
 grants,62,scc_filed,True,collaborator-sheet,
 grants,62,restricted_units,115,collaborator-sheet,fills blank
 grants,62,address,"2533 S Mansfield Ave, Los Angeles, CA 90016",collaborator-sheet,fills blank
-grants,67,closing_fee,101400,collaborator-sheet,
-grants,67,cmfa_annual_fee,25350,collaborator-sheet,
 grants,67,scc_filed,True,collaborator-sheet,
 grants,67,restricted_units,68,collaborator-sheet,fills blank
 grants,67,address,"1250 S. Euclid St., Anaheim, CA",collaborator-sheet,fills blank
 grants,65,new_build,NO,collaborator-sheet,
 grants,65,built,1978,collaborator-sheet,
-grants,65,closing_fee,163200,collaborator-sheet,
-grants,65,cmfa_annual_fee,40800,collaborator-sheet,
 grants,65,scc_filed,True,collaborator-sheet,
 grants,65,restricted_units,270,collaborator-sheet,fills blank
 grants,65,address,"7777 Valley View Street, La Palma, CA",collaborator-sheet,fills blank
-grants,66,closing_fee,10000,collaborator-sheet,
-grants,66,cmfa_annual_fee,4000,collaborator-sheet,
 grants,66,status,dead,collaborator-sheet,
 grants,66,restricted_units,13,collaborator-sheet,fills blank
 grants,66,address,"920 S. Gramercy Place, Los Angeles, CA",collaborator-sheet,fills blank
-grants,69,closing_fee,30000,collaborator-sheet,
-grants,69,cmfa_annual_fee,7500,collaborator-sheet,
 grants,69,status,dead,collaborator-sheet,
 grants,69,restricted_units,50,collaborator-sheet,fills blank
 grants,69,address,"10535 Lindley Ave, Granada Hills, CA 91326",collaborator-sheet,fills blank
 grants,68,new_build,NO,collaborator-sheet,
 grants,68,built,1964,collaborator-sheet,
-grants,68,closing_fee,113400,collaborator-sheet,
-grants,68,cmfa_annual_fee,28350,collaborator-sheet,
 grants,68,scc_filed,True,collaborator-sheet,
 grants,68,restricted_units,189,collaborator-sheet,fills blank
 grants,68,address,"9830 Reseda Blvd, Northridge, CA 91324",collaborator-sheet,fills blank
-grants,70,closing_fee,73200,collaborator-sheet,
-grants,70,cmfa_annual_fee,18300,collaborator-sheet,
 grants,70,address,"26 Terrace View Ct, Daly City, CA 94015",collaborator-sheet,fills blank
 grants,71,acquisition_date,2024-12-05,collaborator-sheet,
 grants,71,leasing_link,https://www.theheltsley.com/,collaborator-sheet,
-grants,71,closing_fee,67200,collaborator-sheet,
-grants,71,cmfa_annual_fee,16800,collaborator-sheet,
 grants,71,restricted_units,112,collaborator-sheet,fills blank
 grants,71,address,"1212 Whipple Ave, Redwood City, CA 94062",collaborator-sheet,fills blank
 grants,72,investor_2,Angeleno Investments LP,collaborator-sheet,
 grants,72,new_build,NO,collaborator-sheet,
 grants,72,built,2016,collaborator-sheet,
-grants,72,closing_fee,81600,collaborator-sheet,
-grants,72,cmfa_annual_fee,20400,collaborator-sheet,
 grants,72,city,San Francisco,collaborator-sheet,fills blank
 grants,72,restricted_units,136,collaborator-sheet,fills blank
 grants,72,address,"5880 3rd St, San Francisco, CA 94124",collaborator-sheet,fills blank
 grants,72,city_cut,20400,collaborator-sheet,fills blank
 grants,73,new_build,YES,collaborator-sheet,
-grants,73,closing_fee,113400,collaborator-sheet,
-grants,73,cmfa_annual_fee,28350,collaborator-sheet,
 grants,73,scc_filed,True,collaborator-sheet,
 grants,73,restricted_units,148,collaborator-sheet,fills blank
 grants,73,address,"1540 W Court St, Los Angeles, CA 90026",collaborator-sheet,fills blank
 grants,75,investor_2,Bridge Investment Group,collaborator-sheet,
 grants,75,new_build,NO,collaborator-sheet,
-grants,75,closing_fee,121800,collaborator-sheet,
-grants,75,cmfa_annual_fee,30450,collaborator-sheet,
 grants,75,restricted_units,203,collaborator-sheet,fills blank
 grants,75,address,"5474 Reservoir Dr, San Diego, CA 92120",collaborator-sheet,fills blank
 grants,75,city_cut,30450,collaborator-sheet,fills blank
 grants,74,new_build,YES,collaborator-sheet,
-grants,74,closing_fee,88200,collaborator-sheet,
-grants,74,cmfa_annual_fee,22050,collaborator-sheet,
 grants,74,scc_filed,True,collaborator-sheet,
 grants,74,restricted_units,145,collaborator-sheet,fills blank
 grants,74,address,"5040 Logan Avenue, San Diego, CA 92113",collaborator-sheet,fills blank
 grants,74,city_cut,22050,collaborator-sheet,fills blank
 grants,76,new_build,YES,collaborator-sheet,
-grants,76,closing_fee,30000,collaborator-sheet,
-grants,76,cmfa_annual_fee,7500,collaborator-sheet,
 grants,76,entity,1451 W. MLK Boulevard Apartments,collaborator-sheet,"differs from generated: '3 SIOF 1451 W MLK BLVD, LP'"
 grants,76,restricted_units,49,collaborator-sheet,fills blank
 grants,76,address,"1451 W. MLK Blvd, Los Angeles, CA",collaborator-sheet,fills blank
 grants,78,investor_2,Vintage Housing Holdings,collaborator-sheet,
 grants,78,new_build,NO,collaborator-sheet,
 grants,78,link,https://www.cmfa-ca.com/wp-content/uploads/2025/01/CMFA-Staff-Reports-01-10-25.pdf,collaborator-sheet,
-grants,78,closing_fee,604800,collaborator-sheet,
-grants,78,cmfa_annual_fee,151200,collaborator-sheet,
 grants,78,scc_filed,True,collaborator-sheet,
 grants,78,investor_1,Kennedy Wilson,collaborator-sheet,"differs from generated: 'Vintage Housing Holdings, LLC / Kennedy Wilson'"
 grants,78,nonprofit_partner,Hearthstone Housing Foundation,collaborator-sheet,"differs from generated: 'Pacific Housing, Inc.'"
@@ -533,103 +381,69 @@ grants,78,total_units,1008,collaborator-sheet,differs from generated: '8'
 grants,78,restricted_units,1008,collaborator-sheet,fills blank
 grants,78,address,"3400 Richmond Pkwy, Richmond, CA 94806",collaborator-sheet,fills blank
 grants,80,new_build,YES,collaborator-sheet,
-grants,80,closing_fee,21600,collaborator-sheet,
-grants,80,cmfa_annual_fee,5400,collaborator-sheet,
 grants,80,restricted_units,35,collaborator-sheet,fills blank
 grants,80,address,"4101 Somerset Drive, Los Angeles, CA",collaborator-sheet,fills blank
 grants,81,new_build,YES,collaborator-sheet,
-grants,81,closing_fee,18600,collaborator-sheet,
-grants,81,cmfa_annual_fee,4650,collaborator-sheet,
 grants,81,total_units,31,collaborator-sheet,differs from generated: '32'
 grants,81,restricted_units,30,collaborator-sheet,fills blank
 grants,81,address,"321 E. Florence Ave, Los Angeles, CA",collaborator-sheet,fills blank
 grants,81,city_cut,4500,collaborator-sheet,differs from generated: '4650.0'
 grants,82,new_build,YES,collaborator-sheet,
-grants,82,closing_fee,12000,collaborator-sheet,
-grants,82,cmfa_annual_fee,4000,collaborator-sheet,
 grants,82,restricted_units,19,collaborator-sheet,fills blank
 grants,82,address,"9300 Compton Ave., Los Angeles, CA",collaborator-sheet,fills blank
 grants,83,new_build,YES,collaborator-sheet,
-grants,83,closing_fee,16800,collaborator-sheet,
-grants,83,cmfa_annual_fee,4200,collaborator-sheet,
 grants,83,restricted_units,27,collaborator-sheet,fills blank
 grants,83,address,"6401 S. Avalon Blvd., Los Angeles, CA",collaborator-sheet,fills blank
 grants,84,new_build,YES,collaborator-sheet,
-grants,84,closing_fee,12600,collaborator-sheet,
-grants,84,cmfa_annual_fee,4000,collaborator-sheet,
 grants,84,restricted_units,20,collaborator-sheet,fills blank
 grants,84,address,"9515 Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,79,new_build,YES,collaborator-sheet,
-grants,79,closing_fee,17400,collaborator-sheet,
-grants,79,cmfa_annual_fee,4350,collaborator-sheet,
 grants,79,entity,10811 S. Compton Ave Apartments,collaborator-sheet,"differs from generated: '2 SIOF 10811 S Compton Ave, LP'"
 grants,79,restricted_units,28,collaborator-sheet,fills blank
 grants,79,address,"10811 S. Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,85,new_build,YES,collaborator-sheet,
-grants,85,closing_fee,28800,collaborator-sheet,
-grants,85,cmfa_annual_fee,7200,collaborator-sheet,
 grants,85,entity,"SIOF 5 Properties, LP, California limited partnership",collaborator-sheet,"differs from generated: 'SIOF 5 Properties, LP, a California limited partnership'"
 grants,85,restricted_units,47,collaborator-sheet,fills blank
 grants,85,address,"569 W. 6th Street, San Pedro, CA",collaborator-sheet,fills blank
 grants,86,new_build,YES,collaborator-sheet,
-grants,86,closing_fee,16800,collaborator-sheet,
-grants,86,cmfa_annual_fee,4200,collaborator-sheet,
 grants,86,entity,"2 SIOF 685 W Fourth St, LP, Delaware limited partnership",collaborator-sheet,"differs from generated: '2 SIOF 685 W Fourth St, LP, a Delaware limited partnership'"
 grants,86,restricted_units,27,collaborator-sheet,fills blank
 grants,86,address,"685 W. 4th St., Los Angeles, CA",collaborator-sheet,fills blank
 grants,87,investor_2,Kennedy Wilson,collaborator-sheet,
 grants,87,new_build,NO,collaborator-sheet,
-grants,87,closing_fee,412200,collaborator-sheet,
-grants,87,cmfa_annual_fee,103050,collaborator-sheet,
 grants,87,scc_filed,True,collaborator-sheet,
 grants,87,investor_1,Vintage Housing Holdings,collaborator-sheet,"differs from generated: 'Vintage Housing Holdings, LLC / Kennedy Wilson'"
 grants,87,restricted_units,687,collaborator-sheet,fills blank
 grants,87,address,"209 Westmoreland Ave, Los Angeles, CA 90004",collaborator-sheet,fills blank
 grants,77,new_build,YES,collaborator-sheet,
-grants,77,closing_fee,50400,collaborator-sheet,
-grants,77,cmfa_annual_fee,12600,collaborator-sheet,
 grants,77,restricted_units,17,collaborator-sheet,fills blank
 grants,77,address,"11630 Main St, Los Angeles, CA 90061",collaborator-sheet,fills blank
 grants,90,new_build,NO,collaborator-sheet,
-grants,90,closing_fee,50400,collaborator-sheet,
-grants,90,cmfa_annual_fee,12600,collaborator-sheet,
 grants,90,restricted_units,84,collaborator-sheet,fills blank
 grants,90,address,"18615 E Arrow Hwy, Covina, CA 91722",collaborator-sheet,fills blank
 grants,89,acquisition_date,2025-09-03,collaborator-sheet,
-grants,89,closing_fee,138000,collaborator-sheet,
-grants,89,cmfa_annual_fee,34500,collaborator-sheet,
 grants,89,restricted_units,230,collaborator-sheet,fills blank
 grants,89,address,"1700 Newbury Park Dr, San Jose, CA 95133",collaborator-sheet,fills blank
 grants,158,new_build,YES,collaborator-sheet,
-grants,158,closing_fee,17400,collaborator-sheet,
-grants,158,cmfa_annual_fee,4350,collaborator-sheet,
 grants,158,status,dead,collaborator-sheet,
 grants,158,total_units,29,collaborator-sheet,differs from generated: '30'
 grants,158,restricted_units,29,collaborator-sheet,fills blank
 grants,88,new_build,YES,collaborator-sheet,
-grants,88,closing_fee,41400,collaborator-sheet,
-grants,88,cmfa_annual_fee,10350,collaborator-sheet,
 grants,88,restricted_units,68,collaborator-sheet,fills blank
 grants,88,address,"17188 Chatsworth St., Los Angeles, CA",collaborator-sheet,fills blank
 grants,97,new_build,NO,collaborator-sheet,
-grants,97,closing_fee,67200,collaborator-sheet,
-grants,97,cmfa_annual_fee,16800,collaborator-sheet,
 grants,97,restricted_units,112,collaborator-sheet,fills blank
 grants,97,address,"601 E 8th St, Azusa, CA 91702",collaborator-sheet,fills blank
 grants,96,investor_2,Vistria,collaborator-sheet,
 grants,96,built,1972,collaborator-sheet,
 grants,96,acquisition_price_m,410,collaborator-sheet,
 grants,96,acquisition_date,2025-08-27,collaborator-sheet,
-grants,96,closing_fee,568800,collaborator-sheet,
-grants,96,cmfa_annual_fee,142200,collaborator-sheet,
 grants,96,scc_filed,True,collaborator-sheet,
 grants,96,restricted_units,948,collaborator-sheet,fills blank
 grants,96,address,"355 Kiely Blvd, San Jose, CA 95129",collaborator-sheet,fills blank
 grants,95,investor_2,Belveron Partners,collaborator-sheet,
 grants,95,acquisition_date,2025-08-29,collaborator-sheet,
 grants,95,link,https://rebusinessonline.com/sack-properties-belveron-partners-buy-164-unit-multifamily-property-in-san-jose-california/,collaborator-sheet,
-grants,95,closing_fee,98400,collaborator-sheet,
-grants,95,cmfa_annual_fee,24600,collaborator-sheet,
 grants,95,scc_filed,True,collaborator-sheet,
 grants,95,resolution,25-349,collaborator-sheet,fills blank
 grants,95,investor_1,Sack Capital Partners,collaborator-sheet,differs from generated: 'Belveron Partners'
@@ -637,14 +451,10 @@ grants,95,nonprofit_partner,Las Palmas Housing & Development Corp.,collaborator-
 grants,95,restricted_units,164,collaborator-sheet,fills blank
 grants,95,address,"1026 S De Anza Blvd, San Jose, CA 95129",collaborator-sheet,fills blank
 grants,92,new_build,NO,collaborator-sheet,
-grants,92,closing_fee,106200,collaborator-sheet,
-grants,92,cmfa_annual_fee,26550,collaborator-sheet,
 grants,92,scc_filed,True,collaborator-sheet,
 grants,92,restricted_units,177,collaborator-sheet,fills blank
 grants,92,address,"4640 Arden Way, El Monte, CA 91731",collaborator-sheet,fills blank
 grants,93,new_build,NO,collaborator-sheet,
-grants,93,closing_fee,88800,collaborator-sheet,
-grants,93,cmfa_annual_fee,22200,collaborator-sheet,
 grants,93,resolution,25-351,collaborator-sheet,fills blank
 grants,93,investor_1,BRIDGE Housing Corp.,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
 grants,93,nonprofit_partner,BRIDGE Housing Corp.,collaborator-sheet,fills blank
@@ -652,91 +462,59 @@ grants,93,restricted_units,148,collaborator-sheet,fills blank
 grants,93,address,"800 Reliant Wy, American Canyon, CA 94503",collaborator-sheet,fills blank
 grants,94,new_build,NO,collaborator-sheet,
 grants,94,built,1981,collaborator-sheet,
-grants,94,closing_fee,109800,collaborator-sheet,
-grants,94,cmfa_annual_fee,27450,collaborator-sheet,
 grants,94,scc_filed,True,collaborator-sheet,
 grants,94,restricted_units,183,collaborator-sheet,fills blank
 grants,94,address,"601 Telegraph Canyon Road, Chula Vista, CA 91910",collaborator-sheet,fills blank
 grants,91,new_build,YES,collaborator-sheet,
-grants,91,closing_fee,22800,collaborator-sheet,
-grants,91,cmfa_annual_fee,5700,collaborator-sheet,
 grants,91,restricted_units,37,collaborator-sheet,fills blank
 grants,91,address,"10910 Huston St, North Hollywood, CA 91601",collaborator-sheet,fills blank
 grants,98,new_build,NO,collaborator-sheet,
 grants,98,leasing_link,https://www.camdenvillageapts.com/,collaborator-sheet,
-grants,98,closing_fee,115200,collaborator-sheet,
-grants,98,cmfa_annual_fee,28800,collaborator-sheet,
 grants,98,status,dead,collaborator-sheet,
 grants,98,restricted_units,192,collaborator-sheet,fills blank
 grants,98,address,"38000 Camden St, Fremont, CA 94536",collaborator-sheet,fills blank
 grants,99,new_build,YES,collaborator-sheet,
-grants,99,closing_fee,31800,collaborator-sheet,
-grants,99,cmfa_annual_fee,7950,collaborator-sheet,
 grants,99,scc_filed,True,collaborator-sheet,
 grants,99,restricted_units,53,collaborator-sheet,fills blank
 grants,99,address,"1734 S. Barrington Ave., Los Angeles, CA, 90025",collaborator-sheet,fills blank
 grants,100,new_build,YES,collaborator-sheet,
-grants,100,closing_fee,43200,collaborator-sheet,
-grants,100,cmfa_annual_fee,10800,collaborator-sheet,
 grants,100,scc_filed,True,collaborator-sheet,
 grants,100,restricted_units,71,collaborator-sheet,fills blank
 grants,100,address,"4129 Centinela Avenue, Los Angeles, CA 90066",collaborator-sheet,fills blank
 grants,101,new_build,YES,collaborator-sheet,
-grants,101,closing_fee,43800,collaborator-sheet,
-grants,101,cmfa_annual_fee,10950,collaborator-sheet,
 grants,101,scc_filed,True,collaborator-sheet,
 grants,101,restricted_units,72,collaborator-sheet,fills blank
 grants,101,address,"4706 Centinela Avenue, Los Angeles, CA 90066",collaborator-sheet,fills blank
 grants,102,new_build,YES,collaborator-sheet,
-grants,102,closing_fee,31800,collaborator-sheet,
-grants,102,cmfa_annual_fee,7950,collaborator-sheet,
 grants,102,scc_filed,True,collaborator-sheet,
 grants,102,restricted_units,52,collaborator-sheet,fills blank
 grants,102,address,"1747 Stoner Avenue, Los Angeles, CA 90025",collaborator-sheet,fills blank
 grants,103,new_build,NO,collaborator-sheet,
-grants,103,closing_fee,15000,collaborator-sheet,
-grants,103,cmfa_annual_fee,4000,collaborator-sheet,
 grants,103,restricted_units,25,collaborator-sheet,fills blank
 grants,103,address,"2025 E. 4th Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,104,new_build,NO,collaborator-sheet,
-grants,104,closing_fee,16200,collaborator-sheet,
-grants,104,cmfa_annual_fee,4050,collaborator-sheet,
 grants,104,restricted_units,27,collaborator-sheet,fills blank
 grants,104,address,"247 S. Alexandria Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,105,new_build,NO,collaborator-sheet,
-grants,105,closing_fee,29400,collaborator-sheet,
-grants,105,cmfa_annual_fee,7350,collaborator-sheet,
 grants,105,restricted_units,49,collaborator-sheet,fills blank
 grants,105,address,"808 S. Hobart Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 grants,106,new_build,NO,collaborator-sheet,
-grants,106,closing_fee,28800,collaborator-sheet,
-grants,106,cmfa_annual_fee,7200,collaborator-sheet,
 grants,106,restricted_units,48,collaborator-sheet,fills blank
 grants,106,address,"454 S. Catalina Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,107,new_build,NO,collaborator-sheet,
-grants,107,closing_fee,25800,collaborator-sheet,
-grants,107,cmfa_annual_fee,6450,collaborator-sheet,
 grants,107,restricted_units,43,collaborator-sheet,fills blank
 grants,107,address,"103 S. Edgemont Street, Los Angeles, CA 90004",collaborator-sheet,fills blank
 grants,108,new_build,NO,collaborator-sheet,
-grants,108,closing_fee,22800,collaborator-sheet,
-grants,108,cmfa_annual_fee,5700,collaborator-sheet,
 grants,108,restricted_units,38,collaborator-sheet,fills blank
 grants,108,address,"974 S. Gramercy Place, Los Angeles, CA",collaborator-sheet,fills blank
 grants,109,new_build,NO,collaborator-sheet,
-grants,109,closing_fee,19200,collaborator-sheet,
-grants,109,cmfa_annual_fee,4800,collaborator-sheet,
 grants,109,restricted_units,32,collaborator-sheet,fills blank
 grants,109,address,"832 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,110,new_build,NO,collaborator-sheet,
-grants,110,closing_fee,25200,collaborator-sheet,
-grants,110,cmfa_annual_fee,6300,collaborator-sheet,
 grants,110,total_units,42,collaborator-sheet,differs from generated: '24'
 grants,110,restricted_units,42,collaborator-sheet,fills blank
 grants,110,address,"941 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,111,new_build,NO,collaborator-sheet,
-grants,111,closing_fee,24000,collaborator-sheet,
-grants,111,cmfa_annual_fee,6000,collaborator-sheet,
 grants,111,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,111,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,111,total_units,40,collaborator-sheet,fills blank
@@ -744,43 +522,27 @@ grants,111,restricted_units,40,collaborator-sheet,fills blank
 grants,111,address,"426 S. Manhattan Place, Los Angeles, CA",collaborator-sheet,fills blank
 grants,111,city_cut,6000,collaborator-sheet,fills blank
 grants,112,new_build,NO,collaborator-sheet,
-grants,112,closing_fee,24000,collaborator-sheet,
-grants,112,cmfa_annual_fee,6000,collaborator-sheet,
 grants,112,restricted_units,40,collaborator-sheet,fills blank
 grants,112,address,"260 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,113,new_build,NO,collaborator-sheet,
-grants,113,closing_fee,19200,collaborator-sheet,
-grants,113,cmfa_annual_fee,4800,collaborator-sheet,
 grants,113,restricted_units,32,collaborator-sheet,fills blank
 grants,113,address,"739 S. Normandie Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,114,new_build,NO,collaborator-sheet,
-grants,114,closing_fee,12000,collaborator-sheet,
-grants,114,cmfa_annual_fee,4000,collaborator-sheet,
 grants,114,restricted_units,20,collaborator-sheet,fills blank
 grants,114,address,"1111 S. Norton Avenue, Los Angeles, CA 90019",collaborator-sheet,fills blank
 grants,115,new_build,NO,collaborator-sheet,
-grants,115,closing_fee,36000,collaborator-sheet,
-grants,115,cmfa_annual_fee,9000,collaborator-sheet,
 grants,115,restricted_units,60,collaborator-sheet,fills blank
 grants,115,address,"975-985 S. Oxford Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,116,new_build,NO,collaborator-sheet,
-grants,116,closing_fee,43800,collaborator-sheet,
-grants,116,cmfa_annual_fee,10950,collaborator-sheet,
 grants,116,restricted_units,73,collaborator-sheet,fills blank
 grants,116,address,"960 S. Oxford Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,117,new_build,NO,collaborator-sheet,
-grants,117,closing_fee,33000,collaborator-sheet,
-grants,117,cmfa_annual_fee,8250,collaborator-sheet,
 grants,117,restricted_units,55,collaborator-sheet,fills blank
 grants,117,address,"3715 W. 1st Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,118,new_build,NO,collaborator-sheet,
-grants,118,closing_fee,24000,collaborator-sheet,
-grants,118,cmfa_annual_fee,6000,collaborator-sheet,
 grants,118,restricted_units,40,collaborator-sheet,fills blank
 grants,118,address,"515 S. St. Andrews Place, Los Angeles, CA 90020",collaborator-sheet,fills blank
 grants,119,new_build,NO,collaborator-sheet,
-grants,119,closing_fee,35400,collaborator-sheet,
-grants,119,cmfa_annual_fee,8850,collaborator-sheet,
 grants,119,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,119,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,119,total_units,59,collaborator-sheet,fills blank
@@ -788,26 +550,18 @@ grants,119,restricted_units,59,collaborator-sheet,fills blank
 grants,119,address,"516 S. St. Andrews Place, Los Angeles, CA 90020",collaborator-sheet,fills blank
 grants,119,city_cut,8850,collaborator-sheet,fills blank
 grants,120,new_build,NO,collaborator-sheet,
-grants,120,closing_fee,163200,collaborator-sheet,
-grants,120,cmfa_annual_fee,40800,collaborator-sheet,
 grants,120,scc_filed,True,collaborator-sheet,
 grants,120,city,Unincorporated,collaborator-sheet,differs from generated: 'Sacramento'
 grants,120,restricted_units,272,collaborator-sheet,fills blank
 grants,120,address,"2345 Northrop Ave, Sacramento, CA 95825",collaborator-sheet,fills blank
 grants,120,city_cut,40800,collaborator-sheet,fills blank
 grants,131,new_build,NO,collaborator-sheet,
-grants,131,closing_fee,22200,collaborator-sheet,
-grants,131,cmfa_annual_fee,5550,collaborator-sheet,
 grants,131,restricted_units,37,collaborator-sheet,fills blank
 grants,131,address,"1260 Grove St, Healdsburg, CA 95448",collaborator-sheet,fills blank
 grants,160,new_build,NO,collaborator-sheet,
-grants,160,closing_fee,9600,collaborator-sheet,
-grants,160,cmfa_annual_fee,4000,collaborator-sheet,
 grants,160,restricted_units,16,collaborator-sheet,fills blank
 grants,160,address,"3048 W. 12th Street, CA 90006",collaborator-sheet,fills blank
 grants,121,new_build,NO,collaborator-sheet,
-grants,121,closing_fee,18000,collaborator-sheet,
-grants,121,cmfa_annual_fee,4500,collaborator-sheet,
 grants,121,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,121,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,121,total_units,30,collaborator-sheet,fills blank
@@ -815,122 +569,78 @@ grants,121,restricted_units,30,collaborator-sheet,fills blank
 grants,121,address,"130 S. Alexandria Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,121,city_cut,4500,collaborator-sheet,fills blank
 grants,122,new_build,NO,collaborator-sheet,
-grants,122,closing_fee,23400,collaborator-sheet,
-grants,122,cmfa_annual_fee,5850,collaborator-sheet,
 grants,122,restricted_units,39,collaborator-sheet,fills blank
 grants,122,address,"861 Fedora Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,123,new_build,NO,collaborator-sheet,
-grants,123,closing_fee,28800,collaborator-sheet,
-grants,123,cmfa_annual_fee,7200,collaborator-sheet,
 grants,123,restricted_units,48,collaborator-sheet,fills blank
 grants,123,address,"200 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,124,new_build,NO,collaborator-sheet,
-grants,124,closing_fee,10800,collaborator-sheet,
-grants,124,cmfa_annual_fee,4000,collaborator-sheet,
 grants,124,restricted_units,18,collaborator-sheet,fills blank
 grants,124,address,"915 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,125,new_build,NO,collaborator-sheet,
-grants,125,closing_fee,27000,collaborator-sheet,
-grants,125,cmfa_annual_fee,6750,collaborator-sheet,
 grants,125,property_name,Kingsley Apartments,collaborator-sheet,differs from generated: 'Kinglsey Apartments'
 grants,125,restricted_units,45,collaborator-sheet,fills blank
 grants,125,address,"530 Kingsley Drive, Los Angeles, CA",collaborator-sheet,fills blank
 grants,126,new_build,NO,collaborator-sheet,
-grants,126,closing_fee,24000,collaborator-sheet,
-grants,126,cmfa_annual_fee,6000,collaborator-sheet,
 grants,126,restricted_units,40,collaborator-sheet,fills blank
 grants,126,address,"727 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,127,new_build,NO,collaborator-sheet,
-grants,127,closing_fee,13800,collaborator-sheet,
-grants,127,cmfa_annual_fee,4000,collaborator-sheet,
 grants,127,restricted_units,23,collaborator-sheet,fills blank
 grants,127,address,"750-752 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,128,new_build,NO,collaborator-sheet,
-grants,128,closing_fee,28800,collaborator-sheet,
-grants,128,cmfa_annual_fee,7200,collaborator-sheet,
 grants,128,restricted_units,48,collaborator-sheet,fills blank
 grants,128,address,"520 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,129,new_build,NO,collaborator-sheet,
-grants,129,closing_fee,19200,collaborator-sheet,
-grants,129,cmfa_annual_fee,4800,collaborator-sheet,
 grants,129,restricted_units,32,collaborator-sheet,fills blank
 grants,129,address,"207 N. Oxford Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,130,new_build,NO,collaborator-sheet,
-grants,130,closing_fee,45600,collaborator-sheet,
-grants,130,cmfa_annual_fee,11400,collaborator-sheet,
 grants,130,restricted_units,76,collaborator-sheet,fills blank
 grants,130,address,"1057 S. Western Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,135,new_build,YES,collaborator-sheet,
-grants,135,closing_fee,31200,collaborator-sheet,
-grants,135,cmfa_annual_fee,7800,collaborator-sheet,
 grants,135,restricted_units,52,collaborator-sheet,fills blank
 grants,135,address,"236 N. Berendo Street., Los Angeles, CA",collaborator-sheet,fills blank
 grants,134,new_build,YES,collaborator-sheet,
-grants,134,closing_fee,40800,collaborator-sheet,
-grants,134,cmfa_annual_fee,10200,collaborator-sheet,
 grants,134,total_units,68,collaborator-sheet,differs from generated: '69'
 grants,134,restricted_units,68,collaborator-sheet,fills blank
 grants,134,address,"10705 Avalon Blvd, Los Angeles, CA",collaborator-sheet,fills blank
-grants,132,closing_fee,47400,collaborator-sheet,
-grants,132,cmfa_annual_fee,11850,collaborator-sheet,
 grants,132,restricted_units,78,collaborator-sheet,fills blank
 grants,132,address,"7524 S. Hoover St, Los Angeles, CA",collaborator-sheet,fills blank
-grants,136,closing_fee,285000,collaborator-sheet,
-grants,136,cmfa_annual_fee,71250,collaborator-sheet,
 grants,136,investor_1,Ethos Real Estate,collaborator-sheet,fills blank
 grants,136,restricted_units,260,collaborator-sheet,fills blank
 grants,136,address,"5805 Charlotte Drive, San Jose, CA 95123",collaborator-sheet,"differs from generated: '5805 Charlotte Drive, San Jose, CA'"
 grants,141,new_build,NO,collaborator-sheet,
 grants,141,built,1984,collaborator-sheet,
-grants,141,closing_fee,166800,collaborator-sheet,
-grants,141,cmfa_annual_fee,41700,collaborator-sheet,
 grants,141,restricted_units,278,collaborator-sheet,fills blank
 grants,141,address,"5669 N Fresno St, Fresno, CA 93710",collaborator-sheet,fills blank
 grants,137,new_build,YES,collaborator-sheet,
-grants,137,closing_fee,24600,collaborator-sheet,
-grants,137,cmfa_annual_fee,6150,collaborator-sheet,
 grants,137,total_units,41,collaborator-sheet,differs from generated: '42'
 grants,137,restricted_units,41,collaborator-sheet,fills blank
 grants,137,address,"18337 Kittridge St, Reseda, CA 91335",collaborator-sheet,fills blank
-grants,142,closing_fee,69600,collaborator-sheet,
-grants,142,cmfa_annual_fee,17400,collaborator-sheet,
 grants,142,restricted_units,116,collaborator-sheet,fills blank
 grants,142,address,"9033 Ramsgate Avenue, Westchester, CA",collaborator-sheet,fills blank
 grants,143,new_build,NO,collaborator-sheet,
-grants,143,closing_fee,66000,collaborator-sheet,
-grants,143,cmfa_annual_fee,16500,collaborator-sheet,
 grants,143,scc_filed,True,collaborator-sheet,
 grants,143,property_name,Coliseum Transit Village,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
 grants,143,restricted_units,55,collaborator-sheet,fills blank
 grants,143,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,140,new_build,NO,collaborator-sheet,
-grants,140,closing_fee,88800,collaborator-sheet,
-grants,140,cmfa_annual_fee,22200,collaborator-sheet,
 grants,140,status,stale,collaborator-sheet,
 grants,140,restricted_units,148,collaborator-sheet,fills blank
 grants,140,address,"1180 Lochinvar Ave, Sunnyvale, CA 94087",collaborator-sheet,fills blank
 grants,139,new_build,NO,collaborator-sheet,
-grants,139,closing_fee,171600,collaborator-sheet,
-grants,139,cmfa_annual_fee,42900,collaborator-sheet,
 grants,139,status,dead,collaborator-sheet,
 grants,139,nonprofit_partner,Community HousingWorks,collaborator-sheet,fills blank
 grants,139,restricted_units,286,collaborator-sheet,fills blank
 grants,139,address,"5210 Monterey Rd, San Jose, CA 95111",collaborator-sheet,fills blank
 grants,138,new_build,NO,collaborator-sheet,
-grants,138,closing_fee,68400,collaborator-sheet,
-grants,138,cmfa_annual_fee,17100,collaborator-sheet,
 grants,138,scc_filed,True,collaborator-sheet,
 grants,138,city,San Jose,collaborator-sheet,differs from generated: 'Santa Clara'
 grants,138,restricted_units,114,collaborator-sheet,fills blank
 grants,138,address,"3765 Tamarack Ln, Santa Clara, CA 95051",collaborator-sheet,fills blank
 grants,146,new_build,YES,collaborator-sheet,
-grants,146,closing_fee,24000,collaborator-sheet,
-grants,146,cmfa_annual_fee,6000,collaborator-sheet,
 grants,146,restricted_units,40,collaborator-sheet,fills blank
 grants,146,address,"7655 S San Pedro St, Los Angeles, CA 90003",collaborator-sheet,fills blank
 grants,147,new_build,NO,collaborator-sheet,
-grants,147,closing_fee,66000,collaborator-sheet,
-grants,147,cmfa_annual_fee,16500,collaborator-sheet,
 grants,147,scc_filed,True,collaborator-sheet,
 grants,147,status,stale,collaborator-sheet,
 grants,147,property_name,Coliseum Connections,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
@@ -938,363 +648,231 @@ grants,147,restricted_units,55,collaborator-sheet,fills blank
 grants,147,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,148,new_build,NO,collaborator-sheet,
 grants,148,built,1929,collaborator-sheet,
-grants,148,closing_fee,102000,collaborator-sheet,
-grants,148,cmfa_annual_fee,25500,collaborator-sheet,
 grants,148,status,dead,collaborator-sheet,
 grants,148,restricted_units,170,collaborator-sheet,fills blank
 grants,148,address,"2424 Wilshire Blvd, Los Angeles, CA 90057",collaborator-sheet,fills blank
 grants,149,new_build,NO,collaborator-sheet,
-grants,149,closing_fee,36600,collaborator-sheet,
-grants,149,cmfa_annual_fee,9150,collaborator-sheet,
 grants,149,status,dead,collaborator-sheet,
 grants,149,restricted_units,61,collaborator-sheet,fills blank
 grants,149,address,"841 S Serrano Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,150,new_build,NO,collaborator-sheet,
-grants,150,closing_fee,108600,collaborator-sheet,
-grants,150,cmfa_annual_fee,27150,collaborator-sheet,
 grants,150,status,dead,collaborator-sheet,
 grants,150,property_name,Langham Apartments,collaborator-sheet,differs from generated: 'The Langham Apartments'
 grants,150,restricted_units,181,collaborator-sheet,fills blank
 grants,150,address,"715 Normandie Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,151,new_build,NO,collaborator-sheet,
-grants,151,closing_fee,44400,collaborator-sheet,
-grants,151,cmfa_annual_fee,11100,collaborator-sheet,
 grants,151,status,dead,collaborator-sheet,
 grants,151,property_name,Piccadilly Apartments,collaborator-sheet,differs from generated: 'The Piccadilly Apartments'
 grants,151,restricted_units,74,collaborator-sheet,fills blank
 grants,151,address,"682 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,152,new_build,NO,collaborator-sheet,
-grants,152,closing_fee,91200,collaborator-sheet,
-grants,152,cmfa_annual_fee,22800,collaborator-sheet,
 grants,152,total_units,152,collaborator-sheet,differs from generated: '52'
 grants,152,restricted_units,152,collaborator-sheet,fills blank
 grants,152,address,"5565 Ackerfield Avenue / 5700 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,153,new_build,NO,collaborator-sheet,
 grants,153,built,1990,collaborator-sheet,
-grants,153,closing_fee,60600,collaborator-sheet,
-grants,153,cmfa_annual_fee,15150,collaborator-sheet,
 grants,153,restricted_units,101,collaborator-sheet,fills blank
 grants,153,address,"12100 226th St, Hawaiian Gardens, CA 90716",collaborator-sheet,fills blank
 grants,154,new_build,NO/YES,collaborator-sheet,
-grants,154,closing_fee,289200,collaborator-sheet,
-grants,154,cmfa_annual_fee,72300,collaborator-sheet,
 grants,154,restricted_units,216,collaborator-sheet,fills blank
 grants,154,address,"2000 Crystal Springs Rd, San Bruno, CA 94066",collaborator-sheet,fills blank
 grants,155,new_build,NO,collaborator-sheet,
 grants,155,built,1974,collaborator-sheet,
-grants,155,closing_fee,72000,collaborator-sheet,
-grants,155,cmfa_annual_fee,18000,collaborator-sheet,
 grants,155,entity,TBD LP,collaborator-sheet,differs from generated: 'A limited partnership to be formed by Kairos Investment Mana'
 grants,155,restricted_units,120,collaborator-sheet,fills blank
 grants,155,address,"1070 San Miguel Road, Concord, CA",collaborator-sheet,fills blank
 grants,156,new_build,NO,collaborator-sheet,
 grants,156,built,1969,collaborator-sheet,
-grants,156,closing_fee,102000,collaborator-sheet,
-grants,156,cmfa_annual_fee,25500,collaborator-sheet,
 grants,156,entity,TBD LP,collaborator-sheet,differs from generated: 'A limited partnership to be formed by Kairos Investment Mana'
 grants,156,restricted_units,170,collaborator-sheet,fills blank
 grants,156,address,"36000 Fremont Boulevard, Fremont, CA",collaborator-sheet,fills blank
 grants,145,new_build,NO,collaborator-sheet,
-grants,145,closing_fee,66000,collaborator-sheet,
-grants,145,cmfa_annual_fee,16500,collaborator-sheet,
 grants,145,status,dead,collaborator-sheet,
 grants,145,restricted_units,110,collaborator-sheet,fills blank
 grants,145,address,"2130 N Marks Ave, Fresno, CA 93722",collaborator-sheet,fills blank
-grants,157,closing_fee,255300,collaborator-sheet,
-grants,157,cmfa_annual_fee,63825,collaborator-sheet,
 grants,157,investor_1,Eagle Partners,collaborator-sheet,fills blank
 grants,157,total_units,551,collaborator-sheet,fills blank
 grants,157,restricted_units,440,collaborator-sheet,fills blank
 grants,157,address,"439 West El Norte Parkway / 1045 Morning View Drive, Escondido, CA",collaborator-sheet,fills blank
-grants,159,closing_fee,174000,collaborator-sheet,
-grants,159,cmfa_annual_fee,43500,collaborator-sheet,
 grants,159,restricted_units,290,collaborator-sheet,fills blank
 grants,159,address,"1141 N. Vermont Avenue, Los Angeles, CA 90029",collaborator-sheet,fills blank
-grants,161,closing_fee,24000,collaborator-sheet,
-grants,161,cmfa_annual_fee,6000,collaborator-sheet,
 grants,161,restricted_units,40,collaborator-sheet,fills blank
 grants,161,address,"2933 W. 8th Street, Los Angeles, CA",collaborator-sheet,fills blank
-grants,162,closing_fee,18000,collaborator-sheet,
-grants,162,cmfa_annual_fee,4500,collaborator-sheet,
 grants,162,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,162,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,162,total_units,30,collaborator-sheet,fills blank
 grants,162,restricted_units,30,collaborator-sheet,fills blank
 grants,162,address,"130 S. Alexandria Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,162,city_cut,4500,collaborator-sheet,fills blank
-grants,163,closing_fee,40200,collaborator-sheet,
-grants,163,cmfa_annual_fee,10050,collaborator-sheet,
 grants,163,restricted_units,67,collaborator-sheet,fills blank
 grants,163,address,"437 N. Ardmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,164,closing_fee,24000,collaborator-sheet,
-grants,164,cmfa_annual_fee,6000,collaborator-sheet,
 grants,164,restricted_units,40,collaborator-sheet,fills blank
 grants,164,address,"249 S. Ave 55, Los Angeles, CA",collaborator-sheet,fills blank
-grants,165,closing_fee,23400,collaborator-sheet,
-grants,165,cmfa_annual_fee,5850,collaborator-sheet,
 grants,165,restricted_units,39,collaborator-sheet,fills blank
 grants,165,address,"861 Fedora Street, Los Angeles, CA",collaborator-sheet,fills blank
-grants,166,closing_fee,24000,collaborator-sheet,
-grants,166,cmfa_annual_fee,6000,collaborator-sheet,
 grants,166,restricted_units,40,collaborator-sheet,fills blank
 grants,166,address,"516 N. Harvard Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-grants,167,closing_fee,12000,collaborator-sheet,
-grants,167,cmfa_annual_fee,4000,collaborator-sheet,
 grants,167,restricted_units,20,collaborator-sheet,fills blank
 grants,167,address,"5200 Hollywood Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-grants,168,closing_fee,28800,collaborator-sheet,
-grants,168,cmfa_annual_fee,7200,collaborator-sheet,
 grants,168,restricted_units,48,collaborator-sheet,fills blank
 grants,168,address,"200 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,169,closing_fee,10800,collaborator-sheet,
-grants,169,cmfa_annual_fee,4000,collaborator-sheet,
 grants,169,restricted_units,18,collaborator-sheet,fills blank
 grants,169,address,"915 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,170,closing_fee,27000,collaborator-sheet,
-grants,170,cmfa_annual_fee,6750,collaborator-sheet,
 grants,170,restricted_units,45,collaborator-sheet,fills blank
 grants,170,address,"530 Kingsley Drive, Los Angeles, CA",collaborator-sheet,fills blank
-grants,171,closing_fee,25200,collaborator-sheet,
-grants,171,cmfa_annual_fee,6300,collaborator-sheet,
 grants,171,restricted_units,42,collaborator-sheet,fills blank
 grants,171,address,"5406 Lexington Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,171,city_cut,6300,collaborator-sheet,differs from generated: '15900.0'
-grants,172,closing_fee,63600,collaborator-sheet,
-grants,172,cmfa_annual_fee,15900,collaborator-sheet,
 grants,172,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,172,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,172,total_units,106,collaborator-sheet,fills blank
 grants,172,restricted_units,106,collaborator-sheet,fills blank
 grants,172,address,"410 S. Manhattan Place / 509 S. Manhattan Place, Los Angeles, CA",collaborator-sheet,fills blank
 grants,172,city_cut,15900,collaborator-sheet,fills blank
-grants,173,closing_fee,24000,collaborator-sheet,
-grants,173,cmfa_annual_fee,6000,collaborator-sheet,
 grants,173,restricted_units,40,collaborator-sheet,fills blank
 grants,173,address,"727 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,174,closing_fee,13800,collaborator-sheet,
-grants,174,cmfa_annual_fee,4000,collaborator-sheet,
 grants,174,restricted_units,23,collaborator-sheet,fills blank
 grants,174,address,"750-752 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,175,closing_fee,28800,collaborator-sheet,
-grants,175,cmfa_annual_fee,7200,collaborator-sheet,
 grants,175,restricted_units,48,collaborator-sheet,fills blank
 grants,175,address,"520 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,176,closing_fee,18600,collaborator-sheet,
-grants,176,cmfa_annual_fee,4650,collaborator-sheet,
 grants,176,restricted_units,31,collaborator-sheet,fills blank
 grants,176,address,"5635 Monte Vista Street, Los Angeles, CA",collaborator-sheet,fills blank
-grants,177,closing_fee,19200,collaborator-sheet,
-grants,177,cmfa_annual_fee,4800,collaborator-sheet,
 grants,177,restricted_units,32,collaborator-sheet,fills blank
 grants,177,address,"207 S. Oxford St, Los Angeles, CA",collaborator-sheet,fills blank
-grants,178,closing_fee,24000,collaborator-sheet,
-grants,178,cmfa_annual_fee,6000,collaborator-sheet,
 grants,178,restricted_units,40,collaborator-sheet,fills blank
 grants,178,address,"300 W. Avenue 37, Los Angeles, CA",collaborator-sheet,fills blank
-grants,179,closing_fee,45600,collaborator-sheet,
-grants,179,cmfa_annual_fee,11400,collaborator-sheet,
 grants,179,restricted_units,76,collaborator-sheet,fills blank
 grants,179,address,"1057 S. Western Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,180,closing_fee,12000,collaborator-sheet,
-grants,180,cmfa_annual_fee,4000,collaborator-sheet,
 grants,180,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,180,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,180,total_units,20,collaborator-sheet,fills blank
 grants,180,restricted_units,20,collaborator-sheet,fills blank
 grants,180,address,"132 S. Westmoreland Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,180,city_cut,3000,collaborator-sheet,fills blank
-grants,191,closing_fee,20000,collaborator-sheet,
-grants,191,cmfa_annual_fee,5000,collaborator-sheet,
 grants,191,investor_1,Ethos Real Estate,collaborator-sheet,fills blank
 grants,191,restricted_units,79,collaborator-sheet,fills blank
 grants,189,new_build,NO,collaborator-sheet,
 grants,189,built,1987,collaborator-sheet,
-grants,189,closing_fee,132600,collaborator-sheet,
-grants,189,cmfa_annual_fee,33150,collaborator-sheet,
 grants,189,status,dead,collaborator-sheet,
 grants,189,restricted_units,221,collaborator-sheet,fills blank
 grants,189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
-grants,181,closing_fee,91200,collaborator-sheet,
-grants,181,cmfa_annual_fee,22800,collaborator-sheet,
 grants,181,status,stale,collaborator-sheet,
 grants,181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 grants,181,total_units,152,collaborator-sheet,differs from generated: '52'
 grants,181,restricted_units,152,collaborator-sheet,fills blank
 grants,181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,182,new_build,YES,collaborator-sheet,
-grants,182,closing_fee,30000,collaborator-sheet,
-grants,182,cmfa_annual_fee,7500,collaborator-sheet,
 grants,182,status,stale,collaborator-sheet,
 grants,182,restricted_units,50,collaborator-sheet,fills blank
 grants,182,address,"1451 W. Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
-grants,183,closing_fee,42000,collaborator-sheet,
-grants,183,cmfa_annual_fee,10500,collaborator-sheet,
 grants,183,status,dead,collaborator-sheet,
 grants,183,restricted_units,13,collaborator-sheet,fills blank
 grants,183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
 grants,184,new_build,YES,collaborator-sheet,
-grants,184,closing_fee,18000,collaborator-sheet,
-grants,184,cmfa_annual_fee,4500,collaborator-sheet,
 grants,184,restricted_units,6,collaborator-sheet,fills blank
 grants,184,address,"225 W. 25th St, Los Angeles, CA",collaborator-sheet,fills blank
 grants,185,new_build,YES,collaborator-sheet,
-grants,185,closing_fee,23400,collaborator-sheet,
-grants,185,cmfa_annual_fee,5850,collaborator-sheet,
 grants,185,restricted_units,8,collaborator-sheet,fills blank
 grants,185,address,"9422 Firth Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,186,new_build,YES,collaborator-sheet,
-grants,186,closing_fee,42000,collaborator-sheet,
-grants,186,cmfa_annual_fee,10500,collaborator-sheet,
 grants,186,restricted_units,14,collaborator-sheet,fills blank
 grants,186,address,"4008 Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 grants,190,new_build,NO,collaborator-sheet,
-grants,190,closing_fee,175800,collaborator-sheet,
-grants,190,cmfa_annual_fee,43950,collaborator-sheet,
 grants,190,entity,"St. Anton Highland, LP",collaborator-sheet,differs from generated: 'St. Anton Highlands LP'
 grants,190,restricted_units,102,collaborator-sheet,fills blank
 grants,190,address,"2311 Ivy Hill Way, San Ramon, CA 94582",collaborator-sheet,fills blank
 grants,144,new_build,NO,collaborator-sheet,
-grants,144,closing_fee,276000,collaborator-sheet,
-grants,144,cmfa_annual_fee,69000,collaborator-sheet,
 grants,144,property_name,La Vista Apartment Homes,collaborator-sheet,differs from generated: 'La Vista Apartments'
 grants,144,restricted_units,460,collaborator-sheet,fills blank
 grants,144,address,"740 S. Western Avenue, Santa Maria, CA 93458",collaborator-sheet,fills blank
 grants,195,new_build,YES,collaborator-sheet,
-grants,195,closing_fee,24600,collaborator-sheet,
-grants,195,cmfa_annual_fee,6150,collaborator-sheet,
 grants,195,total_units,41,collaborator-sheet,differs from generated: '42'
 grants,195,restricted_units,41,collaborator-sheet,fills blank
 grants,195,address,"1723 Corinth Ave, Los Angeles, CA 90025",collaborator-sheet,fills blank
 grants,194,new_build,YES,collaborator-sheet,
-grants,194,closing_fee,22200,collaborator-sheet,
-grants,194,cmfa_annual_fee,5550,collaborator-sheet,
 grants,194,restricted_units,36,collaborator-sheet,fills blank
 grants,194,address,"3751 Delmas Terrace, Los Angeles, CA 90034",collaborator-sheet,fills blank
 grants,187,built,1987,collaborator-sheet,
-grants,187,closing_fee,139200,collaborator-sheet,
-grants,187,cmfa_annual_fee,34800,collaborator-sheet,
 grants,187,restricted_units,232,collaborator-sheet,fills blank
 grants,187,address,"3200 W 5th St, Santa Ana, CA 92703",collaborator-sheet,fills blank
-grants,196,closing_fee,261600,collaborator-sheet,
-grants,196,cmfa_annual_fee,65400,collaborator-sheet,
 grants,196,status,dead,collaborator-sheet,
 grants,196,investor_1,Capital Insight Holdings,collaborator-sheet,fills blank
 grants,196,restricted_units,514,collaborator-sheet,fills blank
 grants,196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"differs from generated: '9750 Airport Blvd, Los Angeles, CA'"
-grants,200,closing_fee,42000,collaborator-sheet,
-grants,200,cmfa_annual_fee,10500,collaborator-sheet,
 grants,200,resolution,Application,collaborator-sheet,fills blank
 grants,200,restricted_units,70,collaborator-sheet,fills blank
 grants,200,address,"1408 W Jefferson Blvd, Los Angeles, CA 90007",collaborator-sheet,fills blank
 grants,197,new_build,YES,collaborator-sheet,
-grants,197,closing_fee,60000,collaborator-sheet,
-grants,197,cmfa_annual_fee,15000,collaborator-sheet,
 grants,197,status,dead,collaborator-sheet,
 grants,197,restricted_units,100,collaborator-sheet,fills blank
 grants,197,address,"12342 Osborne Pl, Pacoima, CA 91331",collaborator-sheet,fills blank
 grants,198,new_build,YES,collaborator-sheet,
-grants,198,closing_fee,158400,collaborator-sheet,
-grants,198,cmfa_annual_fee,39600,collaborator-sheet,
 grants,198,restricted_units,264,collaborator-sheet,fills blank
 grants,198,address,"220 Humboldt Ct. Sunnyvale, CA",collaborator-sheet,fills blank
-grants,199,closing_fee,22800,collaborator-sheet,
-grants,199,cmfa_annual_fee,5700,collaborator-sheet,
 grants,199,restricted_units,37,collaborator-sheet,fills blank
 grants,199,city_cut,5500,collaborator-sheet,differs from generated: '5550.0'
-grants,201,closing_fee,118200,collaborator-sheet,
-grants,201,cmfa_annual_fee,29550,collaborator-sheet,
 grants,201,status,dead,collaborator-sheet,
 grants,201,restricted_units,80,collaborator-sheet,fills blank
 grants,201,address,"1311 W Battles Rd, Santa Maria, CA 93458",collaborator-sheet,fills blank
-grants,207,closing_fee,20000,collaborator-sheet,
-grants,207,cmfa_annual_fee,5000,collaborator-sheet,
 grants,207,status,dead,collaborator-sheet,
 grants,207,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,207,restricted_units,56,collaborator-sheet,fills blank
 grants,207,address,"2625 Cullen St, Los Angeles, CA 90034",collaborator-sheet,"differs from generated: '2625 Cullen Street, Los Angeles, CA'"
-grants,208,closing_fee,20000,collaborator-sheet,
-grants,208,cmfa_annual_fee,5000,collaborator-sheet,
 grants,208,status,dead,collaborator-sheet,
 grants,208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,208,restricted_units,34,collaborator-sheet,fills blank
 grants,208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
 grants,49,new_build,NO,collaborator-sheet,
-grants,49,closing_fee,97200,collaborator-sheet,
-grants,49,cmfa_annual_fee,24300,collaborator-sheet,
 grants,49,property_name,Summerwood Apartments Homes Apartments,collaborator-sheet,differs from generated: 'Summerwood Apartment Homes'
 grants,49,entity,Standard Properties,collaborator-sheet,differs from generated: 'Standard Summerwood II LP'
 grants,49,investor_1,Standard Properties,collaborator-sheet,"differs from generated: 'Standard Property Company, Inc.'"
 grants,49,restricted_units,162,collaborator-sheet,fills blank
 grants,49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
 grants,49,city_cut,18450,collaborator-sheet,fills blank
-grants,188,closing_fee,81000,collaborator-sheet,
-grants,188,cmfa_annual_fee,20250,collaborator-sheet,
 grants,188,status,dead,collaborator-sheet,
 grants,188,restricted_units,27,collaborator-sheet,fills blank
 grants,188,address,"11720 San Pablo Ave, El Cerrito, CA 94530",collaborator-sheet,fills blank
 grants,202,new_build,NO,collaborator-sheet,
 grants,202,built,1980,collaborator-sheet,
-grants,202,closing_fee,90000,collaborator-sheet,
-grants,202,cmfa_annual_fee,22500,collaborator-sheet,
 grants,202,restricted_units,150,collaborator-sheet,fills blank
 grants,202,address,"609 Frederick St, Santa Cruz, CA 95062",collaborator-sheet,fills blank
-grants,205,closing_fee,20000,collaborator-sheet,
-grants,205,cmfa_annual_fee,5000,collaborator-sheet,
 grants,205,status,stale,collaborator-sheet,
 grants,205,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,205,nonprofit_partner,Pacific Housing Inc,collaborator-sheet,fills blank
 grants,205,restricted_units,54,collaborator-sheet,fills blank
-grants,203,closing_fee,124800,collaborator-sheet,
-grants,203,cmfa_annual_fee,31200,collaborator-sheet,
 grants,203,city,Unincorporated,collaborator-sheet,fills blank
 grants,203,restricted_units,208,collaborator-sheet,fills blank
 grants,203,address,"4350 Galbrath Dr, Sacramento, CA 95842",collaborator-sheet,fills blank
 grants,203,city_cut,31200,collaborator-sheet,fills blank
 grants,204,new_build,YES,collaborator-sheet,
-grants,204,closing_fee,29400,collaborator-sheet,
-grants,204,cmfa_annual_fee,7350,collaborator-sheet,
 grants,204,total_units,49,collaborator-sheet,differs from generated: '50'
 grants,204,restricted_units,49,collaborator-sheet,fills blank
-grants,206,closing_fee,73800,collaborator-sheet,
-grants,206,cmfa_annual_fee,18450,collaborator-sheet,
 grants,206,status,dead,collaborator-sheet,
 grants,206,county,Los Angeles,collaborator-sheet,differs from generated: 'San Diego'
 grants,206,restricted_units,123,collaborator-sheet,fills blank
 grants,206,address,"1845 N Broadway, Escondido, CA 92026",collaborator-sheet,fills blank
 grants,224,new_build,YES,collaborator-sheet,
-grants,224,closing_fee,20000,collaborator-sheet,
-grants,224,cmfa_annual_fee,5000,collaborator-sheet,
 grants,224,investor_1,Equitable Connections to Housing Opportunities (ECHO),collaborator-sheet,fills blank
 grants,224,restricted_units,31,collaborator-sheet,fills blank
 grants,224,address,"1454 W Florence Ave, Los Angeles, CA 90047",collaborator-sheet,"differs from generated: '1454 West Florence Avenue, Los Angeles, CA'"
-grants,209,closing_fee,10000,collaborator-sheet,
-grants,209,cmfa_annual_fee,4000,collaborator-sheet,
 grants,209,investor_1,Red Stone Equity Partners,collaborator-sheet,differs from generated: 'Zenith Property Group LLC'
 grants,209,restricted_units,12,collaborator-sheet,fills blank
 grants,209,address,"6790 Embarcadero Ln, Carlsbad, CA 92011",collaborator-sheet,fills blank
 grants,209,term_years,15,collaborator-sheet,differs from generated: '35'
-grants,210,closing_fee,126600,collaborator-sheet,
-grants,210,cmfa_annual_fee,31650,collaborator-sheet,
 grants,210,restricted_units,211,collaborator-sheet,fills blank
 grants,210,address,"6633 Valley Hi Drive, Sacramento, CA",collaborator-sheet,fills blank
 grants,210,term_years,10,collaborator-sheet,differs from generated: '55'
-grants,226,closing_fee,20000,collaborator-sheet,
-grants,226,cmfa_annual_fee,5000,collaborator-sheet,
 grants,226,status,dead,collaborator-sheet,
 grants,226,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,226,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 grants,226,restricted_units,134,collaborator-sheet,fills blank
 grants,226,address,"142 Fig Tree Lane, Martinez, CA 94553",collaborator-sheet,"differs from generated: '142 Fig Tree Lane, Martinez, CA'"
 grants,226,term_years,10,collaborator-sheet,differs from generated: '15'
-grants,228,closing_fee,20000,collaborator-sheet,
-grants,228,cmfa_annual_fee,5000,collaborator-sheet,
 grants,228,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 grants,228,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,differs from generated: 'The Foundation for Affordable Housing'
 grants,228,restricted_units,19,collaborator-sheet,fills blank
 grants,228,term_years,15,collaborator-sheet,differs from generated: '10'
 grants,230,new_build,NO,collaborator-sheet,
-grants,230,closing_fee,20000,collaborator-sheet,
-grants,230,cmfa_annual_fee,5000,collaborator-sheet,
 grants,230,property_name,Hansen illage Apartments,collaborator-sheet,differs from generated: 'Hansen Village Apartments'
 grants,230,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 grants,230,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,differs from generated: 'The Foundation for Affordable Housing'
@@ -1303,67 +881,47 @@ grants,230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborat
 grants,232,investor_2,Vistria,collaborator-sheet,
 grants,232,new_build,NO,collaborator-sheet,
 grants,232,link,https://vistria.com/vistria-real-estate-acquires-orange-county-apartment-community/,collaborator-sheet,
-grants,232,closing_fee,210600,collaborator-sheet,
-grants,232,cmfa_annual_fee,52650,collaborator-sheet,
 grants,232,investor_1,Eagle Partners,collaborator-sheet,fills blank
 grants,232,nonprofit_partner,Affordable Housing Access,collaborator-sheet,fills blank
 grants,232,restricted_units,120,collaborator-sheet,fills blank
 grants,232,address,"12091 Bayport St, Garden Grove, CA 92840",collaborator-sheet,"differs from generated: '12091 Bayport Street, Garden Grove, CA'"
-grants,222,closing_fee,20000,collaborator-sheet,
-grants,222,cmfa_annual_fee,5000,collaborator-sheet,
 grants,222,city,San Lorenzo,collaborator-sheet,fills blank
 grants,222,investor_1,Faulkner Capital Partners,collaborator-sheet,fills blank
 grants,222,restricted_units,135,collaborator-sheet,fills blank
 grants,222,address,"16077 Ashland Ave, San Lorenzo, CA 94580",collaborator-sheet,"differs from generated: '16077 Ashland Avenue, San Lorenzo'"
 grants,216,new_build,NO,collaborator-sheet,
-grants,216,closing_fee,48600,collaborator-sheet,
-grants,216,cmfa_annual_fee,12150,collaborator-sheet,
 grants,216,restricted_units,81,collaborator-sheet,fills blank
 grants,216,address,"5035 Guava Ave, La Mesa, CA 91942",collaborator-sheet,fills blank
 grants,217,new_build,YES,collaborator-sheet,
-grants,217,closing_fee,20400,collaborator-sheet,
-grants,217,cmfa_annual_fee,5100,collaborator-sheet,
 grants,217,total_units,34,collaborator-sheet,differs from generated: '35'
 grants,217,restricted_units,34,collaborator-sheet,fills blank
 grants,215,new_build,YES,collaborator-sheet,
 grants,215,link,https://cscda.org/wp-content/uploads/2026/06/CSCDA-Agenda-Packet-7.2.26.pdf,collaborator-sheet,
-grants,215,closing_fee,20000,collaborator-sheet,
-grants,215,cmfa_annual_fee,5000,collaborator-sheet,
 grants,215,resolution,26H-[_],collaborator-sheet,fills blank
 grants,215,investor_1,Category Company,collaborator-sheet,fills blank
 grants,215,restricted_units,73,collaborator-sheet,fills blank
 grants,215,address,"511 N. Hoover Street, Los Angeles, California",collaborator-sheet,"differs from generated: '511 N. Hoover Street, Los Angeles'"
-grants,211,closing_fee,20000,collaborator-sheet,
-grants,211,cmfa_annual_fee,5000,collaborator-sheet,
 grants,211,entity,Heven LP,collaborator-sheet,"differs from generated: 'Haven, LP'"
 grants,211,investor_1,LA Apartments,collaborator-sheet,fills blank
 grants,211,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 grants,211,restricted_units,82,collaborator-sheet,fills blank
 grants,211,address,"6530 Independence Ave, Canoga Park, CA 91303",collaborator-sheet,"differs from generated: '6530 Independence Avenue, Los Angeles'"
 grants,212,new_build,YES,collaborator-sheet,
-grants,212,closing_fee,20000,collaborator-sheet,
-grants,212,cmfa_annual_fee,5000,collaborator-sheet,
 grants,212,investor_1,KBX Investments,collaborator-sheet,fills blank
 grants,212,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 grants,212,restricted_units,50,collaborator-sheet,fills blank
 grants,212,address,"2075 W Jefferson BlvdLos Angeles, CA 90018",collaborator-sheet,"differs from generated: '2075 West Jefferson Blvd., Los Angeles'"
-grants,213,closing_fee,20000,collaborator-sheet,
-grants,213,cmfa_annual_fee,5000,collaborator-sheet,
 grants,213,city,Unincorporated,collaborator-sheet,fills blank
 grants,213,investor_1,TriWest Development,collaborator-sheet,fills blank
 grants,213,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
 grants,213,restricted_units,74,collaborator-sheet,fills blank
 grants,213,address,"5416 Jackson St, North Highlands, CA 95660",collaborator-sheet,"differs from generated: '5416 Jackson Street, North Highlands'"
 grants,214,new_build,NO,collaborator-sheet,
-grants,214,closing_fee,20000,collaborator-sheet,
-grants,214,cmfa_annual_fee,5000,collaborator-sheet,
 grants,214,investor_1,The Korda Group,collaborator-sheet,fills blank
 grants,214,nonprofit_partner,AOF/Pacific Affordable Housing Corp.,collaborator-sheet,fills blank
 grants,214,restricted_units,72,collaborator-sheet,fills blank
 grants,214,address,"444 N Amelia Ave, San Dimas, CA 91773",collaborator-sheet,"differs from generated: '444 North Amelia Avenue, San Dimas'"
 grants,218,new_build,YES,collaborator-sheet,
-grants,218,closing_fee,42000,collaborator-sheet,
-grants,218,cmfa_annual_fee,10500,collaborator-sheet,
 grants,218,investor_1,Orion Capital LLC,collaborator-sheet,fills blank
 grants,218,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
 grants,218,total_units,70,collaborator-sheet,fills blank
@@ -1371,13 +929,9 @@ grants,218,restricted_units,70,collaborator-sheet,fills blank
 grants,218,address,"1408 W Jefferson Blvd Los Angeles, California 90007",collaborator-sheet,fills blank
 grants,218,city_cut,10500,collaborator-sheet,fills blank
 grants,219,new_build,YES,collaborator-sheet,
-grants,219,closing_fee,56400,collaborator-sheet,
-grants,219,cmfa_annual_fee,14100,collaborator-sheet,
 grants,219,restricted_units,94,collaborator-sheet,fills blank
 grants,219,address,"603 S Mariposa AveLos Angeles, CA 90005",collaborator-sheet,fills blank
 grants,220,new_build,YES,collaborator-sheet,
-grants,220,closing_fee,31200,collaborator-sheet,
-grants,220,cmfa_annual_fee,7800,collaborator-sheet,
 grants,220,investor_1,Terra Capital Development Group LLC,collaborator-sheet,fills blank
 grants,220,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 grants,220,total_units,52,collaborator-sheet,fills blank
@@ -1385,57 +939,37 @@ grants,220,restricted_units,52,collaborator-sheet,fills blank
 grants,220,address,"236 N Berendo St, Los Angeles, CA 90004",collaborator-sheet,fills blank
 grants,220,city_cut,7650,collaborator-sheet,fills blank
 grants,221,new_build,YES,collaborator-sheet,
-grants,221,closing_fee,38400,collaborator-sheet,
-grants,221,cmfa_annual_fee,9600,collaborator-sheet,
 grants,221,restricted_units,58,collaborator-sheet,fills blank
 grants,221,address,"6219 Banner Avenue, Los Angeles, CA 90038",collaborator-sheet,fills blank
-grants,229,closing_fee,20000,collaborator-sheet,
-grants,229,cmfa_annual_fee,5000,collaborator-sheet,
 grants,229,investor_1,CGI+,collaborator-sheet,fills blank
 grants,229,restricted_units,144,collaborator-sheet,fills blank
 grants,229,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,"differs from generated: '220 47th Street, San Diego'"
-grants,231,closing_fee,180600,collaborator-sheet,
-grants,231,cmfa_annual_fee,45150,collaborator-sheet,
 grants,231,investor_1,Post Real Estate Group,collaborator-sheet,fills blank
 grants,231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,differs from generated: 'Bedford'
 grants,231,restricted_units,302,collaborator-sheet,fills blank
 grants,231,address,"160 S Virgil Ave, Los Angeles, CA 90004",collaborator-sheet,"differs from generated: '160 S. Virgil Avenue, Los Angeles'"
-grants,233,closing_fee,20000,collaborator-sheet,
-grants,233,cmfa_annual_fee,5000,collaborator-sheet,
 grants,233,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,233,restricted_units,136,collaborator-sheet,fills blank
 grants,233,address,"926 S Kingsley Dr, Los Angeles, CA 90006",collaborator-sheet,"differs from generated: '926 S. Kingsley Drive, Los Angeles, CA'"
 grants,233,term_years,10,collaborator-sheet,differs from generated: '55'
-grants,234,closing_fee,20000,collaborator-sheet,
-grants,234,cmfa_annual_fee,5000,collaborator-sheet,
 grants,234,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,234,restricted_units,136,collaborator-sheet,fills blank
 grants,234,address,"939 S Kingsley Dr, Los Angeles, CA 90006",collaborator-sheet,"differs from generated: '939 S. Kingsley Drive, Los Angeles, CA'"
-grants,235,closing_fee,20000,collaborator-sheet,
-grants,235,cmfa_annual_fee,5000,collaborator-sheet,
 grants,235,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,235,restricted_units,59,collaborator-sheet,fills blank
 grants,235,address,"3950 Ingraham St, San Diego, CA 92109",collaborator-sheet,"differs from generated: '3950 W. Ingraham Street, Los Angeles, CA'"
 grants,236,new_build,YES,collaborator-sheet,
-grants,236,closing_fee,20000,collaborator-sheet,
-grants,236,cmfa_annual_fee,5000,collaborator-sheet,
 grants,236,investor_1,Killefer Development,collaborator-sheet,fills blank
 grants,236,total_units,108,collaborator-sheet,differs from generated: '136'
 grants,236,restricted_units,108,collaborator-sheet,fills blank
 grants,236,address,"6985 S. Centinela Avenue, Los Angeles, CA 90045",collaborator-sheet,"differs from generated: '6985 S. Centinela Avenue, Los Angeles, CA'"
-grants,237,closing_fee,20000,collaborator-sheet,
-grants,237,cmfa_annual_fee,5000,collaborator-sheet,
 grants,237,investor_1,Angeleno Invesments,collaborator-sheet,fills blank
 grants,237,restricted_units,27,collaborator-sheet,fills blank
 grants,237,address,"1178 N Edgemont St, Los Angeles, CA 90029",collaborator-sheet,"differs from generated: '1178 N. Edgemont Street, Los Angeles, CA'"
-grants,225,closing_fee,79200,collaborator-sheet,
-grants,225,cmfa_annual_fee,19800,collaborator-sheet,
 grants,225,entity,"CG Bennington, LP / JSP Bennington, LP",collaborator-sheet,"differs from generated: 'CG Bennington, LP and JSP Bennington, LP'"
 grants,225,restricted_units,132,collaborator-sheet,fills blank
 grants,225,address,"2780 N Texas St, Fairfield, CA 94533",collaborator-sheet,fills blank
 grants,225,term_years,55,collaborator-sheet,differs from generated: '30'
-grants,227,closing_fee,88800,collaborator-sheet,
-grants,227,cmfa_annual_fee,22200,collaborator-sheet,
 grants,227,restricted_units,148,collaborator-sheet,fills blank
 grants,227,address,"1 Shoal Ct, Sacramento, CA 95831",collaborator-sheet,fills blank
 grants,238,*,,collaborator-sheet,entire row manual (predates meeting archives)

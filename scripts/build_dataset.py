@@ -44,8 +44,8 @@ GRANT_COLUMNS = [
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing",
     "status", "new_build", "built", "acquisition_price_m", "acquisition_date",
-    "link", "leasing_link", "closing_fee", "cmfa_annual_fee", "scc_filed",
-    "row_source", "field_overrides",
+    "link", "leasing_link", "scc_filed",
+    "source_document_url", "row_source", "field_overrides",
 ]
 
 # collaborator-sheet column -> dataset field, for fully-manual rows
@@ -61,7 +61,6 @@ SHEET_TO_DATASET = {
     "Acquisition Price (M)": "acquisition_price_m",
     "Acquisition Date": "acquisition_date",
     "Link": "link", "Leasing Link": "leasing_link",
-    "Closing Fee": "closing_fee", "CMFA Annual Fee": "cmfa_annual_fee",
     "SCC FILED?": "scc_filed", "City's Cut": "city_cut",
     "Regulatory Term": "term_years",
 }
@@ -158,6 +157,14 @@ def main() -> None:
                        ignore_index=True)
     grants["_pid_num"] = pd.to_numeric(grants["project_id"], errors="coerce")
     grants = grants.sort_values(["_pid_num"]).drop(columns="_pid_num")
+
+    # link each grant to its most descriptive source document (review aid)
+    doc_urls = pd.read_csv("output/pipeline/doc_urls.csv", dtype=str).fillna("")
+    url_by_key = {(r["agency"], r["meeting_date"]): r["url"] for _, r in doc_urls.iterrows()}
+    grants["source_document_url"] = [
+        url_by_key.get((r["agency"], r["meeting_date"]), "")
+        for _, r in grants.iterrows()
+    ]
 
     # --- parcels --------------------------------------------------------------
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")

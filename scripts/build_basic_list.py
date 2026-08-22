@@ -61,6 +61,11 @@ def load_cmfa() -> pd.DataFrame:
     df = pd.read_csv(CMFA_EXTRACTED, dtype=str).fillna("")
     df["agency"] = "CMFA"
     df["source"] = "cmfa-meeting-docs"
+    # unify with CSCDA's minutes_status: CMFA extraction confirms grants
+    # against minutes by resolution number ("approved"); blank means the
+    # minutes weren't posted yet or the resolution wasn't found in them
+    df["minutes_status"] = df["minutes_confirmed"].map(
+        lambda v: "approved" if str(v).lower() == "true" else "")
     return df
 
 

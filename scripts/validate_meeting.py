@@ -257,6 +257,14 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
                     staff = sg
                     break
 
+        # Grant description: the agenda states the amount ("grant up to
+        # $10,000 in a Charitable Affordable Housing grant"), which beats the
+        # staff report's Purpose header (that regex truncates at line wraps)
+        if ag.grant_amount:
+            description = f"Grant up to ${ag.grant_amount:,} (Charitable Affordable Housing)"
+        else:
+            description = staff.grant_description if staff else ""
+
         # Create merged grant
         grant = ExtractedGrant(
             property_name=ag.property_name,
@@ -273,7 +281,7 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             rent_restricted_pct=staff.rent_restricted_pct if staff else "",
             term_years=staff.term_years if staff else None,
             city_cut=staff.city_share if staff else None,
-            grant_description=staff.grant_description if staff else "",
+            grant_description=description,
         )
         extracted_grants.append(grant)
 

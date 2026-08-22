@@ -126,7 +126,9 @@ def parse_grant_section(text: str, meeting_date: datetime, source_file: str,
     action = extract_field(text, r'Action:\s*(.+?)(?:\n|$)')
 
     # Extract grant description (Purpose field)
-    grant_description = extract_field(text, r'Purpose:\s*(.+?)(?:\n|Activity:|$)')
+    # Purpose wraps across lines; capture until the next "Label:" line
+    m = re.search(r'Purpose:\s*(.+?)(?=\n[A-Z][A-Za-z ]{2,20}:|\n\n|$)', text, re.DOTALL)
+    grant_description = re.sub(r'\s+', ' ', m.group(1)).strip() if m else ""
 
     # Extract city and county from Purpose line
     purpose_match = re.search(
