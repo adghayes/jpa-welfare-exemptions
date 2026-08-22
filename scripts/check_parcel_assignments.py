@@ -46,7 +46,7 @@ OUT = Path("output/pipeline/assignment_checks.csv")
 UNITS_RATIO = 0.7
 RATE_LIMIT = 0.3
 
-SKIP_NOTE = re.compile(r"no county situs|in transition|renumbered|common-area|portal map",
+SKIP_NOTE = re.compile(r"no county situs|in transition|renumbered|common-area|portal map|situs reviewed",
                        re.IGNORECASE)
 DIRECTIONALS = {"n", "s", "e", "w", "north", "south", "east", "west"}
 NOISE = {"ca", "california", "ave", "st", "blvd", "dr", "pl", "rd", "way", "ln",

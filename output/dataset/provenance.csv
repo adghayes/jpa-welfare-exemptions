@@ -942,7 +942,7 @@ parcels,145,assignment:,,collaborator-sheet,
 parcels,146,assignment:6022014002,6022014002,collaborator-sheet,manual_verified
 parcels,147,values:41416654,0,manual-repo-edit,no automated source for county
 parcels,147,assignment:41416654,41416654,collaborator-sheet,
-parcels,148,assignment:4276017047,4276017047,collaborator-sheet,manual_verified
+parcels,148,assignment:5141004003,5141004003,manual-repo-edit,manual_verified
 parcels,149,assignment:5093010009,5093010009,collaborator-sheet,manual_verified
 parcels,150,assignment:5094004007,5094004007,collaborator-sheet,manual_verified
 parcels,151,assignment:5094002004,5094002004,collaborator-sheet,manual_verified
@@ -1040,11 +1040,11 @@ parcels,232,values:23115127,90133662,collaborator-sheet,no automated source for 
 parcels,232,assignment:23115127,23115127,collaborator-sheet,
 parcels,232,values:23115128,30044551,collaborator-sheet,no automated source for county
 parcels,232,assignment:23115128,23115128,collaborator-sheet,
-parcels,233,assignment:5093023058,5093023058,script-finder-auto (2026-08-21),
+parcels,233,assignment:5093023056,5093023056,manual-repo-edit,
 parcels,234,assignment:5093023059,5093023059,script-situs-match (2026-08-21),
 parcels,235,assignment:5092029007,5092029007,manual-repo-edit,
 parcels,236,assignment:4211011047,4211011047,manual-repo-edit,
-parcels,237,assignment:5540023002,5540023002,script-finder-auto (2026-08-21),
+parcels,237,assignment:5540025003,5540025003,manual-repo-edit,
 parcels,57,values:28424015,36559633,collaborator-sheet,no automated source for county
 parcels,57,assignment:28424015,28424015,collaborator-sheet,
 parcels,60,values:17004068,32171358,collaborator-sheet,no automated source for county
