@@ -41,7 +41,6 @@ grants,10,address,"7518 S. Hoover, Los Angeles, CA 90044",collaborator-sheet,fil
 grants,10,city_cut,11850,collaborator-sheet,fills blank
 grants,11,new_build,YES,collaborator-sheet,
 grants,11,scc_filed,True,collaborator-sheet,
-grants,11,entity,2019 Ozone Affordable Housing,collaborator-sheet,"differs from generated: '2019 Ozone Affordable Housing – 820 MacArthur, LP'"
 grants,11,address,"820 W MacArthur Blvd, Oakland, CA 94608",collaborator-sheet,fills blank
 grants,12,scc_filed,True,collaborator-sheet,
 grants,12,restricted_units,154,collaborator-sheet,fills blank
@@ -54,7 +53,6 @@ grants,13,manual_status,dead,collaborator-sheet,
 grants,13,address,"275 Turk St, San Francisco, CA",collaborator-sheet,fills blank
 grants,15,built,2023,collaborator-sheet,
 grants,15,manual_status,dead,collaborator-sheet,
-grants,15,entity,"OODB2, LP",collaborator-sheet,"differs from generated: 'OODB2, LP, a Washington Limited Partnership'"
 grants,15,address,"6762 Hawthorn Ave, Los Angeles, CA 90028",collaborator-sheet,fills blank
 grants,17,investor_2,Magnum Real Estate Group,collaborator-sheet,
 grants,17,new_build,NO,collaborator-sheet,
@@ -62,13 +60,10 @@ grants,17,built,2020,collaborator-sheet,
 grants,17,scc_filed,True,collaborator-sheet,
 grants,17,address,4252 S CRENSHAW BLVD LOS ANGELES CA 90008,collaborator-sheet,fills blank
 grants,16,new_build,YES,collaborator-sheet,
-grants,16,entity,"Affordable Housing Alliance II, Inc. dba Integrity Housing",collaborator-sheet,"differs from generated: 'Affordable Housing Alliance II, Inc., d/b/a Integrity Housin'"
 grants,16,address,"343 Moon River Pl, Vacaville, CA 95687",collaborator-sheet,fills blank
-grants,18,investor_2,Pacific Affordable Housing Corp,collaborator-sheet,
 grants,18,built,2021,collaborator-sheet,
 grants,18,scc_filed,True,collaborator-sheet,
 grants,18,city,San Diego,collaborator-sheet,fills blank
-grants,18,investor_1,AOF,collaborator-sheet,differs from generated: 'AOF / Pacific Affordable Housing Corp.'
 grants,18,nonprofit_partner,Pacific Affordable Housing Corp,collaborator-sheet,differs from generated: 'AOF / Pacific Affordable Housing Corp.'
 grants,18,address,"1735 S Mission Rd, Fallbrook, CA 92028",collaborator-sheet,fills blank
 grants,18,city_cut,15300,collaborator-sheet,fills blank
@@ -183,7 +178,6 @@ grants,47,scc_filed,True,collaborator-sheet,
 grants,47,address,"6171 Mission Gorge Rd, San Diego, CA 92120",collaborator-sheet,fills blank
 grants,44,new_build,YES,collaborator-sheet,
 grants,44,scc_filed,True,collaborator-sheet,
-grants,44,nonprofit_partner,Step Forward Comminities,collaborator-sheet,differs from generated: 'Step Forward Communities'
 grants,44,address,"228 N Soto Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,50,new_build,NO,collaborator-sheet,
 grants,50,scc_filed,True,collaborator-sheet,
@@ -215,8 +209,6 @@ grants,55,new_build,YES,collaborator-sheet,
 grants,55,scc_filed,True,collaborator-sheet,
 grants,55,address,"1457 N Main St, Los Angeles, CA 90012",collaborator-sheet,fills blank
 grants,56,leasing_link,https://bridgehousing.com/properties/viewpoint/,collaborator-sheet,
-grants,56,investor_1,Bridge Housing,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
-grants,56,nonprofit_partner,Bridge Housing,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
 grants,56,address,"651 Addison St, Berkeley, CA 94710",collaborator-sheet,fills blank
 grants,59,new_build,YES,collaborator-sheet,
 grants,59,built,2023,collaborator-sheet,
@@ -332,15 +324,11 @@ grants,79,new_build,YES,collaborator-sheet,
 grants,79,entity,10811 S. Compton Ave Apartments,collaborator-sheet,"differs from generated: '2 SIOF 10811 S Compton Ave, LP'"
 grants,79,address,"10811 S. Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,85,new_build,YES,collaborator-sheet,
-grants,85,entity,"SIOF 5 Properties, LP, California limited partnership",collaborator-sheet,"differs from generated: 'SIOF 5 Properties, LP, a California limited partnership'"
 grants,85,address,"569 W. 6th Street, San Pedro, CA",collaborator-sheet,fills blank
 grants,86,new_build,YES,collaborator-sheet,
-grants,86,entity,"2 SIOF 685 W Fourth St, LP, Delaware limited partnership",collaborator-sheet,"differs from generated: '2 SIOF 685 W Fourth St, LP, a Delaware limited partnership'"
 grants,86,address,"685 W. 4th St., Los Angeles, CA",collaborator-sheet,fills blank
-grants,87,investor_2,Kennedy Wilson,collaborator-sheet,
 grants,87,new_build,NO,collaborator-sheet,
 grants,87,scc_filed,True,collaborator-sheet,
-grants,87,investor_1,Vintage Housing Holdings,collaborator-sheet,"differs from generated: 'Vintage Housing Holdings, LLC / Kennedy Wilson'"
 grants,87,address,"209 Westmoreland Ave, Los Angeles, CA 90004",collaborator-sheet,fills blank
 grants,77,new_build,YES,collaborator-sheet,
 grants,77,address,"11630 Main St, Los Angeles, CA 90061",collaborator-sheet,fills blank
@@ -367,14 +355,12 @@ grants,95,link,https://rebusinessonline.com/sack-properties-belveron-partners-bu
 grants,95,scc_filed,True,collaborator-sheet,
 grants,95,resolution,25-349,collaborator-sheet,fills blank
 grants,95,investor_1,Sack Capital Partners,collaborator-sheet,differs from generated: 'Belveron Partners'
-grants,95,nonprofit_partner,Las Palmas Housing & Development Corp.,collaborator-sheet,differs from generated: 'Las Palmas Housing & Development Corporation'
 grants,95,address,"1026 S De Anza Blvd, San Jose, CA 95129",collaborator-sheet,fills blank
 grants,92,new_build,NO,collaborator-sheet,
 grants,92,scc_filed,True,collaborator-sheet,
 grants,92,address,"4640 Arden Way, El Monte, CA 91731",collaborator-sheet,fills blank
 grants,93,new_build,NO,collaborator-sheet,
 grants,93,resolution,25-351,collaborator-sheet,fills blank
-grants,93,investor_1,BRIDGE Housing Corp.,collaborator-sheet,differs from generated: 'BRIDGE Housing Corporation'
 grants,93,nonprofit_partner,BRIDGE Housing Corp.,collaborator-sheet,fills blank
 grants,93,address,"800 Reliant Wy, American Canyon, CA 94503",collaborator-sheet,fills blank
 grants,94,new_build,NO,collaborator-sheet,
@@ -489,7 +475,6 @@ grants,134,address,"10705 Avalon Blvd, Los Angeles, CA",collaborator-sheet,fills
 grants,132,address,"7524 S. Hoover St, Los Angeles, CA",collaborator-sheet,fills blank
 grants,136,investor_1,Ethos Real Estate,collaborator-sheet,fills blank
 grants,136,restricted_units,260,collaborator-sheet,fills blank
-grants,136,address,"5805 Charlotte Drive, San Jose, CA 95123",collaborator-sheet,"differs from generated: '5805 Charlotte Drive, San Jose, CA'"
 grants,141,new_build,NO,collaborator-sheet,
 grants,141,built,1984,collaborator-sheet,
 grants,141,address,"5669 N Fresno St, Fresno, CA 93710",collaborator-sheet,fills blank
@@ -499,7 +484,6 @@ grants,137,address,"18337 Kittridge St, Reseda, CA 91335",collaborator-sheet,fil
 grants,142,address,"9033 Ramsgate Avenue, Westchester, CA",collaborator-sheet,fills blank
 grants,143,new_build,NO,collaborator-sheet,
 grants,143,scc_filed,True,collaborator-sheet,
-grants,143,property_name,Coliseum Transit Village,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
 grants,143,restricted_units,55,collaborator-sheet,fills blank
 grants,143,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,140,new_build,NO,collaborator-sheet,
@@ -519,7 +503,6 @@ grants,146,address,"7655 S San Pedro St, Los Angeles, CA 90003",collaborator-she
 grants,147,new_build,NO,collaborator-sheet,
 grants,147,scc_filed,True,collaborator-sheet,
 grants,147,manual_status,stale,collaborator-sheet,
-grants,147,property_name,Coliseum Connections,collaborator-sheet,differs from generated: 'Coliseum Connections Transit Village Apartments'
 grants,147,restricted_units,55,collaborator-sheet,fills blank
 grants,147,address,"805 71st Avenue, Oakland, CA",collaborator-sheet,fills blank
 grants,148,new_build,NO,collaborator-sheet,
@@ -531,11 +514,9 @@ grants,149,manual_status,dead,collaborator-sheet,
 grants,149,address,"841 S Serrano Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,150,new_build,NO,collaborator-sheet,
 grants,150,manual_status,dead,collaborator-sheet,
-grants,150,property_name,Langham Apartments,collaborator-sheet,differs from generated: 'The Langham Apartments'
 grants,150,address,"715 Normandie Ave, Los Angeles, CA 90005",collaborator-sheet,fills blank
 grants,151,new_build,NO,collaborator-sheet,
 grants,151,manual_status,dead,collaborator-sheet,
-grants,151,property_name,Piccadilly Apartments,collaborator-sheet,differs from generated: 'The Piccadilly Apartments'
 grants,151,address,"682 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,152,new_build,NO,collaborator-sheet,
 grants,152,total_units,152,collaborator-sheet,differs from generated: '52'
@@ -620,7 +601,6 @@ grants,185,address,"9422 Firth Avenue, Los Angeles, CA",collaborator-sheet,fills
 grants,186,new_build,YES,collaborator-sheet,
 grants,186,address,"4008 Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 grants,190,new_build,NO,collaborator-sheet,
-grants,190,entity,"St. Anton Highland, LP",collaborator-sheet,differs from generated: 'St. Anton Highlands LP'
 grants,190,address,"2311 Ivy Hill Way, San Ramon, CA 94582",collaborator-sheet,fills blank
 grants,144,new_build,NO,collaborator-sheet,
 grants,144,property_name,La Vista Apartment Homes,collaborator-sheet,differs from generated: 'La Vista Apartments'
@@ -649,13 +629,11 @@ grants,201,address,"1311 W Battles Rd, Santa Maria, CA 93458",collaborator-sheet
 grants,207,manual_status,dead,collaborator-sheet,
 grants,207,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,207,restricted_units,56,collaborator-sheet,fills blank
-grants,207,address,"2625 Cullen St, Los Angeles, CA 90034",collaborator-sheet,"differs from generated: '2625 Cullen Street, Los Angeles, CA'"
 grants,208,manual_status,dead,collaborator-sheet,
 grants,208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,208,restricted_units,34,collaborator-sheet,fills blank
 grants,208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
 grants,49,new_build,NO,collaborator-sheet,
-grants,49,property_name,Summerwood Apartments Homes Apartments,collaborator-sheet,differs from generated: 'Summerwood Apartment Homes'
 grants,49,entity,Standard Properties,collaborator-sheet,differs from generated: 'Standard Summerwood II LP'
 grants,49,investor_1,Standard Properties,collaborator-sheet,"differs from generated: 'Standard Property Company, Inc.'"
 grants,49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
@@ -680,7 +658,6 @@ grants,206,address,"1845 N Broadway, Escondido, CA 92026",collaborator-sheet,fil
 grants,224,new_build,YES,collaborator-sheet,
 grants,224,investor_1,Equitable Connections to Housing Opportunities (ECHO),collaborator-sheet,fills blank
 grants,224,restricted_units,31,collaborator-sheet,fills blank
-grants,224,address,"1454 W Florence Ave, Los Angeles, CA 90047",collaborator-sheet,"differs from generated: '1454 West Florence Avenue, Los Angeles, CA'"
 grants,209,investor_1,Red Stone Equity Partners,collaborator-sheet,differs from generated: 'Zenith Property Group LLC'
 grants,209,address,"6790 Embarcadero Ln, Carlsbad, CA 92011",collaborator-sheet,fills blank
 grants,209,term_years,15,collaborator-sheet,differs from generated: '35'
@@ -690,16 +667,12 @@ grants,226,manual_status,dead,collaborator-sheet,
 grants,226,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,226,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 grants,226,restricted_units,134,collaborator-sheet,fills blank
-grants,226,address,"142 Fig Tree Lane, Martinez, CA 94553",collaborator-sheet,"differs from generated: '142 Fig Tree Lane, Martinez, CA'"
 grants,226,term_years,10,collaborator-sheet,differs from generated: '15'
 grants,228,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
-grants,228,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,differs from generated: 'The Foundation for Affordable Housing'
 grants,228,restricted_units,19,collaborator-sheet,fills blank
 grants,228,term_years,15,collaborator-sheet,differs from generated: '10'
 grants,230,new_build,NO,collaborator-sheet,
-grants,230,property_name,Hansen illage Apartments,collaborator-sheet,differs from generated: 'Hansen Village Apartments'
 grants,230,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
-grants,230,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,differs from generated: 'The Foundation for Affordable Housing'
 grants,230,restricted_units,29,collaborator-sheet,fills blank
 grants,230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborator-sheet,"differs from generated: '11821 Foothill Blvd, Los Angeles, CA'"
 grants,232,investor_2,Vistria,collaborator-sheet,
@@ -708,11 +681,9 @@ grants,232,link,https://vistria.com/vistria-real-estate-acquires-orange-county-a
 grants,232,investor_1,Eagle Partners,collaborator-sheet,fills blank
 grants,232,nonprofit_partner,Affordable Housing Access,collaborator-sheet,fills blank
 grants,232,restricted_units,120,collaborator-sheet,fills blank
-grants,232,address,"12091 Bayport St, Garden Grove, CA 92840",collaborator-sheet,"differs from generated: '12091 Bayport Street, Garden Grove, CA'"
 grants,222,city,San Lorenzo,collaborator-sheet,fills blank
 grants,222,investor_1,Faulkner Capital Partners,collaborator-sheet,fills blank
 grants,222,restricted_units,135,collaborator-sheet,fills blank
-grants,222,address,"16077 Ashland Ave, San Lorenzo, CA 94580",collaborator-sheet,"differs from generated: '16077 Ashland Avenue, San Lorenzo'"
 grants,216,new_build,NO,collaborator-sheet,
 grants,216,address,"5035 Guava Ave, La Mesa, CA 91942",collaborator-sheet,fills blank
 grants,217,new_build,YES,collaborator-sheet,
@@ -722,7 +693,6 @@ grants,215,link,https://cscda.org/wp-content/uploads/2026/06/CSCDA-Agenda-Packet
 grants,215,resolution,26H-[_],collaborator-sheet,fills blank
 grants,215,investor_1,Category Company,collaborator-sheet,fills blank
 grants,215,restricted_units,73,collaborator-sheet,fills blank
-grants,215,address,"511 N. Hoover Street, Los Angeles, California",collaborator-sheet,"differs from generated: '511 N. Hoover Street, Los Angeles'"
 grants,211,entity,Heven LP,collaborator-sheet,"differs from generated: 'Haven, LP'"
 grants,211,investor_1,LA Apartments,collaborator-sheet,fills blank
 grants,211,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
@@ -737,12 +707,10 @@ grants,213,city,Unincorporated,collaborator-sheet,fills blank
 grants,213,investor_1,TriWest Development,collaborator-sheet,fills blank
 grants,213,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
 grants,213,restricted_units,74,collaborator-sheet,fills blank
-grants,213,address,"5416 Jackson St, North Highlands, CA 95660",collaborator-sheet,"differs from generated: '5416 Jackson Street, North Highlands'"
 grants,214,new_build,NO,collaborator-sheet,
 grants,214,investor_1,The Korda Group,collaborator-sheet,fills blank
 grants,214,nonprofit_partner,AOF/Pacific Affordable Housing Corp.,collaborator-sheet,fills blank
 grants,214,restricted_units,72,collaborator-sheet,fills blank
-grants,214,address,"444 N Amelia Ave, San Dimas, CA 91773",collaborator-sheet,"differs from generated: '444 North Amelia Avenue, San Dimas'"
 grants,218,new_build,YES,collaborator-sheet,
 grants,218,investor_1,Orion Capital LLC,collaborator-sheet,fills blank
 grants,218,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
@@ -763,18 +731,14 @@ grants,221,new_build,YES,collaborator-sheet,
 grants,221,address,"6219 Banner Avenue, Los Angeles, CA 90038",collaborator-sheet,fills blank
 grants,229,investor_1,CGI+,collaborator-sheet,fills blank
 grants,229,restricted_units,144,collaborator-sheet,fills blank
-grants,229,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,"differs from generated: '220 47th Street, San Diego'"
 grants,231,investor_1,Post Real Estate Group,collaborator-sheet,fills blank
 grants,231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,differs from generated: 'Bedford'
 grants,231,restricted_units,302,collaborator-sheet,fills blank
-grants,231,address,"160 S Virgil Ave, Los Angeles, CA 90004",collaborator-sheet,"differs from generated: '160 S. Virgil Avenue, Los Angeles'"
 grants,233,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,233,restricted_units,136,collaborator-sheet,fills blank
-grants,233,address,"926 S Kingsley Dr, Los Angeles, CA 90006",collaborator-sheet,"differs from generated: '926 S. Kingsley Drive, Los Angeles, CA'"
 grants,233,term_years,10,collaborator-sheet,differs from generated: '55'
 grants,234,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,234,restricted_units,136,collaborator-sheet,fills blank
-grants,234,address,"939 S Kingsley Dr, Los Angeles, CA 90006",collaborator-sheet,"differs from generated: '939 S. Kingsley Drive, Los Angeles, CA'"
 grants,235,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,235,restricted_units,59,collaborator-sheet,fills blank
 grants,235,address,"3950 Ingraham St, San Diego, CA 92109",collaborator-sheet,"differs from generated: '3950 W. Ingraham Street, Los Angeles, CA'"
@@ -782,11 +746,8 @@ grants,236,new_build,YES,collaborator-sheet,
 grants,236,investor_1,Killefer Development,collaborator-sheet,fills blank
 grants,236,total_units,108,collaborator-sheet,differs from generated: '136'
 grants,236,restricted_units,108,collaborator-sheet,fills blank
-grants,236,address,"6985 S. Centinela Avenue, Los Angeles, CA 90045",collaborator-sheet,"differs from generated: '6985 S. Centinela Avenue, Los Angeles, CA'"
 grants,237,investor_1,Angeleno Invesments,collaborator-sheet,fills blank
 grants,237,restricted_units,27,collaborator-sheet,fills blank
-grants,237,address,"1178 N Edgemont St, Los Angeles, CA 90029",collaborator-sheet,"differs from generated: '1178 N. Edgemont Street, Los Angeles, CA'"
-grants,225,entity,"CG Bennington, LP / JSP Bennington, LP",collaborator-sheet,"differs from generated: 'CG Bennington, LP and JSP Bennington, LP'"
 grants,225,address,"2780 N Texas St, Fairfield, CA 94533",collaborator-sheet,fills blank
 grants,225,term_years,55,collaborator-sheet,differs from generated: '30'
 grants,227,address,"1 Shoal Ct, Sacramento, CA 95831",collaborator-sheet,fills blank

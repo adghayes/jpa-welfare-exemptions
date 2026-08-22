@@ -54,6 +54,7 @@ class ExtractedGrant:
 
     # From staff report (enrichment)
     investor_1: str = ""  # Staff report "Applicant:" field
+    investor_2: str = ""  # second party when the applicant reads "A / B"
     nonprofit_partner: str = ""
     total_units: Optional[int] = None
     restricted_units: Optional[int] = None
@@ -325,6 +326,14 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
         else:
             description = staff.grant_description if staff else ""
 
+        # Applicants sometimes read "A / B" — split into the two investors
+        applicant = staff.applicant if staff else ""
+        investor_1, investor_2 = applicant, ""
+        if " / " in applicant:
+            parts = [x.strip() for x in applicant.split(" / ")]
+            if len(parts) == 2 and all(parts):
+                investor_1, investor_2 = parts
+
         # Create merged grant
         grant = ExtractedGrant(
             property_name=ag.property_name,
@@ -336,7 +345,8 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             item_type=ag.item_type,
             minutes_confirmed=confirmed,
             minutes_outcome=outcome,
-            investor_1=staff.applicant if staff else "",
+            investor_1=investor_1,
+            investor_2=investor_2,
             nonprofit_partner=staff.nonprofit_partner if staff else "",
             total_units=staff.total_units if staff else None,
             restricted_units=staff.restricted_units if staff else None,
@@ -364,7 +374,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
     # Define column order
     columns = [
         'property_name', 'entity', 'city', 'county', 'resolution', 'meeting_date',
-        'item_type', 'minutes_confirmed', 'investor_1', 'nonprofit_partner',
+        'item_type', 'minutes_confirmed', 'investor_1', 'investor_2', 'nonprofit_partner',
         'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description'
     ]
 
