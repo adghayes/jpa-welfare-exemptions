@@ -50,7 +50,7 @@ grants,16,new_build,YES,collaborator-sheet,
 grants,16,address,"343 Moon River Pl, Vacaville, CA 95687",collaborator-sheet,fills blank
 grants,18,built,2021,collaborator-sheet,
 grants,18,city,San Diego,collaborator-sheet,fills blank
-grants,18,nonprofit_partner,Pacific Affordable Housing Corp,collaborator-sheet,differs from generated: 'AOF / Pacific Affordable Housing Corp.'
+grants,18,nonprofit_partner,Pacific Affordable Housing Corp,collaborator-sheet,"reviewed 2026-08-22, manual kept: collaborator split combined AOF/Pacific attribution"
 grants,18,address,"1735 S Mission Rd, Fallbrook, CA 92028",collaborator-sheet,fills blank
 grants,18,city_cut,15300,collaborator-sheet,fills blank
 grants,20,acquisition_price_m,17600000,collaborator-sheet,
@@ -69,8 +69,8 @@ grants,23,manual_status,dead,collaborator-sheet,
 grants,24,resolution,24-253,collaborator-sheet,fills blank
 grants,24,address,"4209 S Western Ave, Los Angeles, CA 90062",collaborator-sheet,fills blank
 grants,25,address,"1130 W Martin Luther King Jr Blvd, Los Angeles, CA 90037",collaborator-sheet,fills blank
-grants,34,city,El Sobrante,collaborator-sheet,differs from generated: 'Los Angeles'
-grants,34,county,Contra Costa,collaborator-sheet,differs from generated: 'Los Angeles'
+grants,34,city,El Sobrante,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda error; property is in El Sobrante"
+grants,34,county,Contra Costa,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda error; property is in Contra Costa"
 grants,34,address,"4481 Appian Way, El Sobrante, CA 94803",collaborator-sheet,fills blank
 grants,34,city_cut,6150,collaborator-sheet,fills blank
 grants,35,city,Unincorporated,collaborator-sheet,fills blank
@@ -103,7 +103,7 @@ grants,26,built,1987,collaborator-sheet,
 grants,26,address,"441 W 3rd St, San Pedro, CA 90731",collaborator-sheet,fills blank
 grants,36,resolution,24-361,collaborator-sheet,fills blank
 grants,37,new_build,YES,collaborator-sheet,
-grants,37,property_name,2330 E. 3rd Street Apartments,collaborator-sheet,differs from generated: '2330 3rd Street Apartments'
+grants,37,property_name,2330 E. 3rd Street Apartments,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda missing E. (East)"
 grants,37,resolution,24-363,collaborator-sheet,fills blank
 grants,37,address,"2330 E. 3rd Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,39,new_build,YES,collaborator-sheet,
@@ -183,7 +183,6 @@ grants,58,new_build,NO,collaborator-sheet,
 grants,58,scc_filed,True,collaborator-sheet,
 grants,58,address,"38441 5th St W, Palmdale, CA 93551",collaborator-sheet,fills blank
 grants,60,new_build,YES,collaborator-sheet,
-grants,60,entity,Prometheus Real Estate Group,collaborator-sheet,"differs from generated: 'PREG 5150 ECR Los Altos, LP, a California limited partnershi'"
 grants,60,total_units,196,collaborator-sheet,differs from generated: '29'
 grants,60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 grants,60,city_cut,4350,collaborator-sheet,fills blank
@@ -265,7 +264,6 @@ grants,83,address,"6401 S. Avalon Blvd., Los Angeles, CA",collaborator-sheet,fil
 grants,84,new_build,YES,collaborator-sheet,
 grants,84,address,"9515 Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,79,new_build,YES,collaborator-sheet,
-grants,79,entity,10811 S. Compton Ave Apartments,collaborator-sheet,"differs from generated: '2 SIOF 10811 S Compton Ave, LP'"
 grants,79,address,"10811 S. Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,85,new_build,YES,collaborator-sheet,
 grants,85,address,"569 W. 6th Street, San Pedro, CA",collaborator-sheet,fills blank
@@ -368,7 +366,7 @@ grants,119,restricted_units,59,collaborator-sheet,fills blank
 grants,119,address,"516 S. St. Andrews Place, Los Angeles, CA 90020",collaborator-sheet,fills blank
 grants,119,city_cut,8850,collaborator-sheet,fills blank
 grants,120,new_build,NO,collaborator-sheet,
-grants,120,city,Unincorporated,collaborator-sheet,differs from generated: 'Sacramento'
+grants,120,city,Unincorporated,collaborator-sheet,"reviewed 2026-08-22, manual kept: unincorporated area is the precise answer"
 grants,120,address,"2345 Northrop Ave, Sacramento, CA 95825",collaborator-sheet,fills blank
 grants,120,city_cut,40800,collaborator-sheet,fills blank
 grants,131,new_build,NO,collaborator-sheet,
@@ -389,7 +387,7 @@ grants,123,address,"200 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,f
 grants,124,new_build,NO,collaborator-sheet,
 grants,124,address,"915 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,125,new_build,NO,collaborator-sheet,
-grants,125,property_name,Kingsley Apartments,collaborator-sheet,differs from generated: 'Kinglsey Apartments'
+grants,125,property_name,Kingsley Apartments,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda typo Kinglsey"
 grants,125,address,"530 Kingsley Drive, Los Angeles, CA",collaborator-sheet,fills blank
 grants,126,new_build,NO,collaborator-sheet,
 grants,126,address,"727 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
@@ -427,7 +425,6 @@ grants,139,manual_status,dead,collaborator-sheet,
 grants,139,nonprofit_partner,Community HousingWorks,collaborator-sheet,fills blank
 grants,139,address,"5210 Monterey Rd, San Jose, CA 95111",collaborator-sheet,fills blank
 grants,138,new_build,NO,collaborator-sheet,
-grants,138,city,San Jose,collaborator-sheet,differs from generated: 'Santa Clara'
 grants,138,address,"3765 Tamarack Ln, Santa Clara, CA 95051",collaborator-sheet,fills blank
 grants,146,new_build,YES,collaborator-sheet,
 grants,146,restricted_units,40,collaborator-sheet,fills blank
@@ -515,7 +512,6 @@ grants,189,built,1987,collaborator-sheet,
 grants,189,manual_status,dead,collaborator-sheet,
 grants,189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
 grants,181,manual_status,stale,collaborator-sheet,
-grants,181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 grants,181,total_units,152,collaborator-sheet,differs from generated: '52'
 grants,181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,183,manual_status,dead,collaborator-sheet,
@@ -529,7 +525,7 @@ grants,186,address,"4008 Martin Luther King Boulevard, Los Angeles, CA",collabor
 grants,190,new_build,NO,collaborator-sheet,
 grants,190,address,"2311 Ivy Hill Way, San Ramon, CA 94582",collaborator-sheet,fills blank
 grants,144,new_build,NO,collaborator-sheet,
-grants,144,property_name,La Vista Apartment Homes,collaborator-sheet,differs from generated: 'La Vista Apartments'
+grants,144,property_name,La Vista Apartment Homes,collaborator-sheet,"reviewed 2026-08-22, manual kept: official name is Apartment Homes"
 grants,144,address,"740 S. Western Avenue, Santa Maria, CA 93458",collaborator-sheet,fills blank
 grants,195,new_build,YES,collaborator-sheet,
 grants,195,total_units,41,collaborator-sheet,differs from generated: '42'
@@ -541,7 +537,7 @@ grants,187,address,"3200 W 5th St, Santa Ana, CA 92703",collaborator-sheet,fills
 grants,196,manual_status,dead,collaborator-sheet,
 grants,196,investor_1,Capital Insight Holdings,collaborator-sheet,fills blank
 grants,196,restricted_units,514,collaborator-sheet,fills blank
-grants,196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"differs from generated: '9750 Airport Blvd, Los Angeles, CA'"
+grants,196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Westchester)"
 grants,200,resolution,Application,collaborator-sheet,fills blank
 grants,200,address,"1408 W Jefferson Blvd, Los Angeles, CA 90007",collaborator-sheet,fills blank
 grants,197,new_build,YES,collaborator-sheet,
@@ -558,10 +554,8 @@ grants,207,restricted_units,56,collaborator-sheet,fills blank
 grants,208,manual_status,dead,collaborator-sheet,
 grants,208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 grants,208,restricted_units,34,collaborator-sheet,fills blank
-grants,208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
+grants,208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"reviewed 2026-08-22, manual kept: zip refinement"
 grants,49,new_build,NO,collaborator-sheet,
-grants,49,entity,Standard Properties,collaborator-sheet,differs from generated: 'Standard Summerwood II LP'
-grants,49,investor_1,Standard Properties,collaborator-sheet,"differs from generated: 'Standard Property Company, Inc.'"
 grants,49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
 grants,49,city_cut,18450,collaborator-sheet,fills blank
 grants,188,manual_status,dead,collaborator-sheet,
@@ -599,7 +593,7 @@ grants,228,term_years,15,collaborator-sheet,differs from generated: '10'
 grants,230,new_build,NO,collaborator-sheet,
 grants,230,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 grants,230,restricted_units,29,collaborator-sheet,fills blank
-grants,230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborator-sheet,"differs from generated: '11821 Foothill Blvd, Los Angeles, CA'"
+grants,230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Lake View Terrace)"
 grants,232,investor_2,Vistria,collaborator-sheet,
 grants,232,new_build,NO,collaborator-sheet,
 grants,232,link,https://vistria.com/vistria-real-estate-acquires-orange-county-apartment-community/,collaborator-sheet,
@@ -618,16 +612,14 @@ grants,215,link,https://cscda.org/wp-content/uploads/2026/06/CSCDA-Agenda-Packet
 grants,215,resolution,26H-[_],collaborator-sheet,fills blank
 grants,215,investor_1,Category Company,collaborator-sheet,fills blank
 grants,215,restricted_units,73,collaborator-sheet,fills blank
-grants,211,entity,Heven LP,collaborator-sheet,"differs from generated: 'Haven, LP'"
 grants,211,investor_1,LA Apartments,collaborator-sheet,fills blank
 grants,211,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 grants,211,restricted_units,82,collaborator-sheet,fills blank
-grants,211,address,"6530 Independence Ave, Canoga Park, CA 91303",collaborator-sheet,"differs from generated: '6530 Independence Avenue, Los Angeles'"
+grants,211,address,"6530 Independence Ave, Canoga Park, CA 91303",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Canoga Park)"
 grants,212,new_build,YES,collaborator-sheet,
 grants,212,investor_1,KBX Investments,collaborator-sheet,fills blank
 grants,212,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 grants,212,restricted_units,50,collaborator-sheet,fills blank
-grants,212,address,"2075 W Jefferson BlvdLos Angeles, CA 90018",collaborator-sheet,"differs from generated: '2075 West Jefferson Blvd., Los Angeles'"
 grants,213,city,Unincorporated,collaborator-sheet,fills blank
 grants,213,investor_1,TriWest Development,collaborator-sheet,fills blank
 grants,213,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
@@ -657,7 +649,7 @@ grants,221,address,"6219 Banner Avenue, Los Angeles, CA 90038",collaborator-shee
 grants,229,investor_1,CGI+,collaborator-sheet,fills blank
 grants,229,restricted_units,144,collaborator-sheet,fills blank
 grants,231,investor_1,Post Real Estate Group,collaborator-sheet,fills blank
-grants,231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,differs from generated: 'Bedford'
+grants,231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,"reviewed 2026-08-22, manual kept: packet parse truncates to Bedford; full name correct"
 grants,231,restricted_units,302,collaborator-sheet,fills blank
 grants,233,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,233,restricted_units,136,collaborator-sheet,fills blank
@@ -666,7 +658,6 @@ grants,234,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,234,restricted_units,136,collaborator-sheet,fills blank
 grants,235,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,235,restricted_units,59,collaborator-sheet,fills blank
-grants,235,address,"3950 Ingraham St, San Diego, CA 92109",collaborator-sheet,"differs from generated: '3950 W. Ingraham Street, Los Angeles, CA'"
 grants,236,new_build,YES,collaborator-sheet,
 grants,236,investor_1,Killefer Development,collaborator-sheet,fills blank
 grants,236,total_units,108,collaborator-sheet,differs from generated: '136'

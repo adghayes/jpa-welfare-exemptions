@@ -50,7 +50,7 @@ project_id,field,value,source,note
 16,address,"343 Moon River Pl, Vacaville, CA 95687",collaborator-sheet,fills blank
 18,built,2021,collaborator-sheet,
 18,city,San Diego,collaborator-sheet,fills blank
-18,nonprofit_partner,Pacific Affordable Housing Corp,collaborator-sheet,differs from generated: 'AOF / Pacific Affordable Housing Corp.'
+18,nonprofit_partner,Pacific Affordable Housing Corp,collaborator-sheet,"reviewed 2026-08-22, manual kept: collaborator split combined AOF/Pacific attribution"
 18,address,"1735 S Mission Rd, Fallbrook, CA 92028",collaborator-sheet,fills blank
 18,city_cut,15300,collaborator-sheet,fills blank
 20,acquisition_price_m,17600000,collaborator-sheet,
@@ -69,8 +69,8 @@ project_id,field,value,source,note
 24,resolution,24-253,collaborator-sheet,fills blank
 24,address,"4209 S Western Ave, Los Angeles, CA 90062",collaborator-sheet,fills blank
 25,address,"1130 W Martin Luther King Jr Blvd, Los Angeles, CA 90037",collaborator-sheet,fills blank
-34,city,El Sobrante,collaborator-sheet,differs from generated: 'Los Angeles'
-34,county,Contra Costa,collaborator-sheet,differs from generated: 'Los Angeles'
+34,city,El Sobrante,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda error; property is in El Sobrante"
+34,county,Contra Costa,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda error; property is in Contra Costa"
 34,address,"4481 Appian Way, El Sobrante, CA 94803",collaborator-sheet,fills blank
 34,city_cut,6150,collaborator-sheet,fills blank
 35,city,Unincorporated,collaborator-sheet,fills blank
@@ -103,7 +103,7 @@ project_id,field,value,source,note
 26,address,"441 W 3rd St, San Pedro, CA 90731",collaborator-sheet,fills blank
 36,resolution,24-361,collaborator-sheet,fills blank
 37,new_build,YES,collaborator-sheet,
-37,property_name,2330 E. 3rd Street Apartments,collaborator-sheet,differs from generated: '2330 3rd Street Apartments'
+37,property_name,2330 E. 3rd Street Apartments,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda missing E. (East)"
 37,resolution,24-363,collaborator-sheet,fills blank
 37,address,"2330 E. 3rd Street, Los Angeles, CA",collaborator-sheet,fills blank
 39,new_build,YES,collaborator-sheet,
@@ -183,7 +183,6 @@ project_id,field,value,source,note
 58,scc_filed,True,collaborator-sheet,
 58,address,"38441 5th St W, Palmdale, CA 93551",collaborator-sheet,fills blank
 60,new_build,YES,collaborator-sheet,
-60,entity,Prometheus Real Estate Group,collaborator-sheet,"differs from generated: 'PREG 5150 ECR Los Altos, LP, a California limited partnershi'"
 60,total_units,196,collaborator-sheet,differs from generated: '29'
 60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 60,city_cut,4350,collaborator-sheet,fills blank
@@ -265,7 +264,6 @@ project_id,field,value,source,note
 84,new_build,YES,collaborator-sheet,
 84,address,"9515 Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 79,new_build,YES,collaborator-sheet,
-79,entity,10811 S. Compton Ave Apartments,collaborator-sheet,"differs from generated: '2 SIOF 10811 S Compton Ave, LP'"
 79,address,"10811 S. Compton Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 85,new_build,YES,collaborator-sheet,
 85,address,"569 W. 6th Street, San Pedro, CA",collaborator-sheet,fills blank
@@ -368,7 +366,7 @@ project_id,field,value,source,note
 119,address,"516 S. St. Andrews Place, Los Angeles, CA 90020",collaborator-sheet,fills blank
 119,city_cut,8850,collaborator-sheet,fills blank
 120,new_build,NO,collaborator-sheet,
-120,city,Unincorporated,collaborator-sheet,differs from generated: 'Sacramento'
+120,city,Unincorporated,collaborator-sheet,"reviewed 2026-08-22, manual kept: unincorporated area is the precise answer"
 120,address,"2345 Northrop Ave, Sacramento, CA 95825",collaborator-sheet,fills blank
 120,city_cut,40800,collaborator-sheet,fills blank
 131,new_build,NO,collaborator-sheet,
@@ -389,7 +387,7 @@ project_id,field,value,source,note
 124,new_build,NO,collaborator-sheet,
 124,address,"915 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 125,new_build,NO,collaborator-sheet,
-125,property_name,Kingsley Apartments,collaborator-sheet,differs from generated: 'Kinglsey Apartments'
+125,property_name,Kingsley Apartments,collaborator-sheet,"reviewed 2026-08-22, manual kept: agenda typo Kinglsey"
 125,address,"530 Kingsley Drive, Los Angeles, CA",collaborator-sheet,fills blank
 126,new_build,NO,collaborator-sheet,
 126,address,"727 S. Mariposa Avenue, Los Angeles, CA",collaborator-sheet,fills blank
@@ -427,7 +425,6 @@ project_id,field,value,source,note
 139,nonprofit_partner,Community HousingWorks,collaborator-sheet,fills blank
 139,address,"5210 Monterey Rd, San Jose, CA 95111",collaborator-sheet,fills blank
 138,new_build,NO,collaborator-sheet,
-138,city,San Jose,collaborator-sheet,differs from generated: 'Santa Clara'
 138,address,"3765 Tamarack Ln, Santa Clara, CA 95051",collaborator-sheet,fills blank
 146,new_build,YES,collaborator-sheet,
 146,restricted_units,40,collaborator-sheet,fills blank
@@ -515,7 +512,6 @@ project_id,field,value,source,note
 189,manual_status,dead,collaborator-sheet,
 189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
 181,manual_status,stale,collaborator-sheet,
-181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 181,total_units,152,collaborator-sheet,differs from generated: '52'
 181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 183,manual_status,dead,collaborator-sheet,
@@ -529,7 +525,7 @@ project_id,field,value,source,note
 190,new_build,NO,collaborator-sheet,
 190,address,"2311 Ivy Hill Way, San Ramon, CA 94582",collaborator-sheet,fills blank
 144,new_build,NO,collaborator-sheet,
-144,property_name,La Vista Apartment Homes,collaborator-sheet,differs from generated: 'La Vista Apartments'
+144,property_name,La Vista Apartment Homes,collaborator-sheet,"reviewed 2026-08-22, manual kept: official name is Apartment Homes"
 144,address,"740 S. Western Avenue, Santa Maria, CA 93458",collaborator-sheet,fills blank
 195,new_build,YES,collaborator-sheet,
 195,total_units,41,collaborator-sheet,differs from generated: '42'
@@ -541,7 +537,7 @@ project_id,field,value,source,note
 196,manual_status,dead,collaborator-sheet,
 196,investor_1,Capital Insight Holdings,collaborator-sheet,fills blank
 196,restricted_units,514,collaborator-sheet,fills blank
-196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"differs from generated: '9750 Airport Blvd, Los Angeles, CA'"
+196,address,"9750 Airport Blvd, Westchester, CA 90045",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Westchester)"
 200,resolution,Application,collaborator-sheet,fills blank
 200,address,"1408 W Jefferson Blvd, Los Angeles, CA 90007",collaborator-sheet,fills blank
 197,new_build,YES,collaborator-sheet,
@@ -558,10 +554,8 @@ project_id,field,value,source,note
 208,manual_status,dead,collaborator-sheet,
 208,investor_1,Jenson Capital Group,collaborator-sheet,fills blank
 208,restricted_units,34,collaborator-sheet,fills blank
-208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"differs from generated: '2481 South Sawtelle Blvd, Los Angeles, CA'"
+208,address,"2481 Sawtelle Blvd, Los Angeles, CA 90064",collaborator-sheet,"reviewed 2026-08-22, manual kept: zip refinement"
 49,new_build,NO,collaborator-sheet,
-49,entity,Standard Properties,collaborator-sheet,differs from generated: 'Standard Summerwood II LP'
-49,investor_1,Standard Properties,collaborator-sheet,"differs from generated: 'Standard Property Company, Inc.'"
 49,address,"21701 Foothill Blvd, Hayward, CA 94541",collaborator-sheet,fills blank
 49,city_cut,18450,collaborator-sheet,fills blank
 188,manual_status,dead,collaborator-sheet,
@@ -599,7 +593,7 @@ project_id,field,value,source,note
 230,new_build,NO,collaborator-sheet,
 230,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 230,restricted_units,29,collaborator-sheet,fills blank
-230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborator-sheet,"differs from generated: '11821 Foothill Blvd, Los Angeles, CA'"
+230,address,"11821 Foothill Blvd, Lake View Terrace, CA 91342",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Lake View Terrace)"
 232,investor_2,Vistria,collaborator-sheet,
 232,new_build,NO,collaborator-sheet,
 232,link,https://vistria.com/vistria-real-estate-acquires-orange-county-apartment-community/,collaborator-sheet,
@@ -618,16 +612,14 @@ project_id,field,value,source,note
 215,resolution,26H-[_],collaborator-sheet,fills blank
 215,investor_1,Category Company,collaborator-sheet,fills blank
 215,restricted_units,73,collaborator-sheet,fills blank
-211,entity,Heven LP,collaborator-sheet,"differs from generated: 'Haven, LP'"
 211,investor_1,LA Apartments,collaborator-sheet,fills blank
 211,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 211,restricted_units,82,collaborator-sheet,fills blank
-211,address,"6530 Independence Ave, Canoga Park, CA 91303",collaborator-sheet,"differs from generated: '6530 Independence Avenue, Los Angeles'"
+211,address,"6530 Independence Ave, Canoga Park, CA 91303",collaborator-sheet,"reviewed 2026-08-22, manual kept: neighborhood + zip refinement (Canoga Park)"
 212,new_build,YES,collaborator-sheet,
 212,investor_1,KBX Investments,collaborator-sheet,fills blank
 212,nonprofit_partner,Central Valley Coalition for Affordable Housing,collaborator-sheet,fills blank
 212,restricted_units,50,collaborator-sheet,fills blank
-212,address,"2075 W Jefferson BlvdLos Angeles, CA 90018",collaborator-sheet,"differs from generated: '2075 West Jefferson Blvd., Los Angeles'"
 213,city,Unincorporated,collaborator-sheet,fills blank
 213,investor_1,TriWest Development,collaborator-sheet,fills blank
 213,nonprofit_partner,Foundation for Affordable Housing,collaborator-sheet,fills blank
@@ -657,7 +649,7 @@ project_id,field,value,source,note
 229,investor_1,CGI+,collaborator-sheet,fills blank
 229,restricted_units,144,collaborator-sheet,fills blank
 231,investor_1,Post Real Estate Group,collaborator-sheet,fills blank
-231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,differs from generated: 'Bedford'
+231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-sheet,"reviewed 2026-08-22, manual kept: packet parse truncates to Bedford; full name correct"
 231,restricted_units,302,collaborator-sheet,fills blank
 233,investor_1,Keren Housing,collaborator-sheet,fills blank
 233,restricted_units,136,collaborator-sheet,fills blank
@@ -666,7 +658,6 @@ project_id,field,value,source,note
 234,restricted_units,136,collaborator-sheet,fills blank
 235,investor_1,Keren Housing,collaborator-sheet,fills blank
 235,restricted_units,59,collaborator-sheet,fills blank
-235,address,"3950 Ingraham St, San Diego, CA 92109",collaborator-sheet,"differs from generated: '3950 W. Ingraham Street, Los Angeles, CA'"
 236,new_build,YES,collaborator-sheet,
 236,investor_1,Killefer Development,collaborator-sheet,fills blank
 236,total_units,108,collaborator-sheet,differs from generated: '136'
