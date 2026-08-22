@@ -44,6 +44,8 @@ GRANT_COLUMNS = [
     # the property-level rollup, and the collaborator's judgment call
     "item_type", "minutes_status", "authorization_status", "superseded_by",
     "manual_status",
+    # BOE welfare-exemption certificate — evaluated together with status
+    "scc_filed", "scc_number", "scc_issue_date",
     # review links: the meeting's documents (CSCDA: packet fills
     # staff_report_url; its minutes live in the NEXT meeting's packet)
     "agenda_url", "staff_report_url", "minutes_url",
@@ -52,7 +54,6 @@ GRANT_COLUMNS = [
     "city_cut", "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link",
-    "scc_filed", "scc_number", "scc_issue_date",
     "row_source", "field_overrides",
 ]
 
