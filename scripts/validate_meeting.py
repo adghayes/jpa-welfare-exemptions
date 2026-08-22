@@ -62,6 +62,7 @@ class ExtractedGrant:
     term_years: Optional[int] = None
     city_cut: Optional[float] = None
     grant_description: str = ""
+    address: str = ""
 
 
 def normalize_property_name(s: str) -> str:
@@ -354,6 +355,7 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             term_years=staff.term_years if staff else None,
             city_cut=staff.city_share if staff else None,
             grant_description=description,
+            address=staff.address if staff else "",
         )
         extracted_grants.append(grant)
 
@@ -375,7 +377,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
     columns = [
         'property_name', 'entity', 'city', 'county', 'resolution', 'meeting_date',
         'item_type', 'minutes_confirmed', 'investor_1', 'investor_2', 'nonprofit_partner',
-        'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description'
+        'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description', 'address'
     ]
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:

@@ -51,7 +51,8 @@ GRANT_COLUMNS = [
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
-    "link", "leasing_link", "scc_filed",
+    "link", "leasing_link",
+    "scc_filed", "scc_number", "scc_issue_date",
     "row_source", "field_overrides",
 ]
 
@@ -199,6 +200,63 @@ def main() -> None:
                         for _, r in grants.iterrows()}
     n_status = grants["authorization_status"].value_counts().to_dict()
     grants = grants.drop(columns="_prop")
+
+    # --- BOE Supplemental Clearance Certificates ---------------------------
+    # An LP needs an SCC before the assessor can grant the welfare exemption.
+    # Match each grant's entity against the BOE list (exact after stripping
+    # legal suffixes; county must agree when the same name matches several
+    # certificates). Near-misses become QA findings for human review.
+    import re as _re
+    from fuzzywuzzy import fuzz as _fuzz
+
+    _LEGAL = _re.compile(
+        r",?\s*(a (california|delaware|washington) limited (partnership|liability company)"
+        r"|a limited partnership|or an affiliate( thereof)?|inc|llc|l\.?l\.?c|lp|l\.?p|lllp)\.?\s*$",
+        _re.IGNORECASE)
+
+    def norm_org(s: str) -> str:
+        s = _re.sub(r"\s+", " ", str(s).lower().replace(".", "").replace(",", "")).strip()
+        prev = None
+        while prev != s:
+            prev = s
+            s = _LEGAL.sub("", s).strip().rstrip(",.")
+        return s
+
+    scc = pd.read_csv("output/pipeline/scc_certificates.csv", dtype=str).fillna("")
+    scc_by_name: dict[str, list[dict]] = {}
+    for _, cert in scc.iterrows():
+        scc_by_name.setdefault(norm_org(cert["limited_partnership"]), []).append(cert.to_dict())
+
+    grants["scc_filed"] = ""
+    grants["scc_number"] = ""
+    grants["scc_issue_date"] = ""
+    scc_names = list(scc_by_name)
+    for idx, r in grants.iterrows():
+        key = norm_org(r["entity"])
+        if not key:
+            continue
+        certs = scc_by_name.get(key, [])
+        if certs:
+            county_match = [c for c in certs if c["county"].title() == r["county"].title()]
+            cert = (county_match or certs)[0]
+            grants.at[idx, "scc_filed"] = "True"
+            grants.at[idx, "scc_number"] = cert["scc_number"]
+            grants.at[idx, "scc_issue_date"] = cert["issue_date"]
+            if not county_match and r["county"]:
+                qa("scc-county-mismatch", r["project_id"],
+                   f"SCC {cert['scc_number']} matches entity but is filed in "
+                   f"{cert['county'].title()}, grant county {r['county']}")
+        elif r["item_type"] == "authorize":
+            best, score = None, 0
+            for name in scc_names:
+                s = _fuzz.token_sort_ratio(key, name)
+                if s > score:
+                    best, score = name, s
+            if 90 <= score < 100:
+                cert = scc_by_name[best][0]
+                qa("scc-possible-match", r["project_id"],
+                   f"entity {r['entity'][:40]!r} ~ SCC LP {cert['limited_partnership'][:40]!r} "
+                   f"(#{cert['scc_number']}, {cert['county'].title()}, score {score})")
 
     # link each grant to its meeting's documents (review aid)
     doc_urls = pd.read_csv("output/pipeline/doc_urls.csv", dtype=str).fillna("")

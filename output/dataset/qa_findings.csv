@@ -90,6 +90,11 @@ override-conflict,233,term_years: generated '55' -> manual '10'
 override-conflict,235,"address: generated '3950 W. Ingraham Street, Los Angeles, CA' -> manual '3950 Ingraham St, San Diego, CA 92109'"
 override-conflict,236,total_units: generated '136' -> manual '108'
 override-conflict,225,term_years: generated '30' -> manual '55'
+scc-possible-match,6,"entity '381 Turk Street Associates, a California' ~ SCC LP '421 Turk Street Associates, L.P.' (#3326, San Francisco, score 92)"
+scc-possible-match,33,"entity 'BIF NON OZ 7524 S HOOVER ST, LP' ~ SCC LP 'BIF NON OZ 7518 S Hoover St, LP' (#14953, Los Angeles, score 93)"
+scc-possible-match,40,"entity 'BIF NON OZ 4228 WESTERN AVE, LP' ~ SCC LP 'BIF NON OZ 4209 Western Ave, LP' (#14952, Los Angeles, score 93)"
+scc-possible-match,122,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
+scc-possible-match,165,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
 fetch-fallback,10,AIN 6020022027 (Los Angeles) has no current roll data; using manual value
 parcel-no-values,33,AIN 6020022027 (Los Angeles): no roll values from any source
 fetch-fallback,76,AIN 5036031006 (Los Angeles) has no current roll data; using manual value

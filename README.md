@@ -41,6 +41,8 @@ generated grants get IDs from 301 up.
 5. scripts/fetch_la_roll_values.py           assessed values by county:
    scripts/fetch_solano_roll_values.py         LA GIS API, Solano assessor
    scripts/fetch_san_diego_roll_values.py      portal, SANDAG parcel layer
+   scripts/fetch_scc_certificates.py         BOE Supplemental Clearance
+                                             Certificate list (OData)
 6. scripts/build_dataset.py                  merge generated + manual/ -> output/dataset/
 7. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
 ```
@@ -114,6 +116,16 @@ Three output fields encode what the documents establish:
   minutes-pulled attempts are `pulled` and never count; `preliminary` marks
   the preliminary-only rows. Parcels carry `operative_project_id` so
   downstream sums count each property exactly once.
+
+### Welfare-exemption certificates
+
+A limited partnership must hold a BOE **Supplemental Clearance Certificate**
+before a county assessor can grant the welfare exemption. The BOE publishes
+the full certificate list in its open data portal (OData); the merge matches
+each grant's entity against it (exact after stripping legal suffixes, county
+agreement preferred) and sets `scc_filed`, `scc_number`, and
+`scc_issue_date`. Near-miss names become `scc-possible-match` QA findings
+for human review rather than automatic matches.
 
 ### Parcels and values
 
