@@ -4,7 +4,7 @@ project_id,county,property_name,ain,apn,situs_address,legacy_redundant,assignmen
 3,Santa Clara,Mariposa Club Apartments,15434025,,660 MARIPOSA AVE MOUNTAIN VIEW CA 94041-1867,False,collaborator-sheet,,,,,,17059601,16718409,,,collaborator-sheet,
 4,San Bernardino,Bernardine Apartments,147091180000,,363 E GILBERT ST SAN BERNARDINO CA 92404-5343,False,collaborator-sheet,,,,,,4156500,4156500,,,collaborator-sheet,
 5,San Diego,"City View aka Outlook at Mission Valley
-Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator-sheet,,,,,,9316117,,,,collaborator-sheet,
+Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator-sheet,,,2026,2202858,7489628,9692486,,90,16,sandag-parcels,2026-08-22
 6,San Francisco,381 Turk Street Apartment,0345012C,,381 TURK ST SAN FRANCISCO CA 94102-3749,False,collaborator-sheet,,,,,,7398189,,,,collaborator-sheet,
 7,Alameda,Townhomes at Gading Apartments,454251243,454-25-124-3,26409 GADING RD HAYWARD CA 94544-3603,False,collaborator-sheet,,,,,,17313480,0,,,collaborator-sheet,
 8,Los Angeles,1317 S. Grand Apartments,5134017037,5134-017-037,1317 S GRAND AVE LOS ANGELES CA 900015,False,collaborator-sheet,parcel_in_transition,AIN not in DB,2026,6022684,5995825,12018509,0,2023,Five or more apartments,la-county-api,2026-08-21
@@ -17,7 +17,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 14,Alameda,Electric Lofts Apartments,867281,8-672-8-1,2415 VALDEZ ST OAKLAND CA 94612-3600,False,collaborator-sheet,,,,,,24257157,,,,collaborator-sheet,
 15,Los Angeles,Premiere Hollywood Apartments,5547013021,5547-013-021,6762 HAWTHORN AVE LOS ANGELES CA 90028,False,collaborator-sheet,manual_verified,,2026,4551315,4329576,8880891,0,2022,Five or more apartments,la-county-api,2026-08-21
 17,Los Angeles,4252 Crenshaw Apartments,5024017036,5024-017-036,4252 S CRENSHAW BLVD LOS ANGELES CA 90008,False,collaborator-sheet,manual_verified,,2026,4200000,25000000,29200000,0,2019,Five or more apartments,la-county-api,2026-08-21
-18,San Diego,Fallbrook Trail Apartments,1043514700,,1735.0 S MISSION RD FALLBROOK CA 92028-4548,False,collaborator-sheet,,,,,,32460480,,,,collaborator-sheet,
+18,San Diego,Fallbrook Trail Apartments,1043514700,,1735.0 S MISSION RD FALLBROOK CA 92028-4548,False,collaborator-sheet,,,2026,9568699,24203182,33771881,,21,29,sandag-parcels,2026-08-22
 19,Orange,The Arbors Apartments,39612209,,1100.0 FAIRHAVEN AVE SANTA ANA CA 92705-6754,False,collaborator-sheet,,,,,,18340000,,,,collaborator-sheet,
 19,Orange,The Arbors Apartments,39612130,,1200 FAIRHAVEN AVE SANTA ANA CA 92705-6754,False,collaborator-sheet,,,,,,22410000,,,,collaborator-sheet,
 20,Los Angeles,Pinetree Terrace Apartments,2102015045,2102-015-045,7940 RESEDA BLVD LOS ANGELES CA 91335,False,collaborator-sheet,manual_verified,,2026,7282800,11028240,18311040,17364360,1978,Five or more apartments,la-county-api,2026-08-21
@@ -73,7 +73,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 45,Orange,Horizon Apartments,39626155,,2414 N TUSTIN AVE SANTA ANA CA 92705-1602,False,collaborator-sheet,,,,,,103700000,,,,collaborator-sheet,
 46,Los Angeles,4752 Main Street Apartments,5109003014,5109-003-014,4752 S MAIN ST LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2),2026,611659,1102,612761,0,1955,Parking Lots (Commercial Use Properties),la-county-api,2026-08-21
 46,Los Angeles,4752 Main Street Apartments,5109003001,5109-003-001,4760 S MAIN ST LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2),2026,711026,1102,712128,0,1955,Parking Lots (Commercial Use Properties),la-county-api,2026-08-21
-47,San Diego,6171 Mission Gorge Apartments,4610304300,,6171.0 MISSION GORGE RD SAN DIEGO CA 92120-3426,False,collaborator-sheet,,,,,,13362000,,,,collaborator-sheet,
+47,San Diego,6171 Mission Gorge Apartments,4610304300,,6171.0 MISSION GORGE RD SAN DIEGO CA 92120-3426,False,collaborator-sheet,,,2026,13158000,204000,13362000,,77,21,sandag-parcels,2026-08-22
 48,San Mateo,Hillsdale Gardens Apartments,039481250,,"3500 Edison St, San Mateo, CA",False,collaborator-sheet,,,,,,31083000,7000,,,collaborator-sheet,
 48,San Mateo,Hillsdale Gardens Apartments,039482130,,"3500 Edison St, San Mateo, CA",False,collaborator-sheet,,,,,,62932900,7000,,,collaborator-sheet,
 48,San Mateo,Hillsdale Gardens Apartments,042112240,,242 36TH AVE SAN MATEO,False,collaborator-sheet,,,,,,44821400,7000,,,collaborator-sheet,
@@ -81,8 +81,8 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 48,San Mateo,Hillsdale Gardens Apartments,042121090,,186 36TH AVE SAN MATEO,False,collaborator-sheet,,,,,,41355000,0,,,collaborator-sheet,
 48,San Mateo,Hillsdale Gardens Apartments,042122050,,3675 EDISON ST SAN MATEO,False,collaborator-sheet,,,,,,41008500,0,,,collaborator-sheet,
 49,Alameda,Summerwood Apartments Homes Apartments,4281649,,"21701 FOOTHILL BLVD, HAYWARD, CA 94541",False,collaborator-sheet,,,,,,38656726,,,,collaborator-sheet,
-50,San Diego,Market Street Village Apartments,5351441500,,699.0 14TH ST SAN DIEGO CA 92101-7586,False,collaborator-sheet,,,,,,53339453,,,,collaborator-sheet,
-51,San Diego,Creekside Villas Apartments,5473131800,,220 47TH ST SAN DIEGO CA 92102-5037,False,collaborator-sheet,,,,,,5832864,,,,collaborator-sheet,
+50,San Diego,Market Street Village Apartments,5351441500,,699.0 14TH ST SAN DIEGO CA 92101-7586,False,collaborator-sheet,,,2026,18360000,50003178,68363178,,06,16,sandag-parcels,2026-08-22
+51,San Diego,Creekside Villas Apartments,5473131800,,220 47TH ST SAN DIEGO CA 92102-5037,False,collaborator-sheet,,,2026,2142762,3925748,6068510,,90,16,sandag-parcels,2026-08-22
 52,Sacramento,The Carla Apartments,28501900330000,,1201.0 FULTON AVE SACRAMENTO CA 95825-7386,False,collaborator-sheet,,,,,,15111810,,,,collaborator-sheet,
 53,Sacramento,Skylark Place by Trion Living Apartments,26003700120000,,6930.0 FAIR OAKS BLVD CARMICHAEL CA 95608-3369,False,collaborator-sheet,,,,,,12145525,,,,collaborator-sheet,
 54,Los Angeles,Seaport Village Apartments,7157031001,7157-031-001,2697 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33),2026,874604,2040384,2914988,562277,1963,Five or more apartments,la-county-api,2026-08-21
@@ -144,8 +144,8 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 73,Los Angeles,1540 W Court Apartments,5159020026,5159-020-026,1540 W COURT ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 5159020011-015 consolidated to 5159020026,2026,3400000,0,3400000,0,1890,Four Units (Any Combination),la-county-api,2026-08-21
 73,Los Angeles,1540 W Court Apartments,5159020010,5159-020-010,1526 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7),2026,136403,46872,183275,0,1910,Single,la-county-api,2026-08-21
 73,Los Angeles,1540 W Court Apartments,5159020009,5159-020-009,1520 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7),2026,92406,120843,213249,0,1923,Single,la-county-api,2026-08-21
-74,San Diego,Sol Haus Apartments,5484004400,,5040.0 LOGAN AVE SAN DIEGO CA 92113-3014,False,collaborator-sheet,,,,,,2804259,,,,collaborator-sheet,
-75,San Diego,Palmilla Apartments,4635902700,,5474.0 RESERVOIR DR 1-36 SAN DIEGO CA 92120-5145,False,collaborator-sheet,,,,,,30350548,,,,collaborator-sheet,
+74,San Diego,Sol Haus Apartments,5484004400,,5040.0 LOGAN AVE SAN DIEGO CA 92113-3014,False,collaborator-sheet,,,2026,4462500,0,4462500,,  ,20,sandag-parcels,2026-08-22
+75,San Diego,Palmilla Apartments,4635902700,,5474.0 RESERVOIR DR 1-36 SAN DIEGO CA 92120-5145,False,collaborator-sheet,,,2026,23383000,10021000,33404000,,69,16,sandag-parcels,2026-08-22
 76,Los Angeles,1451 W. MLK Boulevard Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,,2025,,,1569525,0,,,collaborator-sheet,
 77,Los Angeles,11630 S. Main Street Apartments,6083010040,6083-010-040,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6083010038 consolidated to 6083010040,2026,1010668,7479660,8490328,0,2023,Five or more apartments,la-county-api,2026-08-21
 78,Contra Costa,Bella Vista at Hilltop Apartments,4054900073,,3400.0 RICHMOND PKWY RICHMOND CA 94806-5207,False,collaborator-sheet,,,,,,222047798,,,,collaborator-sheet,
@@ -163,7 +163,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 91,Los Angeles,Huston Affordable Housing Apartments,2421011010,2421-011-010,10910 HUSTON ST LOS ANGELES CA 91601,False,collaborator-sheet,manual_verified,,2026,1290616,155539,1446155,0,1929,Single,la-county-api,2026-08-21
 92,Los Angeles,The Parker Apartments,8576001024,8576-001-024,4608 ARDEN WAY EL MONTE CA 91731,False,collaborator-sheet,manual_verified,,2026,14000000,32675000,46675000,0,1963,Five or more apartments,la-county-api,2026-08-21
 93,Napa,Canyon Ridge at Napa Junction Apartments,59020050000,,800.0 RELIANT WAY AMERICAN CANYON CA 94503-3242,False,collaborator-sheet,,,,,,46693244,,,,collaborator-sheet,
-94,San Diego,Canyon Villa Apartment Homes,6390806100,,601.0 TELEGRAPH CANYON RD CHULA VISTA CA 91910-6561,False,collaborator-sheet,,,,,,51548563,,,,collaborator-sheet,
+94,San Diego,Canyon Villa Apartment Homes,6390806100,,601.0 TELEGRAPH CANYON RD CHULA VISTA CA 91910-6561,False,collaborator-sheet,,,2026,30000000,43424100,73424100,,82,16,sandag-parcels,2026-08-22
 97,Los Angeles,Azusa Gardens Apartments,8608030071,8608-030-071,601 E 8TH ST AZUSA CA 91702,False,collaborator-sheet,manual_verified,,2026,8800000,20500000,29300000,0,1987,Five or more apartments,la-county-api,2026-08-21
 98,Alameda,Camden Village Apartments,50115064010,501-1506-40-10,38000.0 CAMDEN ST FREMONT CA 94536-5169,False,collaborator-sheet,,,,,,73418537,0,,,collaborator-sheet,
 99,Los Angeles,Passo Barrington Apartments,4262018026,4262-018-026,1734 S BARRINGTON AVE LOS ANGELES CA 90025,False,collaborator-sheet,manual_verified,,2025,,,2225000,0,,,collaborator-sheet,
@@ -225,10 +225,10 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 154,San Mateo,Crystal Springs Terrace,019170270,,2000 CRYSTAL SPRINGS RD SAN BRUNO,False,collaborator-sheet,,,,,,180060039,,,,collaborator-sheet,
 155,Contra Costa,Trailview Apartments,1303200180,,"1070 San Miguel Road, Concord, CA",False,collaborator-sheet,,,,,,34848175,,,,collaborator-sheet,
 156,Alameda,Casa Serena Apartments,5011800142,,"36000 FREMONT BLVD, FREMONT, CA 94536",False,collaborator-sheet,,,,,,65613972,,,,collaborator-sheet,
-157,San Diego,Hendrix and Hadley Apartments,2262031000,,439 W EL NORTE PKWY ESCONDIDO CA 92026-1961,False,collaborator-sheet,,,,,,12540125,,,,collaborator-sheet,
-157,San Diego,Hendrix and Hadley Apartments,2280732000,,1045 MORNING VIEW DR ESCONDIDO CA 92026-3481,False,collaborator-sheet,,,,,,41107952,,,,collaborator-sheet,
-157,San Diego,Hendrix and Hadley Apartments,2262030200,,443 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,,,,,18982539,,,,collaborator-sheet,
-157,San Diego,Hendrix and Hadley Apartments,2262110300,,457 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,,,,,12540125,,,,collaborator-sheet,
+157,San Diego,Hendrix and Hadley Apartments,2262031000,,439 W EL NORTE PKWY ESCONDIDO CA 92026-1961,False,collaborator-sheet,,,2026,5116369,7674557,12790926,,87,16,sandag-parcels,2026-08-22
+157,San Diego,Hendrix and Hadley Apartments,2280732000,,1045 MORNING VIEW DR ESCONDIDO CA 92026-3481,False,collaborator-sheet,,,2026,20621754,21308356,41930110,,85,16,sandag-parcels,2026-08-22
+157,San Diego,Hendrix and Hadley Apartments,2262030200,,443 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,,2026,7937360,11424829,19362189,,87,16,sandag-parcels,2026-08-22
+157,San Diego,Hendrix and Hadley Apartments,2262110300,,457 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,,2026,5116369,7674557,12790926,,87,16,sandag-parcels,2026-08-22
 158,Los Angeles,Kalmia Apartments,,,,,collaborator-sheet,,,,,,,,,,,
 159,Los Angeles,1141 N. Vermont Avenue Apartments,5540019012,,1141 N VERMONT AVE LOS ANGELES CA 90029,False,collaborator-sheet,,,2026,4090000,0,4090000,0,1982,Professional Buildings,la-county-api,2026-08-21
 160,Los Angeles,12th Street Apartments,5080011007,5080-011-007,3048 W 12TH ST LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,Added from LA County lookup,2026,2048090,694072,2742162,0,1928,Five or more apartments,la-county-api,2026-08-21
@@ -263,7 +263,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 188,Contra Costa,Del Norte Place Apartments,501261015,501261015,11720 SAN PABLO AVE,False,collaborator-sheet,,,,,,42750000,9419226,,,collaborator-sheet,
 190,Contra Costa,Highlands Point Apartments,223010017,223010017,2311 IVY HILL WAY,False,collaborator-sheet,,,,,,69647731,46831134,,,collaborator-sheet,
 192,Orange,Heritage Village Anaheim Apartments,03615006,036-150-06,707 W SANTA ANA ST,False,collaborator-sheet,,,,,,67860998,67860998,,,collaborator-sheet,
-193,San Diego,Heritage Park Escondido Apartments,2311104600,2311104600,2549 Valley PKWY,False,collaborator-sheet,,,,,,49668778,49157189,,,collaborator-sheet,
+193,San Diego,Heritage Park Escondido Apartments,2311104600,2311104600,2549 Valley PKWY,False,collaborator-sheet,,,2026,30308100,20354053,50662153,49157189,87,16,sandag-parcels,2026-08-22
 194,Los Angeles,3751 Delmas Terrace Apartments,,,,False,collaborator-sheet,,,,,,,,,,,
 195,Los Angeles,1723 Corinth Apartments,,,,False,collaborator-sheet,,,,,,,,,,,
 196,Los Angeles,The Dream Apartments,,,,False,collaborator-sheet,,,,,,,,,,,

@@ -178,7 +178,8 @@ def main() -> None:
         for _, r in vals.iterrows():
             api_by_ain[r["ain"]] = r.to_dict()
     county_of_source = {"la-county-api": "Los Angeles",
-                        "solano-county-portal": "Solano"}
+                        "solano-county-portal": "Solano",
+                        "sandag-parcels": "San Diego"}
     automated_counties = {county_of_source.get(v.get("value_source", ""), "")
                           for v in api_by_ain.values()} - {""}
 
@@ -196,6 +197,18 @@ def main() -> None:
             v = api_by_ain[a["ain"]]
             for c in VALUE_COLS:
                 vals[c] = v.get(c, "")
+            # some sources publish no exemption field (e.g. SANDAG);
+            # keep the manual exemption for that parcel, field-level
+            if str(vals.get("real_estate_exemp", "")).strip() == "" and key in manual_by_key:
+                mv = manual_by_key[key]
+                if str(mv.get("real_estate_exemp", "")).strip() not in ("", "0", "0.0"):
+                    vals["real_estate_exemp"] = mv["real_estate_exemp"]
+                    provenance.append({
+                        "table": "parcels", "project_id": a["project_id"],
+                        "field": f"real_estate_exemp:{a['ain']}",
+                        "value": mv["real_estate_exemp"],
+                        "source": mv.get("value_source", ""),
+                        "note": "value source publishes no exemption field"})
         elif key in manual_by_key:
             v = manual_by_key[key]
             for c in ["roll_year", "roll_total_value", "real_estate_exemp", "value_source"]:

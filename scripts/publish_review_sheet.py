@@ -33,6 +33,7 @@ SOURCE_FILLS = {
     "cscda-agenda+packet": GENERATED_FILL,
     "la-county-api": GENERATED_FILL,
     "solano-county-portal": GENERATED_FILL,
+    "sandag-parcels": GENERATED_FILL,
     "collaborator-sheet": None,       # manual: no fill
     "manual-repo-edit": None,         # manual: no fill
 }

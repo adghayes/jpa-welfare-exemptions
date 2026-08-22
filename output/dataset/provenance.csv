@@ -982,7 +982,6 @@ parcels,3,values:15434025,17059601,collaborator-sheet,no automated source for co
 parcels,3,assignment:15434025,15434025,collaborator-sheet,
 parcels,4,values:147091180000,4156500,collaborator-sheet,no automated source for county
 parcels,4,assignment:147091180000,147091180000,collaborator-sheet,
-parcels,5,values:5343602100,9316117,collaborator-sheet,no automated source for county
 parcels,5,assignment:5343602100,5343602100,collaborator-sheet,
 parcels,6,values:0345012C,7398189,collaborator-sheet,no automated source for county
 parcels,6,assignment:0345012C,0345012C,collaborator-sheet,
@@ -1002,7 +1001,6 @@ parcels,14,values:867281,24257157,collaborator-sheet,no automated source for cou
 parcels,14,assignment:867281,867281,collaborator-sheet,
 parcels,15,assignment:5547013021,5547013021,collaborator-sheet,manual_verified
 parcels,17,assignment:5024017036,5024017036,collaborator-sheet,manual_verified
-parcels,18,values:1043514700,32460480,collaborator-sheet,no automated source for county
 parcels,18,assignment:1043514700,1043514700,collaborator-sheet,
 parcels,19,values:39612209,18340000,collaborator-sheet,no automated source for county
 parcels,19,assignment:39612209,39612209,collaborator-sheet,
@@ -1066,7 +1064,6 @@ parcels,45,values:39626155,103700000,collaborator-sheet,no automated source for 
 parcels,45,assignment:39626155,39626155,collaborator-sheet,
 parcels,46,assignment:5109003014,5109003014,collaborator-sheet,manual_verified_multi
 parcels,46,assignment:5109003001,5109003001,collaborator-sheet,manual_verified_multi
-parcels,47,values:4610304300,13362000,collaborator-sheet,no automated source for county
 parcels,47,assignment:4610304300,4610304300,collaborator-sheet,
 parcels,48,values:039481250,31083000,collaborator-sheet,no automated source for county
 parcels,48,assignment:039481250,039481250,collaborator-sheet,
@@ -1082,9 +1079,7 @@ parcels,48,values:042122050,41008500,collaborator-sheet,no automated source for 
 parcels,48,assignment:042122050,042122050,collaborator-sheet,
 parcels,49,values:4281649,38656726,collaborator-sheet,no automated source for county
 parcels,49,assignment:4281649,4281649,collaborator-sheet,
-parcels,50,values:5351441500,53339453,collaborator-sheet,no automated source for county
 parcels,50,assignment:5351441500,5351441500,collaborator-sheet,
-parcels,51,values:5473131800,5832864,collaborator-sheet,no automated source for county
 parcels,51,assignment:5473131800,5473131800,collaborator-sheet,
 parcels,52,values:28501900330000,15111810,collaborator-sheet,no automated source for county
 parcels,52,assignment:28501900330000,28501900330000,collaborator-sheet,
@@ -1164,9 +1159,7 @@ parcels,72,assignment:5431A041,5431A041,collaborator-sheet,
 parcels,73,assignment:5159020026,5159020026,collaborator-sheet,parcel_in_transition
 parcels,73,assignment:5159020010,5159020010,collaborator-sheet,manual_verified_multi
 parcels,73,assignment:5159020009,5159020009,collaborator-sheet,manual_verified_multi
-parcels,74,values:5484004400,2804259,collaborator-sheet,no automated source for county
 parcels,74,assignment:5484004400,5484004400,collaborator-sheet,
-parcels,75,values:4635902700,30350548,collaborator-sheet,no automated source for county
 parcels,75,assignment:4635902700,4635902700,collaborator-sheet,
 parcels,76,values:5036031006,1569525,collaborator-sheet,AIN returned no data from county source
 parcels,76,assignment:5036031006,5036031006,collaborator-sheet,manual_verified
@@ -1188,7 +1181,6 @@ parcels,91,assignment:2421011010,2421011010,collaborator-sheet,manual_verified
 parcels,92,assignment:8576001024,8576001024,collaborator-sheet,manual_verified
 parcels,93,values:59020050000,46693244,collaborator-sheet,no automated source for county
 parcels,93,assignment:59020050000,59020050000,collaborator-sheet,
-parcels,94,values:6390806100,51548563,collaborator-sheet,no automated source for county
 parcels,94,assignment:6390806100,6390806100,collaborator-sheet,
 parcels,97,assignment:8608030071,8608030071,collaborator-sheet,manual_verified
 parcels,98,values:50115064010,73418537,collaborator-sheet,no automated source for county
@@ -1265,13 +1257,9 @@ parcels,155,values:1303200180,34848175,collaborator-sheet,no automated source fo
 parcels,155,assignment:1303200180,1303200180,collaborator-sheet,
 parcels,156,values:5011800142,65613972,collaborator-sheet,no automated source for county
 parcels,156,assignment:5011800142,5011800142,collaborator-sheet,
-parcels,157,values:2262031000,12540125,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262031000,2262031000,collaborator-sheet,
-parcels,157,values:2280732000,41107952,collaborator-sheet,no automated source for county
 parcels,157,assignment:2280732000,2280732000,collaborator-sheet,
-parcels,157,values:2262030200,18982539,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262030200,2262030200,collaborator-sheet,
-parcels,157,values:2262110300,12540125,collaborator-sheet,no automated source for county
 parcels,157,assignment:2262110300,2262110300,collaborator-sheet,
 parcels,158,assignment:,,collaborator-sheet,
 parcels,159,assignment:5540019012,5540019012,collaborator-sheet,
@@ -1311,7 +1299,7 @@ parcels,190,values:223010017,69647731,collaborator-sheet,no automated source for
 parcels,190,assignment:223010017,223010017,collaborator-sheet,
 parcels,192,values:03615006,67860998,collaborator-sheet,no automated source for county
 parcels,192,assignment:03615006,03615006,collaborator-sheet,
-parcels,193,values:2311104600,49668778,collaborator-sheet,no automated source for county
+parcels,193,real_estate_exemp:2311104600,49157189,collaborator-sheet,value source publishes no exemption field
 parcels,193,assignment:2311104600,2311104600,collaborator-sheet,
 parcels,194,assignment:,,collaborator-sheet,
 parcels,195,assignment:,,collaborator-sheet,
