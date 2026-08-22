@@ -1,5 +1,4 @@
 check,project_id,detail
-duplicate-sheet-rows,76/182,multiple sheet projects map to one authorization (1451 w mlk blvd)
 new-grant,301,"2025 New Jersey Apartments (CMFA, 2023-07-14) not in collaborator sheet"
 new-grant,302,"Bernardine Apartments (CMFA, 2023-07-14) not in collaborator sheet"
 new-grant,303,"10705 Avalon Blvd Apartments (CMFA, 2024-02-02) not in collaborator sheet"
@@ -45,7 +44,6 @@ override-conflict,51,total_units: generated '144' -> manual '145'
 override-conflict,54,total_units: generated '42' -> manual '356'
 override-conflict,60,"entity: generated 'PREG 5150 ECR Los Altos, LP, a California limited partnership' -> manual 'Prometheus Real Estate Group'"
 override-conflict,60,total_units: generated '29' -> manual '196'
-override-conflict,76,"entity: generated '3 SIOF 1451 W MLK BLVD, LP' -> manual '1451 W. MLK Boulevard Apartments'"
 override-conflict,78,"investor_1: generated 'Vintage Housing Holdings, LLC' -> manual 'Kennedy Wilson'"
 override-conflict,78,"nonprofit_partner: generated 'Pacific Housing, Inc.' -> manual 'Hearthstone Housing Foundation'"
 override-conflict,78,total_units: generated '8' -> manual '1008'
@@ -103,7 +101,6 @@ fetch-fallback,132,AIN 6020022027 (Los Angeles) has no current roll data; using 
 fetch-fallback,137,AIN 2125017014 (Los Angeles) has no current roll data; using manual value
 parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,182,AIN 5036031006 (Los Angeles): no roll values from any source
 parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
@@ -119,7 +116,6 @@ parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
 fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
-shared-ain,182/76,AIN 5036031006 assigned to multiple projects
 shared-ain,200/218,AIN 5040021006 assigned to multiple projects
 shared-ain,130/179,AIN 5080006008 assigned to multiple projects
 shared-ain,126/173,AIN 5094005005 assigned to multiple projects

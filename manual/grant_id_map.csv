@@ -180,7 +180,7 @@ Apartments"
 191,YES,Highland Gardens Apartments,2026-01-22,fuzzy-name(100),Highland Gardens Apartments
 189,YES,The Colonnade Apartments,2026-01-30,fuzzy-name(100),The Colonnade Apartments
 181,YES,The Hive Apartments,2026-01-30,fuzzy-name(100),The Hive Apartments
-182,YES,1451 W MLK BLVD Apartments,2026-01-30,fuzzy-name(100),1451 W MLK BLVD Apartments
+182,DUPLICATE-OF-76,1451 W MLK BLVD Apartments,2026-01-30,"duplicate sheet row: same authorization as 76 (Res 26-040, 2026-01-30); Drew 2026-08-22",1451 W MLK BLVD Apartments
 183,YES,4256 Whittier Blvd Apartments,2026-01-30,fuzzy-name(100),4256 Whittier Blvd Apartments
 184,YES,225 W 25th Apartments,2026-01-30,fuzzy-name(100),225 W 25th Apartments
 185,YES,9422 Firth Avenue Apartments,2026-01-30,fuzzy-name(100),9422 Firth Avenue Apartments

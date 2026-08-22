@@ -146,7 +146,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 73,Los Angeles,1540 W Court Apartments,5159020009,5159-020-009,1520 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7)
 74,San Diego,Sol Haus Apartments,5484004400,,5040.0 LOGAN AVE SAN DIEGO CA 92113-3014,False,collaborator-sheet,,
 75,San Diego,Palmilla Apartments,4635902700,,5474.0 RESERVOIR DR 1-36 SAN DIEGO CA 92120-5145,False,collaborator-sheet,,
-76,Los Angeles,1451 W. MLK Boulevard Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,
+76,Los Angeles,1451 W. MLK Boulevard Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,"AIN in transition at county (renumbered); duplicate sheet row 182 merged into 76, 2026-08-22"
 77,Los Angeles,11630 S. Main Street Apartments,6083010040,6083-010-040,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6083010038 consolidated to 6083010040
 78,Contra Costa,Bella Vista at Hilltop Apartments,4054900073,,3400.0 RICHMOND PKWY RICHMOND CA 94806-5207,False,collaborator-sheet,,
 79,Los Angeles,10811 S. Compton Ave Apartments,6070003041,6070-003-041,10811 COMPTON AVE,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6070003038 consolidated to 6070003041
@@ -254,7 +254,6 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 179,Los Angeles,Western Apartments,5080006008,5080-006-008,1057 S WESTERN AVE LOS ANGELES CA 90006,False,collaborator-sheet,,
 180,Los Angeles,Westmoreland Apartments,5501016008,5501-016-008,132 S WESTMORELAND AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
 181,Los Angeles,The Hive Apartments,7157012017,7157-012-017,5565 ACKERFIELD AVE LONG BEACH CA 90805,False,collaborator-sheet,,
-182,Los Angeles,1451 W MLK BLVD Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,,
 183,Los Angeles,4256 Whittier Blvd Apartments,5236016054,5236-016-054,4252 WHITTIER BLVD LOS ANGELES CA 90023,False,collaborator-sheet,,
 184,Los Angeles,225 W 25th Apartments,5126020009,5126-020-009,225 W 25TH ST LOS ANGELES CA 90007,False,collaborator-sheet,,
 185,Los Angeles,9422 Firth Avenue Apartments,6048004047,6048-004-047,9422 FIRTH BLVD LOS ANGELES CA 90002,False,collaborator-sheet,,

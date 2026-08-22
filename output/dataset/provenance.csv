@@ -242,7 +242,6 @@ grants,74,restricted_units,145,collaborator-sheet,fills blank
 grants,74,address,"5040 Logan Avenue, San Diego, CA 92113",collaborator-sheet,fills blank
 grants,74,city_cut,22050,collaborator-sheet,fills blank
 grants,76,new_build,YES,collaborator-sheet,
-grants,76,entity,1451 W. MLK Boulevard Apartments,collaborator-sheet,"differs from generated: '3 SIOF 1451 W MLK BLVD, LP'"
 grants,76,address,"1451 W. MLK Blvd, Los Angeles, CA",collaborator-sheet,fills blank
 grants,78,investor_2,Vintage Housing Holdings,collaborator-sheet,
 grants,78,new_build,NO,collaborator-sheet,
@@ -519,10 +518,6 @@ grants,181,manual_status,stale,collaborator-sheet,
 grants,181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 grants,181,total_units,152,collaborator-sheet,differs from generated: '52'
 grants,181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
-grants,182,new_build,YES,collaborator-sheet,
-grants,182,manual_status,stale,collaborator-sheet,
-grants,182,restricted_units,50,collaborator-sheet,fills blank
-grants,182,address,"1451 W. Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 grants,183,manual_status,dead,collaborator-sheet,
 grants,183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
 grants,184,new_build,YES,collaborator-sheet,
@@ -684,6 +679,8 @@ grants,227,address,"1 Shoal Ct, Sacramento, CA 95831",collaborator-sheet,fills b
 grants,204,address,"6144 Hazelhurst Place, North Hollywood, CA 91606",manual-repo-edit,"Drew, manual research 2026-08-22 (North Hollywood; no exact 6144 situs at county — block has 6142/6146)"
 grants,199,address,"6840 Baird Ave, Los Angeles, CA 91335",manual-repo-edit,"Drew, manual research 2026-08-22"
 grants,217,address,"217 N. Park View Street, Los Angeles, CA 90026",manual-repo-edit,"Drew, manual research 2026-08-22"
+grants,76,manual_status,stale,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
+grants,76,restricted_units,50,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
 grants,238,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,192,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,193,*,,collaborator-sheet,entire row manual (predates meeting archives)
@@ -999,7 +996,6 @@ parcels,178,assignment:5446002044,5446002044,collaborator-sheet,
 parcels,179,assignment:5080006008,5080006008,collaborator-sheet,
 parcels,180,assignment:5501016008,5501016008,collaborator-sheet,
 parcels,181,assignment:7157012017,7157012017,collaborator-sheet,
-parcels,182,assignment:5036031006,5036031006,collaborator-sheet,
 parcels,183,assignment:5236016054,5236016054,collaborator-sheet,
 parcels,184,assignment:5126020009,5126020009,collaborator-sheet,
 parcels,185,assignment:6048004047,6048004047,collaborator-sheet,

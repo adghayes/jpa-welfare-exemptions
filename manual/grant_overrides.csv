@@ -242,7 +242,6 @@ project_id,field,value,source,note
 74,address,"5040 Logan Avenue, San Diego, CA 92113",collaborator-sheet,fills blank
 74,city_cut,22050,collaborator-sheet,fills blank
 76,new_build,YES,collaborator-sheet,
-76,entity,1451 W. MLK Boulevard Apartments,collaborator-sheet,"differs from generated: '3 SIOF 1451 W MLK BLVD, LP'"
 76,address,"1451 W. MLK Blvd, Los Angeles, CA",collaborator-sheet,fills blank
 78,investor_2,Vintage Housing Holdings,collaborator-sheet,
 78,new_build,NO,collaborator-sheet,
@@ -519,10 +518,6 @@ project_id,field,value,source,note
 181,city,Los Angeles,collaborator-sheet,differs from generated: 'Long Beach'
 181,total_units,152,collaborator-sheet,differs from generated: '52'
 181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
-182,new_build,YES,collaborator-sheet,
-182,manual_status,stale,collaborator-sheet,
-182,restricted_units,50,collaborator-sheet,fills blank
-182,address,"1451 W. Martin Luther King Boulevard, Los Angeles, CA",collaborator-sheet,fills blank
 183,manual_status,dead,collaborator-sheet,
 183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
 184,new_build,YES,collaborator-sheet,
@@ -684,3 +679,5 @@ project_id,field,value,source,note
 204,address,"6144 Hazelhurst Place, North Hollywood, CA 91606",manual-repo-edit,"Drew, manual research 2026-08-22 (North Hollywood; no exact 6144 situs at county — block has 6142/6146)"
 199,address,"6840 Baird Ave, Los Angeles, CA 91335",manual-repo-edit,"Drew, manual research 2026-08-22"
 217,address,"217 N. Park View Street, Los Angeles, CA 90026",manual-repo-edit,"Drew, manual research 2026-08-22"
+76,manual_status,stale,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
+76,restricted_units,50,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
