@@ -334,8 +334,6 @@ grants,108,address,"974 S. Gramercy Place, Los Angeles, CA",collaborator-sheet,f
 grants,109,new_build,NO,collaborator-sheet,
 grants,109,address,"832 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,110,new_build,NO,collaborator-sheet,
-grants,110,total_units,42,collaborator-sheet,differs from generated: '24'
-grants,110,restricted_units,42,collaborator-sheet,fills blank
 grants,110,address,"941 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,111,new_build,NO,collaborator-sheet,
 grants,111,investor_1,K3 Holdings,collaborator-sheet,fills blank
@@ -1156,3 +1154,7 @@ parcels,238,values:9917523,47387387,manual-repo-edit,no automated source for cou
 parcels,238,assignment:9917523,9917523,manual-repo-edit,
 parcels,1,assignment:5136019023,5136019023,manual-repo-edit,
 parcels,12,assignment:5402028022,5402028022,manual-repo-edit,
+parcels,68,assignment:2764001012,2764001012,manual-repo-edit,
+parcels,68,assignment:2764001014,2764001014,manual-repo-edit,
+parcels,181,assignment:7157012023,7157012023,manual-repo-edit,
+parcels,231,assignment:5501017045,5501017045,manual-repo-edit,

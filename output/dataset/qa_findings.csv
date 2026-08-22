@@ -46,7 +46,6 @@ override-conflict,81,total_units: generated '32' -> manual '31'
 override-conflict,81,city_cut: generated '4650.0' -> manual '4500'
 override-conflict,158,total_units: generated '30' -> manual '29'
 override-conflict,95,investor_1: generated 'Belveron Partners' -> manual 'Sack Capital Partners'
-override-conflict,110,total_units: generated '24' -> manual '42'
 override-conflict,134,total_units: generated '69' -> manual '68'
 override-conflict,137,total_units: generated '42' -> manual '41'
 override-conflict,152,total_units: generated '52' -> manual '152'
@@ -87,8 +86,4 @@ parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
 fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
-units-undercount,68,Candlewood North Apartments: county records 68 units on assigned parcels vs 189 in the grant — parcels may be missing
 units-undercount,110,Kenmore I Apartments: county records 24 units on assigned parcels vs 42 in the grant — parcels may be missing
-units-undercount,181,The Hive Apartments: county records 50 units on assigned parcels vs 152 in the grant — parcels may be missing
-units-undercount,195,1723 Corinth Apartments: county records 10 units on assigned parcels vs 41 in the grant — parcels may be missing
-units-undercount,231,Violet on Virgil: county records 159 units on assigned parcels vs 302 in the grant — parcels may be missing

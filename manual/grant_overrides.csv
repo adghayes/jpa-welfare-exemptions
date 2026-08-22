@@ -334,8 +334,6 @@ project_id,field,value,source,note
 109,new_build,NO,collaborator-sheet,
 109,address,"832 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 110,new_build,NO,collaborator-sheet,
-110,total_units,42,collaborator-sheet,differs from generated: '24'
-110,restricted_units,42,collaborator-sheet,fills blank
 110,address,"941 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 111,new_build,NO,collaborator-sheet,
 111,investor_1,K3 Holdings,collaborator-sheet,fills blank
