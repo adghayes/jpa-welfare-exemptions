@@ -45,8 +45,13 @@ COLUMNS = [
 ]
 
 
+ABBREV = {"boulevard": "blvd", "street": "st", "avenue": "ave", "drive": "dr",
+          "road": "rd", "place": "pl", "and": "&"}
+
+
 def norm_name(name: str) -> str:
-    s = " ".join(str(name).lower().replace(".", "").split())
+    words = str(name).lower().replace(".", "").replace(",", "").split()
+    s = " ".join(ABBREV.get(w, w) for w in words)
     for suffix in (" apartments", " apartment"):
         if s.endswith(suffix):
             s = s[: -len(suffix)]
@@ -60,48 +65,87 @@ def load_cmfa() -> pd.DataFrame:
     return df
 
 
+CSCDA_CACHE = Path("output/pipeline/cscda_parse_cache.json")
+
+
+def _parse_cscda_meeting(d: Path) -> dict:
+    """Parse one meeting dir into a JSON-serializable dict."""
+    entry = {"agenda": [], "details": [], "outcomes": []}
+    agenda, packet = d / "agenda.pdf", d / "packet.pdf"
+    if agenda.exists():
+        entry["agenda_mtime"] = agenda.stat().st_mtime
+        for g in parse_agenda_pdf(agenda):
+            entry["agenda"].append({
+                "property_name": g.property_name, "entity": g.entity,
+                "city": g.city, "county": g.county, "resolution": g.resolution,
+                "item_type": g.item_type,
+            })
+    if packet.exists():
+        entry["packet_mtime"] = packet.stat().st_mtime
+        for pg in parse_packet_grants(packet, d.name):
+            entry["details"].append({
+                "property_name": pg.property_name,
+                "total_units": pg.total_units or "",
+                "rent_restricted_pct": pg.rent_restricted_pct,
+                "term_years": pg.term_years or "",
+                "nonprofit_partner": pg.nonprofit_partner,
+                "address": pg.address,
+                "estimated_closing": pg.estimated_closing,
+                "grant_description": (
+                    f"Grant of ${pg.grant_amount:,}" if pg.grant_amount else ""),
+            })
+        for o in parse_packet_minutes(packet):
+            entry["outcomes"].append({
+                "property_name": o.property_name, "minutes_status": o.status,
+                "city": o.city, "county": o.county,
+            })
+    return entry
+
+
 def load_cscda() -> pd.DataFrame:
+    import json
+
+    cache = {}
+    if CSCDA_CACHE.exists():
+        cache = json.loads(CSCDA_CACHE.read_text())
+
     rows = []
     details: dict[str, dict] = {}   # norm name -> staff-report fields
     outcomes: dict[str, dict] = {}  # norm name -> minutes outcome
 
+    dirty = False
     for d in sorted(CSCDA_MEETINGS.iterdir()):
-        agenda = d / "agenda.pdf"
-        packet = d / "packet.pdf"
-        if agenda.exists():
-            for g in parse_agenda_pdf(agenda):
-                rows.append({
-                    "agency": "CSCDA",
-                    "property_name": g.property_name,
-                    "entity": g.entity,
-                    "city": g.city,
-                    "county": g.county,
-                    "resolution": g.resolution,
-                    "meeting_date": d.name,
-                    "item_type": g.item_type,
-                    "source": "cscda-agenda",
-                })
-        if packet.exists():
-            for pg in parse_packet_grants(packet, d.name):
-                details[norm_name(pg.property_name)] = {
-                    "total_units": pg.total_units or "",
-                    "rent_restricted_pct": pg.rent_restricted_pct,
-                    "term_years": pg.term_years or "",
-                    "nonprofit_partner": pg.nonprofit_partner,
-                    "address": pg.address,
-                    "estimated_closing": pg.estimated_closing,
-                    "grant_description": (
-                        f"Grant of ${pg.grant_amount:,}" if pg.grant_amount else ""),
-                    "source": "cscda-agenda+packet",
-                }
-            for o in parse_packet_minutes(packet):
-                outcomes[norm_name(o.property_name)] = {
-                    "minutes_status": o.status,
-                    # the adopted minutes are the corrected record when the
-                    # agenda misstates a location (e.g. Trails at San Dimas)
-                    "city": o.city,
-                    "county": o.county,
-                }
+        if not d.is_dir():
+            continue
+        agenda, packet = d / "agenda.pdf", d / "packet.pdf"
+        entry = cache.get(d.name)
+        stale = (entry is None
+                 or (agenda.exists() and entry.get("agenda_mtime") != agenda.stat().st_mtime)
+                 or (packet.exists() and entry.get("packet_mtime") != packet.stat().st_mtime))
+        if stale:
+            entry = _parse_cscda_meeting(d)
+            cache[d.name] = entry
+            dirty = True
+
+        for g in entry["agenda"]:
+            rows.append({"agency": "CSCDA", "meeting_date": d.name,
+                         "source": "cscda-agenda", **g})
+        for pg in entry["details"]:
+            details[norm_name(pg["property_name"])] = {
+                **{k: v for k, v in pg.items() if k != "property_name"},
+                "source": "cscda-agenda+packet",
+            }
+        for o in entry["outcomes"]:
+            # the adopted minutes are the corrected record when the agenda
+            # misstates a location (e.g. Trails at San Dimas)
+            outcomes[norm_name(o["property_name"])] = {
+                "minutes_status": o["minutes_status"],
+                "city": o["city"], "county": o["county"],
+            }
+
+    if dirty:
+        CSCDA_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CSCDA_CACHE.write_text(json.dumps(cache))
 
     df = pd.DataFrame(rows)
     # Same property re-considered at a later meeting: keep the latest occurrence

@@ -1,0 +1,201 @@
+check,project_id,detail
+duplicate-sheet-rows,76/182,multiple sheet projects map to one authorization (1451 w mlk blvd)
+new-grant,301,"2025 New Jersey Apartments (CMFA, 2023-07-14) not in collaborator sheet"
+new-grant,302,"Bernardine Apartments (CMFA, 2023-07-14) not in collaborator sheet"
+new-grant,303,"10705 Avalon Blvd Apartments (CMFA, 2024-02-02) not in collaborator sheet"
+new-grant,304,"820 MacArthur Apartments (CMFA, 2024-02-02) not in collaborator sheet"
+new-grant,305,"4252 Crenshaw Apartments (CMFA, 2024-04-26) not in collaborator sheet"
+new-grant,306,"Montessa Apartments (CMFA, 2024-04-26) not in collaborator sheet"
+new-grant,307,"2330 3rd Street Apartments (CMFA, 2024-08-09) not in collaborator sheet"
+new-grant,308,"Hillsdale Gardens Apartments (CMFA, 2024-08-30) not in collaborator sheet"
+new-grant,309,"6171 Mission Gorge Apartments (CMFA, 2024-09-20) not in collaborator sheet"
+new-grant,310,"Horizon Apartments (CMFA, 2024-09-20) not in collaborator sheet"
+new-grant,313,"Bella Vista Apartments (CMFA, 2025-01-10) not in collaborator sheet"
+new-grant,316,"Electric Lofts Apartments (CMFA, 2025-01-31) not in collaborator sheet"
+new-grant,323,"Meridian Apartments (CMFA, 2025-02-21) not in collaborator sheet"
+new-grant,330,"569 W 6th Apartments (CMFA, 2025-04-25) not in collaborator sheet"
+new-grant,331,"685 W 4th Apartments (CMFA, 2025-04-25) not in collaborator sheet"
+new-grant,334,"Bella Vista at Hilltop Apartments (CMFA, 2025-05-30) not in collaborator sheet"
+new-grant,335,"Chadwick Apartments (CMFA, 2025-05-30) not in collaborator sheet"
+new-grant,337,"Bella Vista at Hilltop Apartments (CMFA, 2025-06-06) not in collaborator sheet"
+new-grant,338,"Chadwick Apartments (CMFA, 2025-06-06) not in collaborator sheet"
+new-grant,341,"Meridian Apartments (CMFA, 2025-07-18) not in collaborator sheet"
+new-grant,345,"Meridian Apartments (CMFA, 2025-08-08) not in collaborator sheet"
+new-grant,346,"Citrine Apartments (CMFA, 2025-08-29) not in collaborator sheet"
+new-grant,348,"4228 Western Apartments (CMFA, 2025-10-24) not in collaborator sheet"
+new-grant,349,"4228 Western Ave Apartments (CMFA, 2025-11-07) not in collaborator sheet"
+new-grant,351,"12th Street Apartments (CMFA, 2026-01-09) not in collaborator sheet"
+new-grant,358,"Del Norte Apartments (CMFA, 2026-04-17) not in collaborator sheet"
+new-grant,359,"Terrace View Apartments (CMFA, 2026-06-12) not in collaborator sheet"
+new-grant,360,"The Heltsley Apartments FKA SoFi Redwood Park Apartments (CMFA, 2026-06-12) not in collaborator sheet"
+new-grant,363,"Terrace View Apartments (CMFA, 2026-06-26) not in collaborator sheet"
+new-grant,364,"The Heltsley Apartments FKA SoFi Redwood Park Apartments (CMFA, 2026-06-26) not in collaborator sheet"
+new-grant,369,"Verdana Apartments (CSCDA, 2026-08-20) not in collaborator sheet"
+override-conflict,2,"investor_1: generated 'Oak Road' -> manual 'Eleos Ventures, LLC'"
+override-conflict,11,"entity: generated '2019 Ozone Affordable Housing – 820 MacArthur, LP' -> manual '2019 Ozone Affordable Housing'"
+override-conflict,15,"entity: generated 'OODB2, LP, a Washington Limited Partnership' -> manual 'OODB2, LP'"
+override-conflict,16,"entity: generated 'Affordable Housing Alliance II, Inc., d/b/a Integrity Housing, a Colorado nonprofit corporation' -> manual 'Affordable Housing Alliance II, Inc. dba Integrity Housing'"
+override-conflict,18,investor_1: generated 'AOF / Pacific Affordable Housing Corp.' -> manual 'AOF'
+override-conflict,18,nonprofit_partner: generated 'AOF / Pacific Affordable Housing Corp.' -> manual 'Pacific Affordable Housing Corp'
+override-conflict,34,city: generated 'Los Angeles' -> manual 'El Sobrante'
+override-conflict,34,county: generated 'Los Angeles' -> manual 'Contra Costa'
+override-conflict,27,total_units: generated '24' -> manual '52'
+override-conflict,28,total_units: generated '22' -> manual '72'
+override-conflict,29,total_units: generated '24' -> manual '48'
+override-conflict,32,total_units: generated '65' -> manual '165'
+override-conflict,37,property_name: generated '2330 3rd Street Apartments' -> manual '2330 E. 3rd Street Apartments'
+override-conflict,48,investor_1: generated 'Ethos Real Estate' -> manual 'Vistria Group'
+override-conflict,44,nonprofit_partner: generated 'Step Forward Communities' -> manual 'Step Forward Comminities'
+override-conflict,51,total_units: generated '144' -> manual '145'
+override-conflict,54,total_units: generated '42' -> manual '356'
+override-conflict,56,investor_1: generated 'BRIDGE Housing Corporation' -> manual 'Bridge Housing'
+override-conflict,56,nonprofit_partner: generated 'BRIDGE Housing Corporation' -> manual 'Bridge Housing'
+override-conflict,60,"entity: generated 'PREG 5150 ECR Los Altos, LP, a California limited partnership' -> manual 'Prometheus Real Estate Group'"
+override-conflict,60,total_units: generated '29' -> manual '196'
+override-conflict,76,"entity: generated '3 SIOF 1451 W MLK BLVD, LP' -> manual '1451 W. MLK Boulevard Apartments'"
+override-conflict,78,"investor_1: generated 'Vintage Housing Holdings, LLC / Kennedy Wilson' -> manual 'Kennedy Wilson'"
+override-conflict,78,"nonprofit_partner: generated 'Pacific Housing, Inc.' -> manual 'Hearthstone Housing Foundation'"
+override-conflict,78,total_units: generated '8' -> manual '1008'
+override-conflict,81,total_units: generated '32' -> manual '31'
+override-conflict,81,city_cut: generated '4650.0' -> manual '4500'
+override-conflict,79,"entity: generated '2 SIOF 10811 S Compton Ave, LP' -> manual '10811 S. Compton Ave Apartments'"
+override-conflict,85,"entity: generated 'SIOF 5 Properties, LP, a California limited partnership' -> manual 'SIOF 5 Properties, LP, California limited partnership'"
+override-conflict,86,"entity: generated '2 SIOF 685 W Fourth St, LP, a Delaware limited partnership' -> manual '2 SIOF 685 W Fourth St, LP, Delaware limited partnership'"
+override-conflict,87,"investor_1: generated 'Vintage Housing Holdings, LLC / Kennedy Wilson' -> manual 'Vintage Housing Holdings'"
+override-conflict,158,total_units: generated '30' -> manual '29'
+override-conflict,95,investor_1: generated 'Belveron Partners' -> manual 'Sack Capital Partners'
+override-conflict,95,nonprofit_partner: generated 'Las Palmas Housing & Development Corporation' -> manual 'Las Palmas Housing & Development Corp.'
+override-conflict,93,investor_1: generated 'BRIDGE Housing Corporation' -> manual 'BRIDGE Housing Corp.'
+override-conflict,110,total_units: generated '24' -> manual '42'
+override-conflict,120,city: generated 'Sacramento' -> manual 'Unincorporated'
+override-conflict,125,property_name: generated 'Kinglsey Apartments' -> manual 'Kingsley Apartments'
+override-conflict,134,total_units: generated '69' -> manual '68'
+override-conflict,136,"address: generated '5805 Charlotte Drive, San Jose, CA' -> manual '5805 Charlotte Drive, San Jose, CA 95123'"
+override-conflict,137,total_units: generated '42' -> manual '41'
+override-conflict,143,property_name: generated 'Coliseum Connections Transit Village Apartments' -> manual 'Coliseum Transit Village'
+override-conflict,138,city: generated 'Santa Clara' -> manual 'San Jose'
+override-conflict,147,property_name: generated 'Coliseum Connections Transit Village Apartments' -> manual 'Coliseum Connections'
+override-conflict,150,property_name: generated 'The Langham Apartments' -> manual 'Langham Apartments'
+override-conflict,151,property_name: generated 'The Piccadilly Apartments' -> manual 'Piccadilly Apartments'
+override-conflict,152,total_units: generated '52' -> manual '152'
+override-conflict,155,entity: generated 'A limited partnership to be formed by Kairos Investment Management and Pacific Housing' -> manual 'TBD LP'
+override-conflict,156,entity: generated 'A limited partnership to be formed by Kairos Investment Management and Pacific Housing' -> manual 'TBD LP'
+override-conflict,171,city_cut: generated '15900.0' -> manual '6300'
+override-conflict,181,city: generated 'Long Beach' -> manual 'Los Angeles'
+override-conflict,181,total_units: generated '52' -> manual '152'
+override-conflict,190,"entity: generated 'St. Anton Highlands LP' -> manual 'St. Anton Highland, LP'"
+override-conflict,144,property_name: generated 'La Vista Apartments' -> manual 'La Vista Apartment Homes'
+override-conflict,195,total_units: generated '42' -> manual '41'
+override-conflict,196,"address: generated '9750 Airport Blvd, Los Angeles, CA' -> manual '9750 Airport Blvd, Westchester, CA 90045'"
+override-conflict,199,city_cut: generated '5550.0' -> manual '5500'
+override-conflict,207,"address: generated '2625 Cullen Street, Los Angeles, CA' -> manual '2625 Cullen St, Los Angeles, CA 90034'"
+override-conflict,208,"address: generated '2481 South Sawtelle Blvd, Los Angeles, CA' -> manual '2481 Sawtelle Blvd, Los Angeles, CA 90064'"
+override-conflict,49,property_name: generated 'Summerwood Apartment Homes' -> manual 'Summerwood Apartments Homes Apartments'
+override-conflict,49,entity: generated 'Standard Summerwood II LP' -> manual 'Standard Properties'
+override-conflict,49,"investor_1: generated 'Standard Property Company, Inc.' -> manual 'Standard Properties'"
+override-conflict,204,total_units: generated '50' -> manual '49'
+override-conflict,206,county: generated 'San Diego' -> manual 'Los Angeles'
+override-conflict,224,"address: generated '1454 West Florence Avenue, Los Angeles, CA' -> manual '1454 W Florence Ave, Los Angeles, CA 90047'"
+override-conflict,209,investor_1: generated 'Zenith Property Group LLC' -> manual 'Red Stone Equity Partners'
+override-conflict,209,term_years: generated '35' -> manual '15'
+override-conflict,210,term_years: generated '55' -> manual '10'
+override-conflict,226,"address: generated '142 Fig Tree Lane, Martinez, CA' -> manual '142 Fig Tree Lane, Martinez, CA 94553'"
+override-conflict,226,term_years: generated '15' -> manual '10'
+override-conflict,228,nonprofit_partner: generated 'The Foundation for Affordable Housing' -> manual 'Foundation for Affordable Housing'
+override-conflict,228,term_years: generated '10' -> manual '15'
+override-conflict,230,property_name: generated 'Hansen Village Apartments' -> manual 'Hansen illage Apartments'
+override-conflict,230,nonprofit_partner: generated 'The Foundation for Affordable Housing' -> manual 'Foundation for Affordable Housing'
+override-conflict,230,"address: generated '11821 Foothill Blvd, Los Angeles, CA' -> manual '11821 Foothill Blvd, Lake View Terrace, CA 91342'"
+override-conflict,232,"address: generated '12091 Bayport Street, Garden Grove, CA' -> manual '12091 Bayport St, Garden Grove, CA 92840'"
+override-conflict,222,"address: generated '16077 Ashland Avenue, San Lorenzo' -> manual '16077 Ashland Ave, San Lorenzo, CA 94580'"
+override-conflict,217,total_units: generated '35' -> manual '34'
+override-conflict,215,"address: generated '511 N. Hoover Street, Los Angeles' -> manual '511 N. Hoover Street, Los Angeles, California'"
+override-conflict,211,"entity: generated 'Haven, LP' -> manual 'Heven LP'"
+override-conflict,211,"address: generated '6530 Independence Avenue, Los Angeles' -> manual '6530 Independence Ave, Canoga Park, CA 91303'"
+override-conflict,212,"address: generated '2075 West Jefferson Blvd., Los Angeles' -> manual '2075 W Jefferson BlvdLos Angeles, CA 90018'"
+override-conflict,213,"address: generated '5416 Jackson Street, North Highlands' -> manual '5416 Jackson St, North Highlands, CA 95660'"
+override-conflict,214,"address: generated '444 North Amelia Avenue, San Dimas' -> manual '444 N Amelia Ave, San Dimas, CA 91773'"
+override-conflict,229,"address: generated '220 47th Street, San Diego' -> manual '220 47th St, San Diego, CA 92102'"
+override-conflict,231,nonprofit_partner: generated 'Bedford' -> manual 'Bedford Affordable Housing Foundation'
+override-conflict,231,"address: generated '160 S. Virgil Avenue, Los Angeles' -> manual '160 S Virgil Ave, Los Angeles, CA 90004'"
+override-conflict,233,"address: generated '926 S. Kingsley Drive, Los Angeles, CA' -> manual '926 S Kingsley Dr, Los Angeles, CA 90006'"
+override-conflict,233,term_years: generated '55' -> manual '10'
+override-conflict,234,"address: generated '939 S. Kingsley Drive, Los Angeles, CA' -> manual '939 S Kingsley Dr, Los Angeles, CA 90006'"
+override-conflict,235,"address: generated '3950 W. Ingraham Street, Los Angeles, CA' -> manual '3950 Ingraham St, San Diego, CA 92109'"
+override-conflict,236,total_units: generated '136' -> manual '108'
+override-conflict,236,"address: generated '6985 S. Centinela Avenue, Los Angeles, CA' -> manual '6985 S. Centinela Avenue, Los Angeles, CA 90045'"
+override-conflict,237,"address: generated '1178 N. Edgemont Street, Los Angeles, CA' -> manual '1178 N Edgemont St, Los Angeles, CA 90029'"
+override-conflict,225,"entity: generated 'CG Bennington, LP and JSP Bennington, LP' -> manual 'CG Bennington, LP / JSP Bennington, LP'"
+override-conflict,225,term_years: generated '30' -> manual '55'
+la-fetch-fallback,10,AIN 6020022027 has no current roll data; using collaborator value
+parcel-no-values,33,AIN 6020022027 (Los Angeles): no roll values from any source
+la-fetch-fallback,76,AIN 5036031006 has no current roll data; using collaborator value
+la-fetch-fallback,99,AIN 4262018026 has no current roll data; using collaborator value
+la-fetch-fallback,132,AIN 6020022027 has no current roll data; using collaborator value
+la-fetch-fallback,137,AIN 2125017014 has no current roll data; using collaborator value
+parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
+parcel-no-values,147,AIN 41416654 (Alameda): no roll values from any source
+parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,182,AIN 5036031006 (Los Angeles): no roll values from any source
+parcel-no-values,194,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,195,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,199,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,200,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
+parcel-no-values,203,AIN (none) (Sacramento): no roll values from any source
+parcel-no-values,204,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,205,AIN (none) (Contra Costa): no roll values from any source
+parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,209,AIN (none) (San Diego): no roll values from any source
+parcel-no-values,211,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,212,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,213,AIN (none) (Sacramento): no roll values from any source
+parcel-no-values,214,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,215,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,216,AIN (none) (San Diego): no roll values from any source
+parcel-no-values,217,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,218,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,219,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,220,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,221,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,222,AIN (none) (Alameda): no roll values from any source
+parcel-no-values,223,AIN (none) (Alameda): no roll values from any source
+parcel-no-values,224,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
+parcel-no-values,228,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,229,AIN (none) (San Diego): no roll values from any source
+parcel-no-values,230,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,231,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,233,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,234,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,235,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,236,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,237,AIN (none) (Los Angeles): no roll values from any source
+parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
+parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
+parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
+parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
+parcel-no-values,202,AIN (none) (Santa Cruz): no roll values from any source
+parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
+parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
+parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
+parcel-no-values,225,AIN (none) (Solano): no roll values from any source
+missing-parcels,238,"Heritage Park Apartments Livermore: authorized, not dead, no parcel rows"
+shared-ain,143/147,AIN 41416654 assigned to multiple projects
+shared-ain,182/76,AIN 5036031006 assigned to multiple projects
+shared-ain,130/179,AIN 5080006008 assigned to multiple projects
+shared-ain,126/173,AIN 5094005005 assigned to multiple projects
+shared-ain,127/174,AIN 5094006003 assigned to multiple projects
+shared-ain,122/165,AIN 5094017020 assigned to multiple projects
+shared-ain,124/169,AIN 5094023025 assigned to multiple projects
+shared-ain,128/175,AIN 5502019004 assigned to multiple projects
+shared-ain,125/170,AIN 5503024012 assigned to multiple projects
+shared-ain,129/177,AIN 5517005016 assigned to multiple projects
+shared-ain,121/162,AIN 5518013024 assigned to multiple projects
+shared-ain,123/168,AIN 5518020021 assigned to multiple projects
+shared-ain,10/132,AIN 6020022027 assigned to multiple projects
+shared-ain,152/181,AIN 7157012017 assigned to multiple projects

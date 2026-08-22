@@ -46,35 +46,34 @@ HEADER_FILL = PatternFill("solid", fgColor="2F3B33")
 HEADER_FONT = Font(color="FFFFFF", bold=True, size=10)
 
 
-def render_workbook(df: pd.DataFrame, cell_sources: dict, out_path: Path) -> None:
-    """Write df to out_path with per-cell provenance fills.
+def render_workbook(tables: dict, out_path: Path) -> None:
+    """Write {tab_name: (df, cell_sources)} to out_path with provenance fills.
 
-    cell_sources: {(row_index, column_name): source_string} for every cell
-    whose source is NOT script-generated; missing keys mean generated.
+    cell_sources: {(row_index, column_name): source_string}; sources present
+    in SOURCE_FILLS with a color get filled, others stay unfilled (= manual).
     """
     wb = Workbook()
-    ws = wb.active
-    ws.title = "Dataset"
+    wb.remove(wb.active)
 
-    for c, col in enumerate(df.columns, start=1):
-        cell = ws.cell(row=1, column=c, value=col)
-        cell.fill = HEADER_FILL
-        cell.font = HEADER_FONT
-        cell.alignment = Alignment(vertical="center")
-        width = max(12, min(38, int(df[col].astype(str).str.len().quantile(0.9)) + 2))
-        ws.column_dimensions[get_column_letter(c)].width = width
-    ws.freeze_panes = "C2"
-
-    for r, (idx, row) in enumerate(df.iterrows(), start=2):
-        row_default = SOURCE_FILLS.get(row.get("source", ""), None)
+    for name, (df, cell_sources) in tables.items():
+        ws = wb.create_sheet(name)
         for c, col in enumerate(df.columns, start=1):
-            cell = ws.cell(row=r, column=c, value=row[col] if row[col] != "" else None)
-            if row[col] == "":
-                continue
-            source = cell_sources.get((idx, col))
-            fill = SOURCE_FILLS.get(source) if source is not None else row_default
-            if fill:
-                cell.fill = PatternFill("solid", fgColor=fill)
+            cell = ws.cell(row=1, column=c, value=col)
+            cell.fill = HEADER_FILL
+            cell.font = HEADER_FONT
+            cell.alignment = Alignment(vertical="center")
+            width = max(12, min(38, int(df[col].astype(str).str.len().quantile(0.9)) + 2))
+            ws.column_dimensions[get_column_letter(c)].width = width
+        ws.freeze_panes = "C2"
+
+        for r, (idx, row) in enumerate(df.iterrows(), start=2):
+            for c, col in enumerate(df.columns, start=1):
+                cell = ws.cell(row=r, column=c, value=row[col] if row[col] != "" else None)
+                if row[col] == "":
+                    continue
+                fill = SOURCE_FILLS.get(cell_sources.get((idx, col)))
+                if fill:
+                    cell.fill = PatternFill("solid", fgColor=fill)
 
     legend = wb.create_sheet("Legend")
     legend.column_dimensions["A"].width = 22
@@ -93,59 +92,52 @@ def render_workbook(df: pd.DataFrame, cell_sources: dict, out_path: Path) -> Non
     print(f"wrote {out_path} ({out_path.stat().st_size:,} bytes)")
 
 
-# ---------------------------------------------------------- current data feed
+# ---------------------------------------------------------- dataset feed
 
-MANUAL_PRE_ARCHIVE_IDS = ["192", "193", "223", "238"]  # grants predating meeting archives
-
-SHEET_TO_LIST = {
-    "Property Name": "property_name",
-    "Applicant / Entity": "entity",
-    "City": "city",
-    "County": "county",
-    "Agency": "agency",
-    "Resolution": "resolution",
-    "Date": "meeting_date",
-    "Investor 1": "investor_1",
-    "Nonprofit Partner": "nonprofit_partner",
-    "Total Unit Count": "total_units",
-    "Address": "address",
-    "Grant Description": "grant_description",
-}
+# columns that are identity/metadata, never colored as "automated"
+GRANT_META = {"project_id", "row_source", "field_overrides", "status"}
+PARCEL_IDENTITY = {"project_id", "county", "property_name", "ain", "apn",
+                   "situs_address", "legacy_redundant", "assignment_source",
+                   "method", "notes"}
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-o", "--output", type=Path,
-                        default=Path("output/pipeline/review.xlsx"))
-    parser.add_argument("--sample", type=int, default=0,
-                        help="keep only N generated rows per agency (plus all "
-                             "manual rows) — small file for size-limited uploads")
+                        default=Path("output/dataset/review.xlsx"))
     args = parser.parse_args()
 
-    df = pd.read_csv("output/pipeline/basic_list.csv", dtype=str).fillna("")
-    if args.sample:
-        df = df.groupby("agency", group_keys=False).head(args.sample)
+    grants = pd.read_csv("output/dataset/grants.csv", dtype=str).fillna("")
+    parcels = pd.read_csv("output/dataset/parcels.csv", dtype=str).fillna("")
 
-    # the four grants that predate the meeting archives: fully manual rows
-    sheet = pd.read_csv("input/grants.csv", dtype=str).fillna("")
-    manual = sheet[sheet["Project ID"].isin(MANUAL_PRE_ARCHIVE_IDS)]
-    manual_rows = []
-    for _, r in manual.iterrows():
-        row = {list_col: r[sheet_col] for sheet_col, list_col in SHEET_TO_LIST.items()}
-        row["item_type"] = "authorize"
-        row["source"] = "collaborator-sheet"
-        manual_rows.append(row)
-    df = pd.concat([df, pd.DataFrame(manual_rows)], ignore_index=True).fillna("")
-    df = df.sort_values(["agency", "meeting_date"], ignore_index=True)
+    # grants: generated cells filled, manually-overridden fields unfilled
+    grant_sources = {}
+    for idx, row in grants.iterrows():
+        overridden = {e.split(":")[0] for e in row["field_overrides"].split("; ") if e}
+        fully_manual = row["row_source"] != "generated" or "*" in overridden
+        for col in grants.columns:
+            if row[col] == "":
+                continue
+            if fully_manual or col in GRANT_META or col in overridden:
+                grant_sources[(idx, col)] = "collaborator-sheet"   # unfilled
+            else:
+                grant_sources[(idx, col)] = row.get("source", "") or "cmfa-meeting-docs"
 
-    cell_sources = {}
-    for idx, row in df.iterrows():
-        if row["source"] == "collaborator-sheet":
-            for col in df.columns:
-                if row[col] != "" and col != "source":
-                    cell_sources[(idx, col)] = "collaborator-sheet"
+    # parcels: identity columns are manual assignments (unfilled); value
+    # columns are filled only when they came from the county API
+    parcel_sources = {}
+    for idx, row in parcels.iterrows():
+        api = row["value_source"] == "la-county-api"
+        for col in parcels.columns:
+            if row[col] == "":
+                continue
+            if col in PARCEL_IDENTITY or not api:
+                parcel_sources[(idx, col)] = "collaborator-sheet"  # unfilled
+            else:
+                parcel_sources[(idx, col)] = "la-county-api"
 
-    render_workbook(df, cell_sources, args.output)
+    render_workbook({"Grants": (grants, grant_sources),
+                     "Parcels": (parcels, parcel_sources)}, args.output)
 
 
 if __name__ == "__main__":

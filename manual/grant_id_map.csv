@@ -1,0 +1,235 @@
+project_id,matched,generated_property,generated_meeting_date,match_method,sheet_property
+1,YES,Alvarado Streets Apartments,2023-07-14,resolution,Alvarado Streets Apartments
+4,YES,Bernardine Apartments,2023-08-04,resolution,Bernardine Apartments
+2,YES,2025 New Jersey Apartments,2023-08-04,resolution,2025 New Jersey Apartments
+3,YES,Mariposa Club Apartments,2023-08-04,resolution,Mariposa Club Apartments
+5,YES,City View aka Outlook at Mission Valley Apartments,2023-08-25,resolution,"City View aka Outlook at Mission Valley
+Apartments"
+6,YES,381 Turk Street Apartments,2023-09-15,resolution,381 Turk Street Apartment
+7,YES,Townhomes at Gading Apartments,2023-12-08,resolution,Townhomes at Gading Apartments
+8,YES,1317 S. Grand Apartments,2023-12-08,resolution,1317 S. Grand Apartments
+9,YES,1411 S. Flower Apartments,2023-12-08,resolution,1411 S. Flower Apartments
+10,YES,7518 Hoover St. Apartments,2024-02-02,resolution,7518 Hoover St. Apartments
+11,YES,820 MacArthur Apartments,2024-02-23,resolution,820 MacArthur Apartments
+12,YES,The Waterloo Apartments,2024-02-23,resolution,The Waterloo Apartments
+14,YES,Electric Lofts Apartments,2024-03-15,resolution,Electric Lofts Apartments
+13,YES,275 Turk Street Apartments,2024-03-15,resolution,275 Turk Street Apartments
+15,YES,Premiere Hollywood Apartments,2024-04-26,resolution,Premiere Hollywood Apartments
+17,YES,4252 Crenshaw Apartments,2024-05-17,resolution,4252 Crenshaw Apartments
+16,YES,Montessa Apartments,2024-05-17,resolution,Montessa Apartments
+18,YES,Fallbrook Trail Apartments,2024-06-07,resolution,Fallbrook Trail Apartments
+20,YES,Pinetree Terrace Apartments,2024-06-07,resolution,Pinetree Terrace Apartments
+21,YES,Windmere Court Apartments,2024-06-07,resolution,Windmere Court Apartments
+19,YES,The Arbors Apartments,2024-06-07,resolution,The Arbors Apartments
+22,YES,Seville Gardens Apartments,2024-06-07,resolution,Seville Gardens Apartments
+23,YES,Harbour Residences Apartments,2024-07-19,resolution,Harbour Residences Apartments
+24,YES,4209 Western Avenue Apartments,2024-07-19,fuzzy-name(100),4209 Western Avenue Apartments
+25,YES,1130 Martin Luther King Jr. Blvd Apartments,2024-07-19,resolution,1130 Martin Luther King Jr. Blvd Apartments
+34,YES,Appian Terrace Apartments,2024-08-09,resolution,Appian Terrace Apartments
+35,YES,Sierra Park Apartments,2024-08-09,fuzzy-name(100),Sierra Park Apartments
+33,YES,7524 S. Hoover St. Apartments,2024-08-09,resolution,7524 S. Hoover St. Apartments
+27,YES,Santa Monica Portfolio A Apartments,2024-08-09,resolution,Santa Monica Portfolio A Apartments
+28,YES,Santa Monica Portfolio B Apartments,2024-08-09,resolution,Santa Monica Portfolio B Apartments
+29,YES,Santa Monica Portfolio C Apartments,2024-08-09,resolution,Santa Monica Portfolio C Apartments
+30,YES,Santa Monica Portfolio D Apartments,2024-08-09,resolution,Santa Monica Portfolio D Apartments
+31,YES,Santa Monica Portfolio E Apartments,2024-08-09,resolution,Santa Monica Portfolio E Apartments
+32,YES,Santa Monica Portfolio F Apartments,2024-08-09,resolution,Santa Monica Portfolio F Apartments
+26,YES,Harbor Terrace Apartments,2024-08-09,resolution,Harbor Terrace Apartments
+36,YES,Stadium Village Apartments,2024-08-30,fuzzy-name(100),Stadium Village Apartments
+37,YES,2330 3rd Street Apartments,2024-08-30,fuzzy-name(92),2330 E. 3rd Street Apartments
+39,YES,6200 S. Broadway Apartments,2024-09-20,fuzzy-name(100),6200 S. Broadway Apartments
+40,YES,4228 Western Ave. Apartments,2024-09-20,fuzzy-name(100),4228 Western Ave. Apartments
+41,YES,4327 S. Vermont Apartments,2024-09-20,resolution,4327 S. Vermont Apartments
+42,YES,2023 Imperial Apartments,2024-09-20,resolution,2023 Imperial Apartments
+38,YES,Marquee Apartments,2024-09-20,resolution,Marquee Apartments
+43,YES,Meridian Apartments,2024-09-20,resolution,Meridian Apartments
+46,YES,4752 Main Street Apartments,2024-10-11,resolution,4752 Main Street Apartments
+45,YES,Horizon Apartments,2024-10-11,resolution,Horizon Apartments
+48,YES,Hillsdale Gardens Apartments,2024-10-11,resolution,Hillsdale Gardens Apartments
+47,YES,6171 Mission Gorge Apartments,2024-10-11,resolution,6171 Mission Gorge Apartments
+44,YES,Soto Apartments,2024-10-11,resolution,Soto Apartments
+50,YES,Market Street Village Apartments,2024-11-01,resolution,Market Street Village Apartments
+52,YES,The Carla Apartments,2024-11-01,resolution,The Carla Apartments
+51,YES,Creekside Villas Apartments,2024-11-01,resolution,Creekside Villas Apartments
+53,YES,Skylark Place by Trion Living Apartments,2024-11-01,resolution,Skylark Place by Trion Living Apartments
+54,YES,Seaport Village Apartments,2024-11-22,fuzzy-name(100),Seaport Village Apartments
+55,YES,1457 Main Street Apartments,2024-11-22,resolution,1457 Main Street Apartments
+56,YES,Viewpoint Apartments,2024-12-13,resolution,Viewpoint Apartments
+59,YES,Ventana Residences Apartments,2024-12-13,fuzzy-name(100),Ventana Residences Apartments
+57,YES,SoFi Los Gatos Creek Apartments,2024-12-13,resolution,SoFi Los Gatos Creek Apartments
+58,YES,Chaparral Apartments,2024-12-13,resolution,Chaparral Apartments
+60,YES,Harken Apartments,2025-01-31,resolution,HARKEN APARTMENTS
+64,YES,333 Douglas Apartments,2025-02-21,fuzzy-name(100),333 Douglas Apartments
+61,YES,11422 Broadway Apartments,2025-02-21,fuzzy-name(100),11422 Broadway Apartments
+63,YES,The Enclave Apartments,2025-02-21,fuzzy-name(100),The Enclave Apartments
+62,YES,Mansfield Micro Apartments,2025-02-21,resolution,Mansfield Micro Apartments
+67,YES,Coronado Palms Apartments,2025-03-14,resolution,Coronado Palms Apartments
+65,YES,Casa La Palma Apartments,2025-03-14,resolution,Casa La Palma Apartments
+66,YES,The Eaves Apartments,2025-03-14,resolution,The Eaves Apartments
+69,YES,Lindley Parc Apartments,2025-04-04,resolution,Lindley Parc Apartments
+68,YES,Candlewood North Apartments,2025-04-04,resolution,Candlewood North Apartments
+70,YES,Terrace View Apartments,2025-04-25,resolution,Terrace View Apartments
+71,YES,SoFi Redwood Park Apartments,2025-04-25,resolution,SoFi Redwood Park Apartments
+72,YES,Waterbend Apartments,2025-05-16,resolution,Waterbend Apartments
+73,YES,1540 W Court Apartments,2025-05-16,resolution,1540 W Court Apartments
+75,YES,Palmilla Apartments,2025-05-16,resolution,Palmilla Apartments
+74,YES,Sol Haus Apartments,2025-05-16,resolution,Sol Haus Apartments
+76,YES,1451 W MLK BLVD Apartments,2026-01-30,fuzzy-name(100),1451 W. MLK Boulevard Apartments
+78,YES,Bella Vista at Hilltop Apartments,2025-06-27,resolution,Bella Vista at Hilltop Apartments
+80,YES,4101 Somerset Dr. Apartments,2025-06-27,resolution,4101 Somerset Dr. Apartments
+81,YES,321 E. Florence Apartments,2025-06-27,resolution,321 E. Florence Apartments
+82,YES,9300 Compton Ave. Apartments,2025-06-27,resolution,9300 Compton Ave. Apartments
+83,YES,6401 S. Avalon Blvd. Apartments,2025-06-27,resolution,6401 S. Avalon Blvd. Apartments
+84,YES,9515 Compton Ave. Apartments,2025-06-27,resolution,9515 Compton Ave. Apartments
+79,YES,10811 S. Compton Ave Apartments,2025-06-27,resolution,10811 S. Compton Ave Apartments
+85,YES,569 W. 6th Street. Apartments,2025-06-27,resolution,569 W. 6th Street Apartments
+86,YES,685 W. 4th St Apartments,2025-06-27,resolution,685 W. 4th St Apartments
+87,YES,Chadwick Apartments,2025-06-27,resolution,Chadwick Apartments
+77,YES,11630 S. Main Street Apartments,2025-06-27,resolution,11630 S. Main Street Apartments
+90,YES,Pacific Trails Apartments,2025-07-18,resolution,Pacific Trails Apartments
+89,YES,LINQ Apartments,2025-07-18,resolution,LINQ Apartments
+158,YES,Kalmia Apartments,2025-07-18,resolution,Kalmia Apartments
+88,YES,Chatsworth Apartments,2025-07-18,resolution,Chatsworth Apartments
+97,YES,Azusa Gardens Apartments,2025-08-08,resolution,Azusa Gardens Apartments
+96,YES,Park Kiely Apartments,2025-08-08,resolution,Park Kiely Apartments
+95,YES,Fountain Park Apartments,2025-08-08,fuzzy-name(100),Fountain Park Apartments
+92,YES,The Parker Apartments,2025-08-08,resolution,The Parker Apartments
+93,YES,Canyon Ridge at Napa Junction Apartments,2025-08-08,fuzzy-name(100),Canyon Ridge at Napa Junction Apartments
+94,YES,Canyon Villa Apartment Homes,2025-08-08,resolution,Canyon Villa Apartment Homes
+91,YES,Huston Affordable Housing Apartments,2025-08-08,resolution,Huston Affordable Housing Apartments
+98,YES,Camden Village Apartments,2025-08-29,resolution,Camden Village Apartments
+99,YES,Passo Barrington Apartments,2025-08-29,resolution,Passo Barrington Apartments
+100,YES,Passo Centinela I Apartments,2025-08-29,resolution,Passo Centinela I Apartments
+101,YES,Passo Centinela II Apartments,2025-08-29,resolution,Passo Centinela II Apartments
+102,YES,Passo Stoner Apartments,2025-08-29,resolution,Passo Stoner Apartments
+103,YES,4th Street Apartments,2025-09-19,resolution,4th Street Apartments
+104,YES,Alexandria I Apartments,2025-09-19,resolution,Alexandria I Apartments
+105,YES,Ashby Apartments,2025-09-19,resolution,Ashby Apartments
+106,YES,Catalina Apartments,2025-09-19,resolution,Catalina Apartments
+107,YES,Edgemont Apartments,2025-09-19,resolution,Edgemont Apartments
+108,YES,Gramercy Apartments,2025-09-19,resolution,Gramercy Apartments
+109,YES,Irolo Apartments,2025-09-19,resolution,Irolo Apartments
+110,YES,Kenmore I Apartments,2025-09-19,resolution,Kenmore I Apartments
+111,YES,Manhattan III Apartments,2025-09-19,resolution,Manhattan III Apartments
+112,YES,Mariposa II Apartments,2025-09-19,resolution,Mariposa II Apartments
+113,YES,Normandie Apartments,2025-09-19,resolution,Normandie Apartments
+114,YES,Norton Apartments,2025-09-19,resolution,Norton Apartments
+115,YES,Oxford I Apartments,2025-09-19,resolution,Oxford I Apartments
+116,YES,Oxford III Apartments,2025-09-19,resolution,Oxford III Apartments
+117,YES,Seven Lions Apartments,2025-09-19,resolution,Seven Lions Apartments
+118,YES,St. Andrews I Apartments,2025-09-19,resolution,St. Andrews I Apartments
+119,YES,St. Andrews II Apartments,2025-09-19,resolution,St. Andrews II Apartments
+120,YES,The Falls at Arden Apartments,2025-10-10,resolution,The Falls at Arden Apartments
+131,YES,Citrine Apartments,2025-10-10,resolution,Citrine Apartments
+160,YES,12th Street Apartments,2025-10-10,resolution,12th Street Apartments
+121,YES,Alexandria II Apartments,2025-10-10,resolution,Alexandria II Apartments
+122,YES,Fedora Apartments,2025-10-10,resolution,Fedora Apartments
+123,YES,Kenmore II Apartments,2025-10-10,resolution,Kenmore II Apartments
+124,YES,Kenmore III Apartments,2025-10-10,resolution,Kenmore III Apartments
+125,YES,Kinglsey Apartments,2025-10-10,resolution,Kingsley Apartments
+126,YES,Mariposa I Apartments,2025-10-10,resolution,Mariposa I Apartments
+127,YES,Mariposa III Apartments,2025-10-10,resolution,Mariposa III Apartments
+128,YES,Mariposa IV Apartments,2025-10-10,resolution,Mariposa IV Apartments
+129,YES,Oxford II Apartments,2025-10-10,resolution,Oxford II Apartments
+130,YES,Western Apartments,2025-10-10,resolution,Western Apartments
+135,YES,236 Berendo Apartments,2025-10-24,resolution,236 Berendo Apartments
+134,YES,10705 Avalon Blvd Apartments,2025-10-24,resolution,10705 Avalon Blvd Apartments
+132,YES,7524 S. Hoover St Apartments,2025-10-24,resolution,7524 S. Hoover St Apartments
+136,YES,Ascent Apartments,2025-11-20,fuzzy-name(100),Ascent Apartments
+141,YES,Renaissance Apartment Homes,2025-11-21,resolution,Renaissance Apartment Homes
+137,YES,Kittridge Affordable Housing Apartments,2025-11-21,resolution,Kittridge Affordable Housing Apartments
+142,YES,9033 Ramsgate Apartments,2025-11-21,resolution,9033 Ramsgate Apartments
+143,YES,Coliseum Connections Transit Village Apartments,2025-11-21,resolution,Coliseum Transit Village
+140,YES,The Crossings Apartments,2025-11-21,resolution,The Crossings Apartments
+139,YES,Thornbridge Apartments,2025-11-21,resolution,Thornbridge Apartments
+138,YES,Montecito Apartments,2025-11-21,resolution,Montecito Apartments
+146,YES,San Pedro Apartments,2025-12-12,resolution,San Pedro Apartments
+147,YES,Coliseum Connections Transit Village Apartments,2025-12-12,resolution,Coliseum Connections
+148,YES,Park Wilshire Apartments,2025-12-12,resolution,Park Wilshire Apartments
+149,YES,Sir Francis Drake Villa Apartments,2025-12-12,resolution,Sir Francis Drake Villa Apartments
+150,YES,The Langham Apartments,2025-12-12,resolution,Langham Apartments
+151,YES,The Piccadilly Apartments,2025-12-12,resolution,Piccadilly Apartments
+152,YES,The Hive at Ackerfield Apartments,2025-12-12,resolution,The Hive at Ackerfield Apartments
+153,YES,Hawaiian Terrace Senior Apartments,2025-12-12,resolution,Hawaiian Terrace Senior Apartments
+154,YES,Crystal Springs Terrace Apartments,2025-12-12,resolution,Crystal Springs Terrace
+155,YES,Trailview Apartments,2025-12-12,resolution,Trailview Apartments
+156,YES,Casa Serena Apartments,2025-12-12,resolution,Casa Serena Apartments
+145,YES,Golden Gardens Apartments,2025-12-12,fuzzy-name(100),Golden Gardens Apartments
+157,YES,Hendrix & Hadley Apartments,2026-01-08,fuzzy-name(100),Hendrix and Hadley Apartments
+159,YES,1141 N. Vermont Avenue Apartments,2026-01-09,fuzzy-name(100),1141 N. Vermont Avenue Apartments
+161,YES,8th Street Apartments,2026-01-09,fuzzy-name(100),8th Street Apartments
+162,YES,Alexandria II Apartments,2026-01-09,fuzzy-name(100),Alexandria II Apartments
+163,YES,Ardmore Apartments,2026-01-09,fuzzy-name(100),Ardmore Apartments
+164,YES,Avalon Apartments,2026-01-09,fuzzy-name(100),Avalon Apartments
+165,YES,Fedora Apartments,2026-01-09,fuzzy-name(100),Fedora Apartments
+166,YES,Harvard Apartments,2026-01-09,fuzzy-name(100),Harvard Apartments
+167,YES,Hollywood Apartments,2026-01-09,fuzzy-name(100),Hollywood Apartments
+168,YES,Kenmore II Apartments,2026-01-09,fuzzy-name(100),Kenmore II Apartments
+169,YES,Kenmore III Apartments,2026-01-09,fuzzy-name(100),Kenmore III Apartments
+170,YES,Kinglsey Apartments,2026-01-09,fuzzy-name(100),Kinglsey Apartments
+171,YES,Lexington Apartments,2026-01-09,fuzzy-name(100),Lexington Apartments
+172,YES,Manhattan I & II Apartments,2026-01-09,fuzzy-name(100),Manhattan I & II Apartments
+173,YES,Mariposa I Apartments,2026-01-09,fuzzy-name(100),Mariposa I Apartments
+174,YES,Mariposa III Apartments,2026-01-09,fuzzy-name(100),Mariposa III Apartments
+175,YES,Mariposa IV Apartments,2026-01-09,fuzzy-name(100),Mariposa IV Apartments
+176,YES,Monte Vista Apartments,2026-01-09,fuzzy-name(100),Monte Vista Apartments
+177,YES,Oxford II Apartments,2026-01-09,fuzzy-name(100),Oxford II Apartments
+178,YES,Parkview Apartments,2026-01-09,fuzzy-name(100),Parkview Apartments
+179,YES,Western Apartments,2026-01-09,fuzzy-name(100),Western Apartments
+180,YES,Westmoreland Apartments,2026-01-09,fuzzy-name(100),Westmoreland Apartments
+191,YES,Highland Gardens Apartments,2026-01-22,fuzzy-name(100),Highland Gardens Apartments
+189,YES,The Colonnade Apartments,2026-01-30,fuzzy-name(100),The Colonnade Apartments
+181,YES,The Hive Apartments,2026-01-30,fuzzy-name(100),The Hive Apartments
+182,YES,1451 W MLK BLVD Apartments,2026-01-30,fuzzy-name(100),1451 W MLK BLVD Apartments
+183,YES,4256 Whittier Blvd Apartments,2026-01-30,fuzzy-name(100),4256 Whittier Blvd Apartments
+184,YES,225 W 25th Apartments,2026-01-30,fuzzy-name(100),225 W 25th Apartments
+185,YES,9422 Firth Avenue Apartments,2026-01-30,fuzzy-name(100),9422 Firth Avenue Apartments
+186,YES,4008 Martin Luther King Blvd Apartments,2026-01-30,fuzzy-name(100),4008 Martin Luther King Blvd Apartments
+190,YES,Highlands Point Apartments,2026-02-20,fuzzy-name(100),Highlands Point Apartments
+144,YES,La Vista Apartments,2026-02-20,resolution,La Vista Apartment Homes
+195,YES,1723 Corinth Apartments,2026-02-20,resolution,1723 Corinth Apartments
+194,YES,3751 Delmas Terrace Apartments,2026-02-20,resolution,3751 Delmas Terrace Apartments
+187,YES,Bentley Parke Apartments,2026-02-20,fuzzy-name(100),Bentley Parke Apartments
+196,YES,The Dream Apartments,2026-03-05,fuzzy-name(100),The Dream Apartments
+200,YES,1408 Jefferson Apartments,2026-03-13,fuzzy-name(100),1408 Jefferson Apartments
+197,YES,12342 Osborne Place Apartments,2026-03-13,fuzzy-name(100),12342 Osborne Place Apartments
+198,YES,220 Humboldt Ct. Apartments,2026-03-13,fuzzy-name(100),220 Humboldt Ct. Apartments
+199,YES,Baird Affordable Housing Apartments,2026-03-13,fuzzy-name(100),Baird Affordable Housing Apartments
+201,YES,Villa Del Sol Senior Apartments,2026-03-27,fuzzy-name(100),Villa Del Sol Senior Apartments
+207,YES,Cullen Living Apartments,2026-04-02,fuzzy-name(100),Cullen Living Apartments
+208,YES,Sawtelle 2481 Apartments,2026-04-02,fuzzy-name(100),Sawtelle 2481 Apartments
+49,YES,Summerwood Apartment Homes,2026-04-17,resolution,Summerwood Apartments Homes Apartments
+188,YES,Del Norte Place Apartments,2026-01-30,fuzzy-name(100),Del Norte Place Apartments
+202,YES,La Posada Apartments,2026-06-26,fuzzy-name(100),La Posada Apartments
+205,YES,Del Norte Place Apartments,2026-05-07,fuzzy-name(100),Del Norte Place Apartments
+203,YES,Bent Tree Apartments,2026-05-08,fuzzy-name(100),Bent Tree Apartments
+204,YES,Hazelhurst Affordable Housing Apartments,2026-05-08,fuzzy-name(100),Hazelhurst Affordable Housing Apartments
+206,YES,Elan River Village Apartments,2026-05-08,fuzzy-name(100),Elan River Village Apartments
+224,YES,1454 Florence Apartments,2026-05-21,fuzzy-name(100),1454 Florence Apartments
+209,YES,Bluwater Crossing Apartments,2026-05-29,fuzzy-name(100),Bluwater Crossing Apartments
+210,YES,California Place Apartments,2026-05-29,fuzzy-name(100),California Place Apartments
+226,YES,Maris at Martinez Apartments,2026-06-04,fuzzy-name(100),Maris at Martinez Apartments
+228,YES,Colden Oaks Apartments,2026-06-04,fuzzy-name(100),Colden Oaks Apartments
+230,YES,Hansen Village Apartments,2026-06-04,fuzzy-name(96),Hansen illage Apartments
+232,YES,Crystal View Apartments,2026-06-04,fuzzy-name(100),Crystal View Apartments
+222,YES,Bayfair Apartments,2026-06-18,fuzzy-name(100),Bayfair Apartments
+216,YES,Guava Gardens Apartments,2026-06-26,fuzzy-name(100),Guava Gardens Apartments
+217,YES,Park View by Angeleno Apartments,2026-06-26,fuzzy-name(100),Park View by Angeleno Apartments
+215,YES,511 Hoover Street Apartments,2026-07-02,fuzzy-name(100),511 Hoover Street Apartments
+211,YES,Haven Warner Center,2026-07-16,fuzzy-name(100),Haven Warner Center
+212,YES,The Arlo,2026-07-16,fuzzy-name(100),The Arlo
+213,YES,Sierra Village,2026-07-16,fuzzy-name(100),Sierra Village
+214,YES,Trails at San Dimas,2026-07-16,fuzzy-name(100),Trails at San Dimas
+218,YES,1408 Jefferson Blvd Apartments,2026-07-17,fuzzy-name(100),1408 Jefferson Blvd Apartments
+219,YES,603 Mariposa Apartments,2026-07-17,fuzzy-name(100),603 Mariposa Apartments
+220,YES,236 Berendo Apartments,2026-07-17,fuzzy-name(100),236 Berendo Apartments
+221,YES,Banner Avenue Apartments,2026-07-17,fuzzy-name(100),Banner Avenue Apartments
+229,YES,Creekside Villas,2026-08-06,fuzzy-name(100),Creekside Villas Apartments
+231,YES,Violet on Virgil,2026-08-06,fuzzy-name(100),Violet on Virgil
+233,YES,926 S. Kingsley Apartments,2026-08-06,fuzzy-name(100),926 S. Kingsley Apartments
+234,YES,939 S. Kingsley Apartments,2026-08-06,fuzzy-name(100),939 S. Kingsley Apartments
+235,YES,3950 Ingraham Apartments,2026-08-06,fuzzy-name(100),3950 Ingraham Apartments
+236,YES,Park Playa Apartments,2026-08-06,fuzzy-name(100),Park Playa Apartments
+237,YES,Edgemont by Angeleno,2026-08-06,fuzzy-name(100),Edgemont by Angeleno
+225,YES,Bennington Apartments,2026-08-07,fuzzy-name(100),Bennington Apartments
+227,YES,Westlake Apartments,2026-08-07,fuzzy-name(100),Westlake Apartments

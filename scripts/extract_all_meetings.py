@@ -111,10 +111,17 @@ def deduplicate_grants(all_grants: list[ExtractedGrant]) -> list[ExtractedGrant]
         preliminary = [g for g in grants if g.item_type == "preliminary"]
 
         if authorize:
-            # Keep latest authorize
-            best = max(authorize, key=lambda g: g.meeting_date)
-            result.append(best)
-            stats["authorize_kept"] += 1
+            # Keep EVERY authorization: a property can be re-granted under a
+            # new resolution months later (e.g. Alexandria II, Res 25-487 then
+            # 26-005), and each authorization is its own dataset row. Distinct
+            # authorizations are distinguished by meeting_date.
+            seen_dates = set()
+            for g in sorted(authorize, key=lambda g: g.meeting_date):
+                if g.meeting_date in seen_dates:
+                    continue
+                seen_dates.add(g.meeting_date)
+                result.append(g)
+                stats["authorize_kept"] += 1
         elif preliminary:
             # Keep latest preliminary - mark as preliminary_only
             latest_prelim = max(preliminary, key=lambda g: g.meeting_date)

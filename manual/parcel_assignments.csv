@@ -1,0 +1,392 @@
+project_id,county,property_name,ain,apn,situs_address,legacy_redundant,assignment_source,method,notes
+1,Los Angeles,Alvarado Streets Apartments,5136019013,5136-019-013,1136 S ALVARADO ST LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,Corrected from AIN 5136019023 (auto/equipment use) to 5136019013 (apartments)
+2,Los Angeles,2025 New Jersey Apartments,5183001017,5183-001-017,2025 NEW JERSEY ST LOS ANGELES CA 90033,False,collaborator-sheet,manual_verified,
+3,Santa Clara,Mariposa Club Apartments,15434025,,660 MARIPOSA AVE MOUNTAIN VIEW CA 94041-1867,False,collaborator-sheet,,
+4,San Bernardino,Bernardine Apartments,147091180000,,363 E GILBERT ST SAN BERNARDINO CA 92404-5343,False,collaborator-sheet,,
+5,San Diego,"City View aka Outlook at Mission Valley
+Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator-sheet,,
+6,San Francisco,381 Turk Street Apartment,0345012C,,381 TURK ST SAN FRANCISCO CA 94102-3749,False,collaborator-sheet,,
+7,Alameda,Townhomes at Gading Apartments,454251243,454-25-124-3,26409 GADING RD HAYWARD CA 94544-3603,False,collaborator-sheet,,
+8,Los Angeles,1317 S. Grand Apartments,5134017037,5134-017-037,1317 S GRAND AVE LOS ANGELES CA 900015,False,collaborator-sheet,parcel_in_transition,AIN not in DB
+9,Los Angeles,1411 S. Flower Apartments,5134009025,5134-009-025,1411 S FLOWER ST,False,collaborator-sheet,parcel_in_transition,Multi-parcel (2). AIN not in DB.
+9,Los Angeles,1411 S. Flower Apartments,5134009024,5134-009-024,,True,collaborator-sheet,parcel_in_transition,Multi-parcel (2). AIN not in DB.
+10,Los Angeles,7518 Hoover St. Apartments,6020022027,6020-022-027,7524 S HOOVER ST,False,collaborator-sheet,parcel_in_transition,Multi-parcel (2). AIN not in DB.
+11,Alameda,820 MacArthur Apartments,1295996,12-959-9-6,820 W MACARTHUR BLVD OAKLAND CA 94608,False,collaborator-sheet,,
+12,Los Angeles,The Waterloo Apartments,5402028023,5402-028-023,801 WATERLOO ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified,
+13,San Francisco,275 Turk Street Apartments,344007,,275 TURK ST SAN FRANCISCO CA 94102-3831,False,collaborator-sheet,,
+14,Alameda,Electric Lofts Apartments,867281,8-672-8-1,2415 VALDEZ ST OAKLAND CA 94612-3600,False,collaborator-sheet,,
+15,Los Angeles,Premiere Hollywood Apartments,5547013021,5547-013-021,6762 HAWTHORN AVE LOS ANGELES CA 90028,False,collaborator-sheet,manual_verified,
+17,Los Angeles,4252 Crenshaw Apartments,5024017036,5024-017-036,4252 S CRENSHAW BLVD LOS ANGELES CA 90008,False,collaborator-sheet,manual_verified,
+18,San Diego,Fallbrook Trail Apartments,1043514700,,1735.0 S MISSION RD FALLBROOK CA 92028-4548,False,collaborator-sheet,,
+19,Orange,The Arbors Apartments,39612209,,1100.0 FAIRHAVEN AVE SANTA ANA CA 92705-6754,False,collaborator-sheet,,
+19,Orange,The Arbors Apartments,39612130,,1200 FAIRHAVEN AVE SANTA ANA CA 92705-6754,False,collaborator-sheet,,
+20,Los Angeles,Pinetree Terrace Apartments,2102015045,2102-015-045,7940 RESEDA BLVD LOS ANGELES CA 91335,False,collaborator-sheet,manual_verified,
+21,Los Angeles,Windmere Court Apartments,2119001222,2119-001-222,18325 SATICOY ST LOS ANGELES CA 91335,False,collaborator-sheet,manual_verified,
+22,Los Angeles,Seville Gardens Apartments,6320011041,6320-011-041,2701 RANDOLPH ST HUNTINGTON PARK CA 90255,False,collaborator-sheet,manual_verified,
+23,Los Angeles,Harbour Residences Apartments,7418014021,7418-014-021,445 N AVALON BLVD LOS ANGELES CA 90744,False,collaborator-sheet,manual_verified,
+24,Los Angeles,4209 Western Avenue Apartments,5021028002,5021-028-002,4209 S WESTERN AVE LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,
+25,Los Angeles,1130 Martin Luther King Jr. Blvd Apartments,5020017007,5020-017-007,1130 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified,
+26,Los Angeles,Harbor Terrace Apartments,7455002027,7455-002-027,441 W 3RD ST LOS ANGELES CA 90731,False,collaborator-sheet,manual_verified,
+27,Los Angeles,Santa Monica Portfolio A Apartments,4291019007,4291-019-007,1428 6TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+27,Los Angeles,Santa Monica Portfolio A Apartments,4291019006,4291-019-006,1422 6TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+28,Los Angeles,Santa Monica Portfolio B Apartments,4291020005,4291-020-005,1422 7TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+28,Los Angeles,Santa Monica Portfolio B Apartments,4291020006,4291-020-006,1430 7TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+28,Los Angeles,Santa Monica Portfolio B Apartments,4291020007,4291-020-007,1432 7TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+29,Los Angeles,Santa Monica Portfolio C Apartments,4291020018,4291-020-018,1425 6TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+29,Los Angeles,Santa Monica Portfolio C Apartments,4291020019,4291-020-019,1423 6TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+30,Los Angeles,Santa Monica Portfolio D Apartments,4291024007,4291-024-007,1522 6TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified,
+31,Los Angeles,Santa Monica Portfolio E Apartments,4291022015,4291-022-015,1537 7TH ST SANTA MONICA CA 90401,False,collaborator-sheet,manual_verified,
+32,Los Angeles,Santa Monica Portfolio F Apartments,4275024005,4275-024-005,2001 OLYMPIC BLVD SANTA MONICA CA 90404,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+32,Los Angeles,Santa Monica Portfolio F Apartments,4275024015,4275-024-015,2029 OLYMPIC BLVD SANTA MONICA CA 90404,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+33,Los Angeles,7524 S. Hoover St. Apartments,6020022027,6020-022-027,7524 S HOOVER ST,True,collaborator-sheet,parcel_in_transition,Legacy AIN 6020022025 no longer exists. New AIN 6020022027 has no data yet.
+34,Contra Costa,Appian Terrace Apartments,4251100188,,4481.0 APPIAN WAY EL SOBRANTE CA 94803-2200,False,collaborator-sheet,,
+35,Sacramento,Sierra Park Apartments,22802520400000,228-0252-040-0000,4924 POLK ST NORTH HIGHLANDS CA 95660,False,collaborator-sheet,,
+36,Los Angeles,Stadium Village Apartments,4025014001,4025-014-001,9301 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014002,4025-014-002,9309 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014003,4025-014-003,9317 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014004,4025-014-004,9325 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014005,4025-014-005,9333 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014006,4025-014-006,9341 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014007,4025-014-007,9401 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014008,4025-014-008,9409 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014009,4025-014-009,9417 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014010,4025-014-010,9425 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014011,4025-014-011,9433 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014012,4025-014-012,9441 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014013,4025-014-013,9501 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014014,4025-014-014,9509 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014015,4025-014-015,9517 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014016,4025-014-016,9525 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014017,4025-014-017,9533 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025014018,4025-014-018,9541 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025015001,4025-015-001,9601 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+36,Los Angeles,Stadium Village Apartments,4025015002,4025-015-002,9609 CRENSHAW BLVD INGLEWOOD CA 90305,False,collaborator-sheet,manual_verified_multi,Multi-parcel (20)
+37,Los Angeles,2330 E. 3rd Street Apartments,5183013023,5183-013-023,2330 E 3RD ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 5183013001 consolidated to 5183013023
+38,Los Angeles,Marquee Apartments,2321001019,2321-001-019,12300 SHERMAN WAY LOS ANGELES CA 91605,False,collaborator-sheet,manual_verified,
+39,Los Angeles,6200 S. Broadway Apartments,6005021032,6005-021-032,6200 S BROADWAY LOS ANGELES CA 90003,False,collaborator-sheet,manual_verified,
+40,Los Angeles,4228 Western Ave. Apartments,5021009036,5021-009-036,4238 S WESTERN AVE LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,
+41,Los Angeles,4327 S. Vermont Apartments,5020025039,5020-025-039,4301 S VERMONT AVE LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified,
+42,Los Angeles,2023 Imperial Apartments,6083001009,6083-001-009,110 E IMPERIAL HWY LOS ANGELES CA 90061,False,collaborator-sheet,manual_verified,
+43,Marin,Meridian Apartments,01419405,,400 CANAL ST SAN RAFAEL CA 94901-4173,False,collaborator-sheet,,
+44,Los Angeles,Soto Apartments,5180001024,5180-001-024,228 N SOTO ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 5180001013 consolidated to 5180001024
+45,Orange,Horizon Apartments,39626156,,2414 N TUSTIN AVE SANTA ANA CA 92705-1602,False,collaborator-sheet,,
+45,Orange,Horizon Apartments,39626155,,2414 N TUSTIN AVE SANTA ANA CA 92705-1602,False,collaborator-sheet,,
+46,Los Angeles,4752 Main Street Apartments,5109003014,5109-003-014,4752 S MAIN ST LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+46,Los Angeles,4752 Main Street Apartments,5109003001,5109-003-001,4760 S MAIN ST LOS ANGELES CA 90037,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+47,San Diego,6171 Mission Gorge Apartments,4610304300,,6171.0 MISSION GORGE RD SAN DIEGO CA 92120-3426,False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,039481250,,"3500 Edison St, San Mateo, CA",False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,039482130,,"3500 Edison St, San Mateo, CA",False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,042112240,,242 36TH AVE SAN MATEO,False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,042113250,,3640 EDISON ST,False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,042121090,,186 36TH AVE SAN MATEO,False,collaborator-sheet,,
+48,San Mateo,Hillsdale Gardens Apartments,042122050,,3675 EDISON ST SAN MATEO,False,collaborator-sheet,,
+49,Alameda,Summerwood Apartments Homes Apartments,4281649,,"21701 FOOTHILL BLVD, HAYWARD, CA 94541",False,collaborator-sheet,,
+50,San Diego,Market Street Village Apartments,5351441500,,699.0 14TH ST SAN DIEGO CA 92101-7586,False,collaborator-sheet,,
+51,San Diego,Creekside Villas Apartments,5473131800,,220 47TH ST SAN DIEGO CA 92102-5037,False,collaborator-sheet,,
+52,Sacramento,The Carla Apartments,28501900330000,,1201.0 FULTON AVE SACRAMENTO CA 95825-7386,False,collaborator-sheet,,
+53,Sacramento,Skylark Place by Trion Living Apartments,26003700120000,,6930.0 FAIR OAKS BLVD CARMICHAEL CA 95608-3369,False,collaborator-sheet,,
+54,Los Angeles,Seaport Village Apartments,7157031001,7157-031-001,2697 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031002,7157-031-002,2687 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031003,7157-031-003,2677 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031004,7157-031-004,2667 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031005,7157-031-005,2657 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031006,7157-031-006,5679 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031007,7157-031-007,5649 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031008,7157-031-008,5639 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031009,7157-031-009,5599 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031010,7157-031-010,5579 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031011,7157-031-011,5549 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031012,7157-031-012,5539 LANGPORT AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031013,7157-031-013,2656 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031014,7157-031-014,2666 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031015,7157-031-015,2676 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031016,7157-031-016,2686 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031017,7157-031-017,2696 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031018,7157-031-018,2666 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031019,7157-031-019,2676 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031020,7157-031-020,2686 E 56TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031021,7157-031-021,2696 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031022,7157-031-022,2667 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031023,7157-031-023,2677 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031024,7157-031-024,2687 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031025,7157-031-025,2697 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031026,7157-031-026,2666 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031027,7157-031-027,2676 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031028,7157-031-028,2686 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031029,7157-031-029,2696 E 56TH ST LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031030,7157-031-030,2667 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031031,7157-031-031,2677 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031032,7157-031-032,2687 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+54,Los Angeles,Seaport Village Apartments,7157031033,7157-031-033,2697 E 55TH WAY LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (33)
+55,Los Angeles,1457 Main Street Apartments,5409005030,5409-005-030,1457 N MAIN ST LOS ANGELES CA 90012,False,collaborator-sheet,manual_verified,
+56,Alameda,Viewpoint Apartments,5619549,,2020 3RD ST BERKELEY 94710,False,collaborator-sheet,,
+58,Los Angeles,Chaparral Apartments,3004004033,3004-004-033,38441 5TH ST W PALMDALE CA 93551,False,collaborator-sheet,manual_verified,
+59,San Francisco,Ventana Residences Apartments,6954018,,99 OCEAN AVE SAN FRANCISCO CA 94112-2560,False,collaborator-sheet,,
+61,Los Angeles,11422 Broadway Apartments,6087002036,6087-002-036,11422 S BROADWAY LOS ANGELES CA 90061,False,collaborator-sheet,manual_verified,
+62,Los Angeles,Mansfield Micro Apartments,5049009082,5049-009-082,,False,collaborator-sheet,manual_verified,
+63,Contra Costa,The Enclave Apartments,1701000273,,3081.0 N MAIN ST WALNUT CREEK CA 94597-1940,False,collaborator-sheet,,
+64,Los Angeles,333 Douglas Apartments,5160009020,5160-009-020,333 DOUGLAS ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified,
+65,Orange,Casa La Palma Apartments,26324146,,7799 VALLEY VIEW ST LA PALMA,False,collaborator-sheet,,
+66,Los Angeles,The Eaves Apartments,5092023021,5092-023-021,920 S GRAMERCY PL LOS ANGELES CA 90019,False,collaborator-sheet,manual_verified,
+67,Orange,Coronado Palms Apartments,12918108,,1250.0 S EUCLID ST ANAHEIM CA 92802-1907,False,collaborator-sheet,,
+68,Los Angeles,Candlewood North Apartments,2764001013,2764-001-013,9830 RESEDA BLVD LOS ANGELES CA 91324,False,collaborator-sheet,manual_verified,
+69,Los Angeles,Lindley Parc Apartments,2731008014,2731-008-014,10535 LINDLEY AVE LOS ANGELES CA 91326,False,collaborator-sheet,manual_verified,
+70,San Mateo,Terrace View Apartments,006312850,,"4 Terrace View Ct, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312860,,"35 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312870,,"45 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312880,,"55 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312890,,"65 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312900,,"75 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312910,,"85 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+70,San Mateo,Terrace View Apartments,006312920,,"95 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,
+71,San Mateo,SoFi Redwood Park Apartments,52082450,,1212 WHIPPLE AVE REDWOOD CITY CA 94062-1556,False,collaborator-sheet,,
+72,San Francisco,Waterbend Apartments,5431A041,5431A041,"5880 3rd St, San Francisco, CA 94124",False,collaborator-sheet,,
+73,Los Angeles,1540 W Court Apartments,5159020026,5159-020-026,1540 W COURT ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 5159020011-015 consolidated to 5159020026
+73,Los Angeles,1540 W Court Apartments,5159020010,5159-020-010,1526 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7)
+73,Los Angeles,1540 W Court Apartments,5159020009,5159-020-009,1520 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7)
+74,San Diego,Sol Haus Apartments,5484004400,,5040.0 LOGAN AVE SAN DIEGO CA 92113-3014,False,collaborator-sheet,,
+75,San Diego,Palmilla Apartments,4635902700,,5474.0 RESERVOIR DR 1-36 SAN DIEGO CA 92120-5145,False,collaborator-sheet,,
+76,Los Angeles,1451 W. MLK Boulevard Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,manual_verified,
+77,Los Angeles,11630 S. Main Street Apartments,6083010040,6083-010-040,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6083010038 consolidated to 6083010040
+78,Contra Costa,Bella Vista at Hilltop Apartments,4054900073,,3400.0 RICHMOND PKWY RICHMOND CA 94806-5207,False,collaborator-sheet,,
+79,Los Angeles,10811 S. Compton Ave Apartments,6070003041,6070-003-041,10811 COMPTON AVE,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6070003038 consolidated to 6070003041
+80,Los Angeles,4101 Somerset Dr. Apartments,5032015003,5032-015-003,4101 SOMERSET DR LOS ANGELES CA 90008,False,collaborator-sheet,manual_verified,
+81,Los Angeles,321 E. Florence Apartments,6011008052,6011-008-052,325 E FLORENCE AVE LOS ANGELES CA 90003,False,collaborator-sheet,manual_verified,
+82,Los Angeles,9300 Compton Ave. Apartments,6048022067,6048-022-067,9300 COMPTON AVE XX LOS ANGELES CA 90002,False,collaborator-sheet,manual_verified,
+83,Los Angeles,6401 S. Avalon Blvd. Apartments,6006018001,6006-018-001,6401 AVALON BLVD LOS ANGELES CA 90003,False,collaborator-sheet,manual_verified,
+84,Los Angeles,9515 Compton Ave. Apartments,6048004025,6048-004-025,9515 COMPTON AVE LOS ANGELES CA 90002,False,collaborator-sheet,manual_verified,
+85,Los Angeles,569 W. 6th Street Apartments,7451037031,7451-037-031,575 W 6TH ST SAN PEDRO CA 90731,False,collaborator-sheet,manual_verified,
+86,Los Angeles,685 W. 4th St Apartments,7451026002,7451-026-002,685 W 4TH ST LOS ANGELES CA 90731,False,collaborator-sheet,manual_verified,
+87,Los Angeles,Chadwick Apartments,5501013028,5501-013-028,209 S WESTMORELAND AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+88,Los Angeles,Chatsworth Apartments,2695003030,2695-003-030,,False,collaborator-sheet,parcel_in_transition,Legacy AIN 2695003001 consolidated to 2695003030
+90,Los Angeles,Pacific Trails Apartments,8630009026,8630-009-026,18615 E ARROW HWY AZUSA CA 91722,False,collaborator-sheet,manual_verified,
+91,Los Angeles,Huston Affordable Housing Apartments,2421011010,2421-011-010,10910 HUSTON ST LOS ANGELES CA 91601,False,collaborator-sheet,manual_verified,
+92,Los Angeles,The Parker Apartments,8576001024,8576-001-024,4608 ARDEN WAY EL MONTE CA 91731,False,collaborator-sheet,manual_verified,
+93,Napa,Canyon Ridge at Napa Junction Apartments,59020050000,,800.0 RELIANT WAY AMERICAN CANYON CA 94503-3242,False,collaborator-sheet,,
+94,San Diego,Canyon Villa Apartment Homes,6390806100,,601.0 TELEGRAPH CANYON RD CHULA VISTA CA 91910-6561,False,collaborator-sheet,,
+97,Los Angeles,Azusa Gardens Apartments,8608030071,8608-030-071,601 E 8TH ST AZUSA CA 91702,False,collaborator-sheet,manual_verified,
+98,Alameda,Camden Village Apartments,50115064010,501-1506-40-10,38000.0 CAMDEN ST FREMONT CA 94536-5169,False,collaborator-sheet,,
+99,Los Angeles,Passo Barrington Apartments,4262018026,4262-018-026,1734 S BARRINGTON AVE LOS ANGELES CA 90025,False,collaborator-sheet,manual_verified,
+100,Los Angeles,Passo Centinela I Apartments,4231018020,4231-018-020,4129 S CENTINELA AVE LOS ANGELES CA 90066,False,collaborator-sheet,manual_verified,
+101,Los Angeles,Passo Centinela II Apartments,4221007056,4221-007-056,4706 S CENTINELA AVE LOS ANGELES CA 90066,False,collaborator-sheet,manual_verified,
+102,Los Angeles,Passo Stoner Apartments,4262016011,4262-016-011,1747 STONER AVE LOS ANGELES CA 90025,False,collaborator-sheet,manual_verified,
+103,Los Angeles,4th Street Apartments,5183012030,5183-012-030,2025 E 4TH ST LOS ANGELES CA 90033,False,collaborator-sheet,manual_verified,
+104,Los Angeles,Alexandria I Apartments,5518008009,5518-008-009,247 S ALEXANDRIA AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+105,Los Angeles,Ashby Apartments,5093017031,5093-017-031,808 S HOBART BLVD LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+106,Los Angeles,Catalina Apartments,5502011009,5502-011-009,454 S CATALINA ST LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+107,Los Angeles,Edgemont Apartments,5518013007,5518-013-007,103 S EDGEMONT ST LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+108,Los Angeles,Gramercy Apartments,5081032007,5081-032-007,974 S GRAMERCY PL LOS ANGELES CA 90019,False,collaborator-sheet,manual_verified,
+109,Los Angeles,Irolo Apartments,5094021028,5094-021-028,932 IROLO ST LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,
+110,Los Angeles,Kenmore I Apartments,5094023030,5094-023-030,941 S KENMORE AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,
+111,Los Angeles,Manhattan III Apartments,5503015016,5503-015-016,426 S MANHATTAN PL LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+112,Los Angeles,Mariposa II Apartments,5518008014,5518-008-014,260 S MARIPOSA AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+113,Los Angeles,Normandie Apartments,5094004004,5094-004-004,739 S NORMANDIE AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+114,Los Angeles,Norton Apartments,5081006014,5081-006-014,1111 S NORTON AVE LOS ANGELES CA 90019,False,collaborator-sheet,manual_verified,
+115,Los Angeles,Oxford I Apartments,5080008006,5080-008-006,975 S OXFORD AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+115,Los Angeles,Oxford I Apartments,5080008007,5080-008-007,979 S OXFORD AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+115,Los Angeles,Oxford I Apartments,5080008008,5080-008-008,985 S OXFORD AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified_multi,Multi-parcel (3)
+116,Los Angeles,Oxford III Apartments,5080015003,5080-015-003,960 S OXFORD AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,
+117,Los Angeles,Seven Lions Apartments,5518027010,5518-027-010,3715 W 1ST ST LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+118,Los Angeles,St. Andrews I Apartments,5504029006,5504-029-006,515 S ST ANDREWS PL LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+119,Los Angeles,St. Andrews II Apartments,5503017013,5503-017-013,516 S ST ANDREWS PL LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+120,Sacramento,The Falls at Arden Apartments,28502100410000,285-0210-041-0000,2345.0 NORTHROP AVE SACRAMENTO CA 95825-7571,False,collaborator-sheet,,
+121,Los Angeles,Alexandria II Apartments,5518013024,5518-013-024,130 S ALEXANDRIA AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+122,Los Angeles,Fedora Apartments,5094017020,5094-017-020,861 FEDORA ST LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+123,Los Angeles,Kenmore II Apartments,5518020021,5518-020-021,200 S KENMORE AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+124,Los Angeles,Kenmore III Apartments,5094023025,5094-023-025,915 S KENMORE AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,
+125,Los Angeles,Kingsley Apartments,5503024012,5503-024-012,530 S KINGSLEY DR LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+126,Los Angeles,Mariposa I Apartments,5094005005,5094-005-005,727 S MARIPOSA AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+127,Los Angeles,Mariposa III Apartments,5094006003,5094-006-003,750 S MARIPOSA AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+128,Los Angeles,Mariposa IV Apartments,5502019004,5502-019-004,520 S MARIPOSA AVE LOS ANGELES CA 90020,False,collaborator-sheet,manual_verified,
+129,Los Angeles,Oxford II Apartments,5517005016,5517-005-016,207 N OXFORD AVE LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+130,Los Angeles,Western Apartments,5080006008,5080-006-008,1057 S WESTERN AVE LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,
+132,Los Angeles,7524 S. Hoover St Apartments,6020022027,6020-022-027,7524 S HOOVER ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 6020022025 no longer exists. New AIN 6020022027 has no data yet.
+134,Los Angeles,10705 Avalon Blvd Apartments,6063029029,6063-029-029,10705 AVALON BLVD LOS ANGELES CA 90061,False,collaborator-sheet,manual_verified,
+135,Los Angeles,236 Berendo Apartments,5518026004,5518-026-004,236 N BERENDO ST LOS ANGELES CA 90004,False,collaborator-sheet,manual_verified,
+137,Los Angeles,Kittridge Affordable Housing Apartments,2125017014,2125-017-014,18337 KITTRIDGE ST LOS ANGELES CA 91335,False,collaborator-sheet,manual_verified,
+141,Fresno,Renaissance Apartment Homes,41805060,,5669 N FRESNO ST FRESNO CA 93710,False,collaborator-sheet,,
+142,Los Angeles,9033 Ramsgate Apartments,4125011053,4125-011-053,9033 RAMSGATE AVE,False,collaborator-sheet,parcel_in_transition,Legacy AIN 4125011010 consolidated to 4125011053
+143,Alameda,Coliseum Transit Village,41416654,,805 71ST AVE OAKLAND CA 94621-3386,False,collaborator-sheet,,
+144,Santa Barbara,La Vista Apartment Homes,123140018,,"740 S WESTERN AVE, SANTA MARIA, CA 93458",False,collaborator-sheet,,
+144,Santa Barbara,La Vista Apartment Homes,123140019,,-,False,collaborator-sheet,,
+144,Santa Barbara,La Vista Apartment Homes,123140020,,-,False,collaborator-sheet,,
+144,Santa Barbara,La Vista Apartment Homes,123140021,,-,False,collaborator-sheet,,
+145,Fresno,Golden Gardens Apartments,,,"2130 N Marks Ave, Fresno, CA 93722",False,collaborator-sheet,,
+146,Los Angeles,San Pedro Apartments,6022014002,6022-014-002,7655 S SAN PEDRO ST LOS ANGELES CA 90003,False,collaborator-sheet,manual_verified,
+147,Alameda,Coliseum Connections,41416654,,"805 71ST AVE, OAKLAND, CA 94621",False,collaborator-sheet,,
+148,Los Angeles,Park Wilshire Apartments,4276017047,4276-017-047,2424 WILSHIRE BLVD SANTA MONICA CA 90403,False,collaborator-sheet,manual_verified,
+149,Los Angeles,Sir Francis Drake Villa Apartments,5093010009,5093-010-009,841 S SERRANO AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+150,Los Angeles,Langham Apartments,5094004007,5094-004-007,715 S NORMANDIE AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+151,Los Angeles,Piccadilly Apartments,5094002004,5094-002-004,682 IROLO ST LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,
+152,Los Angeles,The Hive at Ackerfield Apartments,7157012023,7157-012-023,5700 ACKERFIELD AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+152,Los Angeles,The Hive at Ackerfield Apartments,7157012017,7157-012-017,5565 ACKERFIELD AVE LONG BEACH CA 90805,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+153,Los Angeles,Hawaiian Terrace Senior Apartments,7075020011,7075-020-011,12100 226TH ST HAWAIIAN GARDNS CA 90716,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+153,Los Angeles,Hawaiian Terrace Senior Apartments,7075020012,7075-020-012,12100 226TH ST HAWAIIAN GARDENS CA 90716,False,collaborator-sheet,manual_verified_multi,Multi-parcel (2)
+154,San Mateo,Crystal Springs Terrace,019170270,,2000 CRYSTAL SPRINGS RD SAN BRUNO,False,collaborator-sheet,,
+155,Contra Costa,Trailview Apartments,1303200180,,"1070 San Miguel Road, Concord, CA",False,collaborator-sheet,,
+156,Alameda,Casa Serena Apartments,5011800142,,"36000 FREMONT BLVD, FREMONT, CA 94536",False,collaborator-sheet,,
+157,San Diego,Hendrix and Hadley Apartments,2262031000,,439 W EL NORTE PKWY ESCONDIDO CA 92026-1961,False,collaborator-sheet,,
+157,San Diego,Hendrix and Hadley Apartments,2280732000,,1045 MORNING VIEW DR ESCONDIDO CA 92026-3481,False,collaborator-sheet,,
+157,San Diego,Hendrix and Hadley Apartments,2262030200,,443 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,
+157,San Diego,Hendrix and Hadley Apartments,2262110300,,457 W EL NORTE PKWY ESCONDIDO CA 92026,False,collaborator-sheet,,
+158,Los Angeles,Kalmia Apartments,,,,,collaborator-sheet,,
+159,Los Angeles,1141 N. Vermont Avenue Apartments,5540019012,,1141 N VERMONT AVE LOS ANGELES CA 90029,False,collaborator-sheet,,
+160,Los Angeles,12th Street Apartments,5080011007,5080-011-007,3048 W 12TH ST LOS ANGELES CA 90006,False,collaborator-sheet,manual_verified,Added from LA County lookup
+161,Los Angeles,8th Street Apartments,5077018006,5077-018-006,2933 W 8TH ST LOS ANGELES CA 90005,False,collaborator-sheet,,
+162,Los Angeles,Alexandria II Apartments,5518013024,5518-013-024,130 S ALEXANDRIA AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
+163,Los Angeles,Ardmore Apartments,5521023008,5521-023-008,437 N ARDMORE AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
+164,Los Angeles,Avalon Apartments,5468028027,5468-028-027,249 S AVENUE 55 LOS ANGELES CA 90042,False,collaborator-sheet,,
+165,Los Angeles,Fedora Apartments,5094017020,5094-017-020,861 FEDORA ST LOS ANGELES CA 90005,False,collaborator-sheet,,
+166,Los Angeles,Harvard Apartments,5521010010,5521-010-010,516 N HARVARD BLVD LOS ANGELES CA 90004,False,collaborator-sheet,,
+167,Los Angeles,Hollywood Apartments,5544016002,5544-016-002,5200 HOLLYWOOD BLVD LOS ANGELES CA 90027,False,collaborator-sheet,,
+168,Los Angeles,Kenmore II Apartments,5518020021,5518-020-021,200 S KENMORE AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
+169,Los Angeles,Kenmore III Apartments,5094023025,5094-023-025,915 S KENMORE AVE LOS ANGELES CA 90006,False,collaborator-sheet,,
+170,Los Angeles,Kinglsey Apartments,5503024012,5503-024-012,530 S KINGSLEY DR LOS ANGELES CA 90020,False,collaborator-sheet,,
+171,Los Angeles,Lexington Apartments,5537006002,5537-006-002,5406 LEXINGTON AVE LOS ANGELES CA 90029,False,collaborator-sheet,,
+172,Los Angeles,Manhattan I & II Apartments,5503015019,5503-015-019,410 S MANHATTAN PL LOS ANGELES CA 90020,False,collaborator-sheet,,
+172,Los Angeles,Manhattan I & II Apartments,5503017019,5503-017-019,509 S MANHATTAN PL LOS ANGELES CA 90020,False,collaborator-sheet,,
+173,Los Angeles,Mariposa I Apartments,5094005005,5094-005-005,727 S MARIPOSA AVE LOS ANGELES CA 90005,False,collaborator-sheet,,
+174,Los Angeles,Mariposa III Apartments,5094006003,5094-006-003,750 S MARIPOSA AVE LOS ANGELES CA 90005,False,collaborator-sheet,,
+175,Los Angeles,Mariposa IV Apartments,5502019004,5502-019-004,520 S MARIPOSA AVE LOS ANGELES CA 90020,False,collaborator-sheet,,
+176,Los Angeles,Monte Vista Apartments,5469032001,5469-032-001,5635 MONTE VISTA ST LOS ANGELES CA 90042,False,collaborator-sheet,,
+177,Los Angeles,Oxford II Apartments,5517005016,5517-005-016,207 N OXFORD AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
+178,Los Angeles,Parkview Apartments,5446002044,5446-002-044,312 W AVENUE 37 LOS ANGELES CA 90065,False,collaborator-sheet,,
+179,Los Angeles,Western Apartments,5080006008,5080-006-008,1057 S WESTERN AVE LOS ANGELES CA 90006,False,collaborator-sheet,,
+180,Los Angeles,Westmoreland Apartments,5501016008,5501-016-008,132 S WESTMORELAND AVE LOS ANGELES CA 90004,False,collaborator-sheet,,
+181,Los Angeles,The Hive Apartments,7157012017,7157-012-017,5565 ACKERFIELD AVE LONG BEACH CA 90805,False,collaborator-sheet,,
+182,Los Angeles,1451 W MLK BLVD Apartments,5036031006,5036-031-006,1451 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90062,False,collaborator-sheet,,
+183,Los Angeles,4256 Whittier Blvd Apartments,5236016054,5236-016-054,4252 WHITTIER BLVD LOS ANGELES CA 90023,False,collaborator-sheet,,
+184,Los Angeles,225 W 25th Apartments,5126020009,5126-020-009,225 W 25TH ST LOS ANGELES CA 90007,False,collaborator-sheet,,
+185,Los Angeles,9422 Firth Avenue Apartments,6048004047,6048-004-047,9422 FIRTH BLVD LOS ANGELES CA 90002,False,collaborator-sheet,,
+186,Los Angeles,4008 Martin Luther King Blvd Apartments,5032007019,5032-007-019,4008 W MARTIN LUTHER KING JR BLVD LOS ANGELES CA 90008,False,collaborator-sheet,,
+187,Orange,Bentley Parke Apartments,19826132,198-261-32,3200 W 5TH ST,False,collaborator-sheet,,
+188,Contra Costa,Del Norte Place Apartments,501261015,501261015,11720 SAN PABLO AVE,False,collaborator-sheet,,
+190,Contra Costa,Highlands Point Apartments,223010017,223010017,2311 IVY HILL WAY,False,collaborator-sheet,,
+192,Orange,Heritage Village Anaheim Apartments,03615006,036-150-06,707 W SANTA ANA ST,False,collaborator-sheet,,
+193,San Diego,Heritage Park Escondido Apartments,2311104600,2311104600,2549 Valley PKWY,False,collaborator-sheet,,
+194,Los Angeles,3751 Delmas Terrace Apartments,,,,False,collaborator-sheet,,
+195,Los Angeles,1723 Corinth Apartments,,,,False,collaborator-sheet,,
+196,Los Angeles,The Dream Apartments,,,,False,collaborator-sheet,,
+197,Los Angeles,12342 Osborne Place Apartments,,,,False,collaborator-sheet,,
+199,Los Angeles,Baird Affordable Housing Apartments,,,,False,collaborator-sheet,,
+200,Los Angeles,1408 Jefferson Apartments,,,,False,collaborator-sheet,,
+201,Santa Barbara,Villa Del Sol Senior Apartments,,,,False,collaborator-sheet,,
+203,Sacramento,Bent Tree Apartments,,,,False,collaborator-sheet,,
+204,Los Angeles,Hazelhurst Affordable Housing Apartments,,,,False,collaborator-sheet,,
+205,Contra Costa,Del Norte Place Apartments,,,,False,collaborator-sheet,,
+206,Los Angeles,Elan River Village Apartments,,,,False,collaborator-sheet,,
+207,Los Angeles,Cullen Living Apartments,,,,False,collaborator-sheet,,
+208,Los Angeles,Sawtelle 2481 Apartments,,,,False,collaborator-sheet,,
+209,San Diego,Bluwater Crossing Apartments,,,,False,collaborator-sheet,,
+210,Sacramento,California Place Apartments,11700120210000,,6633 VALLEY HI DR SACRAMENTO 95823,False,collaborator-sheet,,
+211,Los Angeles,Haven Warner Center,,,,False,collaborator-sheet,,
+212,Los Angeles,The Arlo,,,,False,collaborator-sheet,,
+213,Sacramento,Sierra Village,,,,False,collaborator-sheet,,
+214,Los Angeles,Trails at San Dimas,,,,False,collaborator-sheet,,
+215,Los Angeles,511 Hoover Street Apartments,,,,False,collaborator-sheet,,
+216,San Diego,Guava Gardens Apartments,,,,False,collaborator-sheet,,
+217,Los Angeles,Park View by Angeleno Apartments,,,,False,collaborator-sheet,,
+218,Los Angeles,1408 Jefferson Blvd Apartments,,,,False,collaborator-sheet,,
+219,Los Angeles,603 Mariposa Apartments,,,,False,collaborator-sheet,,
+220,Los Angeles,236 Berendo Apartments,,,,False,collaborator-sheet,,
+221,Los Angeles,Banner Avenue Apartments,,,,False,collaborator-sheet,,
+222,Alameda,Bayfair Apartments,,,,False,collaborator-sheet,,
+223,Alameda,2121 Wood St,,,,False,collaborator-sheet,,
+224,Los Angeles,1454 Florence Apartments,,,,False,collaborator-sheet,,
+226,Contra Costa,Maris at Martinez Apartments,,,,False,collaborator-sheet,,
+227,Sacramento,Westlake Apartments,3003300180000,,1 SHOAL CT SACRAMENTO 95831,False,collaborator-sheet,,
+228,Los Angeles,Colden Oaks Apartments,,,,False,collaborator-sheet,,
+229,San Diego,Creekside Villas Apartments,,,,False,collaborator-sheet,,
+230,Los Angeles,Hansen illage Apartments,,,,False,collaborator-sheet,,
+231,Los Angeles,Violet on Virgil,,,,False,collaborator-sheet,,
+232,Orange,Crystal View Apartments,23115127,,12021 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,
+232,Orange,Crystal View Apartments,23115128,,12156 BAYPORT ST GARDEN GROVE 92840,False,collaborator-sheet,,
+233,Los Angeles,926 S. Kingsley Apartments,,,,False,collaborator-sheet,,
+234,Los Angeles,939 S. Kingsley Apartments,,,,False,collaborator-sheet,,
+235,Los Angeles,3950 Ingraham Apartments,,,,False,collaborator-sheet,,
+236,Los Angeles,Park Playa Apartments,,,,False,collaborator-sheet,,
+237,Los Angeles,Edgemont by Angeleno,,,,False,collaborator-sheet,,
+57,Santa Clara,SoFi Los Gatos Creek Apartments,28424015,,"2070 Southwest Ex, San Jose, CA 95128",False,collaborator-sheet,,
+60,Santa Clara,HARKEN APARTMENTS,17004068,,5150 EL CAMINO REAL LOS ALTOS CA,False,collaborator-sheet,,
+60,Santa Clara,HARKEN APARTMENTS,17004069,,5150 EL CAMINO REAL LOS ALTOS CA,False,collaborator-sheet,,
+89,Santa Clara,LINQ Apartments,25404108,,1700 NEWBURY PARK DR SAN JOSE CA 95133-1771,False,collaborator-sheet,,
+95,Santa Clara,Fountain Park Apartments,37226016,,"1028 S De Anza Bl, San Jose, CA 95129",False,collaborator-sheet,,
+96,Santa Clara,Park Kiely Apartments,29640005,,"355 Kiely Bl, San Jose, CA 95129",False,collaborator-sheet,,
+96,Santa Clara,Park Kiely Apartments,29640004,,"4240 Albany Dr, San Jose, CA 95129",False,collaborator-sheet,,
+96,Santa Clara,Park Kiely Apartments,29640003,,"4280 Albany Dr, San Jose, CA 95129",False,collaborator-sheet,,
+136,Santa Clara,Ascent Apartments,70607013,,5805 CHARLOTTE DR SAN JOSE CA 95123-3619,False,collaborator-sheet,,
+138,Santa Clara,Montecito Apartments,21332022,,3765 TAMARACK LN SANTA CLARA CA 95051-2571,False,collaborator-sheet,,
+139,Santa Clara,Thornbridge Apartments,68429011,,"5150 Monterey Rd, San Jose, CA 95111",False,collaborator-sheet,,
+139,Santa Clara,Thornbridge Apartments,68428078,,"70 Crocker Ct, San Jose, CA 95111",False,collaborator-sheet,,
+140,Santa Clara,The Crossings Apartments,31342061,,1180 LOCHINVAR AVE SUNNYVALE CA 94087-5100,False,collaborator-sheet,,
+189,Santa Clara,The Colonnade Apartments,46745084,467-45-084,201 S 4Th St,False,collaborator-sheet,,
+189,Santa Clara,The Colonnade Apartments,46745075,467-45-075,115 E San Carlos,False,collaborator-sheet,,
+189,Santa Clara,The Colonnade Apartments,46745074,467-45-074,115 E San Carlos St,False,collaborator-sheet,,
+189,Santa Clara,The Colonnade Apartments,46745073,467-45-073,200 S 3Rd St,False,collaborator-sheet,,
+191,Santa Clara,Highland Gardens Apartments,15401034,154-01-034,234 Escuela Av,False,collaborator-sheet,,
+198,Santa Clara,220 Humboldt Ct. Apartments,,,,False,collaborator-sheet,,
+202,Santa Cruz,La Posada Apartments,,,,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101100,,343 MOON RIVER PL VACAVILLE CA 95687,True,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128101010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102100,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102210,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102200,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102190,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102180,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102170,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102160,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128102120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103090,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103080,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103070,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103180,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103170,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103160,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103120,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103110,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128103100,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105060,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105050,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105040,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105030,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128105010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128104020,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+16,Solano,Montessa Apartments,128104010,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,
+225,Solano,Bennington Apartments,,,,False,collaborator-sheet,,
+131,Sonoma,Citrine Apartments,89082034000,089-082-034-000,1260 GROVE ST HEALDSBURG CA 95448-4784,False,collaborator-sheet,,
