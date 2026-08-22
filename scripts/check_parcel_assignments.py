@@ -155,6 +155,27 @@ def main() -> None:
                  f"{g['property_name'][:32]}: grant city {g['city']!r} appears in "
                  f"no assigned parcel's situs")
 
+    # ---- 1b. per-AIN verdicts (drives the workbook's AIN tint) --------------
+    verdicts = []
+    for _, a in assignments.iterrows():
+        g = ginfo.get(a["project_id"], {})
+        v = values.get(a["ain"])
+        if SKIP_NOTE.search(a["notes"]):
+            verdict = "documented"       # human documented why situs won't match
+        elif not v or not str(v.get("situs_address", "")).strip():
+            verdict = "no-situs"         # county has no situs record (new lot)
+        else:
+            address = str(g.get("address", "")).strip() or a["situs_address"]
+            if not str(address).strip():
+                verdict = "no-address"
+            elif street_tokens(str(v["situs_address"])) & street_tokens(str(address)):
+                verdict = "situs-match"
+            else:
+                verdict = "mismatch"
+        verdicts.append({"project_id": a["project_id"], "ain": a["ain"],
+                         "assignment_check": verdict})
+    pd.DataFrame(verdicts).to_csv("output/pipeline/assignment_verdicts.csv", index=False)
+
     # ---- 2. same-situs sweep (LA + SD) --------------------------------------
     assigned_ains = set(assignments["ain"])
     seen_situs = set()
@@ -264,7 +285,9 @@ def main() -> None:
         w.writeheader()
         w.writerows(findings)
     counts = pd.Series([f["check"] for f in findings]).value_counts().to_dict() if findings else {}
-    print(f"checked situs on {n_checked} assignments; wrote {OUT}: {len(findings)} findings {counts}")
+    vc = pd.Series([v["assignment_check"] for v in verdicts]).value_counts().to_dict()
+    print(f"checked situs on {n_checked} properties; verdicts {vc}")
+    print(f"wrote {OUT}: {len(findings)} findings {counts}")
 
 
 if __name__ == "__main__":

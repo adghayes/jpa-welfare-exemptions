@@ -166,6 +166,23 @@ they're evaluated together. Near-miss names (e.g. a sister LP of the same
 sponsor at a neighboring address) are never matched automatically; they
 become `scc-possible-match` QA findings for human review.
 
+### Property Addresses
+
+The address is the bridge between the two halves of the pipeline: grants
+come from meeting documents, parcels come from county records, and the
+address is what connects a grant to its parcels. It is the pipeline's most
+manual field, by deliberate choice. Extraction produces addresses where the
+documents state them cleanly — CSCDA packets do (96%), CMFA staff reports
+only sometimes (46%) — but of the 266 grants with an address, 200 display a
+manual value and 66 a generated one. Roughly half of those manual values
+have a generated address underneath that agrees on the street but differs in
+formatting detail (the manual value usually carries ZIP and neighborhood);
+where the two provably matched, the manual copy was retired, and where they
+differ, the manual value stands rather than chasing regex edge cases.
+New grants trend automated (CSCDA-era addresses arrive from packets), and
+the address→parcel step that follows is audited regardless of where the
+address came from.
+
 ### Parcels and values
 
 Parcel **identity** (which AIN belongs to which project) is always a human

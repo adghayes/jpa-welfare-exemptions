@@ -344,6 +344,16 @@ def main() -> None:
     parcels["operative_project_id"] = parcels["project_id"].map(
         lambda p: pid_to_operative.get(p) or p)
 
+    # per-AIN situs-validation verdict (from check_parcel_assignments.py)
+    verdicts_path = Path("output/pipeline/assignment_verdicts.csv")
+    parcels["assignment_check"] = ""
+    if verdicts_path.exists():
+        vd = pd.read_csv(verdicts_path, dtype=str).fillna("")
+        vmap = {(r["project_id"], r["ain"]): r["assignment_check"] for _, r in vd.iterrows()}
+        parcels["assignment_check"] = [
+            vmap.get((r["project_id"], r["ain"]), "")
+            for _, r in parcels.iterrows()]
+
     # --- QA ---------------------------------------------------------------
     # parcels are property-level: an operative grant is covered if ANY row
     # of its property group has parcels

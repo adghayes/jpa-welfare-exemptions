@@ -39,7 +39,7 @@ SOURCE_FILLS = {
 }
 
 LEGEND = [
-    ("filled = automated", "Value obtained by automation (document scraping, county API calls) — reproducible by re-running the pipeline"),
+    ("filled = automated", "Value obtained by automation (document scraping, county API calls) or machine-verified against county records — reproducible by re-running the pipeline"),
     ("no fill = manual", "Human-entered: collaborator sheet research, repo manual/ overrides, sheet formulas — and anything added directly in this sheet"),
 ]
 LEGEND_FILLS = {"filled = automated": GENERATED_FILL, "no fill = manual": None}
@@ -141,10 +141,17 @@ def main() -> None:
     MANUAL_SOURCES = {"", "collaborator-sheet", "manual-repo-edit"}
     for idx, row in parcels.iterrows():
         api = row["value_source"] not in MANUAL_SOURCES
+        validated = row.get("assignment_check", "") == "situs-match"
         for col in parcels.columns:
             if row[col] == "":
                 continue
-            if col in PARCEL_IDENTITY or not api:
+            if col in ("ain", "apn") and validated:
+                # identity is a human assertion, but this one is machine-
+                # verified against the county situs — tint it
+                parcel_sources[(idx, col)] = "la-county-api"
+            elif col == "assignment_check":
+                parcel_sources[(idx, col)] = "la-county-api"  # computed
+            elif col in PARCEL_IDENTITY or not api:
                 parcel_sources[(idx, col)] = "collaborator-sheet"  # unfilled
             else:
                 parcel_sources[(idx, col)] = "la-county-api"
