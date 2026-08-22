@@ -213,7 +213,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 144,Santa Barbara,La Vista Apartment Homes,123140021,,-,False,collaborator-sheet,,,,,,7113000,,,,collaborator-sheet,,144
 145,Fresno,Golden Gardens Apartments,,,"2130 N Marks Ave, Fresno, CA 93722",False,collaborator-sheet,,,,,,10673404,,,,collaborator-sheet,,145
 146,Los Angeles,San Pedro Apartments,6022014002,6022-014-002,7655 S SAN PEDRO ST LOS ANGELES CA 90003,False,collaborator-sheet,manual_verified,,2026,816000,0,816000,0,1934,Store Combination,la-county-api,2026-08-22,146
-147,Alameda,Coliseum Connections,41416654,,"805 71ST AVE, OAKLAND, CA 94621",False,collaborator-sheet,,,,,,,,,,,,147
+147,Alameda,Coliseum Connections,41416654,,"805 71ST AVE, OAKLAND, CA 94621",False,collaborator-sheet,,,2026,,,0,0,,,manual-repo-edit,,147
 148,Los Angeles,Park Wilshire Apartments,4276017047,4276-017-047,2424 WILSHIRE BLVD SANTA MONICA CA 90403,False,collaborator-sheet,manual_verified,,2026,2946701,576523,3523224,0,1948,Office Buildings,la-county-api,2026-08-22,148
 149,Los Angeles,Sir Francis Drake Villa Apartments,5093010009,5093-010-009,841 S SERRANO AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,,2026,3600000,5400000,9000000,0,1929,Five or more apartments,la-county-api,2026-08-22,149
 150,Los Angeles,Langham Apartments,5094004007,5094-004-007,715 S NORMANDIE AVE LOS ANGELES CA 90005,False,collaborator-sheet,manual_verified,,2026,5500000,20600000,26100000,0,1927,Five or more apartments,la-county-api,2026-08-22,150
@@ -271,7 +271,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 199,Los Angeles,Baird Affordable Housing Apartments,2126022021,2126-022-021,6838 BAIRD AVE LOS ANGELES CA 91335,False,manual-repo-edit,,Drew 2026-08-22: project aligns to 6838 Baird Ave (no 6840 situs exists). Assessor unit counts not usable to disambiguate — proposed project may differ.,2026,833472,552040,1385512,0,1952,Two Units,la-county-api,2026-08-22,199
 200,Los Angeles,1408 Jefferson Apartments,5040021006,,1408 W JEFFERSON BLVD LOS ANGELES CA 90007,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; DUPLICATE of project 218 (same AIN); use code ""Store Combination"" — pre-development roll",2026,1456560,62424,1518984,0,1904,Store Combination,la-county-api,2026-08-22,200
 201,Santa Barbara,Villa Del Sol Senior Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,201
-203,Sacramento,Bent Tree Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,203
+203,Sacramento,Bent Tree Apartments,21900420330000,219-0042-033-0000,4350 GALBRATH DR SACRAMENTO CA 95842,False,manual-repo-edit,,Drew 2026-08-22 via Sacramento assessor lookup,2026,,,15693765,0,,,manual-repo-edit,,203
 204,Los Angeles,Hazelhurst Affordable Housing Apartments,2338006014,2338-006-014,6142 HAZELHURST PL LOS ANGELES CA 91606,False,manual-repo-edit,,Drew 2026-08-22: development parcel is 6142 (no 6144 situs exists). Assessor unit counts not usable to disambiguate — proposed project may differ.,2026,688500,1224000,1912500,0,1952,Two Units,la-county-api,2026-08-22,204
 205,Contra Costa,Del Norte Place Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,205
 206,Los Angeles,Elan River Village Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,206
@@ -281,7 +281,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 210,Sacramento,California Place Apartments,11700120210000,,6633 VALLEY HI DR SACRAMENTO 95823,False,collaborator-sheet,,,2025,,,11438021,,,,collaborator-sheet,,210
 211,Los Angeles,Haven Warner Center,2148026046,,6530 INDEPENDENCE AVE LOS ANGELES CA 91303,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search,2026,20375193,36930038,57305231,0,1985,Five or more apartments,la-county-api,2026-08-22,211
 212,Los Angeles,The Arlo,5052023039,,2075 W JEFFERSON BLVD LOS ANGELES CA 90018,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll",2026,1144440,312120,1456560,0,1977,"Restaurants, Cocktail Lounges",la-county-api,2026-08-22,212
-213,Sacramento,Sierra Village,,,,False,collaborator-sheet,,,,,,,,,,,,213
+213,Sacramento,Sierra Village,22800420320000,228-0042-032-0000,5416 JACKSON ST NORTH HIGHLANDS CA 95660,False,manual-repo-edit,,Drew 2026-08-22 via Sacramento assessor lookup,2026,,,8878476,0,,,manual-repo-edit,,213
 214,Los Angeles,Trails at San Dimas,8386006015,,444 N AMELIA AVE SAN DIMAS CA 91773,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search,2026,22187671,44750710,66938381,0,1977,Five or more apartments,la-county-api,2026-08-22,214
 215,Los Angeles,511 Hoover Street Apartments,5539028040,5539-028-040,511 N HOOVER ST (no county situs; AIN from assessor portal map),False,manual-repo-edit,,"Drew 2026-08-22 via assessor portal map view; new construction, situs not yet keyed.",,,,,,,,,,215
 216,San Diego,Guava Gardens Apartments,4701122500,470-112-25-00,5035 GUAVA AVE LA MESA CA 91942,False,script-situs-match (2026-08-22),,"Exact situs match, SANDAG; 81-unit apartment parcel",2026,2033407,3050116,5083523,,86,16,sandag-parcels,2026-08-22,216
@@ -290,8 +290,8 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 219,Los Angeles,603 Mariposa Apartments,5502031012,,603 S MARIPOSA AVE LOS ANGELES CA 90005,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Restaurants"" — pre-development roll",2026,3974689,684528,4659217,0,1925,"Restaurants, Cocktail Lounges",la-county-api,2026-08-22,219
 220,Los Angeles,236 Berendo Apartments,5518026004,,236 N BERENDO ST LOS ANGELES CA 90004,False,script-situs-match (2026-08-21),,"Resolved by LA county situs/geocode search; use code ""Single"" — pre-development roll",2026,1040400,374544,1414944,0,1920,Single,la-county-api,2026-08-22,220
 221,Los Angeles,Banner Avenue Apartments,5534006026,5534-006-026,6219 BANNER AVE (no county situs; AIN from assessor portal map),False,manual-repo-edit,,Drew 2026-08-22 via assessor portal map view; Banner Ave parcels not situs-keyed.,2026,3459330,0,3459330,0,0000,Single,la-county-api,2026-08-22,221
-222,Alameda,Bayfair Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,222
-223,Alameda,2121 Wood St,,,,False,collaborator-sheet,,,,,,,,,,,,223
+222,Alameda,Bayfair Apartments,80C49562,80C-495-6-2,16077 ASHLAND AVE SAN LORENZO CA 94580,False,manual-repo-edit,,Drew 2026-08-22 via Alameda assessor lookup,2026,,,11141147,0,,,manual-repo-edit,,222
+223,Alameda,2121 Wood St,1831016,18-310-16,2121 WOOD ST OAKLAND CA 94607,False,manual-repo-edit,,Drew 2026-08-22 via Alameda assessor lookup,2026,,,71934357,56403868,,,manual-repo-edit,,223
 224,Los Angeles,1454 Florence Apartments,6018007001,,1454 W FLORENCE AVE LOS ANGELES CA 90047,False,script-situs-match (2026-08-21),,Resolved by LA county situs/geocode search; matched W Florence per address; use code pre-development,2026,1224000,0,1224000,0,1932,"Auto, Recreation EQPT, Construction EQPT, Sales & Service",la-county-api,2026-08-22,224
 226,Contra Costa,Maris at Martinez Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,226
 227,Sacramento,Westlake Apartments,3003300180000,,1 SHOAL CT SACRAMENTO 95831,False,collaborator-sheet,,,2026,,,41186542,,,,collaborator-sheet,,227
@@ -325,7 +325,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 189,Santa Clara,The Colonnade Apartments,46745073,467-45-073,200 S 3Rd St,False,collaborator-sheet,,,,,,,,,,,,189
 191,Santa Clara,Highland Gardens Apartments,15401034,154-01-034,234 Escuela Av,False,collaborator-sheet,,,,,,104843965,,,,collaborator-sheet,,191
 198,Santa Clara,220 Humboldt Ct. Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,198
-202,Santa Cruz,La Posada Apartments,,,,False,collaborator-sheet,,,,,,,,,,,,202
+202,Santa Cruz,La Posada Apartments,01125105,011-251-05,,False,manual-repo-edit,,"Drew 2026-08-22 via Santa Cruz assessor lookup, 609 Frederick St",2026,,,9776112,0,,,manual-repo-edit,,202
 16,Solano,Montessa Apartments,128101150,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,,,,,,,,,,16
 16,Solano,Montessa Apartments,128101140,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8875.0,0,8875.0,1569.0,,,solano-county-portal,2026-08-22,16
 16,Solano,Montessa Apartments,128101130,,343 MOON RIVER PL VACAVILLE CA 95687,False,collaborator-sheet,,,2026,8888.0,0,8888.0,1535.0,,,solano-county-portal,2026-08-22,16
@@ -393,3 +393,4 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 230,Los Angeles,Hansen illage Apartments,2530007015,,11821 FOOTHILL BLVD LOS ANGELES CA 91342,False,script-situs-match (2026-08-21),situs-match,Resolved by LA county situs/geocode search; two parcels share situs 11821 Foothill — multi-parcel,2026,942311,822380,1764691,0,1986,Five or more apartments,la-county-api,2026-08-22,230
 369,San Diego,Verdana Apartments,4441201300,444-120-13-00,438 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address",2026,2427182,1490976,3918158,,79,21,sandag-parcels,2026-08-22,369
 369,San Diego,Verdana Apartments,4441201800,444-120-18-00,480 CAMINO DEL RIO S SAN DIEGO CA 92108,False,script-situs-match (2026-08-22),situs-match,"Exact situs match, SANDAG; pre-development parcels per staff report address",2026,1884643,0,1884643,,  ,20,sandag-parcels,2026-08-22,369
+238,Alameda,Heritage Park Apartments Livermore,9917523,99-175-23,900 E STANLEY BLVD LIVERMORE CA 94550,False,manual-repo-edit,,Drew 2026-08-22 via Alameda assessor lookup,2026,,,47387387,19523603,,,manual-repo-edit,,238

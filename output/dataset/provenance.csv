@@ -1245,6 +1245,7 @@ parcels,144,assignment:123140021,123140021,collaborator-sheet,
 parcels,145,values:,10673404,collaborator-sheet,no automated source for county
 parcels,145,assignment:,,collaborator-sheet,
 parcels,146,assignment:6022014002,6022014002,collaborator-sheet,manual_verified
+parcels,147,values:41416654,0,manual-repo-edit,no automated source for county
 parcels,147,assignment:41416654,41416654,collaborator-sheet,
 parcels,148,assignment:4276017047,4276017047,collaborator-sheet,manual_verified
 parcels,149,assignment:5093010009,5093010009,collaborator-sheet,manual_verified
@@ -1311,7 +1312,8 @@ parcels,197,assignment:,,collaborator-sheet,
 parcels,199,assignment:2126022021,2126022021,manual-repo-edit,
 parcels,200,assignment:5040021006,5040021006,script-situs-match (2026-08-21),
 parcels,201,assignment:,,collaborator-sheet,
-parcels,203,assignment:,,collaborator-sheet,
+parcels,203,values:21900420330000,15693765,manual-repo-edit,no automated source for county
+parcels,203,assignment:21900420330000,21900420330000,manual-repo-edit,
 parcels,204,assignment:2338006014,2338006014,manual-repo-edit,
 parcels,205,assignment:,,collaborator-sheet,
 parcels,206,assignment:,,collaborator-sheet,
@@ -1322,7 +1324,8 @@ parcels,210,values:11700120210000,11438021,collaborator-sheet,no automated sourc
 parcels,210,assignment:11700120210000,11700120210000,collaborator-sheet,
 parcels,211,assignment:2148026046,2148026046,script-situs-match (2026-08-21),
 parcels,212,assignment:5052023039,5052023039,script-situs-match (2026-08-21),
-parcels,213,assignment:,,collaborator-sheet,
+parcels,213,values:22800420320000,8878476,manual-repo-edit,no automated source for county
+parcels,213,assignment:22800420320000,22800420320000,manual-repo-edit,
 parcels,214,assignment:8386006015,8386006015,script-situs-match (2026-08-21),
 parcels,215,assignment:5539028040,5539028040,manual-repo-edit,
 parcels,216,assignment:4701122500,4701122500,script-situs-match (2026-08-22),
@@ -1331,8 +1334,10 @@ parcels,218,assignment:5040021006,5040021006,script-situs-match (2026-08-21),
 parcels,219,assignment:5502031012,5502031012,script-situs-match (2026-08-21),
 parcels,220,assignment:5518026004,5518026004,script-situs-match (2026-08-21),
 parcels,221,assignment:5534006026,5534006026,manual-repo-edit,
-parcels,222,assignment:,,collaborator-sheet,
-parcels,223,assignment:,,collaborator-sheet,
+parcels,222,values:80C49562,11141147,manual-repo-edit,no automated source for county
+parcels,222,assignment:80C49562,80C49562,manual-repo-edit,
+parcels,223,values:1831016,71934357,manual-repo-edit,no automated source for county
+parcels,223,assignment:1831016,1831016,manual-repo-edit,
 parcels,224,assignment:6018007001,6018007001,script-situs-match (2026-08-21),
 parcels,226,assignment:,,collaborator-sheet,
 parcels,227,values:3003300180000,41186542,collaborator-sheet,no automated source for county
@@ -1384,7 +1389,8 @@ parcels,189,assignment:46745073,46745073,collaborator-sheet,
 parcels,191,values:15401034,104843965,collaborator-sheet,no automated source for county
 parcels,191,assignment:15401034,15401034,collaborator-sheet,
 parcels,198,assignment:,,collaborator-sheet,
-parcels,202,assignment:,,collaborator-sheet,
+parcels,202,values:01125105,9776112,manual-repo-edit,no automated source for county
+parcels,202,assignment:01125105,01125105,manual-repo-edit,
 parcels,16,assignment:128101150,128101150,collaborator-sheet,
 parcels,16,assignment:128101140,128101140,collaborator-sheet,
 parcels,16,assignment:128101130,128101130,collaborator-sheet,
@@ -1453,3 +1459,5 @@ parcels,131,assignment:89082034000,89082034000,collaborator-sheet,
 parcels,230,assignment:2530007015,2530007015,script-situs-match (2026-08-21),situs-match
 parcels,369,assignment:4441201300,4441201300,script-situs-match (2026-08-22),situs-match
 parcels,369,assignment:4441201800,4441201800,script-situs-match (2026-08-22),situs-match
+parcels,238,values:9917523,47387387,manual-repo-edit,no automated source for county
+parcels,238,assignment:9917523,9917523,manual-repo-edit,

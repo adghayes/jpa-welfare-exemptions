@@ -134,32 +134,25 @@ fetch-fallback,99,AIN 4262018026 (Los Angeles) has no current roll data; using m
 fetch-fallback,132,AIN 6020022027 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,137,AIN 2125017014 (Los Angeles) has no current roll data; using manual value
 parcel-no-values,143,AIN 41416654 (Alameda): no roll values from any source
-parcel-no-values,147,AIN 41416654 (Alameda): no roll values from any source
 parcel-no-values,158,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,182,AIN 5036031006 (Los Angeles): no roll values from any source
 parcel-no-values,196,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,197,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,201,AIN (none) (Santa Barbara): no roll values from any source
-parcel-no-values,203,AIN (none) (Sacramento): no roll values from any source
 parcel-no-values,205,AIN (none) (Contra Costa): no roll values from any source
 parcel-no-values,206,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,207,AIN (none) (Los Angeles): no roll values from any source
 parcel-no-values,208,AIN (none) (Los Angeles): no roll values from any source
-parcel-no-values,213,AIN (none) (Sacramento): no roll values from any source
 parcel-no-values,215,AIN 5539028040 (Los Angeles): no roll values from any source
-parcel-no-values,222,AIN (none) (Alameda): no roll values from any source
-parcel-no-values,223,AIN (none) (Alameda): no roll values from any source
 parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
 parcel-no-values,229,AIN (none) (San Diego): no roll values from any source
 parcel-no-values,189,AIN 46745075 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745074 (Santa Clara): no roll values from any source
 parcel-no-values,189,AIN 46745073 (Santa Clara): no roll values from any source
 parcel-no-values,198,AIN (none) (Santa Clara): no roll values from any source
-parcel-no-values,202,AIN (none) (Santa Cruz): no roll values from any source
 parcel-no-values,16,AIN 128101150 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128101050 (Solano): no roll values from any source
 parcel-no-values,16,AIN 128105060 (Solano): no roll values from any source
-missing-parcels,238,"Heritage Park Apartments Livermore (Alameda): operative authorization, not dead, no parcels anywhere in its property group"
 shared-ain,143/147,AIN 41416654 assigned to multiple projects
 shared-ain,182/76,AIN 5036031006 assigned to multiple projects
 shared-ain,200/218,AIN 5040021006 assigned to multiple projects
