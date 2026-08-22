@@ -2,7 +2,7 @@
 meeting documents, with per-field coverage stats.
 
 Sources:
-  CMFA:  output/cmfa_scraping/all_grants_extracted.csv
+  CMFA:  output/pipeline/all_grants_extracted.csv
          (produced by scripts/extract_all_meetings.py from agendas, staff
          reports, and minutes)
   CSCDA: data/cscda_scraping/meetings/*/{agenda,packet}.pdf, parsed directly
@@ -32,7 +32,7 @@ from src.cscda_scraping.packet_parser import (  # noqa: E402
 import logging
 logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
-CMFA_EXTRACTED = Path("output/cmfa_scraping/all_grants_extracted.csv")
+CMFA_EXTRACTED = Path("output/pipeline/all_grants_extracted.csv")
 CSCDA_MEETINGS = Path("data/cscda_scraping/meetings")
 OUT = Path("output/pipeline/basic_list.csv")
 

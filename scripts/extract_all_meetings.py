@@ -10,7 +10,7 @@ that only ever received preliminary approval get a single preliminary_only
 row (their latest appearance).
 
 Output:
-- output/cmfa_scraping/all_grants_extracted.csv
+- output/pipeline/all_grants_extracted.csv
 
 Usage:
     python scripts/extract_all_meetings.py [--quiet]
@@ -36,7 +36,7 @@ from scripts.validate_meeting import (
 )
 
 
-OUTPUT_DIR = Path("output/cmfa_scraping")
+OUTPUT_DIR = Path("output/pipeline")
 
 
 def get_all_meeting_dates(start_date: str = "2023-07-01") -> list[str]:
@@ -151,8 +151,9 @@ def extract_all_meetings(verbose: bool = True) -> list[ExtractedGrant]:
                 prelim = len([g for g in grants if g.item_type == "preliminary"])
                 print(f"{auth} authorize, {prelim} preliminary")
         except Exception as e:
-            if verbose:
-                print(f"ERROR: {e}")
+            # always visible, even with --quiet: a silently dropped meeting
+            # is a silently wrong dataset
+            print(f"  {meeting_date}: ERROR {e}", file=sys.stderr)
 
     print(f"\nTotal raw grants: {len(all_grants)}")
     return all_grants

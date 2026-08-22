@@ -6,13 +6,12 @@ The xlsx is a *render* of the repo's provenance data — the repo CSVs remain
 the source of truth; uploading the xlsx to Google Drive (with conversion)
 yields a native, color-coded Google Sheet for review.
 
-Currently feeds on output/pipeline/basic_list.csv plus the four grants that
-predate the meeting archives (fully manual, from the collaborator sheet).
-The merge step (provenance-stamped dataset) will reuse render_workbook()
-with its real per-cell provenance map.
+Feeds on output/dataset/{grants,parcels,qa_findings}.csv (the merged,
+provenance-stamped dataset) and writes output/dataset/review.xlsx with
+Grants, Parcels, QA findings, and Legend tabs.
 
 Usage:
-    python scripts/publish_review_sheet.py [-o output/pipeline/review.xlsx]
+    python scripts/publish_review_sheet.py [-o output/dataset/review.xlsx]
 """
 
 import argparse
@@ -64,7 +63,8 @@ def render_workbook(tables: dict, out_path: Path) -> None:
             cell.fill = HEADER_FILL
             cell.font = HEADER_FONT
             cell.alignment = Alignment(vertical="center")
-            width = max(12, min(38, int(df[col].astype(str).str.len().quantile(0.9)) + 2))
+            q90 = df[col].astype(str).str.len().quantile(0.9) if len(df) else 12
+            width = max(12, min(38, int(q90) + 2))
             ws.column_dimensions[get_column_letter(c)].width = width
         ws.freeze_panes = "C2"
 
@@ -133,7 +133,7 @@ def main() -> None:
             elif fully_manual or col in GRANT_META or col in overridden:
                 grant_sources[(idx, col)] = "collaborator-sheet"   # unfilled
             else:
-                grant_sources[(idx, col)] = row.get("source", "") or "cmfa-meeting-docs"
+                grant_sources[(idx, col)] = "cmfa-meeting-docs"  # any generated fill
 
     # parcels: identity columns are manual assignments (unfilled); value
     # columns are filled only when they came from the county API

@@ -53,7 +53,7 @@ def solano_parcel_id(ain: str) -> str:
     return ain.strip().replace("-", "").zfill(10)
 
 
-def find_altkey(parcel_id: str) -> str | None:
+def find_altkey(parcel_id: str) -> tuple[str, str, str] | None:
     data = get_json(f"{SEARCH_URL}?keywords={parcel_id}&page=1", SEARCH_CTX)
     for item in data.get("items", []):
         f = item["fields"]
@@ -133,6 +133,9 @@ def main() -> None:
         if i % 10 == 0:
             print(f"  {i}/{len(parcel_ids)}")
 
+    if not rows:
+        sys.exit("no Solano parcels returned — leaving the previous "
+                 f"{OUT} in place (portal outage or all AINs in transition?)")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

@@ -14,6 +14,7 @@ Usage:
 """
 
 import csv
+import sys
 import json
 import urllib.parse
 import urllib.request
@@ -74,6 +75,9 @@ def main() -> None:
             "fetch_date": today,
         })
 
+    if not rows:
+        sys.exit("no San Diego parcels returned — leaving the previous "
+                 f"{OUT} in place (portal outage or all AINs in transition?)")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

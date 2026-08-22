@@ -107,7 +107,12 @@ def main() -> None:
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")
     assignments = assignments[(assignments["ain"].str.strip() != "")
                               & (assignments["legacy_redundant"].str.lower() != "true")]
-    grants = pd.read_csv("output/dataset/grants.csv", dtype=str).fillna("")
+    grants_path = Path("output/dataset/grants.csv")
+    if not grants_path.exists():
+        sys.exit("output/dataset/grants.csv not found — run scripts/build_dataset.py "
+                 "first (this check validates against the last build, then "
+                 "build_dataset.py again folds the findings in)")
+    grants = pd.read_csv(grants_path, dtype=str).fillna("")
     ginfo = grants.set_index("project_id")[
         ["address", "city", "county", "total_units", "authorization_status",
          "manual_status", "property_name"]].to_dict("index")
@@ -242,9 +247,9 @@ def main() -> None:
                 data = get_json(f"{LA_URL}?{urllib.parse.urlencode(q)}")
                 feats = [f["attributes"] for f in data.get("features", [])]
                 # same street NAME exists across the county; require same ZIP
-                zm = re.search(r"\b(\d{5})", str(v.get("situs_zip", "")) or situs[::-1][:20][::-1])
+                # (skip the leading house number — it can be 5 digits too)
                 own_zip = None
-                for tok in situs.split():
+                for tok in situs.split()[1:]:
                     if re.fullmatch(r"\d{5}(-\d+)?", tok):
                         own_zip = tok[:5]
                 sibs = [(str(f["AIN"]), f.get("SitusFullAddress", ""),

@@ -41,6 +41,7 @@ tinted and manual cells are not, so a reviewer always knows which is which.
 | `grant_overrides.csv` | per-field values that supplement or correct generated grants, each with a source and note |
 | `parcel_assignments.csv` | which parcels (AIN/APN) belong to which project — parcel identity is always a human judgment |
 | `parcel_values_manual.csv` | assessed values for parcels with no automated source (most non-LA counties, in-transition AINs) |
+| `generated_id_ledger.csv` | machine-maintained, append-only registry of pipeline-assigned project IDs (301+) so they stay stable across refreshes — do not edit |
 
 ### Outputs
 
@@ -70,10 +71,11 @@ in the pipeline.
    scripts/fetch_san_diego_roll_values.py      portal, SANDAG parcel layer
    scripts/fetch_scc_certificates.py         BOE Supplemental Clearance
                                              Certificate list (OData)
-6. scripts/check_parcel_assignments.py       validate assignments, probe for
-                                             missing sibling parcels
-7. scripts/build_dataset.py                  merge generated + manual/ -> output/dataset/
-8. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
+6. scripts/build_dataset.py                  merge generated + manual/ -> output/dataset/
+7. scripts/check_parcel_assignments.py       validate assignments against the
+                                             build, probe for missing siblings
+8. scripts/build_dataset.py                  re-run to fold check findings in
+9. scripts/publish_review_sheet.py           -> output/dataset/review.xlsx
 ```
 
 ### Grant Scraping
@@ -97,7 +99,7 @@ by document links, of which two matter — the **agenda** and a combined
 staff report for each agenda item plus the adopted minutes of the *previous*
 meeting). These land in
 `data/cscda_scraping/meetings/YYYY-MM-DD/{agenda,packet}.pdf`, covering 2025
-on (when CSCDA's grant program began). All scraped material (~250MB) is
+on (when CSCDA's grant program began). All scraped material (~340MB) is
 gitignored and regenerable.
 
 For both agencies, `scripts/build_doc_manifest.py` fetches only the two
@@ -176,8 +178,8 @@ come from meeting documents, parcels come from county records, and the
 address is what connects a grant to its parcels. It is the pipeline's most
 manual field, by deliberate choice. Extraction produces addresses where the
 documents state them cleanly — CSCDA packets do (96%), CMFA staff reports
-only sometimes (46%) — but of the 266 grants with an address, 200 display a
-manual value and 66 a generated one. Roughly half of those manual values
+only sometimes (46%) — but of the 266 grants with an address, 204 display a
+manual value and 62 a generated one. Roughly half of those manual values
 have a generated address underneath that agrees on the street but differs in
 formatting detail (the manual value usually carries ZIP and neighborhood);
 where the two provably matched, the manual copy was retired, and where they
@@ -208,16 +210,19 @@ in). Three noise-gated checks:
   situs adjacent to its marketing address), documented portal-map picks are
   skipped, and complexes are judged per property, not per parcel.
 - **possible-missing-parcel** — an unassigned parcel shares an assigned
-  parcel's exact situs and ZIP: the signature of a multi-parcel property
-  that was only partially captured.
+  parcel's exact situs (and ZIP, in LA; street + jurisdiction in San Diego):
+  the signature of a multi-parcel property that was only partially captured.
+  AINs mentioned in an assignment's notes (reviewed exclusions) are never
+  re-proposed.
 - **units-undercount** — county unit records (LA `Units1–5`, SANDAG
   `unitqty`) sum to well under the grant's documented unit count, checked
   only on apartment-use parcels where those fields are trustworthy.
 
-Each parcel also carries a per-AIN verdict in `assignment_check`
-(`situs-match` / `mismatch` / `no-situs` / `documented`); in the review
-workbook, AIN/APN cells are tinted only when machine-verified
-(`situs-match`) — the rest stay unfilled as unverified human assertions.
+Each checkable parcel carries a per-AIN verdict in `assignment_check`
+(`situs-match` / `mismatch` / `no-situs` / `no-address` / `documented`;
+legacy-redundant and blank-AIN rows get none); in the review workbook,
+AIN/APN cells are tinted only when machine-verified (`situs-match`) — the
+rest stay unfilled as unverified human assertions.
 
 ### Parcel Tax Value Lookup
 

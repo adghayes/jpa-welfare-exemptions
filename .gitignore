@@ -11,5 +11,8 @@ __pycache__/
 # Claude Code local settings
 .claude/settings.local.json
 
-# Scraped source data (regenerable via scripts/cmfa_scrape.py) — 229MB
+# Scraped source data (regenerable via the src/*_scraping scrapers) — ~340MB
 data/
+
+# mtime-keyed parse cache — invalid on any fresh clone
+output/pipeline/cscda_parse_cache.json

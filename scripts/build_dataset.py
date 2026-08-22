@@ -113,15 +113,35 @@ def main() -> None:
         else:
             unmatched_gen.append(base)
 
+    # pipeline-assigned ids must be STABLE across refreshes (manual/ files
+    # reference them), so they are recorded in an append-only ledger keyed by
+    # (normalized property | meeting date) and never recomputed or reused
+    ledger_path = Path("manual/generated_id_ledger.csv")
+    if ledger_path.exists():
+        ledger_df = pd.read_csv(ledger_path, dtype=str).fillna("")
+        ledger = dict(zip(ledger_df["key"], ledger_df["project_id"]))
+    else:
+        ledger = {}
+    next_id = max([NEW_ID_START - 1] + [int(v) for v in ledger.values()]) + 1
+
     unmatched_gen.sort(key=lambda r: (r["meeting_date"], r["property_name"]))
-    next_id = NEW_ID_START
+    ledger_dirty = False
     for base in unmatched_gen:
-        rows.append({**base, "project_id": str(next_id), "row_source": "generated"})
+        key = norm_name(base["property_name"]) + "|" + base["meeting_date"]
+        pid = ledger.get(key)
+        if pid is None:
+            pid = str(next_id)
+            next_id += 1
+            ledger[key] = pid
+            ledger_dirty = True
+        rows.append({**base, "project_id": pid, "row_source": "generated"})
         if base["item_type"] == "authorize":
-            qa("new-grant", str(next_id),
+            qa("new-grant", pid,
                f"{base['property_name']} ({base['agency']}, {base['meeting_date']}) "
                "not in collaborator sheet")
-        next_id += 1
+    if ledger_dirty:
+        pd.DataFrame(sorted(ledger.items(), key=lambda kv: int(kv[1])),
+                     columns=["key", "project_id"]).to_csv(ledger_path, index=False)
 
     grants = pd.DataFrame(rows).reindex(columns=GRANT_COLUMNS).fillna("")
 
@@ -156,6 +176,10 @@ def main() -> None:
             row[field] = str(s.get(sheet_col, "")).strip()
         row["project_id"] = s["Project ID"]
         row["item_type"] = "authorize"
+        if str(s.get("DEAD?", "")).strip().lower() == "true":
+            row["manual_status"] = "dead"
+        elif str(s.get("Stale", "")).strip().lower() == "true":
+            row["manual_status"] = "stale"
         row["row_source"] = s.get("source", "collaborator-sheet")
         row["field_overrides"] = "*:" + row["row_source"]
         manual_rows.append(row)
@@ -228,13 +252,12 @@ def main() -> None:
     for _, cert in scc.iterrows():
         scc_by_name.setdefault(norm_org(cert["limited_partnership"]), []).append(cert.to_dict())
 
-    grants["scc_filed"] = ""
-    grants["scc_number"] = ""
-    grants["scc_issue_date"] = ""
+    # scc columns already exist (reindex) and may hold manual override values
+    # for grants the BOE list doesn't match — never wipe them
     scc_names = list(scc_by_name)
     for idx, r in grants.iterrows():
         key = norm_org(r["entity"])
-        if not key:
+        if not key or str(r.get("scc_filed", "")).strip():
             continue
         certs = scc_by_name.get(key, [])
         if certs:
@@ -387,7 +410,7 @@ def main() -> None:
     grants.to_csv(OUT_DIR / "grants.csv", index=False)
     parcels.to_csv(OUT_DIR / "parcels.csv", index=False)
     pd.DataFrame(provenance).to_csv(OUT_DIR / "provenance.csv", index=False)
-    qa_df = pd.DataFrame(findings)
+    qa_df = pd.DataFrame(findings, columns=["check", "project_id", "detail"])
     qa_df.to_csv(OUT_DIR / "qa_findings.csv", index=False)
 
     print(f"grants:  {len(grants)} rows "

@@ -14,11 +14,15 @@ documents the manual-data contract.
 - **Grain**: one grants row per authorization event. Project IDs from the
   collaborator's tracker are preserved verbatim and are append-only
   (they have been reshuffled once historically — never reuse an ID);
-  pipeline-assigned IDs start at 301.
+  pipeline-assigned IDs start at 301 and are pinned in
+  `manual/generated_id_ledger.csv` (machine-maintained, append-only).
 - Use `./venv/bin/python` (Python 3.14 venv at repo root). No test suite;
-  smoke-test with the full chain:
-  `extract_all_meetings.py --quiet && build_basic_list.py && build_dataset.py
-  && publish_review_sheet.py`, then check row counts against README figures.
+  smoke-test with the full chain: `extract_all_meetings.py --quiet &&
+  build_basic_list.py && build_dataset.py && check_parcel_assignments.py &&
+  build_dataset.py && publish_review_sheet.py` (build → check → rebuild:
+  the check validates against the previous build). Expected magnitudes:
+  ~305 grants, ~394 parcels, ~1,150 provenance rows; extraction ~275 CMFA
+  grants pre-merge.
 - `data/` is gitignored but required (scraped PDFs). Regenerate via
   `src/cmfa_scraping/scraper.py` / `python -m src.cscda_scraping.scraper`.
   Downloads are incremental; parsing is the slow part (CSCDA parses are

@@ -20,9 +20,8 @@ import argparse
 import csv
 import re
 import sys
-from dataclasses import dataclass, asdict, fields
+from dataclasses import dataclass, asdict
 from datetime import datetime
-from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Optional
 
@@ -31,8 +30,8 @@ import pandas as pd
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.cmfa_scraping.agenda_parser import parse_agenda_pdf, AgendaGrant
-from src.cmfa_scraping.staff_report_parser import parse_staff_report_pdf, StaffReportGrant
+from src.cmfa_scraping.agenda_parser import parse_agenda_pdf
+from src.cmfa_scraping.staff_report_parser import parse_staff_report_pdf
 
 
 MEETINGS_DIR = Path("data/cmfa_scraping/meetings")
@@ -376,7 +375,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
     # Define column order
     columns = [
         'property_name', 'entity', 'city', 'county', 'resolution', 'meeting_date',
-        'item_type', 'minutes_confirmed', 'investor_1', 'investor_2', 'nonprofit_partner',
+        'item_type', 'minutes_confirmed', 'minutes_outcome', 'investor_1', 'investor_2', 'nonprofit_partner',
         'total_units', 'restricted_units', 'rent_restricted_pct', 'term_years', 'city_cut', 'grant_description', 'address'
     ]
 
@@ -385,7 +384,7 @@ def export_extracted_csv(grants: list[ExtractedGrant], output_path: Path):
         writer.writeheader()
         for grant in grants:
             row = asdict(grant)
-            writer.writerow(row)
+            writer.writerow({k: row.get(k, '') for k in columns})
 
     print(f"  Exported {len(grants)} grants to {output_path}")
 
