@@ -670,6 +670,8 @@ grants,199,address,"6840 Baird Ave, Los Angeles, CA 91335",manual-repo-edit,"Dre
 grants,217,address,"217 N. Park View Street, Los Angeles, CA 90026",manual-repo-edit,"Drew, manual research 2026-08-22"
 grants,76,manual_status,stale,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
 grants,76,restricted_units,50,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
+grants,348,county,Los Angeles,manual-repo-edit,"Agenda error 2025-10-24: item listed under City of Healdsburg, County of Sonoma; pulled at that meeting and re-agendized 2025-11-07 under Los Angeles as Res 25-531 (approved)"
+grants,348,city,Los Angeles,manual-repo-edit,"Agenda error 2025-10-24: item listed under City of Healdsburg, County of Sonoma; pulled at that meeting and re-agendized 2025-11-07 under Los Angeles as Res 25-531 (approved)"
 grants,238,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,192,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,193,*,,collaborator-sheet,entire row manual (predates meeting archives)
