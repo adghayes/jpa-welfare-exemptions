@@ -154,6 +154,9 @@ Three output fields encode what the documents establish:
   CSCDA: closing $600/unit up to 300 units and $300/unit thereafter,
   minimum $20,000; annual $150/unit up to 300 and $75/unit thereafter,
   minimum $5,000.
+- **`years_since_approval`** — full years elapsed (anniversary-based, as of
+  the build date) since the approving meeting; blank for pulled and
+  preliminary items, which were never approved.
 - **`authorization_status`** is the merge-time rollup across each
   *property*: one property can carry several authorization events. Some
   re-approvals are documented amendments (the staff report cites a reason —

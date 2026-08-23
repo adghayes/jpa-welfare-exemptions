@@ -126,7 +126,8 @@ def main() -> None:
         for col in grants.columns:
             if row[col] == "":
                 continue
-            if col in ("authorization_status", "jpa_closing_fee", "jpa_annual_fee"):
+            if col in ("authorization_status", "jpa_closing_fee",
+                       "jpa_annual_fee", "years_since_approval"):
                 # fully calculated (minutes rollup / published fee schedules)
                 # even on otherwise-manual rows — always tinted as automated
                 grant_sources[(idx, col)] = "cmfa-meeting-docs"

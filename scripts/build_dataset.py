@@ -51,7 +51,7 @@ GRANT_COLUMNS = [
     "agenda_url", "staff_report_url", "minutes_url",
     "investor_1", "investor_2", "nonprofit_partner",
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
-    "city_cut", "jpa_closing_fee", "jpa_annual_fee",
+    "city_cut", "jpa_closing_fee", "jpa_annual_fee", "years_since_approval",
     "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link",
@@ -361,6 +361,25 @@ def main() -> None:
     fee_pairs = [jpa_fees(r["agency"], r["total_units"]) for _, r in grants.iterrows()]
     grants["jpa_closing_fee"] = [f[0] for f in fee_pairs]
     grants["jpa_annual_fee"] = [f[1] for f in fee_pairs]
+
+    # Full years elapsed since the approving meeting (anniversary-based,
+    # as of the build date). Only for grants that were actually approved
+    # (operative/superseded); pulled and preliminary items never were.
+    from datetime import date, datetime
+
+    today = date.today()
+
+    def years_since(r) -> str:
+        if r["authorization_status"] not in ("operative", "superseded"):
+            return ""
+        try:
+            d = datetime.strptime(r["meeting_date"].strip(), "%Y-%m-%d").date()
+        except ValueError:
+            return ""
+        y = today.year - d.year - ((today.month, today.day) < (d.month, d.day))
+        return str(max(y, 0))
+
+    grants["years_since_approval"] = [years_since(r) for _, r in grants.iterrows()]
 
     # --- parcels --------------------------------------------------------------
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")

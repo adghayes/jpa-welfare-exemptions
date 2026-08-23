@@ -9,10 +9,11 @@ documents the manual-data contract.
   generated/derived files (`output/`). Human-collected facts go in `manual/`
   CSVs with `source: manual-repo-edit` and a note — never hardcoded into
   scripts (exception: parser typo aliases, which are extraction corrections).
-- **No derived analytics in code.** Revenue loss, estimates, and roll-value
-  sums are computed by formulas in the review spreadsheet, not the pipeline.
-  Exception (Drew, Aug 2026): `jpa_closing_fee` / `jpa_annual_fee` are
-  computed in `build_dataset.py` from the JPAs' published fee schedules.
+- **Computed fields live in the pipeline** (rule flipped by Drew, Aug 2026 —
+  formerly "no derived analytics in code"): `build_dataset.py` computes
+  `jpa_closing_fee` / `jpa_annual_fee` (published fee schedules) and
+  `years_since_approval` (build-date anniversary math). Sheet formulas still
+  own roll-value sums and revenue-loss estimates until told otherwise.
 - **Grain**: one grants row per authorization event. Project IDs from the
   collaborator's tracker are preserved verbatim and are append-only
   (they have been reshuffled once historically — never reuse an ID);
