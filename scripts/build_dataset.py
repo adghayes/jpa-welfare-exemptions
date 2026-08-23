@@ -586,7 +586,15 @@ def main() -> None:
     # (median, not OLS: the tails are first-year partial filings and
     # renumbered-parcel value gaps). Estimates are capped at assessed value.
     def _ratio(r) -> float:
+        # A stated 100% beats the unit ratio: the manager's unit is itself
+        # exempt under the welfare exemption (AH 267: "A manager's unit is
+        # exempt as incidental to and reasonably necessary ... even if the
+        # manager's income exceeds the prescribed low-income limits"; RTC
+        # 214(g)(3)(C) classes manager's units as exempt related facilities),
+        # so a 41-restricted / 42-unit property is 100% exempt, not 97.6%.
         tu, ru, pct = _num(r["total_units"]), _num(r["restricted_units"]), _num(r["restricted_pct"])
+        if pct == 100:
+            return 1.0
         if tu and ru:
             return min(ru / tu, 1.0)
         if pct:
