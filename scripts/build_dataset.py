@@ -572,15 +572,49 @@ def main() -> None:
     live_ops = grants[(grants["authorization_status"] == "operative")
                       & (~grants["manual_status"].isin(["dead", "stale"]))]
     exemp_by_op: dict[str, float] = {}
+    value_by_op: dict[str, float] = {}
     for _, p in parcels[parcels["legacy_redundant"].str.lower() != "true"].iterrows():
-        v = _num(p["real_estate_exemp"])
-        if v:
-            exemp_by_op[p["operative_project_id"]] = \
-                exemp_by_op.get(p["operative_project_id"], 0.0) + v
+        for col, acc in (("real_estate_exemp", exemp_by_op),
+                         ("roll_total_value", value_by_op)):
+            v = _num(p[col])
+            if v:
+                acc[p["operative_project_id"]] = acc.get(p["operative_project_id"], 0.0) + v
+
+    # Estimated exemption for properties not (yet) on the roll: assessed
+    # value x restricted ratio x k, where k is the median of that same ratio
+    # over properties WITH a confirmed exemption — re-fitted each build
+    # (median, not OLS: the tails are first-year partial filings and
+    # renumbered-parcel value gaps). Estimates are capped at assessed value.
+    def _ratio(r) -> float:
+        tu, ru, pct = _num(r["total_units"]), _num(r["restricted_units"]), _num(r["restricted_pct"])
+        if tu and ru:
+            return min(ru / tu, 1.0)
+        if pct:
+            return min(pct / 100, 1.0)
+        return 1.0
+
+    k_samples = []
+    for _, r in live_ops.iterrows():
+        v, e = value_by_op.get(r["project_id"], 0.0), exemp_by_op.get(r["project_id"], 0.0)
+        if v > 0 and e > 0:
+            k_samples.append(e / (v * _ratio(r)))
+    import statistics
+    k = statistics.median(k_samples) if len(k_samples) >= 5 else 1.0
+    print(f"exemption estimator k = {k:.3f} (median over {len(k_samples)} confirmed)")
+
+    est_by_op: dict[str, float] = {}   # confirmed, else k-model estimate
+    for _, r in live_ops.iterrows():
+        e = exemp_by_op.get(r["project_id"], 0.0)
+        if e > 0:
+            est_by_op[r["project_id"]] = e
+        else:
+            v = value_by_op.get(r["project_id"], 0.0)
+            est_by_op[r["project_id"]] = min(v * _ratio(r) * k, v)
 
     def county_row(label: str, sub: pd.DataFrame) -> dict:
         s = lambda col: sum(v for v in (_num(x) for x in sub[col]) if v)
         exemption = sum(exemp_by_op.get(pid, 0.0) for pid in sub["project_id"])
+        estimated = sum(est_by_op.get(pid, 0.0) for pid in sub["project_id"])
         return {
             "county": label,
             "operative_projects": len(sub),
@@ -589,6 +623,8 @@ def main() -> None:
             "jpa_annual_fees": round(s("jpa_annual_fee")),
             "confirmed_exemption": round(exemption),
             "confirmed_tax_reduction": round(exemption * 0.01),
+            "estimated_exemption": round(estimated),
+            "estimated_tax_reduction": round(estimated * 0.01),
             "total_units": round(s("total_units")),
             "restricted_units": round(s("restricted_units")),
             "city_cut": round(s("city_cut")),

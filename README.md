@@ -51,7 +51,7 @@ tinted and manual cells are not, so a reviewer always knows which is which.
 | `output/dataset/parcels.csv` | one row per parcel, keyed by `project_id`; `operative_project_id` is the join key for spreadsheet formulas (sums each property once) |
 | `output/dataset/provenance.csv` | long-format record of every manually-sourced value |
 | `output/dataset/qa_findings.csv` | merge-time discrepancies (document-vs-manual conflicts, gaps, shared AINs) |
-| `output/dataset/county_summary.csv` | per-county pivot over live operative grants (excluding dead/stale): project and SCC-confirmed counts, JPA fee sums, confirmed exemption + 1% tax reduction, unit and city-cut sums; TOTAL row last |
+| `output/dataset/county_summary.csv` | per-county pivot over live operative grants (excluding dead/stale): project and SCC-confirmed counts, JPA fee sums, confirmed exemption + 1% tax reduction, estimated exemption + reduction (confirmed where on the roll, else assessed value × restricted ratio × k, with k the median confirmed ratio re-fitted each build — ~0.98 — capped at assessed value), unit and city-cut sums; TOTAL row last |
 | `output/dataset/review.xlsx` | Grants + Parcels + County summary + QA findings + Legend tabs; **filled cells = automated, unfilled = manual**. Upload to Google Drive by hand (Open with Sheets → Save as Google Sheet). |
 
 Grants matched to the collaborator's tracker keep its project IDs; newly
