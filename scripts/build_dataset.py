@@ -148,6 +148,18 @@ def main() -> None:
 
     # --- apply manual overrides --------------------------------------------
     grants = grants.set_index("project_id", drop=False)
+
+    def _num(v) -> float | None:
+        try:
+            return float(str(v).replace(",", ""))
+        except ValueError:
+            return None
+
+    # snapshot generated unit counts before any override lands, so conflict
+    # suppression judges the machine's own (pre-override) values
+    gen_units = {pid: (_num(r["total_units"]), _num(r["restricted_units"]))
+                 for pid, r in grants.iterrows()}
+
     field_overrides: dict[str, list[str]] = {}
     for _, o in overrides.iterrows():
         pid, field, value = o["project_id"], o["field"], o["value"]
@@ -158,9 +170,17 @@ def main() -> None:
             qa("override-unknown-field", pid, field)
             continue
         current = str(grants.at[pid, field])
-        if current and "differs" in o["note"]:
-            qa("override-conflict", pid,
-               f"{field}: generated {current!r} -> manual {value!r}")
+        if current and current != value and "differs" in o["note"]:
+            # a generated total_units below the generated restricted_units is
+            # impossible — the machine value refutes itself (multi-building
+            # properties where the parser caught one building), so the manual
+            # value wins without an adjudication finding
+            tu, ru = gen_units.get(pid, (None, None))
+            self_refuted = (field == "total_units" and tu is not None
+                            and ru is not None and ru > tu)
+            if not self_refuted:
+                qa("override-conflict", pid,
+                   f"{field}: generated {current!r} -> manual {value!r}")
         grants.at[pid, field] = value
         field_overrides.setdefault(pid, []).append(f"{field}:{o['source']}")
         provenance.append({"table": "grants", "project_id": pid, "field": field,
@@ -361,6 +381,16 @@ def main() -> None:
     fee_pairs = [jpa_fees(r["agency"], r["total_units"]) for _, r in grants.iterrows()]
     grants["jpa_closing_fee"] = [f[0] for f in fee_pairs]
     grants["jpa_annual_fee"] = [f[1] for f in fee_pairs]
+
+    # restricted > total is impossible; if it survives to the final data (no
+    # manual override rescued it), the extraction is wrong — flag it
+    for _, r in grants.iterrows():
+        tu, ru = _num(r["total_units"]), _num(r["restricted_units"])
+        if tu is not None and ru is not None and ru > tu:
+            qa("units-inconsistent", r["project_id"],
+               f"{r['property_name'][:36]}: restricted_units {r['restricted_units']} "
+               f"> total_units {r['total_units']} — extraction likely caught one "
+               "building of a multi-building property; needs a manual total_units")
 
     # Full years elapsed since the approving meeting (anniversary-based,
     # as of the build date). Only for grants that were actually approved

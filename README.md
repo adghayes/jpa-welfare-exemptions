@@ -54,9 +54,17 @@ tinted and manual cells are not, so a reviewer always knows which is which.
 | `output/dataset/review.xlsx` | Grants + Parcels + QA findings + Legend tabs; **filled cells = automated, unfilled = manual**. Upload to Google Drive by hand (Open with Sheets → Save as Google Sheet). |
 
 Grants matched to the collaborator's tracker keep its project IDs; newly
-generated grants get IDs from 301 up. Derived analytics (revenue loss,
-roll-value sums) are computed by formulas in the review spreadsheet, never
-in the pipeline.
+generated grants get IDs from 301 up. The pipeline computes per-grant
+fields with fixed formulas (JPA fees, years since approval); aggregate
+analytics (revenue loss, roll-value sums) remain sheet formulas.
+
+Where a manual override disagrees with a generated value, the conflict
+becomes an `override-conflict` QA finding for adjudication — except when
+the generated value refutes itself (a generated `total_units` below the
+generated `restricted_units`, the signature of a multi-building property
+where the parser caught one building): there the manual value wins
+silently. The reverse case — the impossible signature with no manual
+rescue — is flagged as `units-inconsistent`.
 
 ## Pipeline
 

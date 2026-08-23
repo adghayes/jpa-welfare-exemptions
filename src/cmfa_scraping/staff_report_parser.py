@@ -274,24 +274,28 @@ def extract_total_units(text: str) -> int | None:
     benefit_text = benefit_match.group(1) if benefit_match else ""
 
     # PRIORITY 1: Look in "The Project" section for total unit count
-    # These patterns are definitive totals, not restricted counts
+    # These patterns are definitive totals, not restricted counts.
+    # Numbers may carry thousands separators ("1,008-unit"); "units per acre"
+    # is a density, never a count.
     project_patterns = [
         # "110-unit" or "42-unit"
-        r'(\d+)[- ]unit\s+(?:affordable\s+)?(?:multi-?family|apartment|housing|rental)',
+        r'([\d,]+)[- ]unit\s+(?:affordable\s+)?(?:multi-?family|apartment|housing|rental)',
         # "consisting of 42 units"
-        r'consisting\s+of\s+(\d+)\s+units',
+        r'consisting\s+of\s+([\d,]+)\s+units',
         # "development of a 110-unit"
-        r'(?:development|construction)\s+of\s+(?:a\s+)?(\d+)[- ]unit',
+        r'(?:development|construction)\s+of\s+(?:a\s+)?([\d,]+)[- ]unit',
+        # "356 rentable units"
+        r'([\d,]+)\s+rentable\s+units',
         # Simple "X-unit" pattern
-        r'(\d+)[- ]unit',
-        # "X units" in project section
-        r'(\d+)\s+units',
+        r'([\d,]+)[- ]unit',
+        # "X units" in project section (not "X units per acre")
+        r'([\d,]+)\s+units(?!\s+per\b)',
     ]
 
     for pattern in project_patterns:
         match = re.search(pattern, project_text, re.IGNORECASE)
         if match:
-            num = int(match.group(1))
+            num = int(match.group(1).replace(",", ""))
             if 5 <= num <= 2000:
                 return num
 
