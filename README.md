@@ -147,6 +147,13 @@ Three output fields encode what the documents establish:
   across a line break ("Resolution 25- 349") are normalized, and when an
   agenda printed a blank resolution template the number is backfilled from
   the minutes by property name.
+- **`jpa_closing_fee` / `jpa_annual_fee`** are computed from each JPA's
+  published fee schedule applied to the grant's final `total_units`
+  (blank when units are unknown). CMFA (Charitable Affordable Housing):
+  closing $600/unit, minimum $10,000; annual $150/unit, minimum $5,000.
+  CSCDA: closing $600/unit up to 300 units and $300/unit thereafter,
+  minimum $20,000; annual $150/unit up to 300 and $75/unit thereafter,
+  minimum $5,000.
 - **`authorization_status`** is the merge-time rollup across each
   *property*: one property can carry several authorization events. Some
   re-approvals are documented amendments (the staff report cites a reason —

@@ -126,9 +126,9 @@ def main() -> None:
         for col in grants.columns:
             if row[col] == "":
                 continue
-            if col == "authorization_status":
-                # fully calculated (from parsed minutes outcomes) even on
-                # otherwise-manual rows — always tinted as automated
+            if col in ("authorization_status", "jpa_closing_fee", "jpa_annual_fee"):
+                # fully calculated (minutes rollup / published fee schedules)
+                # even on otherwise-manual rows — always tinted as automated
                 grant_sources[(idx, col)] = "cmfa-meeting-docs"
             elif fully_manual or col in GRANT_META or col in overridden:
                 grant_sources[(idx, col)] = "collaborator-sheet"   # unfilled

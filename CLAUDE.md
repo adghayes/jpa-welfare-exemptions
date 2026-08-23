@@ -11,6 +11,8 @@ documents the manual-data contract.
   scripts (exception: parser typo aliases, which are extraction corrections).
 - **No derived analytics in code.** Revenue loss, estimates, and roll-value
   sums are computed by formulas in the review spreadsheet, not the pipeline.
+  Exception (Drew, Aug 2026): `jpa_closing_fee` / `jpa_annual_fee` are
+  computed in `build_dataset.py` from the JPAs' published fee schedules.
 - **Grain**: one grants row per authorization event. Project IDs from the
   collaborator's tracker are preserved verbatim and are append-only
   (they have been reshuffled once historically — never reuse an ID);

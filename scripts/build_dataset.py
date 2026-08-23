@@ -51,7 +51,8 @@ GRANT_COLUMNS = [
     "agenda_url", "staff_report_url", "minutes_url",
     "investor_1", "investor_2", "nonprofit_partner",
     "total_units", "restricted_units", "rent_restricted_pct", "term_years",
-    "city_cut", "grant_description", "address", "estimated_closing",
+    "city_cut", "jpa_closing_fee", "jpa_annual_fee",
+    "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
     "link", "leasing_link",
     "row_source", "field_overrides",
@@ -331,6 +332,35 @@ def main() -> None:
             url_by_key.get((r["agency"], r["meeting_date"]), {}).get(col, "")
             for _, r in grants.iterrows()
         ]
+
+    # --- JPA fees (computed from published fee schedules) ---------------------
+    # CMFA (Charitable Affordable Housing): closing $600/unit (min $10,000);
+    #   annual $150/unit (min $5,000).
+    # CSCDA: closing $600/unit up to 300 units + $300/unit thereafter
+    #   (min $20,000); annual $150/unit up to 300 + $75/unit thereafter
+    #   (min $5,000).
+    # Computed from the FINAL total_units (after overrides); blank when units
+    # are unknown.
+    def jpa_fees(agency: str, units: str) -> tuple[str, str]:
+        try:
+            u = int(float(units))
+        except (TypeError, ValueError):
+            return "", ""
+        if u <= 0:
+            return "", ""
+        if agency == "CSCDA":
+            closing = max(20000, 600 * min(u, 300) + 300 * max(u - 300, 0))
+            annual = max(5000, 150 * min(u, 300) + 75 * max(u - 300, 0))
+        elif agency == "CMFA":
+            closing = max(10000, 600 * u)
+            annual = max(5000, 150 * u)
+        else:
+            return "", ""
+        return str(closing), str(annual)
+
+    fee_pairs = [jpa_fees(r["agency"], r["total_units"]) for _, r in grants.iterrows()]
+    grants["jpa_closing_fee"] = [f[0] for f in fee_pairs]
+    grants["jpa_annual_fee"] = [f[1] for f in fee_pairs]
 
     # --- parcels --------------------------------------------------------------
     assignments = pd.read_csv("manual/parcel_assignments.csv", dtype=str).fillna("")
