@@ -198,20 +198,55 @@ def parse_minutes_outcomes(minutes_path: Path) -> dict[str, str]:
 
     text = extract_text_from_pdf(minutes_path)
     outcomes: dict[str, str] = {}
+    # Resolution numbers can wrap across a line break ("Resolution 25- 349"),
+    # so tolerate whitespace inside the number and normalize it away.
+    RES_RE = re.compile(r"\(Resolution\s*(\d+\s*-\s*\d+)\)")
+
+    def _res(m: re.Match) -> str:
+        return re.sub(r"\s", "", m.group(1))
+
     # Minutes dialects: 2023-2025 record a motion after EACH item; some
     # sections use ONE motion per numbered section (block vote); 2026 adopts
     # whole sections on a consent calendar with a single motion naming them:
     # "Consent Items 4, 5, 6, 7, and 8 were approved together. Motion ...
-    # carries". Per-item text always wins over section-level approval.
+    # carries" — the list may name sub-items ("5. a."). Per-item text always
+    # wins over section-level approval.
     consent_sections: set[str] = set()
-    cm = re.search(r"Consent Items?\s+([0-9,\s&and]+?)\s+were approved together(.{0,250})",
+    cm = re.search(r"Consent Items?\s+([0-9a-z.,\s&]+?)\s+were approved together(.{0,250})",
                    text, re.DOTALL | re.IGNORECASE)
     if cm and "carries" in cm.group(2).lower():
         consent_sections = set(re.findall(r"\d+", cm.group(1)))
 
     sections = re.split(r"\n\s*(?=\d+\.\s)", text)
+
+    # Batch-adoption dialect (2025-11): a section adopts an explicit list of
+    # resolutions in one motion — "... in a single motion: Resolution 25-551
+    # Resolution 25-552 ... The Board then ... adopted ... the resolutions
+    # listed above". Pre-seeding here also stops the trailing "Item N.x. was
+    # pulled" sentence from being misattributed to the last listed resolution.
+    for bm in re.finditer(
+            r"in a single motion:\s*((?:Resolution\s+\d+\s*-\s*\d+[\s,]*)+)(.{0,300})",
+            text, re.DOTALL | re.IGNORECASE):
+        if "adopted" in bm.group(2).lower():
+            for num in re.findall(r"\d+\s*-\s*\d+", bm.group(1)):
+                outcomes[re.sub(r"\s", "", num)] = "approved"
+
+    # Items pulled by agenda letter ("Item 9.d. was pulled from the agenda"):
+    # resolve the letter to its resolution within that numbered section.
+    for sec_no, letter in re.findall(
+            r"Item\s+(\d+)\.\s*([a-z])\.?\s+was pulled", text, re.IGNORECASE):
+        for section in sections:
+            m0 = re.match(r"\s*(\d+)\.", section)
+            if not m0 or m0.group(1) != sec_no:
+                continue
+            im = re.search(rf"\n\s*{letter}\.\s(.*?)(?=\n\s*[a-z]\.\s|\Z)",
+                           section, re.DOTALL)
+            rm = RES_RE.search(im.group(1)) if im else None
+            if rm:
+                outcomes[re.sub(r"\s", "", rm.group(1))] = "pulled"
+
     for section in sections:
-        matches = list(re.finditer(r"\(Resolution\s*(\d+-\d+)\)", section))
+        matches = list(RES_RE.finditer(section))
         if not matches:
             continue
         section_low = section.lower()
@@ -231,10 +266,35 @@ def parse_minutes_outcomes(minutes_path: Path) -> dict[str, str]:
                 outcome = "approved"   # block vote covering the section
             else:
                 outcome = ""
-            res = m.group(1)
+            res = _res(m)
             if res not in outcomes or outcomes[res] == "":
                 outcomes[res] = outcome
     return outcomes
+
+
+def parse_minutes_name_resolutions(minutes_path: Path) -> dict[str, str]:
+    """Map normalized property names to resolution numbers from the minutes.
+
+    Some agenda items print a blank resolution template, so extraction gets no
+    number — but the adopted minutes carry it: the property name appears in a
+    parenthetical shortly before the "(Resolution NN-NNN)" marker, e.g.
+    "Sierra Park LP, ..., (Sierra Park Apartments), ... (Resolution 24-278)".
+    Used to backfill missing resolutions so minutes outcomes can attach.
+    """
+    from src.cmfa_scraping.agenda_parser import extract_text_from_pdf
+
+    text = extract_text_from_pdf(minutes_path)
+    name_res: dict[str, str] = {}
+    for m in re.finditer(r"\(Resolution\s*(\d+\s*-\s*\d+)\)", text):
+        res = re.sub(r"\s", "", m.group(1))
+        # nearest preceding parenthetical = the property name
+        preceding = re.findall(r"\(([^()]{3,80})\)", text[max(0, m.start() - 400):m.start()])
+        if not preceding:
+            continue
+        norm = normalize_property_name(preceding[-1])
+        if norm and norm not in name_res:   # first authorization wins
+            name_res[norm] = res
+    return name_res
 
 
 def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
@@ -271,9 +331,11 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
     # A resolution number merely APPEARING in the minutes is NOT approval.
     print(f"\n--- Step 2: Checking Minutes ---")
     minutes_outcomes: dict[str, str] = {}
+    minutes_name_res: dict[str, str] = {}
     if docs.get('minutes'):
         try:
             minutes_outcomes = parse_minutes_outcomes(docs['minutes'])
+            minutes_name_res = parse_minutes_name_resolutions(docs['minutes'])
             from collections import Counter
             print(f"  Found {len(minutes_outcomes)} resolution outcomes in minutes "
                   f"{dict(Counter(minutes_outcomes.values()))}")
@@ -303,7 +365,11 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
     # Step 4: Merge sources
     print(f"\n--- Step 4: Merging Sources ---")
     for ag in agenda_grants:
-        # Check minutes outcome
+        # Check minutes outcome. When the agenda printed a blank resolution
+        # template, backfill the number from the minutes by property name.
+        if not ag.resolution:
+            ag.resolution = minutes_name_res.get(
+                normalize_property_name(ag.property_name), "")
         outcome = minutes_outcomes.get(ag.resolution, "") if ag.resolution else ""
         confirmed = outcome == "approved"
 

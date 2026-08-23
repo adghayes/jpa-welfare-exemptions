@@ -138,9 +138,15 @@ Three output fields encode what the documents establish:
   minutes: `approved`, `pulled` (the minutes say "this item was pulled from
   the agenda" — a resolution number appearing in minutes is *not* approval),
   `continued`, or blank when minutes aren't posted yet or the outcome text
-  wasn't found. CMFA minutes use three dialects the parser handles:
-  per-item motions (2023–2025), per-section block votes, and the 2026
-  consent calendar ("Consent Items 4, 5, … were approved together").
+  wasn't found. CMFA minutes use four dialects the parser handles:
+  per-item motions (2023–2025), per-section block votes, batch adoption of
+  an explicit resolution list ("…in a single motion: Resolution 25-551 …
+  adopted … the resolutions listed above", with pulls by agenda letter —
+  "Item 9.d. was pulled"), and the 2026 consent calendar ("Consent Items
+  4, 5. a., … were approved together"). Resolution numbers that wrap
+  across a line break ("Resolution 25- 349") are normalized, and when an
+  agenda printed a blank resolution template the number is backfilled from
+  the minutes by property name.
 - **`authorization_status`** is the merge-time rollup across each
   *property*: the agencies re-run the full approval when a deal slips past
   its closing date, and a property that changes sponsors gets a fresh grant,

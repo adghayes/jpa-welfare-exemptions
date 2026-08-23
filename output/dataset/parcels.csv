@@ -138,7 +138,7 @@ Apartments",5343602100,,840.0 17TH ST SAN DIEGO CA 92101-6666,False,collaborator
 70,San Mateo,Terrace View Apartments,006312900,,"75 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,,,,,4713012,,,,collaborator-sheet,,359,no-situs
 70,San Mateo,Terrace View Apartments,006312910,,"85 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,,,,,5784624,,,,collaborator-sheet,,359,no-situs
 70,San Mateo,Terrace View Apartments,006312920,,"95 Eastmoor Ave, Daly City, CA 94015",False,collaborator-sheet,,,,,,2590596,,,,collaborator-sheet,,359,no-situs
-71,San Mateo,SoFi Redwood Park Apartments,52082450,,1212 WHIPPLE AVE REDWOOD CITY CA 94062-1556,False,collaborator-sheet,,,,,,25240000,,,,collaborator-sheet,,71,no-situs
+71,San Mateo,SoFi Redwood Park Apartments,52082450,,1212 WHIPPLE AVE REDWOOD CITY CA 94062-1556,False,collaborator-sheet,,,,,,25240000,,,,collaborator-sheet,,360,no-situs
 72,San Francisco,Waterbend Apartments,5431A041,5431A041,"5880 3rd St, San Francisco, CA 94124",False,collaborator-sheet,,,,,,73513835,0,,,collaborator-sheet,,72,no-situs
 73,Los Angeles,1540 W Court Apartments,5159020026,5159-020-026,1540 W COURT ST,False,collaborator-sheet,parcel_in_transition,Legacy AIN 5159020011-015 consolidated to 5159020026,2026,3400000,0,3400000,0,1890,Four Units (Any Combination),la-county-api,2026-08-22,73,no-situs
 73,Los Angeles,1540 W Court Apartments,5159020010,5159-020-010,1526 W COURT ST LOS ANGELES CA 90026,False,collaborator-sheet,manual_verified_multi,Multi-parcel (7),2026,136403,46872,183275,0,1910,Single,la-county-api,2026-08-22,73,situs-match
