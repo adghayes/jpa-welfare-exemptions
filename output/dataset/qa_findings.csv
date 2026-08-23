@@ -30,34 +30,6 @@ new-grant,360,"The Heltsley Apartments FKA SoFi Redwood Park Apartments (CMFA, 2
 new-grant,363,"Terrace View Apartments (CMFA, 2026-06-26) not in collaborator sheet"
 new-grant,364,"The Heltsley Apartments FKA SoFi Redwood Park Apartments (CMFA, 2026-06-26) not in collaborator sheet"
 new-grant,369,"Verdana Apartments (CSCDA, 2026-08-20) not in collaborator sheet"
-override-conflict,2,"investor_1: generated 'Oak Road' -> manual 'Eleos Ventures, LLC'"
-override-conflict,48,investor_1: generated 'Ethos Real Estate' -> manual 'Vistria Group'
-override-conflict,51,total_units: generated '144' -> manual '145'
-override-conflict,60,total_units: generated '29' -> manual '196'
-override-conflict,78,"investor_1: generated 'Vintage Housing Holdings, LLC' -> manual 'Kennedy Wilson'"
-override-conflict,78,"nonprofit_partner: generated 'Pacific Housing, Inc.' -> manual 'Hearthstone Housing Foundation'"
-override-conflict,81,total_units: generated '32' -> manual '31'
-override-conflict,81,city_cut: generated '4650.0' -> manual '4500'
-override-conflict,158,total_units: generated '30' -> manual '29'
-override-conflict,95,investor_1: generated 'Belveron Partners' -> manual 'Sack Capital Partners'
-override-conflict,134,total_units: generated '69' -> manual '68'
-override-conflict,137,total_units: generated '42' -> manual '41'
-override-conflict,155,entity: generated 'A limited partnership to be formed by Kairos Investment Management and Pacific Housing' -> manual 'TBD LP'
-override-conflict,156,entity: generated 'A limited partnership to be formed by Kairos Investment Management and Pacific Housing' -> manual 'TBD LP'
-override-conflict,171,city_cut: generated '15900.0' -> manual '6300'
-override-conflict,195,total_units: generated '42' -> manual '41'
-override-conflict,199,city_cut: generated '5550.0' -> manual '5500'
-override-conflict,204,total_units: generated '50' -> manual '49'
-override-conflict,206,county: generated 'San Diego' -> manual 'Los Angeles'
-override-conflict,209,investor_1: generated 'Zenith Property Group LLC' -> manual 'Red Stone Equity Partners'
-override-conflict,209,term_years: generated '35' -> manual '15'
-override-conflict,210,term_years: generated '55' -> manual '10'
-override-conflict,226,term_years: generated '15' -> manual '10'
-override-conflict,228,term_years: generated '10' -> manual '15'
-override-conflict,217,total_units: generated '35' -> manual '34'
-override-conflict,233,term_years: generated '55' -> manual '10'
-override-conflict,236,total_units: generated '136' -> manual '108'
-override-conflict,225,term_years: generated '30' -> manual '55'
 scc-possible-match,6,"entity '381 Turk Street Associates, a California' ~ SCC LP '421 Turk Street Associates, L.P.' (#3326, San Francisco, score 92)"
 scc-possible-match,33,"entity 'BIF NON OZ 7524 S HOOVER ST, LP' ~ SCC LP 'BIF NON OZ 7518 S Hoover St, LP' (#14953, Los Angeles, score 93)"
 scc-possible-match,40,"entity 'BIF NON OZ 4228 WESTERN AVE, LP' ~ SCC LP 'BIF NON OZ 4209 Western Ave, LP' (#14952, Los Angeles, score 93)"

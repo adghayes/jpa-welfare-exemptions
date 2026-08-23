@@ -6,7 +6,7 @@ grants,4,restricted_units,70,collaborator-sheet,fills blank
 grants,4,address,"363 E. Gilbert St., San Bernardino, CA",collaborator-sheet,fills blank
 grants,4,city_cut,10650,collaborator-sheet,fills blank
 grants,2,built,2023,collaborator-sheet,
-grants,2,investor_1,"Eleos Ventures, LLC",collaborator-sheet,differs from generated: 'Oak Road'
+grants,2,investor_1,"Eleos Ventures, LLC",collaborator-sheet,adjudicated 2026-08 (Drew): Eleos is an arm of Oak Road; keeping Eleos for consistency
 grants,3,address,"660 Mariposa Ave., Mountain View, CA",collaborator-sheet,fills blank
 grants,5,investor_1,Securities Properties,collaborator-sheet,fills blank
 grants,5,nonprofit_partner,Las Palmas Housing & Development,collaborator-sheet,fills blank
@@ -85,11 +85,11 @@ grants,27,built,1997,collaborator-sheet,
 grants,27,acquisition_price_m,17170000,collaborator-sheet,
 grants,27,acquisition_date,2024-09-12,collaborator-sheet,
 grants,27,link,https://www.1422on6th.com/,collaborator-sheet,
-grants,27,total_units,52,collaborator-sheet,differs from generated: '24'
+grants,27,total_units,52,collaborator-sheet,"adjudicated 2026-08 (Drew): manual correct — multi-building sum (28+24), parser caught one building"
 grants,27,address,"1422-1428 6th St., Santa Monica, CA",collaborator-sheet,fills blank
-grants,28,total_units,72,collaborator-sheet,differs from generated: '22'
+grants,28,total_units,72,collaborator-sheet,"adjudicated 2026-08 (Drew): manual correct — multi-building sum, parser caught one building"
 grants,28,address,"1422-1432 7th, Santa Monica, CA",collaborator-sheet,fills blank
-grants,29,total_units,48,collaborator-sheet,differs from generated: '24'
+grants,29,total_units,48,collaborator-sheet,"adjudicated 2026-08 (Drew): manual correct — multi-building sum, parser caught one building"
 grants,29,address,"1423-1425 6th, Santa Monica, CA",collaborator-sheet,fills blank
 grants,30,built,2004,collaborator-sheet,
 grants,30,address,"1522 6th St, Santa Monica, CA",collaborator-sheet,fills blank
@@ -97,7 +97,7 @@ grants,31,acquisition_price_m,5390000,collaborator-sheet,
 grants,31,acquisition_date,2024-09-12,collaborator-sheet,
 grants,31,address,"1537 7th, Santa Monica, CA",collaborator-sheet,fills blank
 grants,32,built,2008,collaborator-sheet,
-grants,32,total_units,165,collaborator-sheet,differs from generated: '65'
+grants,32,total_units,165,collaborator-sheet,"adjudicated 2026-08 (Drew): manual correct — multi-building sum, parser caught one building"
 grants,32,address,"2001-2029 Olympic Blvd, Santa Monica",collaborator-sheet,fills blank
 grants,26,built,1987,collaborator-sheet,
 grants,26,address,"441 W 3rd St, San Pedro, CA 90731",collaborator-sheet,fills blank
@@ -134,7 +134,6 @@ grants,45,address,"2414 N Tustin Ave, Santa Ana, CA 92705",collaborator-sheet,fi
 grants,48,investor_2,Ethos Real Estate,collaborator-sheet,
 grants,48,new_build,NO,collaborator-sheet,
 grants,48,scc_filed,True,collaborator-sheet,
-grants,48,investor_1,Vistria Group,collaborator-sheet,differs from generated: 'Ethos Real Estate'
 grants,48,address,"3500 Edison St, San Mateo, CA 94403",collaborator-sheet,fills blank
 grants,47,new_build,YES,collaborator-sheet,
 grants,47,address,"6171 Mission Gorge Rd, San Diego, CA 92120",collaborator-sheet,fills blank
@@ -151,7 +150,7 @@ grants,52,city_cut,9300,collaborator-sheet,fills blank
 grants,51,new_build,NO,collaborator-sheet,
 grants,51,built,1984,collaborator-sheet,
 grants,51,manual_status,dead,collaborator-sheet,
-grants,51,total_units,145,collaborator-sheet,differs from generated: '144'
+grants,51,total_units,145,collaborator-sheet,adjudicated 2026-08 (Drew): manual correct (145)
 grants,51,address,"220 47th St, San Diego, CA 92102",collaborator-sheet,fills blank
 grants,53,new_build,NO,collaborator-sheet,
 grants,53,built,1973/1991,collaborator-sheet,
@@ -161,7 +160,6 @@ grants,53,address,"6930 Fair Oaks Blvd, Carmichael, CA 95608",collaborator-sheet
 grants,53,city_cut,29700,collaborator-sheet,fills blank
 grants,54,new_build,NO,collaborator-sheet,
 grants,54,resolution,24-442,collaborator-sheet,fills blank
-grants,54,total_units,356,collaborator-sheet,differs from generated: '42'
 grants,55,investor_2,"Open House Group Co., Ltd",collaborator-sheet,
 grants,55,new_build,YES,collaborator-sheet,
 grants,56,leasing_link,https://bridgehousing.com/properties/viewpoint/,collaborator-sheet,
@@ -183,7 +181,7 @@ grants,58,new_build,NO,collaborator-sheet,
 grants,58,scc_filed,True,collaborator-sheet,
 grants,58,address,"38441 5th St W, Palmdale, CA 93551",collaborator-sheet,fills blank
 grants,60,new_build,YES,collaborator-sheet,
-grants,60,total_units,196,collaborator-sheet,differs from generated: '29'
+grants,60,total_units,196,collaborator-sheet,adjudicated 2026-08 (Drew): manual correct — 172 apartments + 24 townhomes = 196
 grants,60,address,"5150 El Camino Real, Los Altos, CA",collaborator-sheet,fills blank
 grants,60,city_cut,4350,collaborator-sheet,fills blank
 grants,64,manual_status,dead,collaborator-sheet,
@@ -242,21 +240,15 @@ grants,74,address,"5040 Logan Avenue, San Diego, CA 92113",collaborator-sheet,fi
 grants,74,city_cut,22050,collaborator-sheet,fills blank
 grants,76,new_build,YES,collaborator-sheet,
 grants,76,address,"1451 W. MLK Blvd, Los Angeles, CA",collaborator-sheet,fills blank
-grants,78,investor_2,Vintage Housing Holdings,collaborator-sheet,
 grants,78,new_build,NO,collaborator-sheet,
 grants,78,link,https://www.cmfa-ca.com/wp-content/uploads/2025/01/CMFA-Staff-Reports-01-10-25.pdf,collaborator-sheet,
-grants,78,investor_1,Kennedy Wilson,collaborator-sheet,"differs from generated: 'Vintage Housing Holdings, LLC / Kennedy Wilson'"
-grants,78,nonprofit_partner,Hearthstone Housing Foundation,collaborator-sheet,"differs from generated: 'Pacific Housing, Inc.'"
-grants,78,total_units,1008,collaborator-sheet,differs from generated: '8'
 grants,78,restricted_units,1008,collaborator-sheet,fills blank
 grants,78,address,"3400 Richmond Pkwy, Richmond, CA 94806",collaborator-sheet,fills blank
 grants,80,new_build,YES,collaborator-sheet,
 grants,80,address,"4101 Somerset Drive, Los Angeles, CA",collaborator-sheet,fills blank
 grants,81,new_build,YES,collaborator-sheet,
-grants,81,total_units,31,collaborator-sheet,differs from generated: '32'
 grants,81,restricted_units,30,collaborator-sheet,fills blank
 grants,81,address,"321 E. Florence Ave, Los Angeles, CA",collaborator-sheet,fills blank
-grants,81,city_cut,4500,collaborator-sheet,differs from generated: '4650.0'
 grants,82,new_build,YES,collaborator-sheet,
 grants,82,address,"9300 Compton Ave., Los Angeles, CA",collaborator-sheet,fills blank
 grants,83,new_build,YES,collaborator-sheet,
@@ -279,7 +271,6 @@ grants,89,acquisition_date,2025-09-03,collaborator-sheet,
 grants,89,address,"1700 Newbury Park Dr, San Jose, CA 95133",collaborator-sheet,fills blank
 grants,158,new_build,YES,collaborator-sheet,
 grants,158,manual_status,dead,collaborator-sheet,
-grants,158,total_units,29,collaborator-sheet,differs from generated: '30'
 grants,88,new_build,YES,collaborator-sheet,
 grants,88,address,"17188 Chatsworth St., Los Angeles, CA",collaborator-sheet,fills blank
 grants,97,new_build,NO,collaborator-sheet,
@@ -293,7 +284,6 @@ grants,95,investor_2,Belveron Partners,collaborator-sheet,
 grants,95,acquisition_date,2025-08-29,collaborator-sheet,
 grants,95,link,https://rebusinessonline.com/sack-properties-belveron-partners-buy-164-unit-multifamily-property-in-san-jose-california/,collaborator-sheet,
 grants,95,resolution,25-349,collaborator-sheet,fills blank
-grants,95,investor_1,Sack Capital Partners,collaborator-sheet,differs from generated: 'Belveron Partners'
 grants,95,address,"1026 S De Anza Blvd, San Jose, CA 95129",collaborator-sheet,fills blank
 grants,92,new_build,NO,collaborator-sheet,
 grants,92,address,"4640 Arden Way, El Monte, CA 91731",collaborator-sheet,fills blank
@@ -400,7 +390,6 @@ grants,130,address,"1057 S. Western Avenue, Los Angeles, CA",collaborator-sheet,
 grants,135,new_build,YES,collaborator-sheet,
 grants,135,address,"236 N. Berendo Street., Los Angeles, CA",collaborator-sheet,fills blank
 grants,134,new_build,YES,collaborator-sheet,
-grants,134,total_units,68,collaborator-sheet,differs from generated: '69'
 grants,134,address,"10705 Avalon Blvd, Los Angeles, CA",collaborator-sheet,fills blank
 grants,132,address,"7524 S. Hoover St, Los Angeles, CA",collaborator-sheet,fills blank
 grants,136,investor_1,Ethos Real Estate,collaborator-sheet,fills blank
@@ -409,7 +398,6 @@ grants,141,new_build,NO,collaborator-sheet,
 grants,141,built,1984,collaborator-sheet,
 grants,141,address,"5669 N Fresno St, Fresno, CA 93710",collaborator-sheet,fills blank
 grants,137,new_build,YES,collaborator-sheet,
-grants,137,total_units,41,collaborator-sheet,differs from generated: '42'
 grants,137,address,"18337 Kittridge St, Reseda, CA 91335",collaborator-sheet,fills blank
 grants,142,address,"9033 Ramsgate Avenue, Westchester, CA",collaborator-sheet,fills blank
 grants,143,new_build,NO,collaborator-sheet,
@@ -444,7 +432,7 @@ grants,151,new_build,NO,collaborator-sheet,
 grants,151,manual_status,dead,collaborator-sheet,
 grants,151,address,"682 Irolo Street, Los Angeles, CA",collaborator-sheet,fills blank
 grants,152,new_build,NO,collaborator-sheet,
-grants,152,total_units,152,collaborator-sheet,differs from generated: '52'
+grants,152,total_units,153,manual-repo-edit,adjudicated 2026-08 (Drew): 153 incl. manager's unit (generated 52 and prior manual 152 both wrong)
 grants,152,address,"5565 Ackerfield Avenue / 5700 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,153,new_build,NO,collaborator-sheet,
 grants,153,built,1990,collaborator-sheet,
@@ -453,11 +441,9 @@ grants,154,new_build,NO/YES,collaborator-sheet,
 grants,154,address,"2000 Crystal Springs Rd, San Bruno, CA 94066",collaborator-sheet,fills blank
 grants,155,new_build,NO,collaborator-sheet,
 grants,155,built,1974,collaborator-sheet,
-grants,155,entity,TBD LP,collaborator-sheet,differs from generated: 'A limited partnership to be formed by Kairos Investment Mana'
 grants,155,address,"1070 San Miguel Road, Concord, CA",collaborator-sheet,fills blank
 grants,156,new_build,NO,collaborator-sheet,
 grants,156,built,1969,collaborator-sheet,
-grants,156,entity,TBD LP,collaborator-sheet,differs from generated: 'A limited partnership to be formed by Kairos Investment Mana'
 grants,156,address,"36000 Fremont Boulevard, Fremont, CA",collaborator-sheet,fills blank
 grants,145,new_build,NO,collaborator-sheet,
 grants,145,manual_status,dead,collaborator-sheet,
@@ -483,7 +469,6 @@ grants,168,address,"200 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,f
 grants,169,address,"915 S. Kenmore Avenue, Los Angeles, CA",collaborator-sheet,fills blank
 grants,170,address,"530 Kingsley Drive, Los Angeles, CA",collaborator-sheet,fills blank
 grants,171,address,"5406 Lexington Avenue, Los Angeles, CA",collaborator-sheet,fills blank
-grants,171,city_cut,6300,collaborator-sheet,differs from generated: '15900.0'
 grants,172,investor_1,K3 Holdings,collaborator-sheet,fills blank
 grants,172,nonprofit_partner,"Kingdom Development, Inc.",collaborator-sheet,fills blank
 grants,172,total_units,106,collaborator-sheet,fills blank
@@ -510,7 +495,7 @@ grants,189,built,1987,collaborator-sheet,
 grants,189,manual_status,dead,collaborator-sheet,
 grants,189,address,"201 S 4th St, San Jose, CA 95112",collaborator-sheet,fills blank
 grants,181,manual_status,stale,collaborator-sheet,
-grants,181,total_units,152,collaborator-sheet,differs from generated: '52'
+grants,181,total_units,153,manual-repo-edit,adjudicated 2026-08 (Drew): 153 incl. manager's unit (generated 52 and prior manual 152 both wrong)
 grants,181,address,"5565 & 5575 Ackerfield Avenue, Long Beach, CA",collaborator-sheet,fills blank
 grants,183,manual_status,dead,collaborator-sheet,
 grants,183,address,"4256 Whittier Blvd Apartments, Los Angeles, CA",collaborator-sheet,fills blank
@@ -526,7 +511,6 @@ grants,144,new_build,NO,collaborator-sheet,
 grants,144,property_name,La Vista Apartment Homes,collaborator-sheet,"reviewed 2026-08-22, manual kept: official name is Apartment Homes"
 grants,144,address,"740 S. Western Avenue, Santa Maria, CA 93458",collaborator-sheet,fills blank
 grants,195,new_build,YES,collaborator-sheet,
-grants,195,total_units,41,collaborator-sheet,differs from generated: '42'
 grants,195,address,"1723 Corinth Ave, Los Angeles, CA 90025",collaborator-sheet,fills blank
 grants,194,new_build,YES,collaborator-sheet,
 grants,194,address,"3751 Delmas Terrace, Los Angeles, CA 90034",collaborator-sheet,fills blank
@@ -543,7 +527,6 @@ grants,197,manual_status,dead,collaborator-sheet,
 grants,197,address,"12342 Osborne Pl, Pacoima, CA 91331",collaborator-sheet,fills blank
 grants,198,new_build,YES,collaborator-sheet,
 grants,198,address,"220 Humboldt Ct. Sunnyvale, CA",collaborator-sheet,fills blank
-grants,199,city_cut,5500,collaborator-sheet,differs from generated: '5550.0'
 grants,201,manual_status,dead,collaborator-sheet,
 grants,201,address,"1311 W Battles Rd, Santa Maria, CA 93458",collaborator-sheet,fills blank
 grants,207,manual_status,dead,collaborator-sheet,
@@ -569,25 +552,18 @@ grants,203,city,Unincorporated,collaborator-sheet,fills blank
 grants,203,address,"4350 Galbrath Dr, Sacramento, CA 95842",collaborator-sheet,fills blank
 grants,203,city_cut,31200,collaborator-sheet,fills blank
 grants,204,new_build,YES,collaborator-sheet,
-grants,204,total_units,49,collaborator-sheet,differs from generated: '50'
 grants,206,manual_status,dead,collaborator-sheet,
-grants,206,county,Los Angeles,collaborator-sheet,differs from generated: 'San Diego'
 grants,206,address,"1845 N Broadway, Escondido, CA 92026",collaborator-sheet,fills blank
 grants,224,new_build,YES,collaborator-sheet,
 grants,224,investor_1,Equitable Connections to Housing Opportunities (ECHO),collaborator-sheet,fills blank
 grants,224,restricted_units,31,collaborator-sheet,fills blank
-grants,209,investor_1,Red Stone Equity Partners,collaborator-sheet,differs from generated: 'Zenith Property Group LLC'
 grants,209,address,"6790 Embarcadero Ln, Carlsbad, CA 92011",collaborator-sheet,fills blank
-grants,209,term_years,15,collaborator-sheet,differs from generated: '35'
-grants,210,term_years,10,collaborator-sheet,differs from generated: '55'
 grants,226,manual_status,dead,collaborator-sheet,
 grants,226,investor_1,MG Properties,collaborator-sheet,fills blank
 grants,226,nonprofit_partner,Pacific Housing,collaborator-sheet,fills blank
 grants,226,restricted_units,134,collaborator-sheet,fills blank
-grants,226,term_years,10,collaborator-sheet,differs from generated: '15'
 grants,228,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 grants,228,restricted_units,19,collaborator-sheet,fills blank
-grants,228,term_years,15,collaborator-sheet,differs from generated: '10'
 grants,230,new_build,NO,collaborator-sheet,
 grants,230,investor_1,"Positive Investments, Inc.",collaborator-sheet,fills blank
 grants,230,restricted_units,29,collaborator-sheet,fills blank
@@ -604,7 +580,6 @@ grants,222,restricted_units,135,collaborator-sheet,fills blank
 grants,216,new_build,NO,collaborator-sheet,
 grants,216,address,"5035 Guava Ave, La Mesa, CA 91942",collaborator-sheet,fills blank
 grants,217,new_build,YES,collaborator-sheet,
-grants,217,total_units,34,collaborator-sheet,differs from generated: '35'
 grants,215,new_build,YES,collaborator-sheet,
 grants,215,link,https://cscda.org/wp-content/uploads/2026/06/CSCDA-Agenda-Packet-7.2.26.pdf,collaborator-sheet,
 grants,215,resolution,26H-[_],collaborator-sheet,fills blank
@@ -651,19 +626,16 @@ grants,231,nonprofit_partner,Bedford Affordable Housing Foundation,collaborator-
 grants,231,restricted_units,302,collaborator-sheet,fills blank
 grants,233,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,233,restricted_units,136,collaborator-sheet,fills blank
-grants,233,term_years,10,collaborator-sheet,differs from generated: '55'
 grants,234,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,234,restricted_units,136,collaborator-sheet,fills blank
 grants,235,investor_1,Keren Housing,collaborator-sheet,fills blank
 grants,235,restricted_units,59,collaborator-sheet,fills blank
 grants,236,new_build,YES,collaborator-sheet,
 grants,236,investor_1,Killefer Development,collaborator-sheet,fills blank
-grants,236,total_units,108,collaborator-sheet,differs from generated: '136'
 grants,236,restricted_units,108,collaborator-sheet,fills blank
 grants,237,investor_1,Angeleno Invesments,collaborator-sheet,fills blank
 grants,237,restricted_units,27,collaborator-sheet,fills blank
 grants,225,address,"2780 N Texas St, Fairfield, CA 94533",collaborator-sheet,fills blank
-grants,225,term_years,55,collaborator-sheet,differs from generated: '30'
 grants,227,address,"1 Shoal Ct, Sacramento, CA 95831",collaborator-sheet,fills blank
 grants,204,address,"6144 Hazelhurst Place, North Hollywood, CA 91606",manual-repo-edit,"Drew, manual research 2026-08-22 (North Hollywood; no exact 6144 situs at county — block has 6142/6146)"
 grants,199,address,"6840 Baird Ave, Los Angeles, CA 91335",manual-repo-edit,"Drew, manual research 2026-08-22"
