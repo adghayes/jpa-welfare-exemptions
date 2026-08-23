@@ -148,9 +148,12 @@ Three output fields encode what the documents establish:
   agenda printed a blank resolution template the number is backfilled from
   the minutes by property name.
 - **`authorization_status`** is the merge-time rollup across each
-  *property*: the agencies re-run the full approval when a deal slips past
-  its closing date, and a property that changes sponsors gets a fresh grant,
-  so one property can carry several authorization events. The latest
+  *property*: one property can carry several authorization events. Some
+  re-approvals are documented amendments (the staff report cites a reason —
+  an ownership purchase, a financing restructure); most are silent full
+  re-runs of the same deal a few months later with a slipped estimated
+  closing and no stated reason — the documents never say why, or whether
+  approvals formally lapse. The latest
   minutes-approved one is `operative` — the row to count; earlier approvals
   are `superseded` (with `superseded_by` pointing at the operative row);
   minutes-pulled attempts are `pulled` and never count; `preliminary` marks
