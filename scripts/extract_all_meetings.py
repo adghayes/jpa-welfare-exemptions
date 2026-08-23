@@ -18,6 +18,7 @@ Usage:
 
 import argparse
 import csv
+import json
 import sys
 from collections import defaultdict
 from dataclasses import asdict
@@ -37,6 +38,29 @@ from scripts.validate_meeting import (
 
 
 OUTPUT_DIR = Path("output/pipeline")
+
+# Parsed-meeting cache, keyed by meeting date. PDF parsing dominates the
+# pipeline's runtime; a meeting is re-parsed only when one of its documents'
+# mtimes changes, and the whole cache self-invalidates when any parser
+# source file changes (same scheme as the CSCDA cache in build_basic_list.py).
+CACHE_PATH = OUTPUT_DIR / "cmfa_parse_cache.json"
+PARSER_SOURCES = [
+    Path(__file__).parent / "validate_meeting.py",
+    Path(__file__).parent.parent / "src/cmfa_scraping/agenda_parser.py",
+    Path(__file__).parent.parent / "src/cmfa_scraping/staff_report_parser.py",
+]
+
+
+def parser_fingerprint(sources: list[Path]) -> str:
+    import hashlib
+    h = hashlib.sha256()
+    for p in sources:
+        h.update(p.read_bytes())
+    return h.hexdigest()
+
+
+def _doc_mtimes(docs: dict) -> dict:
+    return {k: (p.stat().st_mtime if p else None) for k, p in docs.items()}
 
 
 def get_all_meeting_dates(start_date: str = "2023-07-01") -> list[str]:
@@ -130,14 +154,30 @@ def deduplicate_grants(all_grants: list[ExtractedGrant]) -> list[ExtractedGrant]
 
 
 def extract_all_meetings(verbose: bool = True) -> list[ExtractedGrant]:
-    """Extract grants from all meetings."""
+    """Extract grants from all meetings (cached per meeting by doc mtimes)."""
     meeting_dates = get_all_meeting_dates()
     print(f"Found {len(meeting_dates)} meetings")
 
-    all_grants = []
+    fingerprint = parser_fingerprint(PARSER_SOURCES)
+    cache = {}
+    if CACHE_PATH.exists():
+        stored = json.loads(CACHE_PATH.read_text())
+        if stored.get("parser_hash") == fingerprint:
+            cache = stored.get("meetings", {})
+        elif verbose:
+            print("  parser code changed - re-parsing all meetings")
+
+    all_grants, dirty, hits = [], False, 0
     for meeting_date in meeting_dates:
         docs = load_meeting_documents(meeting_date)
         if not docs:
+            continue
+
+        entry = cache.get(meeting_date)
+        mtimes = _doc_mtimes(docs)
+        if entry and entry["mtimes"] == mtimes:
+            all_grants.extend(ExtractedGrant(**g) for g in entry["grants"])
+            hits += 1
             continue
 
         if verbose:
@@ -146,6 +186,9 @@ def extract_all_meetings(verbose: bool = True) -> list[ExtractedGrant]:
         try:
             grants = parse_all_sources(docs, meeting_date)
             all_grants.extend(grants)
+            cache[meeting_date] = {"mtimes": mtimes,
+                                   "grants": [asdict(g) for g in grants]}
+            dirty = True
             if verbose:
                 auth = len([g for g in grants if g.item_type == "authorize"])
                 prelim = len([g for g in grants if g.item_type == "preliminary"])
@@ -154,6 +197,13 @@ def extract_all_meetings(verbose: bool = True) -> list[ExtractedGrant]:
             # always visible, even with --quiet: a silently dropped meeting
             # is a silently wrong dataset
             print(f"  {meeting_date}: ERROR {e}", file=sys.stderr)
+
+    if dirty:
+        CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_PATH.write_text(json.dumps(
+            {"parser_hash": fingerprint, "meetings": cache}))
+    if hits:
+        print(f"  ({hits}/{len(meeting_dates)} meetings from parse cache)")
 
     print(f"\nTotal raw grants: {len(all_grants)}")
     return all_grants

@@ -89,6 +89,12 @@ def load_cmfa() -> pd.DataFrame:
 
 
 CSCDA_CACHE = Path("output/pipeline/cscda_parse_cache.json")
+# the cache self-invalidates when parser code changes (see extract_all_meetings)
+from scripts.extract_all_meetings import parser_fingerprint  # noqa: E402
+CSCDA_PARSER_SOURCES = [
+    Path("src/cscda_scraping/agenda_parser.py"),
+    Path("src/cscda_scraping/packet_parser.py"),
+]
 
 
 def _parse_cscda_meeting(d: Path) -> dict:
@@ -128,9 +134,14 @@ def _parse_cscda_meeting(d: Path) -> dict:
 def load_cscda() -> pd.DataFrame:
     import json
 
+    fingerprint = parser_fingerprint(CSCDA_PARSER_SOURCES)
     cache = {}
     if CSCDA_CACHE.exists():
-        cache = json.loads(CSCDA_CACHE.read_text())
+        stored = json.loads(CSCDA_CACHE.read_text())
+        if stored.get("__parser_hash__") == fingerprint:
+            cache = stored
+        else:
+            print("  CSCDA parser code changed - re-parsing all meetings")
 
     rows = []
     details: dict[str, dict] = {}   # norm name -> staff-report fields
@@ -167,6 +178,7 @@ def load_cscda() -> pd.DataFrame:
             }
 
     if dirty:
+        cache["__parser_hash__"] = fingerprint
         CSCDA_CACHE.parent.mkdir(parents=True, exist_ok=True)
         CSCDA_CACHE.write_text(json.dumps(cache))
 

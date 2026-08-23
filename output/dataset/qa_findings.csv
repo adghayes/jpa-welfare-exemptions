@@ -69,6 +69,8 @@ override-conflict,225,term_years: generated '30' -> manual '55'
 scc-possible-match,6,"entity '381 Turk Street Associates, a California' ~ SCC LP '421 Turk Street Associates, L.P.' (#3326, San Francisco, score 92)"
 scc-possible-match,33,"entity 'BIF NON OZ 7524 S HOOVER ST, LP' ~ SCC LP 'BIF NON OZ 7518 S Hoover St, LP' (#14953, Los Angeles, score 93)"
 scc-possible-match,40,"entity 'BIF NON OZ 4228 WESTERN AVE, LP' ~ SCC LP 'BIF NON OZ 4209 Western Ave, LP' (#14952, Los Angeles, score 93)"
+scc-manual-unmatched,48,"manual scc_filed=True but no BOE certificate matches entity 'Hillsdale Property LP'; closest: 'Hillsdale Property San Mateo, LP' (#15018, San Mateo, score 78)"
+scc-manual-unmatched,58,"manual scc_filed=True but no BOE certificate matches entity 'Post Chaparral, LP, a Delaware limited p'; closest: 'Post Palmdale Chaparral, LP' (#15197, Los Angeles, score 76)"
 scc-possible-match,122,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
 scc-possible-match,165,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
 fetch-fallback,76,AIN 5036031006 (Los Angeles) has no current roll data; using manual value

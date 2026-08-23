@@ -171,6 +171,12 @@ they're evaluated together. Near-miss names (e.g. a sister LP of the same
 sponsor at a neighboring address) are never matched automatically; they
 become `scc-possible-match` QA findings for human review.
 
+Manually-researched `scc_filed` values are never overwritten, but because
+the BOE list is authoritative they are checked against it: an exact entity
+match corroborates the manual value and fills in the certificate number and
+issue date; no match becomes an `scc-manual-unmatched` QA finding, with the
+closest BOE name shown so a human can adjudicate.
+
 ### Property Addresses
 
 The address is the bridge between the two halves of the pipeline: grants
@@ -253,9 +259,11 @@ later runs once the county publishes the parcel.
   (`TYPO_ALIASES`, `CANONICAL_ALIASES`) and property-name aliases in
   `scripts/build_basic_list.py` (`PROP_ALIASES`); new meetings occasionally
   need new entries.
-- CSCDA parse results are cached by file mtime
-  (`output/pipeline/cscda_parse_cache.json`); only new or changed PDFs are
-  re-parsed.
+- Parse results for both agencies are cached
+  (`output/pipeline/{cmfa,cscda}_parse_cache.json`): only new or changed
+  PDFs (by mtime) are re-parsed, and each cache self-invalidates entirely
+  when its parser source files change (content hash) — no manual cache
+  busting needed.
 
 ## Setup
 

@@ -235,12 +235,14 @@ def main() -> None:
     from fuzzywuzzy import fuzz as _fuzz
 
     _LEGAL = _re.compile(
-        r",?\s*(a (california|delaware|washington) limited (partnership|liability company)"
-        r"|a limited partnership|or an affiliate( thereof)?|inc|llc|l\.?l\.?c|lp|l\.?p|lllp)\.?\s*$",
+        r",?\s*((a|an)? ?(california|delaware|washington)? ?limited (partnership|liability company)"
+        r"|or an affiliate( thereof)?|inc|llc|l\.?l\.?c|lp|l\.?p|lllp)\.?\s*$",
         _re.IGNORECASE)
 
     def norm_org(s: str) -> str:
-        s = _re.sub(r"\s+", " ", str(s).lower().replace(".", "").replace(",", "")).strip()
+        s = str(s).lower().replace(".", "").replace(",", "")
+        s = _re.sub(r"[–—−]", "-", s)  # BOE uses hyphens; agendas mix in en-dashes
+        s = _re.sub(r"\s+", " ", s).strip()
         prev = None
         while prev != s:
             prev = s
@@ -257,9 +259,32 @@ def main() -> None:
     scc_names = list(scc_by_name)
     for idx, r in grants.iterrows():
         key = norm_org(r["entity"])
-        if not key or str(r.get("scc_filed", "")).strip():
+        manual_filed = str(r.get("scc_filed", "")).strip()
+        if not key or (manual_filed and str(r.get("scc_number", "")).strip()):
             continue
         certs = scc_by_name.get(key, [])
+        if manual_filed:
+            # human says filed, but the matcher found no certificate. BOE is
+            # authoritative for SCCs: corroborate exactly or flag for review.
+            if certs:
+                county_match = [c for c in certs if c["county"].title() == r["county"].title()]
+                cert = (county_match or certs)[0]
+                grants.at[idx, "scc_number"] = cert["scc_number"]
+                grants.at[idx, "scc_issue_date"] = cert["issue_date"]
+            else:
+                best, score = None, 0
+                for name in scc_names:
+                    s = _fuzz.token_sort_ratio(key, name)
+                    if s > score:
+                        best, score = name, s
+                cert = scc_by_name[best][0] if best and score >= 70 else None
+                qa("scc-manual-unmatched", r["project_id"],
+                   f"manual scc_filed={manual_filed} but no BOE certificate matches "
+                   f"entity {r['entity'][:40]!r}"
+                   + (f"; closest: {cert['limited_partnership'][:40]!r} "
+                      f"(#{cert['scc_number']}, {cert['county'].title()}, score {score})"
+                      if cert else ""))
+            continue
         if certs:
             county_match = [c for c in certs if c["county"].title() == r["county"].title()]
             cert = (county_match or certs)[0]

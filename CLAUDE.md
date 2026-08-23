@@ -25,8 +25,10 @@ documents the manual-data contract.
   grants pre-merge.
 - `data/` is gitignored but required (scraped PDFs). Regenerate via
   `src/cmfa_scraping/scraper.py` / `python -m src.cscda_scraping.scraper`.
-  Downloads are incremental; parsing is the slow part (CSCDA parses are
-  mtime-cached in `output/pipeline/cscda_parse_cache.json`).
+  Downloads are incremental; parsing is the slow part. Both parse stages are
+  cached in `output/pipeline/{cmfa,cscda}_parse_cache.json`: a meeting
+  re-parses when a document mtime changes, and the whole cache
+  self-invalidates when parser source files change (content hash).
 - External APIs (LA GIS parcel server, geocoder) are public and
   unauthenticated; keep rate limits ≥ 0.3s. County tax portals are
   bot-protected — do not attempt to scrape tax bills.
