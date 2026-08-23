@@ -239,6 +239,16 @@ legacy-redundant and blank-AIN rows get none); in the review workbook,
 AIN/APN cells are tinted only when machine-verified (`situs-match`) — the
 rest stay unfilled as unverified human assertions.
 
+Parcel rows carry both ids on purpose: `project_id` is the stable key into
+the human-owned assignment (which authorization the research was done
+under), while `operative_project_id` is derived each build and moves when
+a re-authorization takes over — sheet sums key on it so each property
+counts once. When the same AIN was researched under two authorizations of
+one property, the build keeps the operative grant's own row and marks the
+rest `legacy_redundant` in the output (each with a `parcel-dedup` QA
+finding), so operative-keyed sums never double-count; sum formulas should
+exclude `legacy_redundant` rows.
+
 ### Parcel Tax Value Lookup
 
 Once a parcel is assigned, its assessed values are fetched automatically

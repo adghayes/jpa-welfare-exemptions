@@ -408,6 +408,27 @@ def main() -> None:
     parcels["operative_project_id"] = parcels["project_id"].map(
         lambda p: pid_to_operative.get(p) or p)
 
+    # Same AIN researched under two authorization events of one property
+    # (e.g. an original grant and its re-authorization) yields two live rows
+    # pointing at the same operative id — a SUMIF on operative_project_id
+    # would count the parcel twice. Derived, self-healing dedupe: keep the
+    # row assigned under the operative grant itself (else the last-listed),
+    # mark the rest legacy_redundant in this OUTPUT only (manual/ untouched).
+    live_mask = ((parcels["legacy_redundant"].str.lower() != "true")
+                 & (parcels["ain"].str.strip() != ""))
+    for (op_pid, ain), grp in parcels[live_mask].groupby(
+            ["operative_project_id", "ain"]):
+        if len(grp) < 2:
+            continue
+        own = grp[grp["project_id"] == op_pid]
+        keep = (own.index[-1] if len(own) else grp.index[-1])
+        for idx in grp.index.drop(keep):
+            parcels.at[idx, "legacy_redundant"] = "True"
+            qa("parcel-dedup", parcels.at[idx, "project_id"],
+               f"AIN {ain} ({parcels.at[idx, 'property_name'][:34]}) also "
+               f"assigned under operative grant {op_pid}; this row marked "
+               f"legacy_redundant so sums count it once")
+
     # per-AIN situs-validation verdict (from check_parcel_assignments.py)
     verdicts_path = Path("output/pipeline/assignment_verdicts.csv")
     parcels["assignment_check"] = ""

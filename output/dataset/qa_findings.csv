@@ -90,3 +90,15 @@ parcel-no-values,226,AIN (none) (Contra Costa): no roll values from any source
 fetch-fallback,16,AIN 128101150 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128101050 (Solano) has no current roll data; using manual value
 fetch-fallback,16,AIN 128105060 (Solano) has no current roll data; using manual value
+parcel-dedup,121,AIN 5518013024 (Alexandria II Apartments) also assigned under operative grant 162; this row marked legacy_redundant so sums count it once
+parcel-dedup,122,AIN 5094017020 (Fedora Apartments) also assigned under operative grant 165; this row marked legacy_redundant so sums count it once
+parcel-dedup,123,AIN 5518020021 (Kenmore II Apartments) also assigned under operative grant 168; this row marked legacy_redundant so sums count it once
+parcel-dedup,124,AIN 5094023025 (Kenmore III Apartments) also assigned under operative grant 169; this row marked legacy_redundant so sums count it once
+parcel-dedup,125,AIN 5503024012 (Kingsley Apartments) also assigned under operative grant 170; this row marked legacy_redundant so sums count it once
+parcel-dedup,126,AIN 5094005005 (Mariposa I Apartments) also assigned under operative grant 173; this row marked legacy_redundant so sums count it once
+parcel-dedup,127,AIN 5094006003 (Mariposa III Apartments) also assigned under operative grant 174; this row marked legacy_redundant so sums count it once
+parcel-dedup,128,AIN 5502019004 (Mariposa IV Apartments) also assigned under operative grant 175; this row marked legacy_redundant so sums count it once
+parcel-dedup,129,AIN 5517005016 (Oxford II Apartments) also assigned under operative grant 177; this row marked legacy_redundant so sums count it once
+parcel-dedup,130,AIN 5080006008 (Western Apartments) also assigned under operative grant 179; this row marked legacy_redundant so sums count it once
+parcel-dedup,152,AIN 7157012023 (The Hive at Ackerfield Apartments) also assigned under operative grant 181; this row marked legacy_redundant so sums count it once
+parcel-dedup,135,AIN 5518026004 (236 Berendo Apartments) also assigned under operative grant 220; this row marked legacy_redundant so sums count it once
