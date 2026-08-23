@@ -564,8 +564,45 @@ def main() -> None:
         for _, c in pd.read_csv(checks_path, dtype=str).fillna("").iterrows():
             qa(c["check"], c["project_id"], c["detail"])
 
+    # --- county summary (the pivot table, reproducibly) -----------------------
+    # One row per county over live operative grants (excluding dead/stale):
+    # project counts, SCC-confirmed counts, fee/unit/city-cut sums from the
+    # grants, and confirmed exemption (county roll, live parcels keyed by
+    # operative_project_id) with its 1% tax reduction.
+    live_ops = grants[(grants["authorization_status"] == "operative")
+                      & (~grants["manual_status"].isin(["dead", "stale"]))]
+    exemp_by_op: dict[str, float] = {}
+    for _, p in parcels[parcels["legacy_redundant"].str.lower() != "true"].iterrows():
+        v = _num(p["real_estate_exemp"])
+        if v:
+            exemp_by_op[p["operative_project_id"]] = \
+                exemp_by_op.get(p["operative_project_id"], 0.0) + v
+
+    def county_row(label: str, sub: pd.DataFrame) -> dict:
+        s = lambda col: sum(v for v in (_num(x) for x in sub[col]) if v)
+        exemption = sum(exemp_by_op.get(pid, 0.0) for pid in sub["project_id"])
+        return {
+            "county": label,
+            "operative_projects": len(sub),
+            "with_scc_filed": int((sub["scc_filed"] == "True").sum()),
+            "jpa_closing_fees": round(s("jpa_closing_fee")),
+            "jpa_annual_fees": round(s("jpa_annual_fee")),
+            "confirmed_exemption": round(exemption),
+            "confirmed_tax_reduction": round(exemption * 0.01),
+            "total_units": round(s("total_units")),
+            "restricted_units": round(s("restricted_units")),
+            "city_cut": round(s("city_cut")),
+        }
+
+    summary = [county_row(county or "(no county)", sub)
+               for county, sub in live_ops.groupby("county")]
+    summary.sort(key=lambda r: r["county"])
+    summary.append(county_row("TOTAL", live_ops))
+    county_summary = pd.DataFrame(summary)
+
     # --- write ---------------------------------------------------------------
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    county_summary.to_csv(OUT_DIR / "county_summary.csv", index=False)
     grants.to_csv(OUT_DIR / "grants.csv", index=False)
     parcels.to_csv(OUT_DIR / "parcels.csv", index=False)
     pd.DataFrame(provenance).to_csv(OUT_DIR / "provenance.csv", index=False)

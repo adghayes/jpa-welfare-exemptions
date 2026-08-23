@@ -157,6 +157,13 @@ def main() -> None:
             else:
                 parcel_sources[(idx, col)] = "la-county-api"
 
+    # County summary: the per-county pivot (counts, fee/unit/exemption sums).
+    # Fully computed from the dataset — every cell tinted as automated.
+    county = pd.read_csv("output/dataset/county_summary.csv", dtype=str).fillna("")
+    county_sources = {(idx, col): "cmfa-meeting-docs"
+                      for idx in county.index for col in county.columns
+                      if col != "county"}
+
     # QA findings: merge-time discrepancies for collaborator review
     # (document-vs-manual conflicts, grants missing from either side,
     # shared AINs, parcels without values). Meta table — no fills.
@@ -164,6 +171,7 @@ def main() -> None:
 
     render_workbook({"Grants": (grants, grant_sources),
                      "Parcels": (parcels, parcel_sources),
+                     "County summary": (county, county_sources),
                      "QA findings": (qa, {})}, args.output)
 
 
