@@ -51,7 +51,7 @@ GRANT_COLUMNS = [
     "agenda_url", "staff_report_url", "minutes_url",
     "investor_1", "investor_2", "nonprofit_partner",
     "total_units", "restricted_units", "rent_restricted_pct", "restricted_pct",
-    "term_years",
+    "manager_units", "term_years",
     "city_cut", "jpa_closing_fee", "jpa_annual_fee", "years_since_approval",
     "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
@@ -383,6 +383,24 @@ def main() -> None:
     grants["jpa_closing_fee"] = [f[0] for f in fee_pairs]
     grants["jpa_annual_fee"] = [f[1] for f in fee_pairs]
 
+    # manager_units: parsed from staff-report text where stated; otherwise
+    # INFERRED from the off-by-one signature (total exceeds restricted by
+    # exactly one and the documents claim 100% restricted or state no
+    # percentage). A manager's unit is itself exempt (RTC 214(g)(3)(C),
+    # AH 267), so this feeds the exempt-ratio and pct-mismatch math.
+    for idx, r in grants.iterrows():
+        if str(r["manager_units"]).strip():
+            continue
+        tu, ru, pct = _num(r["total_units"]), _num(r["restricted_units"]), _num(r["restricted_pct"])
+        if (tu and ru is not None and tu - ru == 1
+                and (pct is None or pct == 100)):
+            grants.at[idx, "manager_units"] = "1"
+            provenance.append({"table": "grants", "project_id": r["project_id"],
+                               "field": "manager_units", "value": "1",
+                               "source": "inferred-off-by-one",
+                               "note": "total exceeds restricted by exactly one; "
+                                       "not stated in documents"})
+
     # restricted > total is impossible; if it survives to the final data (no
     # manual override rescued it), the extraction is wrong — flag it
     for _, r in grants.iterrows():
@@ -402,6 +420,7 @@ def main() -> None:
         tu, ru = _num(r["total_units"]), _num(r["restricted_units"])
         if pct is None or not tu or ru is None:
             continue
+        ru += _num(r["manager_units"]) or 0   # manager's unit is exempt
         ratio = 100 * ru / tu
         unit_gap = abs(ru - pct / 100 * tu)
         if abs(pct - ratio) > 5 and unit_gap > 2:
@@ -586,17 +605,16 @@ def main() -> None:
     # (median, not OLS: the tails are first-year partial filings and
     # renumbered-parcel value gaps). Estimates are capped at assessed value.
     def _ratio(r) -> float:
-        # A stated 100% beats the unit ratio: the manager's unit is itself
-        # exempt under the welfare exemption (AH 267: "A manager's unit is
-        # exempt as incidental to and reasonably necessary ... even if the
-        # manager's income exceeds the prescribed low-income limits"; RTC
-        # 214(g)(3)(C) classes manager's units as exempt related facilities),
-        # so a 41-restricted / 42-unit property is 100% exempt, not 97.6%.
-        tu, ru, pct = _num(r["total_units"]), _num(r["restricted_units"]), _num(r["restricted_pct"])
-        if pct == 100:
-            return 1.0
+        # Exempt share of the property. The manager's unit counts on the
+        # exempt side (AH 267: "A manager's unit is exempt as incidental to
+        # and reasonably necessary ... even if the manager's income exceeds
+        # the prescribed low-income limits"; RTC 214(g)(3)(C) classes
+        # manager's units as exempt related facilities), so a 41-restricted
+        # + 1-manager / 42-unit property is 100% exempt, not 97.6%.
+        tu, ru = _num(r["total_units"]), _num(r["restricted_units"])
+        mu, pct = _num(r["manager_units"]) or 0, _num(r["restricted_pct"])
         if tu and ru:
-            return min(ru / tu, 1.0)
+            return min((ru + mu) / tu, 1.0)
         if pct:
             return min(pct / 100, 1.0)
         return 1.0
@@ -635,6 +653,7 @@ def main() -> None:
             "estimated_tax_reduction": round(estimated * 0.01),
             "total_units": round(s("total_units")),
             "restricted_units": round(s("restricted_units")),
+            "manager_units": round(s("manager_units")),
             "city_cut": round(s("city_cut")),
         }
 

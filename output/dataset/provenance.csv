@@ -649,6 +649,18 @@ grants,238,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,192,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,193,*,,collaborator-sheet,entire row manual (predates meeting archives)
 grants,223,*,,collaborator-sheet,entire row manual (predates meeting archives)
+grants,2,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,4,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,18,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,30,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,31,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,44,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,51,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,61,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,64,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,158,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,217,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
+grants,340,manager_units,1,inferred-off-by-one,total exceeds restricted by exactly one; not stated in documents
 parcels,1,assignment:5136019013,5136019013,collaborator-sheet,manual_verified
 parcels,2,assignment:5183001017,5183001017,collaborator-sheet,manual_verified
 parcels,3,values:15434025,17059601,collaborator-sheet,no automated source for county

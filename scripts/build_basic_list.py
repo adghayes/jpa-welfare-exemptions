@@ -39,7 +39,7 @@ OUT = Path("output/pipeline/basic_list.csv")
 COLUMNS = [
     "agency", "property_name", "entity", "city", "county", "resolution",
     "meeting_date", "item_type", "minutes_status", "investor_1", "investor_2",
-    "nonprofit_partner", "total_units", "restricted_units", "rent_restricted_pct", "restricted_pct", "term_years",
+    "nonprofit_partner", "total_units", "restricted_units", "rent_restricted_pct", "restricted_pct", "manager_units", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing", "source",
 ]
 
@@ -190,7 +190,8 @@ def load_cscda() -> pd.DataFrame:
     df = df.sort_values("meeting_date").drop_duplicates("_key", keep="last")
 
     for col in ["minutes_status", "total_units", "rent_restricted_pct",
-                "restricted_pct", "term_years", "nonprofit_partner", "address",
+                "restricted_pct", "manager_units", "term_years",
+                "nonprofit_partner", "address",
                 "estimated_closing", "grant_description"]:
         df[col] = ""
     from fuzzywuzzy import fuzz

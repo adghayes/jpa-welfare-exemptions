@@ -59,6 +59,7 @@ class ExtractedGrant:
     restricted_units: Optional[int] = None
     rent_restricted_pct: str = ""
     restricted_pct: Optional[int] = None  # overall percent of units restricted
+    manager_units: Optional[int] = None   # stated on-site manager's units
     term_years: Optional[int] = None
     city_cut: Optional[float] = None
     grant_description: str = ""
@@ -419,6 +420,7 @@ def parse_all_sources(docs: dict, meeting_date: str) -> list[ExtractedGrant]:
             restricted_units=staff.restricted_units if staff else None,
             rent_restricted_pct=staff.rent_restricted_pct if staff else "",
             restricted_pct=staff.restricted_pct if staff else None,
+            manager_units=staff.manager_units if staff else None,
             term_years=staff.term_years if staff else None,
             city_cut=staff.city_share if staff else None,
             grant_description=description,

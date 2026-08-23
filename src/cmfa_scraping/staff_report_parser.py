@@ -26,6 +26,7 @@ class StaffReportGrant:
     restricted_units: int | None = None
     rent_restricted_pct: str = ""  # e.g., "100% at 80% AMI" or "40% at 60% AMI"
     restricted_pct: int | None = None  # overall percent of units restricted
+    manager_units: int | None = None   # stated on-site manager's units
     unit_mix: str = ""
     term_years: int | None = None
     city_share: float | None = None
@@ -157,6 +158,7 @@ def parse_grant_section(text: str, meeting_date: datetime, source_file: str,
     # (and the restricted>total multi-building signature).
     rent_restricted_pct = extract_rent_restricted_pct(text)
     restricted_pct = extract_restricted_pct(text)
+    manager_units = extract_manager_units(text)
 
     # Extract unit mix
     unit_mix = extract_unit_mix(text)
@@ -182,6 +184,7 @@ def parse_grant_section(text: str, meeting_date: datetime, source_file: str,
         restricted_units=restricted_units,
         rent_restricted_pct=rent_restricted_pct,
         restricted_pct=restricted_pct,
+        manager_units=manager_units,
         unit_mix=unit_mix,
         term_years=term_years,
         city_share=city_share,
@@ -400,6 +403,27 @@ def extract_restricted_pct(text: str) -> int | None:
         if 0 < pct <= 100:
             return pct
     return None
+
+
+def extract_manager_units(text: str) -> int | None:
+    """Count of on-site manager's units the report states explicitly.
+
+    Phrasings: "1 unrestricted manager's unit", "including one manager's
+    unit", "62 restricted rental units and 1 managers unit". A manager's
+    unit is itself exempt under the welfare exemption (RTC 214(g)(3)(C),
+    AH 267), so this feeds the exempt-ratio math downstream.
+    """
+    WORDS = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4}
+    counts = []
+    # apostrophes in the PDFs are usually curly (manager’s), sometimes absent
+    for m in re.finditer(r"\b(\d+|one|two|three|four|an?)\s+(?:unrestricted\s+)?"
+                         r"(?:on-?site\s+)?manager['’]?s['’]?\s+units?",
+                         text, re.IGNORECASE):
+        tok = m.group(1).lower()
+        n = WORDS.get(tok) or (int(tok) if tok.isdigit() else 0)
+        if 1 <= n <= 5:
+            counts.append(n)
+    return max(counts) if counts else None
 
 
 def extract_rent_restricted_pct(text: str) -> str:

@@ -167,6 +167,16 @@ Three output fields encode what the documents establish:
   the unit ratio disagree by more than 5 points *and* more than 2 units
   (slack for whole-percent rounding and a manager's unit), checked once per
   property on the operative row.
+- **`manager_units`** — on-site manager's units, parsed from staff-report
+  text where stated ("62 restricted rental units and 1 unrestricted
+  manager's unit"); when unstated, a total exceeding restricted by exactly
+  one (with a stated 100% or no stated percentage) is inferred as one
+  manager's unit, recorded in provenance as `inferred-off-by-one`. A
+  manager's unit is itself exempt regardless of the manager's income
+  (RTC §214(g)(3)(C); BOE Assessors' Handbook 267), so the exempt ratio
+  used by the estimator and the pct-mismatch check is
+  `(restricted + manager) / total`. `total_units` always remains the full
+  count — it is what county unit records and per-unit fees refer to.
 - **`jpa_closing_fee` / `jpa_annual_fee`** are computed from each JPA's
   published fee schedule applied to the grant's final `total_units`
   (blank when units are unknown). CMFA (Charitable Affordable Housing):
