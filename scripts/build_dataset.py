@@ -50,7 +50,8 @@ GRANT_COLUMNS = [
     # staff_report_url; its minutes live in the NEXT meeting's packet)
     "agenda_url", "staff_report_url", "minutes_url",
     "investor_1", "investor_2", "nonprofit_partner",
-    "total_units", "restricted_units", "rent_restricted_pct", "term_years",
+    "total_units", "restricted_units", "rent_restricted_pct", "restricted_pct",
+    "term_years",
     "city_cut", "jpa_closing_fee", "jpa_annual_fee", "years_since_approval",
     "grant_description", "address", "estimated_closing",
     "new_build", "built", "acquisition_price_m", "acquisition_date",
@@ -391,6 +392,23 @@ def main() -> None:
                f"{r['property_name'][:36]}: restricted_units {r['restricted_units']} "
                f"> total_units {r['total_units']} — extraction likely caught one "
                "building of a multi-building property; needs a manual total_units")
+
+    # the documents' stated overall restriction percentage should agree with
+    # restricted/total. Tolerance: whole-percent rounding plus a manager's
+    # unit or two that the stated percentage may ignore. Checked once per
+    # property (on the operative row) — re-authorizations repeat the numbers.
+    for _, r in grants[grants["authorization_status"] == "operative"].iterrows():
+        pct = _num(r["restricted_pct"])
+        tu, ru = _num(r["total_units"]), _num(r["restricted_units"])
+        if pct is None or not tu or ru is None:
+            continue
+        ratio = 100 * ru / tu
+        unit_gap = abs(ru - pct / 100 * tu)
+        if abs(pct - ratio) > 5 and unit_gap > 2:
+            qa("restricted-pct-mismatch", r["project_id"],
+               f"{r['property_name'][:36]}: documents state {pct:.0f}% restricted "
+               f"but units say {ru:.0f}/{tu:.0f} = {ratio:.0f}% "
+               f"(off by {unit_gap:.0f} units)")
 
     # Full years elapsed since the approving meeting (anniversary-based,
     # as of the build date). Only for grants that were actually approved

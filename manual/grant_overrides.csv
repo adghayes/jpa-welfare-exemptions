@@ -644,3 +644,4 @@ project_id,field,value,source,note
 76,restricted_units,50,collaborator-sheet,"moved from duplicate row 182, 2026-08-22"
 348,county,Los Angeles,manual-repo-edit,"Agenda error 2025-10-24: item listed under City of Healdsburg, County of Sonoma; pulled at that meeting and re-agendized 2025-11-07 under Los Angeles as Res 25-531 (approved)"
 348,city,Los Angeles,manual-repo-edit,"Agenda error 2025-10-24: item listed under City of Healdsburg, County of Sonoma; pulled at that meeting and re-agendized 2025-11-07 under Los Angeles as Res 25-531 (approved)"
+316,restricted_units,89,manual-repo-edit,staff report tier lines are typo'd ('10% (80 Units)' + '90% (80 Units)'); header states 100% of the 89 units restricted

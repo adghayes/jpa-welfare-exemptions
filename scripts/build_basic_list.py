@@ -39,7 +39,7 @@ OUT = Path("output/pipeline/basic_list.csv")
 COLUMNS = [
     "agency", "property_name", "entity", "city", "county", "resolution",
     "meeting_date", "item_type", "minutes_status", "investor_1", "investor_2",
-    "nonprofit_partner", "total_units", "restricted_units", "rent_restricted_pct", "term_years",
+    "nonprofit_partner", "total_units", "restricted_units", "rent_restricted_pct", "restricted_pct", "term_years",
     "city_cut", "grant_description", "address", "estimated_closing", "source",
 ]
 
@@ -116,6 +116,7 @@ def _parse_cscda_meeting(d: Path) -> dict:
                 "property_name": pg.property_name,
                 "total_units": pg.total_units or "",
                 "rent_restricted_pct": pg.rent_restricted_pct,
+                "restricted_pct": pg.restricted_pct or "",
                 "term_years": pg.term_years or "",
                 "nonprofit_partner": pg.nonprofit_partner,
                 "address": pg.address,
@@ -189,7 +190,7 @@ def load_cscda() -> pd.DataFrame:
     df = df.sort_values("meeting_date").drop_duplicates("_key", keep="last")
 
     for col in ["minutes_status", "total_units", "rent_restricted_pct",
-                "term_years", "nonprofit_partner", "address",
+                "restricted_pct", "term_years", "nonprofit_partner", "address",
                 "estimated_closing", "grant_description"]:
         df[col] = ""
     from fuzzywuzzy import fuzz

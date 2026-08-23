@@ -45,6 +45,7 @@ class PacketGrant:
     address: str = ""
     total_units: int | None = None
     rent_restricted_pct: str = ""  # e.g. "100% at 80% AMI"
+    restricted_pct: int | None = None  # overall percent of units restricted
     nonprofit_partner: str = ""
     financing: str = ""
     grant_amount: int | None = None
@@ -130,6 +131,7 @@ def parse_grant_item(item_no: str, text: str, meeting_date: str) -> PacketGrant 
     ami = _search(r"restricted to\s+(\d+)%\s+or less of area median income", text)
     if pct:
         g.rent_restricted_pct = f"{pct}%" + (f" at {ami}% AMI" if ami else "")
+        g.restricted_pct = int(pct)  # CSCDA states the overall directly
 
     g.financing = _search(r"Financing:\s*(.+)", text)
     amt = _search(r"Government Grant:\s*\$\s*([\d,]+)", text)

@@ -25,6 +25,7 @@ class StaffReportGrant:
     total_units: int | None = None
     restricted_units: int | None = None
     rent_restricted_pct: str = ""  # e.g., "100% at 80% AMI" or "40% at 60% AMI"
+    restricted_pct: int | None = None  # overall percent of units restricted
     unit_mix: str = ""
     term_years: int | None = None
     city_share: float | None = None
@@ -149,8 +150,13 @@ def parse_grant_section(text: str, meeting_date: datetime, source_file: str,
     total_units = extract_total_units(text)
     restricted_units = extract_restricted_units(text)
 
-    # Extract rent restricted percentage (AMI levels)
+    # Extract rent restricted percentage (AMI levels) + clean overall percent.
+    # Deliberately NOT derived from each other: restricted_units reports what
+    # the AMI tier lines say, restricted_pct what the header says — build-time
+    # QA compares them, and a derivation here would mask real inconsistencies
+    # (and the restricted>total multi-building signature).
     rent_restricted_pct = extract_rent_restricted_pct(text)
+    restricted_pct = extract_restricted_pct(text)
 
     # Extract unit mix
     unit_mix = extract_unit_mix(text)
@@ -175,6 +181,7 @@ def parse_grant_section(text: str, meeting_date: datetime, source_file: str,
         total_units=total_units,
         restricted_units=restricted_units,
         rent_restricted_pct=rent_restricted_pct,
+        restricted_pct=restricted_pct,
         unit_mix=unit_mix,
         term_years=term_years,
         city_share=city_share,
@@ -325,12 +332,24 @@ def extract_total_units(text: str) -> int | None:
 
 def extract_restricted_units(text: str) -> int | None:
     """Extract restricted unit count from Public Benefit section."""
-    # Look for patterns in Public Benefit section
-    # "40% (184 units) restricted to 80% or less"
+    # AMI tier lines list restricted counts per tier — SUM them ("20% (24
+    # Units) restricted to 60% ... and 80% (98 Units) restricted to 80% ...").
+    benefit = re.search(
+        r'(?:Public\s+Benefit|Percent\s+of\s+Restricted).*?(?=Finance\s+Team|Recommendation|$)',
+        text, re.IGNORECASE | re.DOTALL)
+    scope = benefit.group(0) if benefit else text
+    tiers = re.findall(r'\d+\s*%\s*\(([\d,]+)\s+units?\)\s+restricted\s+to',
+                       scope, re.IGNORECASE)
+    if tiers:
+        return sum(int(t.replace(",", "")) for t in tiers)
+
+    # Fallback patterns in Public Benefit section
+    # "40% (184 units) restricted to 80% or less" — counts may carry
+    # thousands separators ("1,008 Units")
     patterns = [
-        r'(\d+)\s*%?\s*\((\d+)\s+units?\)\s+restricted',
-        r'(\d+)\s+units?\s+restricted',
-        r'Percent[^:]*:\s*(\d+)%\s*\n.*?(\d+)\s+units?',
+        r'(\d+)\s*%?\s*\(([\d,]+)\s+units?\)\s+restricted',
+        r'([\d,]+)\s+units?\s+restricted',
+        r'Percent[^:]*:\s*(\d+)%\s*\n.*?([\d,]+)\s+units?',
     ]
     for pattern in patterns:
         match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
@@ -338,8 +357,8 @@ def extract_restricted_units(text: str) -> int | None:
             # Return the unit count (second group if available, else first)
             groups = match.groups()
             for g in reversed(groups):
-                if g and g.isdigit():
-                    return int(g)
+                if g and g.replace(",", "").isdigit():
+                    return int(g.replace(",", ""))
     return None
 
 
@@ -365,6 +384,24 @@ def extract_term_years(text: str) -> int | None:
     return None
 
 
+def extract_restricted_pct(text: str) -> int | None:
+    """Extract the OVERALL percent of units restricted.
+
+    Staff reports state it canonically as
+    "Percent of Restricted Rental Units in the Project: 40%" — distinct from
+    the AMI tier lines ("100% (45 Units) restricted to 80% ..."), whose
+    percentages are sometimes of the restricted units, not of the total.
+    """
+    m = re.search(
+        r'Percent\s+of\s+Restricted\s+Rental\s+Units\s+in\s+the\s+Project:\s*([\d.]+)\s*%',
+        text, re.IGNORECASE)
+    if m:
+        pct = round(float(m.group(1)))
+        if 0 < pct <= 100:
+            return pct
+    return None
+
+
 def extract_rent_restricted_pct(text: str) -> str:
     """
     Extract rent restriction percentage and AMI levels.
@@ -384,8 +421,9 @@ def extract_rent_restricted_pct(text: str) -> str:
     search_text = benefit_match.group(0) if benefit_match else text
 
     # Pattern: "XX% (YY units) restricted to ZZ% or less of area median income"
+    # (unit counts may carry thousands separators: "100% (1,008 Units)")
     ami_patterns = re.findall(
-        r'(\d+)%?\s*\(\d+\s+[Uu]nits?\)\s+restricted\s+to\s+(\d+)%\s+or\s+less',
+        r'(\d+)%?\s*\([\d,]+\s+[Uu]nits?\)\s+restricted\s+to\s+(\d+)%\s+or\s+less',
         search_text, re.IGNORECASE
     )
 

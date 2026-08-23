@@ -155,6 +155,17 @@ Three output fields encode what the documents establish:
   across a line break ("Resolution 25- 349") are normalized, and when an
   agenda printed a blank resolution template the number is backfilled from
   the minutes by property name.
+- **`restricted_pct`** is the overall percent of units rent-restricted,
+  extracted as a clean number from the canonical statement in each source
+  (CMFA staff reports: "Percent of Restricted Rental Units in the Project:
+  NN%"; CSCDA packets: "NN% of the units will be rent-restricted"). It
+  complements `rent_restricted_pct`, which keeps the full AMI tier text
+  ("20% at 60% AMI; 80% at 80% AMI"). `restricted_units` sums the AMI tier
+  counts and is deliberately not derived from the header — a
+  `restricted-pct-mismatch` QA finding fires when the stated percentage and
+  the unit ratio disagree by more than 5 points *and* more than 2 units
+  (slack for whole-percent rounding and a manager's unit), checked once per
+  property on the operative row.
 - **`jpa_closing_fee` / `jpa_annual_fee`** are computed from each JPA's
   published fee schedule applied to the grant's final `total_units`
   (blank when units are unknown). CMFA (Charitable Affordable Housing):
