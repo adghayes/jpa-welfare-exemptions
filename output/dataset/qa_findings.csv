@@ -73,6 +73,8 @@ scc-manual-unmatched,48,"manual scc_filed=True but no BOE certificate matches en
 scc-manual-unmatched,58,"manual scc_filed=True but no BOE certificate matches entity 'Post Chaparral, LP, a Delaware limited p'; closest: 'Post Palmdale Chaparral, LP' (#15197, Los Angeles, score 76)"
 scc-possible-match,122,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
 scc-possible-match,165,"entity '861 Fedora LLLP' ~ SCC LP '836 Fedora L.P.' (#1594, Los Angeles, score 90)"
+scc-superseded-only,132,"operative entity 'PS 7518 Hoover St, LP' has no SCC, but the property's superseded grant 10 ('BIF NON OZ 7518 S Hoover St, LP, a Delaw') holds SCC 14953 (2024-11-25) — new sponsor's LP must file its own"
+scc-superseded-only,134,"operative entity 'PS 10705 Avalon Blvd, LP' has no SCC, but the property's superseded grant 303 ('BIF NON OZ 10705 Avalon Blvd, LP, a Cali') holds SCC 14852 (2024-10-03) — new sponsor's LP must file its own"
 fetch-fallback,76,AIN 5036031006 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,99,AIN 4262018026 (Los Angeles) has no current roll data; using manual value
 fetch-fallback,132,AIN 6020022027 (Los Angeles) has no current roll data; using manual value

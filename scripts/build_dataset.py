@@ -307,6 +307,22 @@ def main() -> None:
                    f"entity {r['entity'][:40]!r} ~ SCC LP {cert['limited_partnership'][:40]!r} "
                    f"(#{cert['scc_number']}, {cert['county'].title()}, score {score})")
 
+    # An SCC belongs to the LP, not the property: when a property changes
+    # sponsors (e.g. BIF -> PS), the prior LP's certificate matches only the
+    # superseded row, and the operative row correctly reads blank until the
+    # new LP files. Surface that so "no SCC" isn't read as "never filed".
+    for _, op in grants[(grants["authorization_status"] == "operative")
+                        & (grants["scc_filed"] == "")].iterrows():
+        sibs = grants[(grants["superseded_by"] == op["project_id"])
+                      & (grants["scc_filed"] != "")]
+        for _, s in sibs.iterrows():
+            qa("scc-superseded-only", op["project_id"],
+               f"operative entity {op['entity'][:40]!r} has no SCC, but the "
+               f"property's superseded grant {s['project_id']} "
+               f"({s['entity'][:40]!r}) holds SCC "
+               f"{s['scc_number'] or '?'} ({s['scc_issue_date'] or 'manual'}) — "
+               f"new sponsor's LP must file its own")
+
     # link each grant to its meeting's documents (review aid)
     doc_urls = pd.read_csv("output/pipeline/doc_urls.csv", dtype=str).fillna("")
     url_by_key = {(r["agency"], r["meeting_date"]): r for _, r in doc_urls.iterrows()}
